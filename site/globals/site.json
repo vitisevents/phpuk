@@ -1,6 +1,6 @@
 {
   "name": "PHP UK Conference",
-  "url": "https://skeleventy.netlify.com",
+  "url": "https://php-uk-conference.netlify.com",
   "author": {
     "name": "Sam Bell",
     "email": "",
@@ -14,7 +14,7 @@
   },
   "social_links": {
     "facebook": "https://www.facebook.com",
-    "twitter": "https://twitter.com/joe_dyer1",
+    "twitter": "https://twitter.com/phpukconference",
     "linkedin": "https://www.linkedin.com"
   }
 }
