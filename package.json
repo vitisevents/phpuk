@@ -1,0 +1,33 @@
+{
+  "name": "php-conference-uk",
+  "version": "1.0.0",
+  "description": "With over 700 delegates, speakers, and sponsors, PHP UK conference aims to deliver fantastic up-to-date content about PHP and related web technologies in a comfortable and professional setting. There are countless networking opportunities to engage with international speakers and delegates, which makes the event one you won't want to miss.",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development eleventy --config=eleventy.config.js --serve & gulp",
+    "build": "gulp build && eleventy --config=eleventy.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phplondon/php-conference-uk"
+  },
+  "author": "PHP London",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "html-minifier": "^4.0.0",
+    "tailwindcss": "^1.0.5"
+  }
+}
