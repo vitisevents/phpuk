@@ -1,9 +1,21 @@
-<section class="p-8 container mx-auto h-full bg-white">
-	<div class="max-w-xl animated slideInRight flex items-center h-full">
-		<div class="">
-			<i class="font-mono">&#60; {{slide.heading}} &#47;&#62;</i>
-			<h1 class="text-6xl font-black">{{slide.title}}</h1>
-			<p>{{slide.additional_content}}</p>
+<section class="px-8 py-24 container mx-auto h-full bg-white">
+	<div class="flex items-center">
+		<div class="pr-8 w-1/2">
+			<i class="inline-block font-mono text-blue-400 mb-4">&#60; Introduction &#47;&#62;</i>
+			<h2 class="text-3xl">{{site.intro.title}}</h2>
+			{% for paragraph in site.intro.content %}
+				<p class="text-gray-600 mb-4">{{paragraph}}</p>
+			{% endfor %}
+			<a href="#">View Photos</a>
+		</div>
+		<div class=" w-1/2">
+			<div id="fb-root"></div>
+			<script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0"></script>
+			<div class="fb-video" data-href="{{site.intro.fb_video_url}}">
+				<blockquote cite="{{site.intro.fb_video_url}}" class="fb-xfbml-parse-ignore">
+					<a href="{{site.intro.fb_video_url}}">PHP UK Conference 2017</a>
+					<p>PHP UK Conference 2017</p>Posted by <a href="https://www.facebook.com/ukconference/">PHP UK Conference</a> on Wednesday, March 29, 2017</blockquote>
+			</div>
 		</div>
 	</div>
 </section>

@@ -2,6 +2,14 @@
   "name": "PHP UK Conference",
   "url": "https://php-uk-conference.netlify.com",
   "tickets_url": "https://tickets.vitisevents.com/e/7/php-uk-conference-2020",
+  "intro": {
+    "title": "First time at PHP UK?",
+    "content": [
+      "If you've never been to the conference before check out our conference teaser video to see exactly what happens at the PHP UK Conference.",
+      "We also have photo albums from previous conferences. You can view photos of the 2018 event in our Facbook photo album here."
+    ],
+    "fb_video_url": "https://www.facebook.com/ukconference/videos/1273785939365602/"
+  },
   "author": {
     "name": "Sam Bell",
     "email": "",
