@@ -647,6 +647,8 @@ h6 {
   transition: transform 1.5s ease;
 }
 
+/* purgecss start ignore */
+
 .tns-outer {
   padding: 0 !important;
   position: relative;
@@ -844,6 +846,8 @@ h6 {
   height: 10px;
   float: left;
 }
+
+/* purgecss end ignore */
 
 .container {
   width: 100%;
