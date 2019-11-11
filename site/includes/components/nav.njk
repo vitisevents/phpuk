@@ -2,12 +2,12 @@
   <ul class="menu flex flex-col md:flex-row items-center list-reset text-base">
     {% for item in navigation.main %}
       <li class="level-1 mb-4 md:mr-10 md:mb-0">
-        <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest text-white hover:text-pink-500 uppercase {% if page.url == item.url %}active text-pink-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+        <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
         </a>
       </li>
     {% endfor %}
     <li>
-      <a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 text-white font-semibold border-2 border-white hover:bg-white hover:text-black" href="{{ site.tickets_url }}" target="_blank" rel="noopener">Tickets</a>
+      <a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 font-semibold border-2 hover:bg-white hover:text-black" href="{{ site.tickets_url }}" target="_blank" rel="noopener">Tickets</a>
     </li>
   </ul>
 </nav>
