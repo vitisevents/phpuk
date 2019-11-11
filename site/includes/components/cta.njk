@@ -1,11 +1,15 @@
-<aside id="cta" class="fixed rounded-sm shadow-xl inset-x-0 bottom-8 flex bg-white max-w-6xl m-auto px-6 py-4 flex items-center justify-between">
-  {% for feature in features.features %}
-    <div class="text-center">
-      <span class="block font-bold text-4xl text-blue-500">{{feature.stat}}</span>
-      <span class="block text-gray-500 font-mono text-sm">{{feature.title}}</span>
+<aside id="cta" class="fixed bottom-8 w-full">
+  <div class="container px-8 mx-auto">
+    <div class="rounded-sm shadow-xl bg-white flex justify-between items-center p-4">
+      {% for feature in features.features %}
+        <div class="text-center">
+          <span class="block font-bold text-4xl text-blue-500">{{feature.stat}}</span>
+          <span class="block text-gray-500 font-mono text-sm">{{feature.title}}</span>
+        </div>
+      {% endfor %}
+      <div>
+        <a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="{{site.tickets_url}}" target="_blank" rel="noopener">Get Tickets</a>
+      </div>
     </div>
-  {% endfor %}
-  <div>
-    <a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="{{site.tickets_url}}" target="_blank" rel="noopener">Get Tickets</a>
   </div>
 </aside>
