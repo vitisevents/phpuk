@@ -661,10 +661,6 @@ h6 {
   cursor: pointer;
 }
 
-.tns-outer [data-action] {
-  display: none;
-}
-
 .tns-slider {
   transition: all 0s;
 }
