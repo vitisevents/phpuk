@@ -1,6 +1,7 @@
 {
   "name": "PHP UK Conference",
   "url": "https://php-uk-conference.netlify.com",
+  "tickets_url": "https://tickets.vitisevents.com/e/7/php-uk-conference-2020",
   "author": {
     "name": "Sam Bell",
     "email": "",
