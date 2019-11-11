@@ -4,6 +4,7 @@ var slider = tns({
   items: 1,
   slideBy: "page",
   autoplay: true,
-  controls: false
+  controls: false,
+  speed: 5000
   // autoplayHoverPause: true
 });

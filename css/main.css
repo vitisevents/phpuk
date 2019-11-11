@@ -661,15 +661,15 @@ h6 {
   cursor: pointer;
 }
 
+.tns-outer [data-action] {
+  display: none;
+}
+
 .tns-slider {
-  -webkit-transition: all 0s;
-  -moz-transition: all 0s;
   transition: all 0s;
 }
 
 .tns-slider > .tns-item {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -711,8 +711,6 @@ h6 {
 .tns-gallery > .tns-item {
   position: absolute;
   left: -100%;
-  -webkit-transition: transform 0s, opacity 0s;
-  -moz-transition: transform 0s, opacity 0s;
   transition: transform 0s, opacity 0s;
 }
 
@@ -722,9 +720,7 @@ h6 {
 }
 
 .tns-gallery > .tns-moving {
-  -webkit-transition: all 0.25s;
-  -moz-transition: all 0.25s;
-  transition: all 0.25s;
+  transition: all 0.35s;
 }
 
 .tns-autowidth {
@@ -732,8 +728,6 @@ h6 {
 }
 
 .tns-lazy-img {
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
   transition: opacity 0.6s;
   opacity: 0.6;
 }
@@ -743,8 +737,6 @@ h6 {
 }
 
 .tns-ah {
-  -webkit-transition: height 0s;
-  -moz-transition: height 0s;
   transition: height 0s;
 }
 
@@ -778,7 +770,7 @@ h6 {
 .tns-nav {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 160px;
   text-align: center;
   width: 100%;
   z-index: 2;
@@ -792,6 +784,9 @@ h6 {
   margin: 0 0.5rem;
   position: relative;
   outline: none;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: all 0.35s;
 }
 
 .tns-nav button::after {
@@ -805,9 +800,10 @@ h6 {
   right: 0;
   background-color: #fff;
   margin: auto;
+  border-radius: 2px;
 }
 
-.tns-nav-active {
+.tns-nav button.tns-nav-active {
   border: 1px solid #fff;
 }
 
@@ -830,8 +826,6 @@ h6 {
 
 .tns-t-ct {
   width: 2333.33333%;
-  width: -webkit-calc(100% * 70 / 3);
-  width: -moz-calc(100% * 70 / 3);
   width: calc(100% * 70 / 3);
   position: absolute;
   right: 0;
@@ -845,8 +839,6 @@ h6 {
 
 .tns-t-ct > div {
   width: 1.42857%;
-  width: -webkit-calc(100% / 70);
-  width: -moz-calc(100% / 70);
   width: calc(100% / 70);
   height: 10px;
   float: left;
