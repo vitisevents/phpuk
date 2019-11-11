@@ -8,12 +8,24 @@ let header = document.querySelector(".header");
 
 function toggleHeaderClasses(type) {
   if (type == "add") {
-    header.classList.remove("absolute");
-    header.classList.add("fixed", "bg-white", "animated", "slideInDown");
+    header.classList.remove("absolute", "text-white");
+    header.classList.add(
+      "fixed",
+      "bg-white",
+      "animated",
+      "slideInDown",
+      "text-black"
+    );
   }
   if (type == "remove") {
-    header.classList.add("absolute");
-    header.classList.remove("fixed", "bg-white", "animated", "slideInDown");
+    header.classList.add("absolute", "text-white");
+    header.classList.remove(
+      "fixed",
+      "bg-white",
+      "animated",
+      "slideInDown",
+      "text-black"
+    );
   }
 }
 

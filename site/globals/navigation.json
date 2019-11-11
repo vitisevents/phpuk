@@ -1,20 +1,28 @@
 {
-    "main": [
-        {
-            "label": "Home",
-            "url": "/"
-        },
-        {
-            "label": "About",
-            "url": "/about/"
-        },
-        {
-            "label": "Blog",
-            "url": "/blog/"
-        },
-        {
-            "label": "Contact",
-            "url": "/contact/"
-        }
-    ]
+  "main": [
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Speakers",
+      "url": "/blog/"
+    },
+    {
+      "label": "Schedule",
+      "url": "/contact/"
+    },
+    {
+      "label": "Sponsors",
+      "url": "/contact/"
+    },
+    {
+      "label": "Socials",
+      "url": "/contact/"
+    },
+    {
+      "label": "Venue",
+      "url": "/contact/"
+    }
+  ]
 }

@@ -1,5 +1,9 @@
-<section id="hero" class="hero bg-blue-400 h-screen" role="banner">
-
-	Hero
-
+<section id="hero" class="hero bg-blue-400" role="banner">
+	<ul class="hero-slider">
+		{% for slide in slides.hero %}
+			<li class="h-screen bg-cover bg-center pt-40" style="background-image: url({{slide.img}});">
+				<div>{{slide.title}}</div>
+			</li>
+		{% endfor %}
+	</ul>
 </section>

@@ -5,7 +5,7 @@
 }
 
 a {
-  @apply no-underline text-pink-500 transition;
+  @apply no-underline transition;
 
   &:hover {
     @apply text-purple-900;

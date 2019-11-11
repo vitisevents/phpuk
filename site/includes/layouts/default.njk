@@ -22,6 +22,7 @@
             {# else, use the minified css file for production #}
             <link rel="stylesheet" href="/css/main.min.css">
         {% endif %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 
         {# social meta tags and assets like fonts, favicons etc, should be last #}
         {% include "components/social-meta.njk" %}
@@ -46,6 +47,7 @@
         </div>
 
         {# include scripts #}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
         {% if helpers.environment == "development" %}
             <script src="/javascript/main.js"></script>
         {% else %}
