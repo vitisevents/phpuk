@@ -35,9 +35,7 @@ function getTimeRemaining(endtime) {
   };
 }
 
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-
+function initializeClock(clock, endtime) {
   if (clock) {
     var updateClock = function updateClock() {
       var t = getTimeRemaining(endtime);
@@ -60,8 +58,12 @@ function initializeClock(id, endtime) {
   }
 }
 
-var deadline = new Date(Date.parse("February 19, 2020"));
-initializeClock("countdown", deadline);
+var clock = document.getElementById("countdown");
+
+if (clock) {
+  var deadline = new Date(Date.parse(clock.dataset.date));
+  initializeClock(clock, deadline);
+}
 // add a class of 'intro' to the first paragraph
 // do this on every page apart from the blog page
 // if ( !page('blog') )

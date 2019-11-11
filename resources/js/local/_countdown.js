@@ -13,9 +13,7 @@ function getTimeRemaining(endtime) {
   };
 }
 
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-
+function initializeClock(clock, endtime) {
   if (clock) {
     var daysSpan = clock.querySelector(".days");
     var hoursSpan = clock.querySelector(".hours");
@@ -39,6 +37,8 @@ function initializeClock(id, endtime) {
     var timeinterval = setInterval(updateClock, 1000);
   }
 }
-
-var deadline = new Date(Date.parse("February 19, 2020"));
-initializeClock("countdown", deadline);
+var clock = document.getElementById("countdown");
+if (clock) {
+  var deadline = new Date(Date.parse(clock.dataset.date));
+  initializeClock(clock, deadline);
+}
