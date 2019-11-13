@@ -3,15 +3,6 @@
 // Import Tailwind preflight
 @tailwind base;
 
-// Import our custom base styles
-@import "base/all";
-
-// Import our custom component styles
-@import "components/all";
-
-// Import our custom utils
-@import "utils/all";
-
 // Import Tailwind components
 @tailwind components;
 
@@ -21,3 +12,12 @@
 // Import Tailwind utilities
 // TailwindCSS recommends leaving utilities till last to ensure they aren't overwritten.
 @tailwind utilities;
+
+// Import our custom base styles
+@import "base/all";
+
+// Import our custom component styles
+@import "components/all";
+
+// Import our custom utils
+@import "utils/all";
