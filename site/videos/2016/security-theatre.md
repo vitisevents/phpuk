@@ -3,7 +3,11 @@ title: Security Theatre
 speaker: Thomas Shone
 video-id: cEIVLEdbT_s
 length: "1:00:07"
+tags:
+  - videos
+  - 2016
 ---
+
 This is not your normal security talk.
 
 Sure we talk about secure communication and the importance of hashing and encrypting (and why rolling your own is never a solution). We might even get frisky and cover some more interesting topics like true randomness, timed attacks and social engineering.

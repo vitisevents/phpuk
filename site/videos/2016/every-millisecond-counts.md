@@ -3,7 +3,11 @@ title: "Every Millisecond Counts: Performance &amp; UX"
 speaker: Davey Shafik
 video-id: KMOSQIQVchc
 length: "48:55"
+tags:
+  - videos
+  - 2016
 ---
+
 How do you lose 900 million dollars in 100ms? Or 8 million visits in just 4/10 of a second?
 
 User expectations are higher than ever when it comes to web performance, so much so that we've created an entirely new application architecture just to make it feel like our websites are faster than they actually are.

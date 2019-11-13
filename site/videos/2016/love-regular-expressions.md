@@ -3,7 +3,11 @@ title: How I learned to stop worrying and love Regular Expressions
 speaker: Jordi Boggiano
 video-id: OqUsf6LQzPg
 length: "56:05"
+tags:
+  - videos
+  - 2016
 ---
+
 This session will cover Regular Expressions from the basics to the darkest corners of this arcane art.
 
 Regular Expressions at the core come in handy to achieve validation and text manipulation tasks. In the day to day life of a developer, becoming comfortable with them opens up many more use cases.
