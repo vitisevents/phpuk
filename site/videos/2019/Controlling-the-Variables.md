@@ -3,7 +3,11 @@ title: "Controlling the Variables"
 speaker: Thijs Feryn
 video-id: f3EU-sd9KPY
 length: "31:03"
+tags:
+  - videos
+  - 2019
 ---
+
 As a kid, do you have ambitions for the future? “When I grow up I want to become a …”. Maybe you wanted to become a fireman, an astronaut, a nurse, a teacher, or a police officer? As you grow up, these ideas evolve and get replaced with actual ambitions, actual hopes and dreams. These might be entirely different than your childhood dreams.
 
 But how do you reach these goals?

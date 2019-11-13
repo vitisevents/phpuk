@@ -3,7 +3,11 @@ title: "Everything is Awesome"
 speaker: Paul Verbeek Mast
 video-id: gzUL5cPhD8Q
 length: "36:01"
+tags:
+  - videos
+  - 2019
 ---
+
 🎵Everything is cool when you’re part of a team!🎵
 
 The Lego Movie came out almost 4 years ago, and it taught children everywhere the importance of teamwork. And what teamwork, and working in harmony, actually is. Let’s just hope that those lessons really stick with these kids. Because let’s be honest, we’re making a mess of it.
