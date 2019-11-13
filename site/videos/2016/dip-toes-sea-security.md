@@ -1,7 +1,7 @@
 ---
 title: Dip Your Toes in the Sea of Security
 speaker: James Titcumb
-video-id: XLNm0-eoLaE
+video_id: XLNm0-eoLaE
 length: "55:23"
 tags:
   - videos

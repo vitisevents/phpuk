@@ -1,7 +1,7 @@
 ---
 title: "Getting started with Kubernetes"
 speaker: Bastian Hofmann
-video-id: bXRmFfuyxQ0
+video_id: bXRmFfuyxQ0
 length: "56:55"
 tags:
   - videos

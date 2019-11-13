@@ -1,7 +1,7 @@
 ---
 title: Security Theatre
 speaker: Thomas Shone
-video-id: cEIVLEdbT_s
+video_id: cEIVLEdbT_s
 length: "1:00:07"
 tags:
   - videos

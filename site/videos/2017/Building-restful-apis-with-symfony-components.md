@@ -1,7 +1,7 @@
 ---
 title: "Building Restful APIs with Symfony Components"
 speaker: Victoria Quirante
-video-id: 8KAgvjxcmDY
+video_id: 8KAgvjxcmDY
 length: "40:54"
 tags:
   - videos

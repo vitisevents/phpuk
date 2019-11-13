@@ -1,7 +1,7 @@
 ---
 title: "I saw the future, and its web servers were written in PHP"
 speaker: David Zuelke
-video-id: VjJBR8YAxoE
+video_id: VjJBR8YAxoE
 length: "1:04:02"
 tags:
   - videos

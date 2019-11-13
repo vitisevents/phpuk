@@ -1,7 +1,7 @@
 ---
 title: "MySQL 8.0: Not Only Good, it's GREAT"
 speaker: Gabriela D'Avila Ferrara
-video-id: tADkhBB-oIg
+video_id: tADkhBB-oIg
 length: "55:05"
 tags:
   - videos

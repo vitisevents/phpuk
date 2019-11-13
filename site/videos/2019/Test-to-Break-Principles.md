@@ -1,7 +1,7 @@
 ---
 title: "Test to Break Principles"
 speaker: Rob Waller
-video-id: JDwFyRXbVHQ
+video_id: JDwFyRXbVHQ
 length: "55:26"
 tags:
   - videos

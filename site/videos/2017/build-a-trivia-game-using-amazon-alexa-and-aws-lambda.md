@@ -1,7 +1,7 @@
 ---
 title: "Build a Trivia game using Amazon Alexa and AWS Lambda"
 speaker: Rouven Weßling
-video-id: AB-U--e1ltc
+video_id: AB-U--e1ltc
 length: "56:21"
 tags:
   - videos

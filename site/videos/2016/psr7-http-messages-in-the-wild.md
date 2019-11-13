@@ -1,7 +1,7 @@
 ---
 title: PSR-7 HTTP messages in the wild
 speaker: Hannes Van De Vreken
-video-id: gOVALgpqHzM
+video_id: gOVALgpqHzM
 length: "51:42"
 tags:
   - videos

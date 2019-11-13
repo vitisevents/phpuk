@@ -1,7 +1,7 @@
 ---
 title: "Introduction to PHP Extensions"
 speaker: Derick Rethans
-video-id: cxu3mcum-Sk
+video_id: cxu3mcum-Sk
 length: "47:45"
 tags:
   - videos

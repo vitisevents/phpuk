@@ -1,7 +1,7 @@
 ---
 title: Doctrine ORM Good Practices and Tricks
 speaker: Marco Pivetta
-video-id: rzGeNYC3oz0
+video_id: rzGeNYC3oz0
 length: "58:33"
 tags:
   - videos

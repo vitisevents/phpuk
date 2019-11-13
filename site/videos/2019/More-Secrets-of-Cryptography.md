@@ -1,7 +1,7 @@
 ---
 title: "More Secrets of Cryptography"
 speaker: Chris Riley
-video-id: Nny7xf-anfU
+video_id: Nny7xf-anfU
 length: "52:12"
 tags:
   - videos

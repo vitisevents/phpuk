@@ -2,7 +2,7 @@
 type: Keynote
 title: The Code Manifesto
 speaker: Kayla Daniels
-video-id: 0ncZRjh4wUk
+video_id: 0ncZRjh4wUk
 length: "41:39"
 tags:
   - videos

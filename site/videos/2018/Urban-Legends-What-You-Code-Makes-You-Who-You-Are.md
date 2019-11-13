@@ -1,7 +1,7 @@
 ---
 title: "Urban Legends: What You Code Makes You Who You Are"
 speaker: PJ Hagerty
-video-id: lUqGNBxQMx4
+video_id: lUqGNBxQMx4
 length: "35:30"
 tags:
   - videos

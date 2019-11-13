@@ -1,7 +1,7 @@
 ---
 title: "Websockets and Torrents: A match made in PHP"
 speaker: James Mallison
-video-id: rKzjnB7wy3Q
+video_id: rKzjnB7wy3Q
 length: "52:05"
 tags:
   - videos

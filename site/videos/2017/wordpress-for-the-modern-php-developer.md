@@ -1,7 +1,7 @@
 ---
 title: "WordPress for the Modern PHP Developer"
 speaker: Chris Sherry
-video-id: v57UWTXla3M
+video_id: v57UWTXla3M
 length: "48:09"
 tags:
   - videos

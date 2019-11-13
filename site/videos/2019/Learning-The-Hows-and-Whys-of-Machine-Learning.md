@@ -1,7 +1,7 @@
 ---
 title: "Learning The Hows and Whys of Machine Learning"
 speaker: Liam Wiltshire
-video-id: hr6l9g2Fbis
+video_id: hr6l9g2Fbis
 length: "1:05:13"
 tags:
   - videos

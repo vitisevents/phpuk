@@ -1,7 +1,7 @@
 ---
 title: "Running Your PHP Site on AWS Lambda"
 speaker: Neal Brooks
-video-id: TTyIBOnpI9s
+video_id: TTyIBOnpI9s
 length: "56:17"
 tags:
   - videos

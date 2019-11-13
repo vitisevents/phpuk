@@ -1,7 +1,7 @@
 ---
 title: "Testing complex applications for PHP7..."
 speaker: Adam Baratz
-video-id: qKE3Pwkbhrc
+video_id: qKE3Pwkbhrc
 length: "57:31"
 tags:
   - videos

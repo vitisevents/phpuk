@@ -1,7 +1,7 @@
 ---
 title: "Don’t Lose Sleep, Secure Your REST"
 speaker: Adam Englander
-video-id: 3T3M7sPIUG0
+video_id: 3T3M7sPIUG0
 length: "54:18"
 tags:
   - videos

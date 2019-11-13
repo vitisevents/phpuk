@@ -1,7 +1,7 @@
 ---
 title: "HHVM and MongoDB — the perfect combination"
 speaker: Derick Rethans
-video-id: J412nlAHsIs
+video_id: J412nlAHsIs
 length: "46:48"
 tags:
   - videos

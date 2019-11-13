@@ -1,7 +1,7 @@
 ---
 title: "The Why and How of Moving to 7.x"
 speaker: Wim Godden
-video-id: l4Nb9xWxuc0
+video_id: l4Nb9xWxuc0
 length: "49:25"
 tags:
   - videos

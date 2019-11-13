@@ -1,7 +1,7 @@
 ---
 title: "Command and (e)mission Control"
 speaker: Barney Hanlon
-video-id: syCpDX4I8H8
+video_id: syCpDX4I8H8
 length: "49:25"
 tags:
   - videos

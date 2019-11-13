@@ -1,7 +1,7 @@
 ---
 title: "Working with Webhooks"
 speaker: Lorna Jane Mitchell
-video-id: kBlmEfljrn0
+video_id: kBlmEfljrn0
 length: "54:52"
 tags:
   - videos

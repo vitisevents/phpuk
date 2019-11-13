@@ -2,7 +2,7 @@
 Type: Keynote
 title: Imposter Syndrome and Individual Competence
 speaker: Jessica Rose
-video-id: taklO4YIMow
+video_id: taklO4YIMow
 length: "24:01"
 tags:
   - videos

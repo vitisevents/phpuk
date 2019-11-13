@@ -1,7 +1,7 @@
 ---
 title: "Climbing the Abstract Syntax Tree"
 speaker: James Titcumb
-video-id: AEfkYUjEuSs
+video_id: AEfkYUjEuSs
 length: "53:30"
 tags:
   - videos

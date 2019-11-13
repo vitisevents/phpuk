@@ -1,7 +1,7 @@
 ---
 title: "Theming WordPress"
 speaker: Beth Tucker Long
-video-id: 1spgWAQMErI
+video_id: 1spgWAQMErI
 length: "43:47"
 tags:
   - videos

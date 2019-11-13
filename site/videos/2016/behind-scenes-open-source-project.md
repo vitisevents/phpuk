@@ -2,7 +2,7 @@
 type: Keynote
 title: Behind the Scenes of Maintaining an Open Source Project
 speaker: Jordi Boggiano
-video-id: OqUsf6LQzPg
+video_id: OqUsf6LQzPg
 length: "40:26"
 tags:
   - videos

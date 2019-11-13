@@ -1,7 +1,7 @@
 ---
 title: "All the cool kids..."
 speaker: Matthias Noback
-video-id: EDXgNA_pXX0
+video_id: EDXgNA_pXX0
 length: "43:41"
 tags:
   - videos

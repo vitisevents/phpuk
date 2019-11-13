@@ -1,7 +1,7 @@
 ---
 title: " Docker, Kubernetes, and OpenShift for PHP Developers"
 speaker: Marek Jelen
-video-id: dEj5iKM55U0
+video_id: dEj5iKM55U0
 length: "46:02"
 tags:
   - videos

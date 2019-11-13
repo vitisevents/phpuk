@@ -1,7 +1,7 @@
 ---
 title: "Service Workers and their role in PWAs"
 speaker: Ipsha Bhidonia
-video-id: fUJWNiWeQ98
+video_id: fUJWNiWeQ98
 length: "36:19"
 tags:
   - videos

@@ -1,7 +1,7 @@
 ---
 title: "Taking Care of Backups with Laravel"
 speaker: Freek Van der Herten
-video-id: klPNJypmIWQ
+video_id: klPNJypmIWQ
 length: "58:37"
 tags:
   - videos

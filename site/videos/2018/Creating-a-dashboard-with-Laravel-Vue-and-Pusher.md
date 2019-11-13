@@ -1,7 +1,7 @@
 ---
 title: "Creating a dashboard with Laravel, Vue and Pusher"
 speaker: Freek Van der Herten
-video-id: 3q64HgGmLP4
+video_id: 3q64HgGmLP4
 length: "43:48"
 tags:
   - videos

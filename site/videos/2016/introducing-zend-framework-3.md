@@ -1,7 +1,7 @@
 ---
 title: Introducing Zend Framework 3
 speaker: Rob Allen
-video-id: ycNDcPuIK8o
+video_id: ycNDcPuIK8o
 length: "57:49"
 tags:
   - videos

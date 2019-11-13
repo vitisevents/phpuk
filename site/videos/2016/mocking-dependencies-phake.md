@@ -1,7 +1,7 @@
 ---
 title: Mocking Dependencies in Unit Tests with Phake
 speaker: Matthew Turland
-video-id: 6fNL5U1FUiI
+video_id: 6fNL5U1FUiI
 length: "50:25"
 tags:
   - videos

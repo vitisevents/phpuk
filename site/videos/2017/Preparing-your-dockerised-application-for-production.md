@@ -1,7 +1,7 @@
 ---
 title: "Preparing your Dockerised Application for Production..."
 speaker: Dave Ward
-video-id: quoM__Gg3zI
+video_id: quoM__Gg3zI
 length: "1:03:52"
 tags:
   - videos

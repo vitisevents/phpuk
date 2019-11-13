@@ -1,7 +1,7 @@
 ---
 title: "Debugging Effectively"
 speaker: Colin O'Dell
-video-id: nr-eV603-UA
+video_id: nr-eV603-UA
 length: "53:59"
 tags:
   - videos

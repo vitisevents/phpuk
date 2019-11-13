@@ -1,7 +1,7 @@
 ---
 title: "Does Your Code Measure Up?"
 speaker: Adam Culp
-video-id: dVu1AShtuQo
+video_id: dVu1AShtuQo
 length: "50:34"
 tags:
   - videos

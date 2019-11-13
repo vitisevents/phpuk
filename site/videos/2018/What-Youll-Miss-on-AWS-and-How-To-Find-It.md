@@ -1,7 +1,7 @@
 ---
 title: "What You'll Miss on AWS & How To Find It"
 speaker: Mike Lehan
-video-id: ofJULYfOUlI
+video_id: ofJULYfOUlI
 length: "46:06"
 tags:
   - videos

@@ -1,7 +1,7 @@
 ---
 title: "Goodbye Drush Make. Hello Composer!"
 speaker: Oliver Davies
-video-id: ZL2FtRTX9Y8
+video_id: ZL2FtRTX9Y8
 length: "40:08"
 tags:
   - videos

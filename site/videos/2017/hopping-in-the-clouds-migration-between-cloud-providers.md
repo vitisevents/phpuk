@@ -1,7 +1,7 @@
 ---
 title: "Hopping in the Clouds: migration between cloud providers"
 speaker: Michele Orselli
-video-id: 09TKbvBtmD4
+video_id: 09TKbvBtmD4
 length: "53:14"
 tags:
   - videos

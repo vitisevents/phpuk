@@ -1,7 +1,7 @@
 ---
 title: "Behaviour Driven Development and Behat: Telling Stories Through Code"
 speaker: Matt Brunt
-video-id: bCLlBgYQoIk
+video_id: bCLlBgYQoIk
 length: "45:21"
 tags:
   - videos

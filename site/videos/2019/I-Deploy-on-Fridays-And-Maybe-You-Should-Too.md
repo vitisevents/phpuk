@@ -1,7 +1,7 @@
 ---
 title: "I Deploy on Fridays (And Maybe You Should Too)"
 speaker: Michiel Rook
-video-id: clbnkvJb_mM
+video_id: clbnkvJb_mM
 length: "46:48"
 tags:
   - videos

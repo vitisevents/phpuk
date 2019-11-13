@@ -1,7 +1,7 @@
 ---
 title: "Unit Testing by Example"
 speaker: Anna Filina
-video-id: ESl-ncXA4G0
+video_id: ESl-ncXA4G0
 length: "55:30"
 tags:
   - videos

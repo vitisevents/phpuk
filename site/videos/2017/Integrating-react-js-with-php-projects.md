@@ -1,7 +1,7 @@
 ---
 title: "Integrating React.js with PHP Projects"
 speaker: Nacho Martin
-video-id: byYd1ag4iKw
+video_id: byYd1ag4iKw
 length: "43:53"
 tags:
   - videos

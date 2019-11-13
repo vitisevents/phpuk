@@ -1,7 +1,7 @@
 ---
 title: "Performance optimisation: how do I go about it?"
 speaker: Kat Zien
-video-id: 4hB7tGcz1l8
+video_id: 4hB7tGcz1l8
 length: "52:19"
 tags:
   - videos

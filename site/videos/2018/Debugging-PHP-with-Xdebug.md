@@ -1,7 +1,7 @@
 ---
 title: "Debugging PHP with Xdebug"
 speaker: Mark Niebergall
-video-id: 4wkHBwkhu7g
+video_id: 4wkHBwkhu7g
 length: "49:29"
 tags:
   - videos

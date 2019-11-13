@@ -1,7 +1,7 @@
 ---
 title: "London Calling: Creating a customisable, multi-tenanted i18n solution"
 speaker: Liam Wiltshire
-video-id: WCAIQdvvAaA
+video_id: WCAIQdvvAaA
 length: "45:42"
 tags:
   - videos

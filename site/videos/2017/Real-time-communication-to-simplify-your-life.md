@@ -1,7 +1,7 @@
 ---
 title: "Real Time Communication to Simplify Your Life"
 speaker: Karina Popova
-video-id: n1kO44tW20Y
+video_id: n1kO44tW20Y
 length: "41:22"
 tags:
   - videos

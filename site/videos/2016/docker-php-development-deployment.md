@@ -1,7 +1,7 @@
 ---
 title: "Docker &amp; PHP - development and deployment"
 speaker: Szymon Skórczyński
-video-id: Q6EBPTVCrDM
+video_id: Q6EBPTVCrDM
 length: "49:04"
 tags:
   - videos

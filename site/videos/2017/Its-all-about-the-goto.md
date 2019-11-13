@@ -1,7 +1,7 @@
 ---
 title: "Its All About The Goto"
 speaker: Derick Rethans
-video-id: JAB8-8gW1UU
+video_id: JAB8-8gW1UU
 length: "59:51"
 tags:
   - videos

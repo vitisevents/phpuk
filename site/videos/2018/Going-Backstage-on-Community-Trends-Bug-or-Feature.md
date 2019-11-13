@@ -1,7 +1,7 @@
 ---
 title: "Going Backstage on Community Trends: Bug or Feature?"
 speaker: Jenny Wong
-video-id: lma--k9Gbps
+video_id: lma--k9Gbps
 length: "27:25"
 tags:
   - videos

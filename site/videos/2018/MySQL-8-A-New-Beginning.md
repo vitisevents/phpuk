@@ -1,7 +1,7 @@
 ---
 title: "MySQL 8 -- A New Beginning"
 speaker: Dave Stokes
-video-id: LMF2ESRxp7w
+video_id: LMF2ESRxp7w
 length: "34:25"
 tags:
   - videos
