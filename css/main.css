@@ -9248,13 +9248,9 @@ h6 {
   height: 100%;
 }
 
-.markdown {
-  font-size: 1.25rem;
-}
-
 .markdown > * + *,
-  .markdown li + li,
-  .markdown li > p + p {
+.markdown li + li,
+.markdown li > p + p {
   margin-top: 1.5rem;
 }
 
