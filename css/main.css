@@ -9023,6 +9023,27 @@ h6 {
   transition: transform 1.5s ease;
 }
 
+.video-card-thumb {
+  opacity: 1;
+  transition: 0.15s opacity ease-out;
+}
+
+.video-card-play {
+  opacity: 0;
+  transition: 0.15s opacity ease-out;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  transition-delay: 0.15s;
+}
+
+.video-card:hover .video-card-thumb {
+  opacity: 0.15;
+}
+
+.video-card:hover .video-card-play {
+  opacity: 1;
+}
+
 /* purgecss start ignore */
 
 .tns-outer {
