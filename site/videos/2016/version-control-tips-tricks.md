@@ -3,6 +3,7 @@ title: "Version Control - tips, tricks and good citizenship"
 speaker: Tess Barnes
 video_id: HPQAXX_-2Aw
 length: "50:42"
+year: 2016
 tags:
   - videos
   - 2016

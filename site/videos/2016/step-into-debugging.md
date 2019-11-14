@@ -3,6 +3,7 @@ title: Step Into Debugging
 speaker: Gary Hockin
 video_id: SlluEqL0oOI
 length: "55:35"
+year: 2016
 tags:
   - videos
   - 2016

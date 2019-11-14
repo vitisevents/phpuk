@@ -3,6 +3,7 @@ title: "I Think I Know What You’re Talking About, But I'm Not Sure..."
 speaker: Jennifer Wong
 video_id: iNrmKyA1vig
 length: "23:04"
+year: 2017
 tags:
   - videos
   - 2017

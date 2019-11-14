@@ -3,6 +3,7 @@ title: "Content Security Policy to the Rescue"
 speaker: Dheeraj Joshi
 video_id: GZS5uS_4PMs
 length: "40:27"
+year: 2018
 tags:
   - videos
   - 2018

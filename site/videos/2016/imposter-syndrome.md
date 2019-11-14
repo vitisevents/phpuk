@@ -4,6 +4,7 @@ title: Imposter Syndrome and Individual Competence
 speaker: Jessica Rose
 video_id: taklO4YIMow
 length: "24:01"
+year: 2016
 tags:
   - videos
   - 2016

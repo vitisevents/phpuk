@@ -3,6 +3,7 @@ title: "Serving 30,000,000 Requests an Hour in the Cloud..."
 speaker: Terrence Ryan
 video_id: xbVWbWo31pk
 length: "49:21"
+year: 2017
 tags:
   - videos
   - 2017

@@ -3,6 +3,7 @@ title: Whirlwind tour through the HTTP2 spec
 speaker: Ole Michaelis
 video_id: sRo98KNmBuM
 length: "1:03:28"
+year: 2016
 tags:
   - videos
   - 2016

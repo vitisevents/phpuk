@@ -3,6 +3,7 @@ title: SilverStripe - the open source PHP CMS for teams
 speaker: Hamish Friedlander
 length: "1:01:37"
 video_id: lIeZMimgeIQ
+year: 2016
 tags:
   - videos
   - 2016

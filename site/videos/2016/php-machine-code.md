@@ -3,6 +3,7 @@ title: From PHP to Machine Code
 speaker: Juozas Kaziukėnas
 video_id: Tm_awZP0vFY
 length: "54:54"
+year: 2016
 tags:
   - videos
   - 2016

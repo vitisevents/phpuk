@@ -3,6 +3,7 @@ title: "Build, provision & deploy in the Cloud with Packer, Ansible & Terraform"
 speaker: Thijs Feryn
 video_id: myy_DGD9JoU
 length: "48:38"
+year: 2018
 tags:
   - videos
   - 2018

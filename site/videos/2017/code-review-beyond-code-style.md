@@ -3,6 +3,7 @@ title: "Code Review Beyond Code Style"
 speaker: Hannes Van De Vreken
 video_id: C087UCUkVLc
 length: "52:59"
+year: 2017
 tags:
   - videos
   - 2017

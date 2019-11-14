@@ -3,6 +3,7 @@ title: "Everything is Awesome"
 speaker: Paul Verbeek Mast
 video_id: gzUL5cPhD8Q
 length: "36:01"
+year: 2019
 tags:
   - videos
   - 2019

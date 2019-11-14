@@ -3,6 +3,7 @@ title: "From Dev to Prod with GitLab CI"
 speaker: Stephan Hochdorfer
 video_id: Fx0yYvK-aRE
 length: "45:50"
+year: 2019
 tags:
   - videos
   - 2019

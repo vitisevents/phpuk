@@ -3,6 +3,7 @@ title: "Using Open Source for Fun and Profit"
 speaker: Gary Hockin
 video_id: RH74_sFjqzs
 length: "41:06"
+year: 2017
 tags:
   - videos
   - 2017

@@ -3,6 +3,7 @@ title: Security Theatre
 speaker: Thomas Shone
 video_id: cEIVLEdbT_s
 length: "1:00:07"
+year: 2016
 tags:
   - videos
   - 2016

@@ -3,6 +3,7 @@ title: "Introduction to SOLID"
 speaker: Gareth Ellis
 video_id: 86Tt2pW9pv4
 length: "58:45"
+year: 2017
 tags:
   - videos
   - 2017

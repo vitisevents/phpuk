@@ -3,6 +3,7 @@ title: What To Expect From PHP7
 speaker: Lorna Mitchell
 video_id: hC5dPhM_LFo
 length: "57:39"
+year: 2016
 tags:
   - videos
   - 2016

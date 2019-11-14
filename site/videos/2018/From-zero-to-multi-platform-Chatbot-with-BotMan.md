@@ -3,6 +3,7 @@ title: "From zero to multi-platform Chatbot with BotMan"
 speaker: Marcel Pociot
 video_id: rz1lN-fKHHw
 length: "47:14"
+year: 2018
 tags:
   - videos
   - 2018

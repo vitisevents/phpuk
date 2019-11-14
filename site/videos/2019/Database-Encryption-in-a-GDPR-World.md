@@ -3,6 +3,7 @@ title: "Database Encryption in a GDPR World"
 speaker: Scott Dutton
 video_id: RTZXgxYGOWA
 length: "58:45"
+year: 2019
 tags:
   - videos
   - 2019

@@ -3,6 +3,7 @@ title: "Zero to Jenkins: Automatic builds + deploys"
 speaker: Michael Heap
 video_id: kuBD3p20oyE
 length: "41:48"
+year: 2018
 tags:
   - videos
   - 2018

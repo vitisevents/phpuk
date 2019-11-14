@@ -3,6 +3,7 @@ title: "Dive Deep Into Blockchain"
 speaker: Tomasz Kowalczyk
 video_id: CD_t5jZtX48
 length: "1:04:57"
+year: 2019
 tags:
   - videos
   - 2019

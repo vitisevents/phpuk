@@ -3,6 +3,7 @@ title: "Get GOing with a New Language"
 speaker: Kat Zien
 video_id: grHWdBzQKG4
 length: "58:25"
+year: 2019
 tags:
   - videos
   - 2019

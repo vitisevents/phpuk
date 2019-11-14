@@ -3,6 +3,7 @@ title: "Your App Lives on a Network: Networking for Web Developers"
 speaker: Wim Godden
 video_id: t0JdGOYuQzc
 length: "58:18"
+year: 2019
 tags:
   - videos
   - 2019

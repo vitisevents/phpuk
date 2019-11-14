@@ -3,6 +3,7 @@ title: Automation Automation Automation
 speaker: Michael Heap
 video_id: JH5yolHWFHc
 length: "53:25"
+year: 2016
 tags:
   - videos
   - 2016

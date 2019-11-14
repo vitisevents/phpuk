@@ -3,6 +3,7 @@ title: Magento Done Right
 speaker: Ciarán Rooney
 video_id: 1EltH1SyLe8
 length: "33:16"
+year: 2016
 tags:
   - videos
   - 2016

@@ -3,6 +3,7 @@ title: Real-Time Data Pipelines
 speaker: Samantha Quiñones
 video_id: 1i1Zoy2JpcY
 length: "56:10"
+year: 2016
 tags:
   - videos
   - 2016

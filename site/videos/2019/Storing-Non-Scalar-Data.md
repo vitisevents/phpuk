@@ -3,6 +3,7 @@ title: "Storing Non-Scalar Data"
 speaker: Derick Rethans
 video_id: sIJithgF6f0
 length: "1:01:30"
+year: 2019
 tags:
   - videos
   - 2019

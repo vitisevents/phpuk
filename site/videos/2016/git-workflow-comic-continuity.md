@@ -3,6 +3,7 @@ title: Git Workflow and Comic Book Continuity
 speaker: Gavin Davies
 video_id: BzITHlQa_VQ
 length: "45:45"
+year: 2016
 tags:
   - videos
   - 2016

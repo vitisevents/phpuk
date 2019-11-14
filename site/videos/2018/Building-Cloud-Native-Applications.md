@@ -3,6 +3,7 @@ title: "Building Cloud-Native Applications"
 speaker: Michael Hausenblas
 video_id: 417JirTmp2g
 length: "59:31"
+year: 2018
 tags:
   - videos
   - 2018

@@ -3,6 +3,7 @@ title: "Inversion of Control Containers Beyond Constructor Injection"
 speaker: Hannes Van De Vreken
 video_id: moNNCdLCJr8
 length: "45:25"
+year: 2018
 tags:
   - videos
   - 2018

@@ -3,6 +3,7 @@ title: "Silo Based Architecture for HA Applications"
 speaker: Georgiana Gligor
 video_id: yAKsdrNKWgw
 length: "56:15"
+year: 2017
 tags:
   - videos
   - 2017

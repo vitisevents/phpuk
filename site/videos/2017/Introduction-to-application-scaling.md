@@ -3,6 +3,7 @@ title: " Introduction to application scaling"
 speaker: Liam Wiltshire
 video_id: aHthWfsqhXU
 length: "44:24"
+year: 2017
 tags:
   - videos
   - 2017

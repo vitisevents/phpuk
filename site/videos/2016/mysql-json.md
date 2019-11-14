@@ -3,6 +3,7 @@ title: "MySQL 5.7 + JSON"
 speaker: Morgan Tocker
 video_id: rC0Hat5GV6g
 length: "58:05"
+year: 2016
 tags:
   - videos
   - 2016

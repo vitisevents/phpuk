@@ -3,6 +3,7 @@ title: Kubernetes at the Home Office
 speaker: Billie Thompson
 video_id: ACHiv5vuJuk
 length: "1:04:13"
+year: 2016
 tags:
   - videos
   - 2016

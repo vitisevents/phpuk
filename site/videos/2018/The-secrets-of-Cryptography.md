@@ -3,6 +3,7 @@ title: "The secrets of Cryptography"
 speaker: Chris Riley
 video_id: gU0mAPywm7o
 length: "55:27"
+year: 2018
 tags:
   - videos
   - 2018

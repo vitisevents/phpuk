@@ -3,6 +3,7 @@ title: "Things I Wish I Knew When I Started Playing 'Developer'"
 speaker: Gary Hockin
 video_id: E6wKix6eLFg
 length: "30:55"
+year: 2018
 tags:
   - videos
   - 2018

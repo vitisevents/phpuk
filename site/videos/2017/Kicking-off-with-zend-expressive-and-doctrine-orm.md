@@ -3,6 +3,7 @@ title: "Kicking off with Zend Expressive and Doctrine ORM"
 speaker: James Titcumb
 video_id: fhUG7JexO7U
 length: "48:38"
+year: 2017
 tags:
   - videos
   - 2017

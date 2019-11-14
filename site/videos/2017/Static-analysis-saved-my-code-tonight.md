@@ -3,6 +3,7 @@ title: "Static Analysis Saved My Code Tonight"
 speaker: Damien Seguy
 video_id: TelqURPdQmQ
 length: "52:33"
+year: 2017
 tags:
   - videos
   - 2017

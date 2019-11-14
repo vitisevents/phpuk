@@ -3,6 +3,7 @@ title: Eating spaghetti with Symfony
 speaker: Jakub Zalas
 video_id: _h1MJbyGSc8
 length: "57:11"
+year: 2016
 tags:
   - videos
   - 2016

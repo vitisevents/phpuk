@@ -3,6 +3,7 @@ title: "Elastic scaling in a (micro)service oriented architecture"
 speaker: Bastian Hofmann
 video_id: YBDscJhz2S0
 length: "1:02:25"
+year: 2016
 tags:
   - videos
   - 2016

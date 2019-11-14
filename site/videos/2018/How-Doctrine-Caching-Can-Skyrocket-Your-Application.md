@@ -3,6 +3,7 @@ title: "How Doctrine Caching Can Skyrocket Your Application"
 speaker: Jachim Coudenys
 video_id: PzrbkRZEdHA
 length: "53:20"
+year: 2018
 tags:
   - videos
   - 2018

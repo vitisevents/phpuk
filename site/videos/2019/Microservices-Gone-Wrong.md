@@ -3,6 +3,7 @@ title: "Microservices Gone Wrong"
 speaker: Anthony Ferrara
 video_id: 5QIpzNPVDaY
 length: "1:00:55"
+year: 2019
 tags:
   - videos
   - 2019

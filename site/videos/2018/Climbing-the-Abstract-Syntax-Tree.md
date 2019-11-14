@@ -3,6 +3,7 @@ title: "Climbing the Abstract Syntax Tree"
 speaker: James Titcumb
 video_id: AEfkYUjEuSs
 length: "53:30"
+year: 2018
 tags:
   - videos
   - 2018

@@ -3,6 +3,7 @@ title: "Every Millisecond Counts: Performance &amp; UX"
 speaker: Davey Shafik
 video_id: KMOSQIQVchc
 length: "48:55"
+year: 2016
 tags:
   - videos
   - 2016

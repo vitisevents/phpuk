@@ -3,6 +3,7 @@ title: "Smoke Tests..."
 speaker: Sebastian Thoss
 video_id: snDOv9J_vTY
 length: "47:47"
+year: 2017
 tags:
   - videos
   - 2017

@@ -3,6 +3,7 @@ title: "Database Schema Migrations with Zero Downtime"
 speaker: Michiel Rook
 video_id: un-vdrVAX-A
 length: "36:50"
+year: 2018
 tags:
   - videos
   - 2018

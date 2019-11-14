@@ -3,6 +3,7 @@ title: How I learned to stop worrying and love Regular Expressions
 speaker: Jordi Boggiano
 video_id: OqUsf6LQzPg
 length: "56:05"
+year: 2016
 tags:
   - videos
   - 2016

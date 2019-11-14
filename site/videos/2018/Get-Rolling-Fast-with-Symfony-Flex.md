@@ -3,6 +3,7 @@ title: "Get Rolling Fast with Symfony Flex"
 speaker: Beau Simensen
 video_id: pm0wDHe_Fs0
 length: "35:20"
+year: 2018
 tags:
   - videos
   - 2018

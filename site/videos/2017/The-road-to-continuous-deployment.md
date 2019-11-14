@@ -3,6 +3,7 @@ title: " The Road to continuous deployment"
 speaker: Michiel Rook
 video_id: 5vcsP_cyk4Q
 length: "1:02:18"
+year: 2017
 tags:
   - videos
   - 2017

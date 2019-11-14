@@ -4,6 +4,7 @@ title: Behind the Scenes of Maintaining an Open Source Project
 speaker: Jordi Boggiano
 video_id: OqUsf6LQzPg
 length: "40:26"
+year: 2016
 tags:
   - videos
   - 2016

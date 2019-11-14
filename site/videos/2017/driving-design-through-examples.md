@@ -3,6 +3,7 @@ title: "Driving Design through Examples"
 speaker: Ciaran McNulty
 video_id: 83GbyDpJDI4
 length: "1:04:16"
+year: 2017
 tags:
   - videos
   - 2017

@@ -3,6 +3,7 @@ title: "From Good To SOLID: How to Become a Better PHP Developer?"
 speaker: Katerina Trajchevska
 video_id: ILFcofVJUF4
 length: "33:41"
+year: 2019
 tags:
   - videos
   - 2019

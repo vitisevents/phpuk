@@ -3,6 +3,7 @@ title: "Large-scale websites performance optimisation tricks"
 speaker: Georgiana Gligor
 video_id: 7L5qvCjgHko
 length: "55:55"
+year: 2016
 tags:
   - videos
   - 2016

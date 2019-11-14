@@ -3,6 +3,7 @@ title: "To authentication & beyond!"
 speaker: Luis Cobucci
 video_id: p2tItlr_3QI
 length: "47:50"
+year: 2017
 tags:
   - videos
   - 2017

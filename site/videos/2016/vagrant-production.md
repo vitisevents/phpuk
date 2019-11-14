@@ -3,6 +3,7 @@ title: From Vagrant to Production
 speaker: Stephan Hochdörfer
 video_id: kk-vImUfXjM
 length: "49:01"
+year: 2016
 tags:
   - videos
   - 2016

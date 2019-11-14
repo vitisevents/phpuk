@@ -3,6 +3,7 @@ title: "Automatic PHP 7 Compatibility Checking Using php7cc"
 speaker: Mark Niebergall
 video_id: 59fbepJZ_3w
 length: "50:45"
+year: 2018
 tags:
   - videos
   - 2018

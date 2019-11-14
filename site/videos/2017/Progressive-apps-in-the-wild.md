@@ -3,6 +3,7 @@ title: "Progressive Apps in the Wild"
 speaker: Rowan Merewood
 video_id: VBMjPp4J8fk
 length: "1:01:15"
+year: 2017
 tags:
   - videos
   - 2017

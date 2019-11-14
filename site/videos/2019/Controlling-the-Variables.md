@@ -3,6 +3,7 @@ title: "Controlling the Variables"
 speaker: Thijs Feryn
 video_id: f3EU-sd9KPY
 length: "31:03"
+year: 2019
 tags:
   - videos
   - 2019

@@ -3,6 +3,7 @@ title: "Drupal8 for Symfony Developers"
 speaker: Antonio Peric Mazar
 video_id: ZKAjkCb7MZ0
 length: "42:42"
+year: 2017
 tags:
   - videos
   - 2017

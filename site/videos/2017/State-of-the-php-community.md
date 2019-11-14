@@ -3,6 +3,7 @@ title: "State of the PHP Community..."
 speaker: Eli White
 video_id: 1vFycFnVhaw
 length: "29:39"
+year: 2017
 tags:
   - videos
   - 2017

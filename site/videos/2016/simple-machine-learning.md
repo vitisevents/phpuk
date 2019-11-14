@@ -3,6 +3,7 @@ title: Simple Machine Learning
 speaker: Christopher Hoult
 video_id: tSUjgzCQB_4
 length: "54:42"
+year: 2016
 tags:
   - videos
   - 2016

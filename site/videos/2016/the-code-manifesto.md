@@ -4,6 +4,7 @@ title: The Code Manifesto
 speaker: Kayla Daniels
 video_id: 0ncZRjh4wUk
 length: "41:39"
+year: 2016
 tags:
   - videos
   - 2016

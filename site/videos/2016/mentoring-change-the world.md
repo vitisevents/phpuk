@@ -3,6 +3,7 @@ title: "Mentoring: Change the World One Hour at a Time"
 speaker: Beth Tucker Long
 video_id: s1TiSxp27Gg
 length: "30:00"
+year: 2016
 tags:
   - videos
   - 2016

@@ -3,6 +3,7 @@ title: "Introduction to GraphQL"
 speaker: Michael Cullum
 video_id: ZE-1Q-QAVpU
 length: "45:38"
+year: 2018
 tags:
   - videos
   - 2018

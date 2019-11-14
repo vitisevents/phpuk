@@ -3,6 +3,7 @@ title: " Towards a frameworkless world..."
 speaker: Michael Cullum
 video_id: aFhwnjFF96I
 length: "21:47"
+year: 2017
 tags:
   - videos
   - 2017

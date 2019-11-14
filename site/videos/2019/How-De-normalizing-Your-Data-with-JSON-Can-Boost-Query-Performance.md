@@ -3,6 +3,7 @@ title: "How De-normalizing Your Data with JSON Can Boost Query Performance"
 speaker: David Stokes
 video_id: Y7Z1vwbG7rY
 length: "29:15"
+year: 2019
 tags:
   - videos
   - 2019

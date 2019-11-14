@@ -3,6 +3,7 @@ title: " Zero to API with Lumen"
 speaker: Amanda Folson
 video_id: rwvptziuw7o
 length: "33:07"
+year: 2018
 tags:
   - videos
   - 2018
