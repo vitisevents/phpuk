@@ -11,6 +11,10 @@
     ],
     "fb_video_url": "https://www.facebook.com/ukconference/videos/1273785939365602/"
   },
+  "videos": {
+    "title": "Videos from previous events",
+    "description": "PHP UK Conference 2019 was another great success! A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible."
+  },
   "author": {
     "name": "Sam Bell",
     "email": "",
