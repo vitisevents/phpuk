@@ -12,6 +12,28 @@ title: Video archive
     <p class="text-sm font-mono text-gray-700 max-w-3xl">{{site.videos.description}}</p>
   </div>
 </main>
+<nav class="container px-8 mx-auto">
+  <ul class="flex border-b-2 border-gray-300 border-dashed">
+    <li class="px-8 py-4 bg-blue-100">
+      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">All</a>
+    </li>
+    <li class="px-8 py-4">
+      <a class="text-xl text-gray-400 hover:text-gray-400 cursor-not-allowed flex items-center" href="#">2020</a>
+    </li>
+    <li class="px-8 py-4">
+      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2019</a>
+    </li>
+    <li class="px-8 py-4">
+      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2018</a>
+    </li>
+    <li class="px-8 py-4">
+      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2017</a>
+    </li>
+    <li class="px-8 py-4">
+      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2016</a>
+    </li>
+  </ul>
+</nav>
 <main class="py-24 container px-4 mx-auto h-full bg-white">
   <div class="flex flex-wrap">
     {% for video in collections.videos | reverse %}
