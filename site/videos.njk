@@ -14,30 +14,30 @@ title: Video archive
 </main>
 <nav class="container px-8 mx-auto">
   <ul class="flex border-b-2 border-gray-300 border-dashed">
-    <li class="px-8 py-4 bg-blue-100">
-      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">All</a>
+    <li>
+      <button class="video-filter-toggle focus:outline-none text-xl text-blue-500 hover:text-blue-800 px-8 py-4 bg-blue-100" data-year="all">All</button>
     </li>
-    <li class="px-8 py-4">
-      <a class="text-xl text-gray-400 hover:text-gray-400 cursor-not-allowed flex items-center" href="#">2020</a>
+    <li>
+      <button class="video-filter-toggle focus:outline-none text-xl text-gray-400 hover:text-gray-400 px-8 py-4 cursor-not-allowed flex items-center" data-year="2020" disabled>2020</button>
     </li>
-    <li class="px-8 py-4">
-      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2019</a>
+    <li>
+      <button class="video-filter-toggle focus:outline-none text-xl text-blue-500 hover:text-blue-800 px-8 py-4" data-year="2019">2019</button>
     </li>
-    <li class="px-8 py-4">
-      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2018</a>
+    <li>
+      <button class="video-filter-toggle focus:outline-none text-xl text-blue-500 hover:text-blue-800 px-8 py-4" data-year="2018">2018</button>
     </li>
-    <li class="px-8 py-4">
-      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2017</a>
+    <li>
+      <button class="video-filter-toggle focus:outline-none text-xl text-blue-500 hover:text-blue-800 px-8 py-4" data-year="2017">2017</button>
     </li>
-    <li class="px-8 py-4">
-      <a class="text-xl text-blue-500 hover:text-blue-800" href="#">2016</a>
+    <li>
+      <button class="video-filter-toggle focus:outline-none text-xl text-blue-500 hover:text-blue-800 px-8 py-4" data-year="2016">2016</button>
     </li>
   </ul>
 </nav>
 <main class="py-24 container px-4 mx-auto h-full bg-white">
   <div class="flex flex-wrap">
     {% for video in collections.videos | reverse %}
-      <a class="block w-4/12 hover:text-blue-500 mb-12" href="{{ video.url }}">
+      <a class="block w-4/12 hover:text-blue-500 mb-12 video-filter-item animated fadeInUp" data-released="{{video.data.year}}" href="{{ video.url }}">
         <article class="video-card px-4">
           <div class="relative">
             <img src="https://img.youtube.com/vi/{{ video.data.video_id }}/maxresdefault.jpg" alt="{{ video.data.title }}" class="video-card-thumb block rounded-sm">
@@ -47,6 +47,7 @@ title: Video archive
           </div>
           <div class="flex mt-4 mb-4">
             <i class="inline-block font-mono text-blue-400 capitalize text-sm">&#60; {{video.data.speaker}} &#47;&#62;</i>
+            <span class="text-sm text-right flex-grow text-gray-400 font-mono">{{video.data.year}}</span>
           </div>
           <h2 class="text-xl capitalize mb-0">
             {{ video.data.title }}
