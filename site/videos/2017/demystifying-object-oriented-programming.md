@@ -1,7 +1,7 @@
 ---
 title: "Demystifying Object Oriented Programming"
 speaker: Alena Holligan
-video_id: nyQYvSZM0tM&t=120s
+video_id: nyQYvSZM0tM
 length: "1:03:13"
 year: 2017
 tags:
