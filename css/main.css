@@ -9296,7 +9296,7 @@ h6 {
 
 .markdown {
   font-size: 1.25rem;
-  color: #2d3748;
+  color: #4a5568;
 }
 
 .markdown > * + *,
@@ -9304,7 +9304,7 @@ h6 {
   .markdown li > p + p {
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  color: #2d3748;
+  color: #4a5568;
 }
 
 .markdown p {

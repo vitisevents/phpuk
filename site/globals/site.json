@@ -20,12 +20,6 @@
     "title": "Videos from previous events",
     "description": "PHP UK Conference 2019 was another great success! A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible."
   },
-  "author": {
-    "name": "Sam Bell",
-    "email": "",
-    "handle": "@samdb",
-    "avatar": "/images/blog/sam.jpeg"
-  },
   "images": {
     "favicon": "/images/favicon.ico",
     "twitter": "/images/meta/twitter.jpg",
