@@ -1,0 +1,80 @@
+{
+  "people": [
+    {
+      "name": "Johanna Cherry",
+      "avatar": "https://www.gravatar.com/avatar/cfba4698b0acef6927797ff274ba5921",
+      "bio": "Johanna Cherry has spent her career developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. She is currently a freelance developer and DBA. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.",
+      "role": "Jo manages speakers, socials, the venue, marketing, and delegate services for the conference.",
+      "links": {
+        "websites": [
+          {
+            "title": "Johanna Cherry",
+            "url": "http://johannacherry.com/"
+          },
+          {
+            "title": "Songkick",
+            "url": "https://www.songkick.com/"
+          },
+          {
+            "title": "Hailo",
+            "url": "http://hailocab.com/"
+          },
+          {
+            "title": "Webgains",
+            "url": "http://webgains.com/"
+          },
+          {
+            "title": "IBuildings",
+            "url": "http://ibuildings.com/"
+          },
+          {
+            "title": "Herzing University",
+            "url": "http://herzing.edu/"
+          }
+        ],
+        "twitter": "http://twitter.com/johannacherry",
+        "github": "http://github.com/johannac"
+      }
+    },
+    {
+      "name": "Sam Bell",
+      "avatar": "https://www.gravatar.com/avatar/f5fe63e7ab9414080068bd761fbd0542",
+      "bio": "Sam Bell is co-founder of digital agency, Copia Digital. He and his team build websites and web applications for asset managers and companies listed on the London Stock Exchange, helping them report on performance to their investors. They also run a side project called ChartBlocks, an online chart building tool that makes it easy to embed charts into your website or social media.",
+      "role": "Sam manages registration, sponsors, exhibits and volunteers for the conference.",
+      "links": {
+        "websites": [
+          {
+            "title": "Copia Digital",
+            "url": "http://www.copiadigital.co.uk"
+          },
+          {
+            "title": "ChartBlocks",
+            "url": "http://www.chartblocks.com/"
+          }
+        ],
+        "twitter": "https://twitter.com/_samdb",
+        "github": "http://github.com/samdb",
+        "linkedin": "https://uk.linkedin.com/in/bellsam/"
+      }
+    },
+    {
+      "name": "Rosie Bell",
+      "avatar": "/images/organisers/rosie1.jpg",
+      "bio": "Rosie joined the team in 2016 to help with the increasing workload as the conference grew in size.",
+      "role": "Rosie looks after the delegate services, answering any questions our attendees have in the lead up to the conference. She also manages exhibits, volunteers, and sponsor sales.",
+      "links": {
+        "twitter": "http://twitter.com/RosieBe10530628"
+      }
+    },
+    {
+      "name": "Paul Berberich",
+      "avatar": "https://secure.gravatar.com/avatar/737561f4dd2eb1285064fcd390e75a0e",
+      "bio": "Paul is a brand new member of our team and is excited to be entering the world of conferences. He brings years of customer service experience and has begun to learn how to code.",
+      "role": "Paul is an event coordinator and manages the venue, speakers, scholarships and social media.",
+      "links": {
+        "twitter": "http://twitter.com/paulberb",
+        "github": "http://github.com/paulberb"
+      }
+    }
+  ]
+}

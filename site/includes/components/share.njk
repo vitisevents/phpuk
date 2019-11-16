@@ -1,18 +1,18 @@
 <div class="flex items-center mt-16">
   <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="/videos" title="Back to videos">
-    <svg class="fill-current w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path xmlns="http://www.w3.org/2000/svg" d="M12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22ZM12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 4.83952e-07 12 -9.5399e-08C5.373 -6.7475e-07 6.7475e-07 5.373 9.5399e-08 12C-4.83952e-07 18.627 5.373 24 12 24ZM10 12L14.5 7.5L12.973 6L7 12L12.973 18L14.5 16.5L10 12V12Z"/></svg>
+    {% include 'components/icons/back.html' %}
   </a>
   <span class="mr-4 mb-4 text-gray-300">|</span>
   <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="mailto:?Subject={{title}}&amp;Body={{site.url + page.url}}" title="Share via email">
-    <svg class="fill-current w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.02c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 12.55l-5.992-4.57h11.983l-5.991 4.57zm0 1.288l-6-4.629v6.771h12v-6.771l-6 4.629z"/></svg>
+    {% include 'components/icons/email.html' %}
   </a>
   <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="http://www.facebook.com/sharer.php?u={{site.url + page.url}}" target="_blank" title="Share on facebook">
-    <svg class="fill-current w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+    {% include 'components/icons/facebook.html' %}
   </a>
   <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url + page.url}}" target="_blank" title="Share on LinkedIn">
-    <svg class="fill-current w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
+    {% include 'components/icons/linkedin.html' %}
   </a>
   <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="https://twitter.com/share?url={{site.url + page.url}}&amp;text={{title}}" target="_blank" title="Share on Twitter">
-    <svg class="fill-current w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg>
+    {% include 'components/icons/twitter.html' %}
   </a>
 </div>
