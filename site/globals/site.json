@@ -3,6 +3,11 @@
   "url": "https://php-uk-conference.netlify.com",
   "tickets_url": "https://tickets.vitisevents.com/e/7/php-uk-conference-2020",
   "date": "February 19, 2020 08:00:00",
+  "about": {
+    "title": "PHP UK Conference",
+    "description": "With over 700 delegates, speakers, and sponsors, PHP UK conference aims to deliver fantastic up-to-date content about PHP and related web technologies in a comfortable and professional setting. There are countless networking opportunities to engage with international speakers and delegates, which makes the event one you won't want to miss.",
+    "hero": "/images/about-hero.jpg"
+  },
   "intro": {
     "title": "First time at PHP UK?",
     "content": [
@@ -27,7 +32,7 @@
     "og": "/images/meta/og.jpg"
   },
   "social_links": {
-    "facebook": "https://www.facebook.com",
+    "facebook": "https://www.facebook.com/ukconference/",
     "twitter": "https://twitter.com/phpukconference",
     "linkedin": "https://www.linkedin.com"
   }

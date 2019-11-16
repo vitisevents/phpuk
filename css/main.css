@@ -9040,26 +9040,6 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
-.content p {
-  margin-bottom: 2rem;
-}
-
-.content p.intro {
-  border-bottom-width: 1px;
-  border-color: #edf2f7;
-  font-size: 1.5rem;
-  padding-bottom: 2.5rem;
-  margin-bottom: 2.5rem;
-  font-weight: 300;
-  color: #a0aec0;
-}
-
-@media (min-width: 768px) {
-  .content p.intro {
-    font-size: 1.875rem;
-  }
-}
-
 .article-card .featured-image-link:hover .featured-image {
   transform: scale(1.1);
 }
@@ -9314,10 +9294,22 @@ h6 {
   height: 100%;
 }
 
+.markdown {
+  font-size: 1.25rem;
+  color: #2d3748;
+}
+
 .markdown > * + *,
-.markdown li + li,
-.markdown li > p + p {
+  .markdown li + li,
+  .markdown li > p + p {
   margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: #2d3748;
+}
+
+.markdown p {
+  margin-bottom: 1.5rem;
+  max-width: 56rem;
 }
 
 .markdown strong {
@@ -9325,7 +9317,74 @@ h6 {
 }
 
 .markdown a {
-  text-decoration: underline;
+  color: #4299e1;
+}
+
+.markdown a:hover {
+  color: #2b6cb0;
+}
+
+.markdown h2 {
+  line-height: 1.25;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.markdown h3 {
+  line-height: 1.25;
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #000;
+  margin-top: 2.5rem;
+}
+
+.markdown code {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  display: inline;
+  background-color: #f7fafc;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.markdown pre code {
+  display: block;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.markdown blockquote {
+  border-left-width: 4px;
+  border-color: #f7fafc;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.markdown ul,
+  .markdown ol {
+  padding-left: 2.5rem;
+}
+
+.markdown ul li,
+    .markdown ol li {
+  position: relative;
+}
+
+.markdown ul li::before,
+      .markdown ol li::before {
+  content: "";
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #bee3f8;
+  position: absolute;
+  left: -2.5rem;
+  top: 0.5rem;
+  transform: rotate(45deg);
 }
 
 @media (min-width: 640px) {
