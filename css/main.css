@@ -640,6 +640,22 @@ video {
   animation-name: fadeInUp;
 }
 
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
 @keyframes slideInDown {
   from {
     transform: translate3d(0, -100%, 0);
@@ -9140,10 +9156,6 @@ h6 {
   left: auto !important;
 }
 
-.tns-gallery > .tns-slide-active * {
-  animation: slideInLeft 0.75s ease-in-out;
-}
-
 .tns-gallery > .tns-moving {
   transition: all 0.35s;
 }
@@ -9267,6 +9279,10 @@ h6 {
   width: calc(100% / 70);
   height: 10px;
   float: left;
+}
+
+.tns-slide-active .hero-slider-content {
+  animation: fadeInUp 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 /* purgecss end ignore */

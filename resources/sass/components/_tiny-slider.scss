@@ -64,9 +64,7 @@
     position: relative;
     left: auto !important;
 
-    * {
-      animation: slideInLeft 0.75s ease-in-out;
-    }
+    
   }
   > .tns-moving {
     transition: all 0.35s;
@@ -187,6 +185,12 @@ $perpage: 3;
       height: $height;
       float: left;
     }
+  }
+}
+
+.tns-slide-active{
+  .hero-slider-content {
+    animation: fadeInUp 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
 }
 /* purgecss end ignore */

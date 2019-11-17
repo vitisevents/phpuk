@@ -1,9 +1,10 @@
 <section id="hero" class="hero bg-blue-400" role="banner">
-	<ul class="hero-slider text-white">
+	<ul class="hero-slider text-white relative">
 		{% for slide in slides.hero %}
-			<li class="h-screen bg-cover bg-center pt-40 pb-48" style="background-image: url({{slide.img}});">
-				<section class="p-8 container mx-auto h-full">
-					<div class="max-w-xl animated slideInRight flex items-center h-full">
+			<li class="h-screen bg-cover bg-center pt-40 pb-48 relative" style="background-image: url({{slide.img}});">
+        <div class="bg-blue-900 h-full w-full absolute top-0 left-0 opacity-75"></div>
+				<section class="hero-slider-content relative p-8 container mx-auto h-full">
+					<div class="max-w-xl flex items-center h-full">
 						<div class="">
 							<i class="font-mono lowercase">&#60; {{slide.heading}} &#47;&#62;</i>
 							<h1 class="text-6xl font-black">{{slide.title}}</h1>
