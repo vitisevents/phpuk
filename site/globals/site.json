@@ -14,6 +14,11 @@
     "hero": "/images/speakers-hero.jpg",
     "papers_open": true
   },
+  "sponsors": {
+    "title": "Sponsors & Partners",
+    "description": "Become a sponsor of PHP UK 2020",
+    "hero": "/images/sponsors-hero.jpg"
+  },
   "intro": {
     "title": "First time at PHP UK?",
     "content": [
