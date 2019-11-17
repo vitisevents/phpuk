@@ -9388,6 +9388,8 @@ h6 {
 .markdown ul li,
     .markdown ol li {
   position: relative;
+  margin-bottom: 1.5rem;
+  max-width: 56rem;
 }
 
 .markdown ul li::before,
@@ -9401,6 +9403,13 @@ h6 {
   left: -2.5rem;
   top: 0.5rem;
   transform: rotate(45deg);
+}
+
+.markdown ul li ul,
+      .markdown ul li ol,
+      .markdown ol li ul,
+      .markdown ol li ol {
+  margin-top: 1.5rem;
 }
 
 @media (min-width: 640px) {
