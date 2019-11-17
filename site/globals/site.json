@@ -8,6 +8,12 @@
     "description": "With over 700 delegates, speakers, and sponsors, PHP UK conference aims to deliver fantastic up-to-date content about PHP and related web technologies in a comfortable and professional setting. There are countless networking opportunities to engage with international speakers and delegates, which makes the event one you won't want to miss.",
     "hero": "/images/about-hero.jpg"
   },
+  "speakers": {
+    "title": "Speakers",
+    "description": "PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.",
+    "hero": "/images/speakers-hero.jpg",
+    "papers_open": true
+  },
   "intro": {
     "title": "First time at PHP UK?",
     "content": [
