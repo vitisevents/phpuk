@@ -24,5 +24,23 @@
       "label": "Venue",
       "url": "/venue/"
     }
+  ],
+  "support": [
+    {
+      "label": "Email us",
+      "url": "mailto:contact@phpconference.co.uk"
+    },
+    {
+      "label": "Tweet us",
+      "url": "https://twitter.com/PHPUKConference"
+    },
+    {
+      "label": "Report website issues",
+      "url": "https://github.com/phplondon/phpukconference/issues"
+    },
+    {
+      "label": "Become a sponsor",
+      "url": "/sponsors/packages"
+    }
   ]
 }

@@ -1,7 +1,29 @@
 <div class="footer-wrapper">
-  <footer id="footer" class="footer bg-gray-200" role="contentinfo">
+  <footer id="footer" class="footer bg-blue-500" role="contentinfo">
+    <section class="container px-8 py-4 mx-auto flex items-center">
+      <div class="flex-1">
+        <ul class="flex items-center">
+          {% for item in navigation.main %}
+            <li class="mb-4 md:mr-5 md:mb-0">
+              <a href="{{ item.url | safe }}" class="link text-sm tracking-wide text-blue-200 hover:text-white"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="flex-1">
+        <ul class="flex justify-end text-right">
+          {% for item in navigation.support %}
+            <li class="mb-4 md:ml-5 md:mb-0">
+              <a href="{{ item.url | safe }}" class="link text-sm tracking-wide text-blue-200 hover:text-white"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
     <div class="footer-inner container m-auto md:flex justify-between items-center px-8 py-10">
-      <p class="text-gray-600 text-sm pb-8 md:pb-0">© Vitis Events Ltd. Registered company 09693545</p>
+      <p class="text-blue-200 text-sm pb-8 md:pb-0">© Vitis Events Ltd. Registered company 09693545</p>
       {% include 'components/social-icons.njk' %}
     </div>
   </footer>
