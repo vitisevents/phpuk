@@ -40,26 +40,26 @@ title: Schedule
                       <span class="main-title">{{track.track.title}}</span>
                       <span class="subtitle">{{track.track.subtitle}}</span>
                     </span>
-                    {# {% if track.track.speaker %}
+                    {% if track.track.speaker %}
                       <span class="speaker">
                         Speaker:
                         <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
                       </span>
-                    {% else if track.track.speakers %}
+                    {% elseif track.track.speakers %}
                       <span class="speaker">
                         {% for speaker in track.track.speakers %}
                           <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
                           {% if speaker != track.track.speakers.last %}&amp; {% endif %}
                         {% endfor %}
                       </span>
-                    {% endif %} #}
+                    {% endif %}
                     {% if track.track.level %}
-                    <span class="level">Level: {{track.track.level}}</span>
+                      <span class="level">Level: {{track.track.level}}</span>
                     {% endif %}
                   </div>
-                  {# {% if slot.slottype == "talks" %}
+                  {% if slot.slottype == "talks" %}
                     <p class="short-description">
-                      {{track.track.description | truncate: 150}}
+                      {{track.track.description}}
                       <a class="more">See More</a>
                     </p>
                     <div class="full-description">
@@ -70,13 +70,13 @@ title: Schedule
                     <p class="description">
                         {{track.track.description}}
                     </p>
-                  {% endif %} #}
-                  {# {% if track.track.menulink %}
+                  {% endif %}
+                  {% if track.track.menulink %}
                     <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
-                  {% endif %} #}
-                  {# {% if track.track.video %}
+                  {% endif %}
+                  {% if track.track.video %}
                     <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2020.playlist}}">Video &raquo;</a></span>
-                  {% endif %} #}
+                  {% endif %}
                 </td>
               {% endfor %}
             </tr>
