@@ -33,13 +33,13 @@ title: Schedule
               {% for track in slot.tracks %}
                 <td class="track p-4 {{slot.slottype}} {% if slot.slottype == 'break' %}bg-green-100 text-green-900{% else %}bg-blue-100 text-blue-900{% endif %} border-8 border-white" id="{{track.track.id}}" colspan="{{track.track.colspan}}" rowspan="{{track.track.rowspan}}">
                   <div class="track-slot-meta">
-                    <span class="location">{{track.track.location}}</span>
-                    <span class="track-name">{{track.track.name}}</span>
+                    <span class="location opacity-50 text-sm">{{track.track.location}}</span>
+                    <span class="track-name opacity-50 text-sm">{{track.track.name}}</span>
                     {% if track.track.prereqs %}
                       <a href="prereqs/">Prerequisites</a><br>
                     {% endif %}
                     <span class="title">
-                      <span class="main-title">{{track.track.title}}</span>
+                      <h3 class="main-title text-2xl font-normal">{{track.track.title}}</h3>
                       <span class="subtitle">{{track.track.subtitle}}</span>
                     </span>
                     {% if track.track.speaker %}

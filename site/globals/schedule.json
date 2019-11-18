@@ -114,7 +114,7 @@
         },
         {
           "time": "12.30",
-          "slottype": null,
+          "slottype": "break",
           "tracks": [
             {
               "track": {
