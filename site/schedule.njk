@@ -25,13 +25,13 @@ title: Schedule
               <td class="time text-gray-500 p-4 pl-0 font-mono" rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
               {% for track in slot.tracks %}
                 {% if track.track.location %}
-                  <td class="location px-4{% if track.track.tooltip %} tutorial{% endif %} text-gray-600 text-xl" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
+                  <td class="location px-4{% if track.track.tooltip %} tutorial{% endif %} text-gray-600 text-sm uppercase tracking-wider" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
                 {% endif %}
               {% endfor %}
             </tr>
             <tr class="slot">
               {% for track in slot.tracks %}
-                <td class="track p-4 {{slot.slottype}} {% if slot.slottype == 'break' %}bg-green-100{% else %}bg-blue-100{% endif %} border-8 border-white" id="{{track.track.id}}" colspan="{{track.track.colspan}}" rowspan="{{track.track.rowspan}}">
+                <td class="track p-4 {{slot.slottype}} {% if slot.slottype == 'break' %}bg-green-100 text-green-900{% else %}bg-blue-100 text-blue-900{% endif %} border-8 border-white" id="{{track.track.id}}" colspan="{{track.track.colspan}}" rowspan="{{track.track.rowspan}}">
                   <div class="track-slot-meta">
                     <span class="location">{{track.track.location}}</span>
                     <span class="track-name">{{track.track.name}}</span>
