@@ -30,7 +30,9 @@ function toggleHeaderClasses(type) {
 }
 
 function toggleHeader(scrollPos) {
-  if (page("home") && scrollPos > viewportHeight) {
+  // Use if you only want header fixed on homepage
+  // if (page("home") && scrollPos > viewportHeight) {
+  if ( scrollPos > viewportHeight) {
     toggleHeaderClasses("add");
   } else {
     toggleHeaderClasses("remove");
