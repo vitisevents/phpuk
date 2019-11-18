@@ -1,0 +1,943 @@
+{
+  "days": [
+    {
+      "schedule-wednesday": null,
+      "name": "Wednesday 19th February 2020",
+      "description": "<p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><p>We'll have more information on our speakers and talks coming soon.</p>\n",
+      "slots": [
+        {
+          "time": "8.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": "Registration and Refreshments",
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "Please bring a copy of your ticket either printed or on a mobile device."
+              }
+            }
+          ]
+        },
+        {
+          "time": "08.30",
+          "slottype": null,
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "09.00",
+          "slottype": "workshop",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop I",
+                "speaker": null,
+                "handle": null,
+                "bio": null,
+                "title": null,
+                "photo": null,
+                "location": null,
+                "id": "workshopi",
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop II",
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "bio": null,
+                "title": null,
+                "photo": null,
+                "location": null,
+                "id": "workshopii",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "10.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "11.00",
+          "slottype": "workshop",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop I",
+                "title": null,
+                "location": null,
+                "id": "workshopi"
+              }
+            },
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop II",
+                "title": null,
+                "location": null,
+                "id": "workshopii"
+              }
+            }
+          ]
+        },
+        {
+          "time": "12.30",
+          "slottype": null,
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": "Lunch",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "13.30",
+          "slottype": null,
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop I",
+                "title": null,
+                "location": null,
+                "id": "workshopi"
+              }
+            },
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop II",
+                "title": null,
+                "location": null,
+                "id": "workshopii"
+              }
+            }
+          ]
+        },
+        {
+          "time": "15.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "15.30",
+          "slottype": "workshop",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop I",
+                "title": null,
+                "location": null,
+                "id": "workshopi"
+              }
+            },
+            {
+              "track": {
+                "colspan": 2,
+                "name": "Workshop II",
+                "title": null,
+                "location": null,
+                "id": "workshopii"
+              }
+            }
+          ]
+        },
+        {
+          "time": "18.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "name": "Pre-Conference Social",
+                "location": null,
+                "title": null,
+                "speaker": null,
+                "slug": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule-thursday": null,
+      "name": "Thursday 20th February 2020",
+      "description": "\n",
+      "slots": [
+        {
+          "time": "08.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": "Registration and Refreshments",
+                "description": "Please bring a copy of your ticket either printed or on a mobile device."
+              }
+            }
+          ]
+        },
+        {
+          "time": "09.00",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "09.45",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 3,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "speaker": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "10.15",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "11.15",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "location": null,
+                "title": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "11.30",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "12.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": "King George",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+              }
+            }
+          ]
+        },
+        {
+          "time": "13.30",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "14.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+              }
+            }
+          ]
+        },
+        {
+          "time": "14.45",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "15.45",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+              }
+            }
+          ]
+        },
+        {
+          "time": "16:15",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "17.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": "King George",
+                "title": "Mid Conference Social",
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning.\n"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule-friday": null,
+      "name": "Friday 21st February 2020",
+      "description": "<p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href=\"/socials\">post-conference social</a>.</p>\n",
+      "slots": [
+        {
+          "time": "08.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": "Brewery Foyer & King George",
+                "title": "Registration and Refreshments",
+                "description": "Please bring a copy of your ticket either printed or on a mobile device."
+              }
+            }
+          ]
+        },
+        {
+          "time": "09.00",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "09.45",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+              }
+            }
+          ]
+        },
+        {
+          "time": "10.15",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "11.15",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+              }
+            }
+          ]
+        },
+        {
+          "time": "11.30",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "12.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 3,
+                "location": "King George",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "speaker": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "13.30",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "prereqs": 1,
+                "rowspan": 5,
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": "\n"
+              }
+            }
+          ]
+        },
+        {
+          "time": "14.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 3,
+                "location": null,
+                "title": "Room change"
+              }
+            }
+          ]
+        },
+        {
+          "time": "14.45",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "speaker": null,
+                "slug": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": null
+              }
+            },
+            {
+              "track": {
+                "location": null,
+                "tooltip": null,
+                "title": null,
+                "subtitle": null,
+                "speaker": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "15.45",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+              }
+            }
+          ]
+        },
+        {
+          "time": "16.15",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "location": null,
+                "title": null,
+                "subtitle": null,
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": null,
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "time": "17.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "track": {
+                "colspan": 4,
+                "title": "Post Conference Social",
+                "location": "The Pasteur Rooms at The Brewery",
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+---
+layout: default
+meta_title: Schedule
+body_class: schedule
+title: Schedule
+---
+<section class="relative py-24 pt-40 bg-black bg-cover bg-center" style="background-image: url({{site.schedule.hero}});">
+  <div class="bg-blue-800 h-full w-full absolute top-0 left-0 opacity-25"></div>
+  <div class="relative px-8 container mx-auto items-center">
+    <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; conference_schedule &#47;&#62;</i>
+    <h2 class="text-4xl capitalize text-white">{{site.schedule.title}}</h2>
+    <p class="text-sm font-mono text-gray-200 max-w-3xl">{{site.schedule.description}}</p>
+  </div>
+</section>
+<main class="main container mx-auto px-8">
+  {% for day in schedule.days %}
+    <article class="mt-24">
+      <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&lt; Day_{{loop.index}} /&gt;</i>
+      <h2 class="text-3xl">{{day.name}}</h2>
+      <div class="markdown">{{day.description | safe}}</div>
+      <table class="schedule-wrapper">
+        {% for slot in day.slots %}
+          {% if slot.slottype != 'mc' %}
+            <tr class="slot">
+              <td class="time"rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
+              {% for track in slot.tracks %}
+              <td class="location{% if track.track.tooltip %} tutorial{% endif %}" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
+              {% endfor %}
+            </tr>
+            <tr class="slot">
+              {% for track in slot.tracks %}
+                <td class="track {{slot.slottype}}" id="{{track.track.id}}" colspan="{{track.track.colspan}}" rowspan="{{track.track.rowspan}}">
+                  <div class="track-slot-meta">
+                    <span class="location">{{track.track.location}}</span>
+                    <span class="track-name">{{track.track.name}}</span>
+                    {% if track.track.prereqs %}
+                      <a href="prereqs/">Prerequisites</a><br>
+                    {% endif %}
+                    <span class="title">
+                      <span class="main-title">{{track.track.title}}</span>
+                      <span class="subtitle">{{track.track.subtitle}}</span>
+                    </span>
+                    {# {% if track.track.speaker %}
+                      <span class="speaker">
+                        Speaker:
+                        <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
+                      </span>
+                    {% else if track.track.speakers %}
+                      <span class="speaker">
+                        {% for speaker in track.track.speakers %}
+                          <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
+                          {% if speaker != track.track.speakers.last %}&amp; {% endif %}
+                        {% endfor %}
+                      </span>
+                    {% endif %} #}
+                    {% if track.track.level %}
+                    <span class="level">Level: {{track.track.level}}</span>
+                    {% endif %}
+                  </div>
+                  {# {% if slot.slottype == "talks" %}
+                    <p class="short-description">
+                      {{track.track.description | truncate: 150}}
+                      <a class="more">See More</a>
+                    </p>
+                    <div class="full-description">
+                      {{track.track.description}}
+                      <a class="less">See Less</a>
+                    </div>
+                  {% else %}
+                    <p class="description">
+                        {{track.track.description}}
+                    </p>
+                  {% endif %} #}
+                  {# {% if track.track.menulink %}
+                    <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                  {% endif %} #}
+                  {# {% if track.track.video %}
+                    <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2020.playlist}}">Video &raquo;</a></span>
+                  {% endif %} #}
+                </td>
+              {% endfor %}
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </table>
+    </article>
+  {% endfor %}
+</main>
+{% include 'components/sponsors.njk' %}

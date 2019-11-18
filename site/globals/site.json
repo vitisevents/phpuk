@@ -19,6 +19,11 @@
     "description": "Become a sponsor of PHP UK 2020",
     "hero": "/images/sponsors-hero.jpg"
   },
+  "schedule": {
+    "title": "Schedule",
+    "description": "Our talks and speakers",
+    "hero": "/images/speakers-hero.jpg"
+  },
   "socials": {
     "title": "Network with likeminded people",
     "description": "An important part of any conference is being able to network with other delegates and PHP UK is no exception.",
