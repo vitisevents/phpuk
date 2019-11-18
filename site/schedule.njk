@@ -18,11 +18,11 @@ title: Schedule
       <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&lt; Day_{{loop.index}} /&gt;</i>
       <h2 class="text-3xl">{{day.name}}</h2>
       <div class="markdown">{{day.description | safe}}</div>
-      <table class="schedule-wrapper">
+      <table class="schedule-wrapper w-full">
         {% for slot in day.slots %}
           {% if slot.slottype != 'mc' %}
             <tr class="slot">
-              <td class="time"rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
+              <td class="time text-gray-500 p-4 pl-0 font-mono" rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
               {% for track in slot.tracks %}
               <td class="location{% if track.track.tooltip %} tutorial{% endif %}" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
               {% endfor %}
@@ -74,9 +74,9 @@ title: Schedule
                   {% if track.track.menulink %}
                     <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
                   {% endif %}
-                  {% if track.track.video %}
+                  {# {% if track.track.video %}
                     <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2020.playlist}}">Video &raquo;</a></span>
-                  {% endif %}
+                  {% endif %} #}
                 </td>
               {% endfor %}
             </tr>
