@@ -1,6 +1,6 @@
 <section class="px-8 py-24 container mx-auto h-full">
-	<div class="flex items-center">
-		<div class="pr-16 w-1/2">
+	<div class="flex flex-col-reverse lg:flex-row lg:items-center">
+		<div class="pr-16 mt-8 lg:mt-0 lg:w-1/2">
 			<i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; Introduction &#47;&#62;</i>
 			<h2 class="text-3xl">{{site.intro.title}}</h2>
 			{% for paragraph in site.intro.content %}
@@ -8,7 +8,7 @@
 			{% endfor %}
 			<a class="inline-block text-blue-500 px-8 py-3 bg-gray-200 hover:bg-blue-200 hover:text-blue-800" href="/photos">View All Photos</a>
 		</div>
-		<div class=" w-1/2">
+		<div class="lg:w-1/2">
 			<div id="fb-root"></div>
 			<script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0"></script>
 			<div class="overflow-hidden rounded-lg fb-video" data-href="{{site.intro.fb_video_url}}">
