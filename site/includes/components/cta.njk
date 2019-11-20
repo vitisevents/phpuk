@@ -5,11 +5,11 @@
         <div class="text-center">
           <span class="block font-bold text-xl lg:text-4xl text-blue-500">{{feature.stat}}</span>
           <span class="hidden lg:block text-gray-500 font-mono text-sm">{{feature.title}}</span>
-          <span class="block lg:hidden text-gray-500 font-mono text-sm">{{feature.short}}</span>
+          <span class="block lg:hidden text-gray-500 font-mono text-xs">{{feature.short}}</span>
         </div>
       {% endfor %}
       <div>
-        <a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="{{site.tickets_url}}" target="_blank" rel="noopener">Get Tickets</a>
+        <a class="inline-block text-xs lg:text-sm uppercase tracking-widest rounded-full py-2 lg:py-3 px-3 lg:px-6 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="{{site.tickets_url}}" target="_blank" rel="noopener">Get Tickets</a>
       </div>
     </div>
   </div>
