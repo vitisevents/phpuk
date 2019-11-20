@@ -60,13 +60,15 @@ title: Schedule
                     {% endif %}
                   </div>
                   {% if slot.slottype == "talks" %}
-                    <p class="short-description">
-                      {{track.track.description}}
-                      <a class="more">See More</a>
-                    </p>
-                    <div class="full-description">
-                      {{track.track.description}}
-                      <a class="less">See Less</a>
+                    <div>
+                      <p class="toggle-schedule-section max-w-sm">
+                        {{track.track.description | truncate(80)}}
+                        <span class="toggle-schedule-info text-blue-500 hover:text-blue-900 block mt-2 text-sm cursor-pointer">See More</span>
+                      </p>
+                      <div class="toggle-schedule-section hidden max-w-sm">
+                        {{track.track.description | safe}}
+                        <span class="toggle-schedule-info text-blue-500 hover:text-blue-900 block mt-2 text-sm cursor-pointer">See Less</span>
+                      </div>
                     </div>
                   {% else %}
                     <p class="description">

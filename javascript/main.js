@@ -131,6 +131,22 @@ if (hero) {
     autoplayButtonOutput: false
   });
 }
+var schedule_toggles = document.querySelectorAll(".toggle-schedule-info");
+
+var getSiblings = function getSiblings(elem) {
+  return Array.prototype.filter.call(elem.parentNode.children, function (sibling) {
+    return sibling !== elem;
+  });
+};
+
+schedule_toggles.forEach(function (toggle) {
+  toggle.addEventListener("click", function () {
+    toggle.parentElement.classList.toggle("hidden");
+    getSiblings(toggle.parentElement).forEach(function (sibling) {
+      sibling.classList.toggle("hidden");
+    });
+  });
+});
 var testimonials = document.querySelector(".testimonials-slider");
 
 if (testimonials) {
