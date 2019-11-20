@@ -77,6 +77,7 @@ var header = document.querySelector('.header');
 var mql = window.matchMedia('(min-width: 768px)');
 var navContent = document.querySelector('.nav-content');
 var navToggle = document.querySelector('.nav-content-toggle');
+var windowWidth = window.innerWidth;
 
 function toggleHeaderClasses(type) {
   if (type == 'add') {
@@ -119,7 +120,10 @@ function toggleNav() {
 toggleNav();
 toggleHeader();
 window.addEventListener('resize', function (e) {
-  toggleNav();
+  if (window.innerWidth != windowWidth) {
+    windowWidth = window.innerWidth;
+    toggleNav();
+  }
 });
 navToggle.addEventListener('click', function () {
   toggleNav();

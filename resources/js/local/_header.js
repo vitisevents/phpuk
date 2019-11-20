@@ -8,6 +8,7 @@ let header = document.querySelector('.header')
 let mql = window.matchMedia('(min-width: 768px)')
 let navContent = document.querySelector('.nav-content')
 let navToggle = document.querySelector('.nav-content-toggle')
+var windowWidth = window.innerWidth
 
 function toggleHeaderClasses(type) {
   if (type == 'add') {
@@ -63,7 +64,10 @@ toggleNav()
 toggleHeader()
 
 window.addEventListener('resize', e => {
-  toggleNav()
+  if (window.innerWidth != windowWidth) {
+    windowWidth = window.innerWidth
+    toggleNav()
+  }
 })
 
 navToggle.addEventListener('click', () => {
