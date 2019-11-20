@@ -7,7 +7,7 @@
       {% if meta_title %}{{ meta_title }}
       {% else %}{{ title }}
       {% endif %} | {{ site.name }}</title>
-    <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
+    <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
     {% if page.fileSlug === "blog" %}
