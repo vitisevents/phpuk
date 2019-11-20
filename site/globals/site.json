@@ -48,7 +48,6 @@
     "description": "PHP UK Conference 2019 was another great success! A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible."
   },
   "images": {
-    "favicon": "/images/favicon.ico",
     "twitter": "/images/meta/twitter.jpg",
     "og": "/images/meta/og.jpg"
   },
