@@ -9295,6 +9295,10 @@ h6 {
   height: 32rem;
 }
 
+.speaker-column {
+  width: 600px;
+}
+
 .speaker-photo {
   filter: grayscale(100%) blur(0px);
   transition: filter 0.35s ease-in-out;

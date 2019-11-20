@@ -1,6 +1,10 @@
 //========== Speaker ==========//
 .speaker {
   height: 32rem;
+
+  &-column {
+    width: 600px;
+  }
   &-photo {
     filter: grayscale(100%) blur(0px);
     // mix-blend-mode: hard-light;
