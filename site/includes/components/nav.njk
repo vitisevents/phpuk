@@ -1,8 +1,8 @@
 <nav id="nav" class="nav relative flex-grow text-right">
-  <span class="inline-block lg:hidden">
+  <span class="nav-content-toggle inline-block lg:hidden">
     <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
   </span>
-  <div class="nav-content flex justify-end absolute top-20 right-0 lg:top-0 lg:relative bg-white lg:bg-transparent rounded-sm lg:rounded-none p-4 lg:p-0 shadow-lg lg:shadow-none">
+  <div class="nav-content animated fadeIn flex justify-end absolute top-20 right-0 lg:top-0 lg:relative bg-white lg:bg-transparent rounded-sm lg:rounded-none p-4 lg:p-0 shadow-lg lg:shadow-none">
     <ul class="menu flex flex-col md:flex-row items-center list-reset text-base">
       {% for item in navigation.main %}
         <li class="level-1 mb-4 md:mr-10 md:mb-0">

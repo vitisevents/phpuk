@@ -74,6 +74,9 @@ var lastKnownScrollPosition = 0;
 var ticking = false;
 var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 var header = document.querySelector('.header');
+var mql = window.matchMedia('(min-width: 768px)');
+var navContent = document.querySelector('.nav-content');
+var navToggle = document.querySelector('.nav-content-toggle');
 
 function toggleHeaderClasses(type) {
   if (type == 'add') {
@@ -105,7 +108,22 @@ function toggleHeader(scrollPos) {
   }
 }
 
+function toggleNav() {
+  if (mql.matches) {
+    navContent.classList.remove('hidden');
+  } else {
+    navContent.classList.toggle('hidden');
+  }
+}
+
+toggleNav();
 toggleHeader();
+window.addEventListener('resize', function (e) {
+  toggleNav();
+});
+navToggle.addEventListener('click', function () {
+  toggleNav();
+});
 window.addEventListener('scroll', function (e) {
   lastKnownScrollPosition = window.scrollY;
 

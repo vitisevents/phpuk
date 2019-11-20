@@ -5,6 +5,9 @@ var viewportHeight = Math.max(
   window.innerHeight || 0
 )
 let header = document.querySelector('.header')
+let mql = window.matchMedia('(min-width: 768px)')
+let navContent = document.querySelector('.nav-content')
+let navToggle = document.querySelector('.nav-content-toggle')
 
 function toggleHeaderClasses(type) {
   if (type == 'add') {
@@ -47,13 +50,31 @@ function toggleHeader(scrollPos) {
   }
 }
 
+function toggleNav() {
+  if (mql.matches) {
+    navContent.classList.remove('hidden')
+  } else {
+    navContent.classList.toggle('hidden')
+  }
+}
+
+toggleNav()
+
 toggleHeader()
 
-window.addEventListener('scroll', function(e) {
+window.addEventListener('resize', e => {
+  toggleNav()
+})
+
+navToggle.addEventListener('click', () => {
+  toggleNav()
+})
+
+window.addEventListener('scroll', e => {
   lastKnownScrollPosition = window.scrollY
 
   if (!ticking) {
-    window.requestAnimationFrame(function() {
+    window.requestAnimationFrame(() => {
       toggleHeader(lastKnownScrollPosition)
       ticking = false
     })
