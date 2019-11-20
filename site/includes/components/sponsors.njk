@@ -6,28 +6,14 @@
 				<h2 class="text-4xl">Amazing Partners &amp; Sponsors</h2>
 				<a class="inline-block text-blue-500 px-8 py-3 bg-gray-100 hover:bg-blue-100 hover:text-blue-800" href="/sponsors/packages/">Become a sponsor</a>
 			</div>
-			<div class=" w-2/3">
-				{% for sponsor in sponsors.sponsors %}
-					<div class="max-w-sm w-full lg:max-w-full lg:flex">
-						<div class="h-48 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
-							<img class="mb-4 w-64" src="{{sponsor.logo.url}}" alt="{{sponsor.logo.alt}}"/>
-							<span class="
-								inline-block
-								{% if sponsor.type == "platinum" %} px-4 py-1 bg-gray-200 text-gray-700 border-4 border-gray-100 {% endif %}
-								{% if sponsor.type == "track" %} px-2 bg-blue-200 text-blue-800 {% endif %}
-								{% if sponsor.type == "gold" %} px-2 bg-yellow-200 text-yellow-800 {% endif %}
-								{% if sponsor.type == "silver" %} px-2 bg-gray-100 text-gray-600 {% endif %}
-								text-xs rounded-full uppercase font-semibold tracking-wider">{{sponsor.type}} Sponsor</span>
-
-						</div>
-						<div class="pl-8 pb-8 flex flex-col justify-between leading-normal">
-							<div class="mb-8">
-								<div class="text-gray-900 font-bold text-2xl mb-2">{{sponsor.name}}</div>
-								<span class="block text-gray-500 font-mono text-sm">{{sponsor.description}}</span>
-							</div>
-						</div>
-					</div>
-				{% endfor %}
+			<div class="w-2/3">
+        <div class="flex flex-wrap justify-center items-center">
+          {% for sponsor in sponsors.sponsors %}
+            <a href="{{sponsor.url}}" class="sponsor-icon mx-8 mt-8" target="_blank">
+              <img class="h-16" src="{{sponsor.logo.url}}" alt="{{sponsor.logo.alt}}"/>
+            </a>
+          {% endfor %}
+        </div>
 			</div>
 		</div>
 	</div>

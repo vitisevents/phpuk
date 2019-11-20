@@ -1,0 +1,11 @@
+//========== Sponsor Icon ==========//
+.sponsor {
+  &-icon {
+    transition: filter 0.15s ease-in-out;
+    filter: saturate(0);
+
+    &:hover {
+      filter: saturate(1);
+    }
+  }
+}
