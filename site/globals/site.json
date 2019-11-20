@@ -55,5 +55,8 @@
     "facebook": "https://www.facebook.com/ukconference/",
     "twitter": "https://twitter.com/phpukconference",
     "youtube": "https://www.youtube.com/user/phpukconference"
+  },
+  "author": {
+    "handle": "PHPUKConference"
   }
 }
