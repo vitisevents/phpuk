@@ -1,10 +1,11 @@
-<aside id="cta" class="fixed bottom-8 w-full z-20">
-  <div class="container px-8 mx-auto">
-    <div class="rounded-sm shadow-xl bg-white flex justify-between items-center px-8 py-4">
+<aside id="cta" class="fixed bottom-0 lg:bottom-8 w-full z-20">
+  <div class="container lg:px-8 mx-auto">
+    <div class="lg:rounded-sm shadow-xl bg-white flex justify-between items-center px-4 lg:px-8 py-4">
       {% for feature in features.features %}
         <div class="text-center">
-          <span class="block font-bold text-4xl text-blue-500">{{feature.stat}}</span>
-          <span class="block text-gray-500 font-mono text-sm">{{feature.title}}</span>
+          <span class="block font-bold text-xl lg:text-4xl text-blue-500">{{feature.stat}}</span>
+          <span class="hidden lg:block text-gray-500 font-mono text-sm">{{feature.title}}</span>
+          <span class="block lg:hidden text-gray-500 font-mono text-sm">{{feature.short}}</span>
         </div>
       {% endfor %}
       <div>

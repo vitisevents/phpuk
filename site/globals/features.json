@@ -2,19 +2,23 @@
   "features": [
     {
       "stat": "3*",
-      "title": "days of learning"
+      "title": "days of learning",
+      "short": "days"
     },
     {
       "stat": "3",
-      "title": "simultanious tracks"
+      "title": "simultanious tracks",
+      "short": "tracks"
     },
     {
       "stat": "15th",
-      "title": "annual conference"
+      "title": "annual conference",
+      "short": "conference"
     },
     {
       "stat": "30",
-      "title": "hand-picked speakers"
+      "title": "hand-picked speakers",
+      "short": "speakers"
     }
   ]
 }
