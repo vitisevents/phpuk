@@ -7,13 +7,13 @@
 		</div>
 		{% for person in organisers.people %}
 			<article class="p-4 mb-8 border">
-				<header class="flex items-center mb-4">
+				<header class="flex items-start md:items-center mb-4">
 					<img class="rounded-full mr-4 w-16" src="{{person.avatar}}" alt="{{person.name}}"/>
 					<div class="flex-grow">
 						<h4 class="text-xl mb-0 capitalize">{{person.name}}</h4>
 						<div class="text-gray-600 text-sm max-w-2xl">{{person.role}}</div>
 					</div>
-					<div class="text-right">
+					<div class="text-right w-48">
 						{% if person.links.twitter %}
 							<a class="inline-block ml-4 w-8 text-blue-400 hover:text-blue-500 w-6" href="{{person.links.twitter}}" target="_blank">
 								{% include 'components/icons/twitter.html' %}
@@ -32,7 +32,7 @@
 					</div>
 				</header>
 				<p class="font-mono text-sm text-gray-800 max-w-4xl">{{person.bio}}</p>
-				<div class="flex items-center">
+				<div class="flex items-center flex-wrap">
 					{% for link in person.links.websites %}
 						<a class="font-mono text-sm mt-5 mr-5 text-blue-400 hover:text-blue-500" href="{{link.url}}">{{link.title}}</a>
 					{% endfor %}
