@@ -12,7 +12,7 @@
     "title": "Speakers",
     "description": "PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.",
     "hero": "/images/speakers-hero.jpg",
-    "papers_open": true
+    "papers_open": false
   },
   "sponsors": {
     "title": "Sponsors & Partners",
