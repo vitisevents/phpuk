@@ -1,9 +1,9 @@
 //========== Speaker ==========//
 .speaker {
-  height: 32rem;
+  // height: 32rem;
 
   &-column {
-    width: 600px;
+    width: 100%;
   }
   &-photo {
     filter: grayscale(100%) blur(0px);
@@ -40,6 +40,16 @@
         display: block;
         animation: fadeInUp 0.35s ease-in-out;
       }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .speaker {
+    height: 32rem;
+
+    &-column {
+      width: 600px;
     }
   }
 }

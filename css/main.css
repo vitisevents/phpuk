@@ -9297,12 +9297,8 @@ h6 {
   height: 50vh;
 }
 
-.speaker {
-  height: 32rem;
-}
-
 .speaker-column {
-  width: 600px;
+  width: 100%;
 }
 
 .speaker-photo {
@@ -9334,6 +9330,16 @@ h6 {
 .speaker:hover .speaker-bio {
   display: block;
   animation: fadeInUp 0.35s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .speaker {
+    height: 32rem;
+  }
+
+  .speaker-column {
+    width: 600px;
+  }
 }
 
 .sponsor-icon {

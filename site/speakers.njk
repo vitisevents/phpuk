@@ -71,13 +71,13 @@ title: Speakers
         <li>Invitation to the speaker’s dinner</li>
       </ul>
     </section>
-    <div class="bg-black p-10 rounded-sm my-8">
-      <div class="flex items-center">
+    <div class="bg-black p-4 md:p-10 rounded-sm my-8">
+      <div class="flex flex-col lg:flex-row lg:items-center">
         <div class="max-w-2xl">
           <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; sumbit_a_paper &#47;&#62;</i>
-          <h3 class="text-3xl text-white mb-0 mt-4">If you'd like to submit a paper for consideration to speak at the conference, learn more and submit your details here.</h3>
+          <h3 class="text-2xl md:text-3xl text-white mb-8 lg:mb-0 mt-4">If you'd like to submit a paper for consideration to speak at the conference, learn more and submit your details here.</h3>
         </div>
-        <div class="text-right flex-grow">
+        <div class="lg:text-right flex-grow">
           <a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="https://www.papercall.io/phpuk2020" target="_blank">Submit here</a>
         </div>
       </div>
@@ -86,7 +86,7 @@ title: Speakers
     <div class="flex flex-wrap justify-center">
       {% for speaker in speakers %}
         <div class="speaker-column px-4 mb-8">
-          <article class="speaker relative bg-purple-900 rounded-lg overflow-hidden">
+          <article class="speaker relative bg-purple-900 rounded-lg overflow-hidden pb-20 md:pb-0">
             <div class="speaker-photo absolute top-0 left-0 bg-cover bg-center w-full h-full" style="background-image: url({{speaker.photo}});"></div>
             <div class="speaker-gradient absolute bg-blue-400 top-0 left-0 w-full h-full opacity-75"></div>
             <div class="relative p-8">
