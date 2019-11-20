@@ -9056,6 +9056,12 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  .nav-black .nav-content {
+    color: #000;
+  }
+}
+
 .article-card .featured-image-link:hover .featured-image {
   transform: scale(1.1);
 }

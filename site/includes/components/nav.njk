@@ -1,18 +1,23 @@
-<nav id="nav" class="nav flex">
-  <ul class="menu flex flex-col md:flex-row items-center list-reset text-base">
-    {% for item in navigation.main %}
-      <li class="level-1 mb-4 md:mr-10 md:mb-0">
-        <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+<nav id="nav" class="nav relative flex-grow text-right">
+  <span class="inline-block lg:hidden">
+    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+  </span>
+  <div class="nav-content flex justify-end absolute top-20 right-0 lg:top-0 lg:relative bg-white lg:bg-transparent rounded-sm lg:rounded-none p-4 lg:p-0 shadow-lg lg:shadow-none">
+    <ul class="menu flex flex-col md:flex-row items-center list-reset text-base">
+      {% for item in navigation.main %}
+        <li class="level-1 mb-4 md:mr-10 md:mb-0">
+          <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+          </a>
+        </li>
+      {% endfor %}
+      <li>
+        <a class="inline-block flex text-sm uppercase tracking-widest rounded-full py-3 px-6 font-semibold border-2 hover:bg-white hover:text-black" href="{{ site.tickets_url }}" target="_blank" rel="noopener">
+          <svg class="fill-current w-4 mr-4" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40" x="0px" y="0px">
+            <title>ticket</title><path d="M18 10l4 4-8 8-4-4zM31.298 9.297l-2.297-2.297-1 1c-0.512 0.512-1.219 0.828-2 0.828-1.562 0-2.829-1.266-2.829-2.828 0-0.781 0.317-1.489 0.829-2.001l1-1-2.297-2.297c-0.936-0.936-2.469-0.936-3.405 0l-18.595 18.595c-0.936 0.936-0.936 2.469 0 3.405l2.297 2.297 0.999-0.999c0.512-0.513 1.22-0.83 2.001-0.83 1.562 0 2.828 1.266 2.828 2.828 0 0.781-0.317 1.489-0.829 2.001l-1 1 2.297 2.297c0.936 0.936 2.469 0.936 3.405 0l18.595-18.595c0.936-0.937 0.936-2.469 0-3.406zM14 26l-8-8 12-12 8 8-12 12z"/>
+          </svg>
+          Tickets
         </a>
       </li>
-    {% endfor %}
-    <li>
-      <a class="inline-block flex text-sm uppercase tracking-widest rounded-full py-3 px-6 font-semibold border-2 hover:bg-white hover:text-black" href="{{ site.tickets_url }}" target="_blank" rel="noopener">
-        <svg class="fill-current w-4 mr-4" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40" x="0px" y="0px">
-          <title>ticket</title><path d="M18 10l4 4-8 8-4-4zM31.298 9.297l-2.297-2.297-1 1c-0.512 0.512-1.219 0.828-2 0.828-1.562 0-2.829-1.266-2.829-2.828 0-0.781 0.317-1.489 0.829-2.001l1-1-2.297-2.297c-0.936-0.936-2.469-0.936-3.405 0l-18.595 18.595c-0.936 0.936-0.936 2.469 0 3.405l2.297 2.297 0.999-0.999c0.512-0.513 1.22-0.83 2.001-0.83 1.562 0 2.828 1.266 2.828 2.828 0 0.781-0.317 1.489-0.829 2.001l-1 1 2.297 2.297c0.936 0.936 2.469 0.936 3.405 0l18.595-18.595c0.936-0.937 0.936-2.469 0-3.406zM14 26l-8-8 12-12 8 8-12 12z"/>
-        </svg>
-        Tickets
-      </a>
-    </li>
-  </ul>
+    </ul>
+  </div>
 </nav>
