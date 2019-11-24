@@ -1,0 +1,25 @@
+//==========  Gallery ==========//
+.gallery {
+  // display: flex;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+  // padding: 10px;
+  // height: 100vw;
+
+  &-item {
+    width: 30%;
+    // margin-bottom: 10px;
+    // border-radius: 10px;
+    // width: 20%;
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: both;
+    margin-bottom: 10px;
+  }
+}
+
+// Disable if you want to reduce file size
+@for $i from 1 to 100 {
+  .gallery-item:nth-child(#{$i}) {
+    animation-delay: $i * 0.25s;
+  }
+}

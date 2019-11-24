@@ -34,5 +34,8 @@
     "gulp-uglify": "^3.0.2",
     "html-minifier": "^4.0.0",
     "tailwindcss": "^1.0.5"
+  },
+  "dependencies": {
+    "fast-glob": "^3.1.0"
   }
 }
