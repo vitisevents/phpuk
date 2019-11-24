@@ -9,7 +9,7 @@
 			<a href="/videos" class="inline-block text-blue-500 px-8 py-3 bg-gray-100 hover:bg-blue-100 hover:text-blue-800">View all Videos</a>
 		</div>
 	</div>
-	<div class="flex flex-col">
+	<div class="flex flex-col md:flex-row">
 		{% for video in collections.featured | reverse %}
 			{% if loop.index0 < 3 %}
 				<a class="block hover:text-blue-500 mb-8" href="{{ video.url }}">
