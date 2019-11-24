@@ -25,6 +25,36 @@
       "url": "/venue/"
     }
   ],
+  "footer": [
+    {
+      "label": "Diversity",
+      "url": "/diversity/"
+    },
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Speakers",
+      "url": "/speakers/"
+    },
+    {
+      "label": "Schedule",
+      "url": "/schedule/"
+    },
+    {
+      "label": "Sponsors",
+      "url": "/sponsors/"
+    },
+    {
+      "label": "Socials",
+      "url": "/socials/"
+    },
+    {
+      "label": "Venue",
+      "url": "/venue/"
+    }
+  ],
   "support": [
     {
       "label": "Email us",

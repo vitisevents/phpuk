@@ -6,7 +6,7 @@
           <li class="mb-4 md:mr-5 md:mb-0">
             <span class="link text-sm tracking-wider text-white font-semibold hover:text-white uppercase">About</span>
           </li>
-          {% for item in navigation.main %}
+          {% for item in navigation.footer %}
             <li class="mb-4 md:mr-5 md:mb-0">
               <a href="{{ item.url | safe }}" class="link text-sm tracking-wide text-blue-200 hover:text-white"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
               </a>
