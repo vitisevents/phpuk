@@ -12,6 +12,11 @@
   },
   "author": "PHP London",
   "license": "MIT",
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
     "@babel/core": "^7.5.5",
