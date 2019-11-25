@@ -1,13 +1,13 @@
 {
   "features": [
     {
-      "stat": "3*",
+      "stat": "3",
       "title": "days of learning",
       "short": "days"
     },
     {
       "stat": "3",
-      "title": "simultanious tracks",
+      "title": "simultaneous tracks",
       "short": "tracks"
     },
     {

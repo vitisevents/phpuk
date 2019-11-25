@@ -18,9 +18,11 @@
     {# include main.css if in development mode #}
     {% if helpers.environment == "development" %}
       <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/webfonts.css">
     {% else %}
       {# else, use the minified css file for production #}
       <link rel="stylesheet" href="/css/main.min.css">
+      <link rel="stylesheet" href="/css/webfonts.min.css">
     {% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 

@@ -246,7 +246,8 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         "monospace"
-      ]
+      ],
+      headings: ["Gilroy-Bold", "sans-serif"]
     },
     fontSize: {
       xs: "0.75rem",
@@ -343,6 +344,7 @@ module.exports = {
     },
     minHeight: {
       "0": "0",
+      "75": "75vh",
       full: "100%",
       screen: "100vh"
     },

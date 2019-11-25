@@ -20,8 +20,12 @@ const uglify = require("gulp-uglify");
  * File paths
  */
 const paths = {
+  webfonts: {
+    source: "./resources/webfonts/*",
+    dest: "webfonts/"
+  },
   sass: {
-    source: "./resources/sass/main.scss",
+    source: "./resources/sass/*.scss",
     dest: "css/"
   },
   javascript: {
@@ -74,7 +78,7 @@ const compileCSS = done => {
 };
 
 /**
- * Concatinate and compile scripts
+ * Concatenate and compile scripts
  */
 const compileJS = done => {
   return src(paths.javascript.source)
@@ -114,6 +118,20 @@ const minifyJS = done => {
       })
     );
   done();
+};
+
+/**
+ * Copy webfonts
+ */
+const moveFonts = done => {
+    return src(paths.webfonts.source)
+        .pipe(dest(paths.webfonts.dest))
+        .pipe(
+            notify({
+                message: "Fonts moved"
+            })
+        );
+    done();
 };
 
 /**
@@ -216,4 +234,4 @@ exports.build = series(compileCSSPreflight, minifyCSSPreflight, minifyJS);
  * This will run while you're building the theme and automatically compile any changes.
  * This includes any html changes you make so that the PurgeCSS file will be updated.
  */
-exports.default = series(compileCSS, compileJS, watchFiles);
+exports.default = series(compileCSS, compileJS, watchFiles, moveFonts);

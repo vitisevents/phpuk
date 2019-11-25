@@ -3757,6 +3757,10 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-headings {
+  font-family: Gilroy-Bold, sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -5191,6 +5195,10 @@ video {
 
 .min-h-0 {
   min-height: 0;
+}
+
+.min-h-75 {
+  min-height: 75vh;
 }
 
 .min-h-full {
@@ -12516,6 +12524,10 @@ h6 {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-headings {
+    font-family: Gilroy-Bold, sans-serif;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -13950,6 +13962,10 @@ h6 {
 
   .sm\:min-h-0 {
     min-height: 0;
+  }
+
+  .sm\:min-h-75 {
+    min-height: 75vh;
   }
 
   .sm\:min-h-full {
@@ -20768,6 +20784,10 @@ h6 {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-headings {
+    font-family: Gilroy-Bold, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -22202,6 +22222,10 @@ h6 {
 
   .md\:min-h-0 {
     min-height: 0;
+  }
+
+  .md\:min-h-75 {
+    min-height: 75vh;
   }
 
   .md\:min-h-full {
@@ -29020,6 +29044,10 @@ h6 {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-headings {
+    font-family: Gilroy-Bold, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -30454,6 +30482,10 @@ h6 {
 
   .lg\:min-h-0 {
     min-height: 0;
+  }
+
+  .lg\:min-h-75 {
+    min-height: 75vh;
   }
 
   .lg\:min-h-full {
@@ -37272,6 +37304,10 @@ h6 {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-headings {
+    font-family: Gilroy-Bold, sans-serif;
+  }
+
   .xl\:font-hairline {
     font-weight: 100;
   }
@@ -38706,6 +38742,10 @@ h6 {
 
   .xl\:min-h-0 {
     min-height: 0;
+  }
+
+  .xl\:min-h-75 {
+    min-height: 75vh;
   }
 
   .xl\:min-h-full {

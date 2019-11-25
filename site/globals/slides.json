@@ -1,10 +1,11 @@
 {
   "hero": [
     {
-      "img": "/images/slides/talk.jpg",
+      "img": "/images/slides/conference.jpg",
       "heading": "19-20 FEB 2020 - The Brewery, City of London",
-      "title": "PHP UK Conference",
-      "additional_content": "We are pleased to announce the 15th Annual PHP UK Conference. An optional workshop day followed by two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training."
+      "title1": "4 full day workshops",
+      "title2": "2 days of inspirational talks",
+      "additional_content": "The largest dedicated PHP event in Europe, PHP UK welcomes hundreds of leading developers to London for three days of workshops and talks, networking and socials. We invite the best speakers to share their unique insights and PHP best practice with you."
     }
   ]
 }
