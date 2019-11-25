@@ -70,19 +70,6 @@ if (clock) {
 // {
 //     document.querySelector('.content > p').classList.add('intro')
 // }
-var elem = document.querySelector('.gallery');
-var msnry = new Masonry(elem, {
-  // options
-  itemSelector: '.gallery-item',
-  columnWidth: '.gallery-item',
-  percentPosition: true
-}); // element argument can be a selector string
-//   for an individual element
-
-var msnry = new Masonry('.gallery', {
-  // options
-  gutter: 10
-});
 var lastKnownScrollPosition = 0;
 var ticking = false;
 var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
