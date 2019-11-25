@@ -6,6 +6,8 @@
   column-gap: 1rem;
   column-gap: 1.5em;
   font-size: 0.85em;
+  max-width: 3300px;
+  @apply mx-auto;
 }
 .item {
   display: inline-block;
@@ -35,5 +37,10 @@
 @media only screen and (min-width: 1201px) {
   .masonry {
     column-count: 3;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .masonry {
+    column-count: 4;
   }
 }
