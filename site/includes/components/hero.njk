@@ -7,9 +7,15 @@
 					<div class="flex items-center min-h-full">
 						<div class="">
 							<i class="font-mono lowercase">&#60; {{slide.heading}} &#47;&#62;</i>
-							<h1 class="mt-8 lg:mt-0 mb-0 text-2xl md:text-4xl lg:text-6xl font-bold font-headings">{{slide.title1}}</h1>
-							<h1 class="mt-1 lg:mt-0 text-2xl md:text-4xl lg:text-6xl font-medium">{{slide.title2}}</h1>
+							<h1 class="mt-8 lg:mt-0 mb-0 text-2xl md:text-4xl lg:text-6xl font-bold">{{slide.title1}}</h1>
+							<h1 class="mt-1 lg:mt-0 text-2xl md:text-4xl lg:text-6xl font-bold">{{slide.title2}}</h1>
 							<p class="max-w-3xl text-2xl">{{slide.additional_content}}</p>
+							<div class="flex">
+                                <a class="inline-block flex flex-shrink-1 text-xs lg:text-sm uppercase tracking-widest py-2 lg:py-3 px-3 lg:pr-6 lg:pl-4 mt-8 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="{{slide.link}}" target="_blank" rel="noopener">
+                                    <svg class="fill-current w-4 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.458 9.458"><defs></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Calque_1" data-name="Calque 1"><path id="Arrow" class="cls-1" d="M0,0V9.458H9.458V0ZM5.03,7H3.916L5.7,5.212H2.131V4.247H5.7L3.916,2.46H5.03l2.3,2.269Z"/></g></g></svg>
+                                    {{slide.linkText}}
+                                </a>
+							</div>
 						</div>
 					</div>
 				</section>
