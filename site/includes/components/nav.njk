@@ -5,9 +5,16 @@
   <div class="nav-content animated fadeIn flex justify-end absolute top-20 right-0 lg:top-0 lg:relative bg-white lg:bg-transparent rounded-sm lg:rounded-none p-4 lg:p-0 shadow-lg lg:shadow-none">
     <ul class="menu flex flex-col lg:flex-row items-center list-reset text-base">
       {% for item in navigation.main %}
-        <li class="level-1 mb-4 lg:mr-8 xl:mr-10 lg:mb-0">
+        <li class="nav-item level-1 mb-4 lg:mr-8 xl:mr-10 lg:mb-0 relative">
           <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
           </a>
+          {% if item.sub %}
+            <ul class="nav-item-sub bg-white rounded absolute top-6 right-0 w-full text-center overflow-hidden">
+              {% for sub in item.sub %}
+                <li><a class="inline-block text-black py-1 px-2 w-full hover:bg-gray-100" href="{{ sub.url | safe }}">{{sub.label}}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </li>
       {% endfor %}
       <li>

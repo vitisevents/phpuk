@@ -14,7 +14,13 @@
     },
     {
       "label": "Sponsors",
-      "url": "/sponsors/"
+      "url": "/sponsors/",
+      "sub": [
+        {
+          "label": "Packages",
+          "url": "/sponsors/packages"
+        }
+      ]
     },
     {
       "label": "Socials",

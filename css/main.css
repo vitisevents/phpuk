@@ -9056,6 +9056,15 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+.nav-item-sub {
+  display: none;
+  animation: fadeInUp 0.15s ease-in-out;
+}
+
+.nav-item:hover .nav-item-sub {
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
   .nav-black .nav-content {
     color: #000;
