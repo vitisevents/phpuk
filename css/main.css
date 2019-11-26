@@ -9396,9 +9396,8 @@ h6 {
 
 .masonry {
   /* Masonry container */
-  column-count: 4;
-  column-gap: 1rem;
-  column-gap: 1.5em;
+  column-count: 3;
+  column-gap: .2rem;
   font-size: 0.85em;
   max-width: 3300px;
   margin-left: auto;
@@ -9435,7 +9434,7 @@ h6 {
 
 @media only screen and (min-width: 1201px) {
   .masonry {
-    column-count: 3;
+    column-count: 6;
   }
 }
 

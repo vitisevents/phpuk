@@ -3,9 +3,13 @@
 		<div class="lg:pr-16 mt-8 lg:mt-0 lg:w-1/3">
 			<i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; Introduction &#47;&#62;</i>
 			<h2 class="text-3xl">{{site.intro.title}}</h2>
-			{% for paragraph in site.intro.content %}
-				<p class="text-gray-600 text-xl mb-4">{{paragraph}}</p>
-			{% endfor %}
+			<p class="text-gray-600 text-xl mb-4">Our aim is for PHP UK to offer attendees a forum for learning and networking with the most up-to-date topics in PHP development and related tools, tailored specifically to the needs of developers and CTOs.</p>
+			<p class="text-gray-600 text-xl mb-4">We are pleased to bring the 15th annual PHP UK conference to the tech community - a 3 day conference packed with amazing talks, plentiful networking opportunities and great social events. We hope to see you there!</p>
+
+
+			<!--{% for paragraph in site.intro.content %}-->
+				<!--<p class="text-gray-600 text-xl mb-4">{{paragraph}}</p>-->
+			<!--{% endfor %}-->
 			<a class="inline-block text-blue-500 px-8 py-3 bg-gray-200 hover:bg-blue-200 hover:text-blue-800" href="/photos">View All Photos</a>
 		</div>
 		<div class="w-full lg:w-2/3">
@@ -20,5 +24,4 @@
 			</div>
 		</div>
 	</div>
-	{% include 'components/photos.njk' %}
 </section>

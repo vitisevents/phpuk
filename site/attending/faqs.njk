@@ -1,0 +1,26 @@
+---
+layout: default
+meta_title: Conference FAQs
+body_class: faqs
+title: Conference FAQs
+---
+<section class="relative py-24 pt-40 bg-black bg-cover bg-center" style="background-image: url({{site.sponsors.hero}});">
+    <div class="bg-blue-800 h-full w-full absolute top-0 left-0 opacity-50"></div>
+    <div class="relative px-8 container mx-auto items-center">
+        <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; questions &#47;&#62;</i>
+        <h2 class="text-4xl capitalize text-white">Frequently Asked Questions</h2>
+        <p class="text-sm font-mono text-gray-200 max-w-3xl">{{site.faqs.description}}</p>
+    </div>
+</section>
+<section class="px-8 py-24 container mx-auto h-full bg-white">
+    <ul class="faqs">
+        {% for faq in faqs.faqs %}
+        <li class="faqs__faq lg:max-w-sm w-full lg:max-w-full lg:flex">
+            <div class="faq__question text-gray-900 font-bold text-2xl mt-0 mb-2">{{faq.question}}</div>
+            <div class="faq__answer">
+                <p class="block text-gray-500 font-mono text-sm">{{faq.answer}}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

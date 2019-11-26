@@ -2,7 +2,7 @@ const htmlmin = require('html-minifier')
 const fg = require('fast-glob')
 
 // Run search for images in /gallery and /sponsors
-const galleryImages = fg.sync(['**/photos/*', '!**/dist'])
+const galleryImages = fg.sync(['**/promo-photos/*', '!**/dist'])
 
 module.exports = eleventyConfig => {
   // Add a readable date formatter filter to Nunjucks
