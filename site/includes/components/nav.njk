@@ -9,11 +9,13 @@
           <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
           </a>
           {% if item.sub %}
-            <ul class="nav-item-sub bg-white rounded absolute top-6 right-0 w-full text-center overflow-hidden">
-              {% for sub in item.sub %}
-                <li><a class="inline-block text-black py-1 px-2 w-full hover:bg-gray-100" href="{{ sub.url | safe }}">{{sub.label}}</a></li>
-              {% endfor %}
-            </ul>
+            <div class="nav-item-sub lg:absolute lg:top-6 lg:pt-3 lg:right-0">
+              <ul class="bg-white lg:shadow-xl rounded w-full text-center overflow-hidden">
+                {% for sub in item.sub %}
+                  <li><a class="inline-block text-xs tracking-widest uppercase text-black py-2 lg:px-4 w-full hover:bg-gray-100" href="{{ sub.url | safe }}">{{sub.label}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
           {% endif %}
         </li>
       {% endfor %}

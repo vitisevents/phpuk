@@ -9057,8 +9057,13 @@ h6 {
 }
 
 .nav-item-sub {
-  display: none;
   animation: fadeInUp 0.15s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .nav-item-sub {
+    display: none;
+  }
 }
 
 .nav-item:hover .nav-item-sub {
