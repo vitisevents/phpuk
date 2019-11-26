@@ -3,16 +3,16 @@
     {% include 'components/icons/back.html' %}
   </a>
   <span class="mr-4 mb-4 text-gray-300">|</span>
-  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="mailto:?Subject={{title}}&amp;Body={{site.url + page.url}}" title="Share via email">
+  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="mailto:?Subject={{title}}&amp;Body={{site.url + page.url | safe}}" title="Share via email">
     {% include 'components/icons/email.html' %}
   </a>
-  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="http://www.facebook.com/sharer.php?u={{site.url + page.url}}" target="_blank" title="Share on facebook">
+  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="http://www.facebook.com/sharer.php?u={{site.url + page.url | safe}}" target="_blank" title="Share on facebook">
     {% include 'components/icons/facebook.html' %}
   </a>
-  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url + page.url}}" target="_blank" title="Share on LinkedIn">
+  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{site.url + page.url | safe}}" target="_blank" title="Share on LinkedIn">
     {% include 'components/icons/linkedin.html' %}
   </a>
-  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="https://twitter.com/share?url={{site.url + page.url}}&amp;text={{title}}" target="_blank" title="Share on Twitter">
+  <a class="mr-4 mb-4 w-8 text-gray-400 hover:text-blue-500" href="https://twitter.com/share?url={{site.url + page.url | safe}}&amp;text={{title}}" target="_blank" title="Share on Twitter">
     {% include 'components/icons/twitter.html' %}
   </a>
 </div>
