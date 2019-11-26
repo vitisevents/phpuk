@@ -37,6 +37,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('css')
   eleventyConfig.addPassthroughCopy('javascript')
   eleventyConfig.addPassthroughCopy('images')
+  eleventyConfig.addPassthroughCopy('webfonts')
 
   return {
     templateFormats: ['md', 'njk'],
