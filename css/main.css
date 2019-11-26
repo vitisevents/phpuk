@@ -9027,6 +9027,26 @@ video {
   z-index: auto;
 }
 
+.rotate-1\/8 {
+  transform: rotate(45deg);
+  transform-origin: left;
+}
+
+.rotate-1\/4 {
+  transform: rotate(90deg);
+  transform-origin: left;
+}
+
+.rotate-1\/2 {
+  transform: rotate(180deg);
+  transform-origin: left;
+}
+
+.rotate-3\/4 {
+  transform: rotate(270deg);
+  transform-origin: left;
+}
+
 .transition {
   transition: 0.25s color ease-out;
 }

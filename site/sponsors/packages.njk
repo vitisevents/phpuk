@@ -1,6 +1,6 @@
 ---
 layout: default
-meta_title: Sponsors
+meta_title: Sponsorship Packages
 body_class: sponsors
 title: Sponsors
 ---
@@ -13,19 +13,30 @@ title: Sponsors
   </div>
 </section>
 <section class="px-8 py-24 pb-12 container mx-auto h-full bg-white">
-  <div class="flex items-center mb-24">
+    <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; promote your brand &#47;&#62;</i>
+    <h2 class="text-3xl md:w-full">Become a sponsor</h2>
+    <div class="flex mb-24">
 		<div class="md:w-1/2">
-			<i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; Why &#47;&#62;</i>
-			<h2 class="text-3xl">WHY SPONSOR?</h2>
-      <p class="text-gray-600 text-xl mb-4">The PHP UK Conference relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please contact us.</p>
+            <p class="text-gray-600 text-xl mb-4 mr-20">
+            Sponsor the PHP UK Conference and put your brand in front of hundreds of leading senior developers and CTOs. With packages to suit all budgets, raise your profile by taking advantage of sponsorship opportunities at Europe's largest PHP developer conference.</p>
 		</div>
+		<div class="md:w-1/2">
+            <ul class="text-gray-600 text-l mb-4 list-disc">
+                <li>Grow your brand by increasing visibility among top talent in tech and business</li>
+                <li>Establish your organization as a leader at the forefront of the AI industry</li>
+                <li>Network with CxOs, data scientists, business managers, innovation leaders, and others</li>
+                <li>Position your organization in the big picture narrative about the data industry</li>
+                <li>Showcase your innovations and products to active buyers and influencers</li>
+            </ul>
+        </div>
 	</div>
 </section>
 <section class="px-8 py-24 bg-gray-100">
   <div class="container mx-auto px-8">
     <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; our_packages &#47;&#62;</i>
     <div class="flex flex-col lg:flex-row justify-center mb-6 lg:mb-0">
-      <div class="lg:flex-1 lg:flex-initial lg:w-1/4 bg-white mt-4 flex flex-col">
+      <div class="lg:flex-1 lg:flex-initial lg:w-1/4 bg-white mt-4 flex flex-col relative overflow-hidden">
+        <div class="absolute top-0 right-0 bg-blue-200 text-xl text-white whitespace-no-wrap px-12 -mt-6 -mr-16 rotate-1/8">1 Left</div>
         <div class="p-8 text-3xl font-bold text-center">Track</div>
         <div class="border-0 border-grey-200 border-t border-solid text-sm">
           <div class="text-center text-gray-700 border-0 border-grey-200 border-b border-solid p-4">
@@ -57,7 +68,8 @@ title: Sponsors
           </div>
         </div>
       </div>
-      <div class="lg:flex-1 lg:flex-initial lg:w-1/4 bg-white mt-4 flex flex-col shadow-lg z-10 relative">
+      <div class="lg:flex-1 lg:flex-initial lg:w-1/4 bg-white mt-4 flex flex-col shadow-lg z-10 relative overflow-hidden">
+        <div class="absolute top-0 right-0 bg-red-800 text-xl text-white whitespace-no-wrap px-12 -mt-6 -mr-16 rotate-1/8">Sold!</div>
         <div class="p-8 text-3xl font-bold text-center">Platinum</div>
         <div class="border-0 border-grey-200 border-t border-solid text-sm">
           <div class="text-center text-gray-700 border-0 border-grey-200 border-b border-solid p-4">
@@ -141,6 +153,5 @@ title: Sponsors
 </section>
 <section class="px-8 pt-24 pb-12 container mx-auto h-full bg-white">
   {% include 'components/sponsors-testimonials.njk' %}
-  {% include 'components/sponsors-cta.njk' %}
 </section>
-{% include 'components/sponsors-detailed.njk' %}
+{% include 'components/sponsors.njk' %}

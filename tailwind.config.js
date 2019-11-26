@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 module.exports = {
   prefix: "",
   important: false,
@@ -432,6 +434,12 @@ module.exports = {
       "30": "30",
       "40": "40",
       "50": "50"
+    },
+    rotate: {
+        '1/8': '45deg',
+        '1/4': '90deg',
+        '1/2': '180deg',
+        '3/4': '270deg',
     }
   },
   variants: {
@@ -501,5 +509,17 @@ module.exports = {
     zIndex: ["responsive"]
   },
   corePlugins: {},
-  plugins: []
+  plugins: [
+      function({ addUtilities, config, e }) {
+          const rotateUtilities = _.map(config('theme.rotate'), (value, key) => {
+              return {
+                  [`.${e(`rotate-${key}`)}`]: {
+                      transform: `rotate(${value})`,
+                      transformOrigin: 'left'
+                  }
+              }
+          })
+          addUtilities(rotateUtilities)
+      }
+  ]
 };
