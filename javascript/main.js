@@ -20,6 +20,24 @@ page = function page(name) {
 
   return $body.getAttribute('id') == name;
 };
+var accItem = document.getElementsByClassName('accordion__item');
+var accHD = document.getElementsByClassName('accordion__handle');
+
+for (i = 0; i < accHD.length; i++) {
+  accHD[i].addEventListener('click', toggleItem, false);
+}
+
+function toggleItem() {
+  var itemClass = this.parentNode.className;
+
+  for (i = 0; i < accItem.length; i++) {
+    accItem[i].className = 'accordion__item close';
+  }
+
+  if (itemClass == 'accordion__item close') {
+    this.parentNode.className = 'accordion__item open';
+  }
+}
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor(t / 1000 % 60);

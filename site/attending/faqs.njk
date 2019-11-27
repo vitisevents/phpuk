@@ -15,10 +15,17 @@ title: Conference FAQs
 <section class="px-8 py-24 container mx-auto h-full bg-white">
     <ul class="faqs">
         {% for faq in faqs.faqs %}
-        <li class="faqs__faq lg:max-w-sm w-full lg:max-w-full lg:flex">
-            <div class="faq__question text-gray-900 font-bold text-2xl mt-0 mb-2">{{faq.question}}</div>
-            <div class="faq__answer">
-                <p class="block text-gray-500 font-mono text-sm">{{faq.answer}}</p>
+        <li class="faqs__faq w-full">
+            <div class="accordion__item {% if faq.id != 0 %}close{% else %}open{% endif %}">
+                <div class="faq__question accordion__handle bg-blue-100 p-4 text-gray-900 font-bold text-xl w-full border-t align-middle cursor-pointer">
+                    {{faq.question}}
+                    <span class="float-right mt-2">
+                    {% include 'icons/arrow-right.njk' %}
+                    </span>
+                </div>
+                <div class="faq__answer accordion__content p-4 pb-8">
+                    <p class="block text-gray-500 font-mono text-sm">{{faq.answer}}</p>
+                </div>
             </div>
         </li>
         {% endfor %}

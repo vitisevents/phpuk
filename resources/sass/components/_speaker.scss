@@ -13,9 +13,9 @@
   &-gradient {
     background: rgb(2, 0, 36);
     background: linear-gradient(
-      140deg,
-      rgba(2, 0, 36, 1) 36%,
-      rgba(99, 179, 237, 1) 100%
+      0deg,
+      rgba(2, 0, 36, 1) 6%,
+      rgba(99, 179, 237, 0.1) 30%
     );
   }
   &-bio {
@@ -31,15 +31,41 @@
   }
 
   &:hover {
+    .speaker-gradient {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 0, 36, 1) 6%,
+        rgba(99, 179, 237, 1) 100%
+      );
+    }
     .speaker {
       &-photo {
         filter: grayscale(100%) blur(8px);
         // mix-blend-mode: overlay;
       }
-      &-bio {
+      &-bio,
+      &-name,
+      &-company{
         display: block;
         animation: fadeInUp 0.35s ease-in-out;
       }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .speaker{
+    min-height:100vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .speaker {
+    height: 28rem;
+
+    &-column {
+      width: 50%;
     }
   }
 }
@@ -49,7 +75,7 @@
     height: 32rem;
 
     &-column {
-      width: 600px;
+      width: 25%;
     }
   }
 }
