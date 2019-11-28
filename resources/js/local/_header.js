@@ -59,6 +59,14 @@ function toggleNav() {
   }
 }
 
+function toggleSubNav() {
+  if (mql.matches) {
+    navContent.classList.remove('hidden')
+  } else {
+    navContent.classList.toggle('hidden')
+  }
+}
+
 toggleNav()
 
 toggleHeader()
