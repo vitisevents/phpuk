@@ -4,15 +4,29 @@
   &-item {
     &-sub {
       animation: fadeInUp 0.15s ease-in-out;
+      display: none;
 
+      // @media (min-width: 768px) {
+      //   display: none;
+      // }
+    }
+
+    &-toggle {
+      transform: rotate(180deg);
+      transition: transform 0.15s ease-in-out;
       @media (min-width: 768px) {
         display: none;
       }
     }
 
     &:hover {
-      .nav-item-sub {
-        display: inline-block;
+      .nav-item {
+        &-toggle {
+          transform: rotate(0deg);
+        }
+        &-sub {
+          display: inline-block;
+        }
       }
     }
   }

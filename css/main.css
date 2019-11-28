@@ -9103,12 +9103,22 @@ h6 {
 
 .nav-item-sub {
   animation: fadeInUp 0.15s ease-in-out;
+  display: none;
+}
+
+.nav-item-toggle {
+  transform: rotate(180deg);
+  transition: transform 0.15s ease-in-out;
 }
 
 @media (min-width: 768px) {
-  .nav-item-sub {
+  .nav-item-toggle {
     display: none;
   }
+}
+
+.nav-item:hover .nav-item-toggle {
+  transform: rotate(0deg);
 }
 
 .nav-item:hover .nav-item-sub {
