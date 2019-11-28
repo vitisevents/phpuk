@@ -9172,6 +9172,7 @@ h6 {
 
 .tns-slider > .tns-item {
   box-sizing: border-box;
+  min-height: 270px;
 }
 
 .tns-horizontal.tns-subpixel {
@@ -9272,18 +9273,17 @@ h6 {
 .tns-nav {
   position: absolute;
   left: 0;
-  bottom: 160px;
-  text-align: center;
+  bottom: -50px;
   width: 100%;
   z-index: 2;
 }
 
 .tns-nav button {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
   background-color: transparent;
-  margin: 0 0.5rem;
+  margin: 0 1rem 0 0;
   position: relative;
   outline: none;
   border-radius: 2px;
@@ -9300,13 +9300,12 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
   margin: auto;
-  border-radius: 2px;
 }
 
 .tns-nav button.tns-nav-active {
-  border: 1px solid #fff;
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .tns-vpfix {
