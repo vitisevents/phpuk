@@ -1,0 +1,39 @@
+---
+layout: default
+meta_title: Archive
+body_class: archive
+title: Archive
+---
+<section class="relative py-24 pt-40 bg-black">
+  <div class="relative px-8 container mx-auto items-center">
+    <i class="inline-block font-mono text-blue-200 mb-4 lowercase">&#60; archive &#47;&#62;</i>
+    <h2 class="text-4xl capitalize text-white">Previous conference content</h2>
+  </div>
+</section>
+<main class="main container mx-auto px-8 py-24">
+    {% for year in collections.archive | reverse %}
+      <article class="p-4 pb-0 mb-8 border">
+        <a class="hover:text-blue-500" href="{{ year.data.title }}">
+          <h3 class="text-4xl mb-8">{{year.data.title}}</h3>
+        </a>
+        {% for type in year.data.sponsors %}
+          <div class="mb-4">
+            <i class="block font-mono text-blue-400 mb-2 lowercase">&lt; {{type.name}}_sponsors /&gt;</i>
+            {% for sponsor in type.sponsorlist %}
+              <div class="inline-block mr-4 mb-4">
+                
+                <ul class="sponsors sponsors-{{category.name}}">
+                {% if sponsor.url %}
+                  <a href="{{sponsor.url}}" class="hover:text-blue-500" target="_blank">
+                    <span>{{sponsor.name}}</span>
+                  </a>
+                {% else %}
+                  <span>{{sponsor.name}}</span>
+                {% endif %}
+              </div>
+            {% endfor %}
+          <div>
+        {% endfor %}
+      </article>
+    {% endfor %}
+</main>
