@@ -7,12 +7,13 @@ layout: default
     <h2 class="text-4xl capitalize text-white">{{title}}</h2>
   </div>
 </section>
-<main class="py-24 container px-8 mx-auto h-full bg-white">
-  <div class="markdown">
-    {# include content #}
-    {{ content | safe }}
-  </div>
-</main>
+{% if content %}
+  <main class="py-24 container px-8 mx-auto h-full bg-white">
+    <div class="markdown">
+      {{ content | safe }}
+    </div>
+  </main>
+{% endif %}
 <section class="py-24 bg-white border-t border-gray-200">
 	<div class="px-8 container mx-auto">
 		<div class="flex flex-col lg:flex-row">
@@ -22,7 +23,7 @@ layout: default
 			</div>
 			<div class="lg:w-2/3">
         {% for type in sponsors %}
-          <div class="mb-8">
+          <article class="p-4 pb-0 mb-8 border">
             <h4 class="text-2xl uppercase">{{type.name}}</h4>
             <div class="markdown">
               <ul>
@@ -36,7 +37,7 @@ layout: default
                 {% endfor %}
               </ul>
             </div>
-          </div>
+          </article>
         {% endfor %}
 			</div>
 		</div>
@@ -49,36 +50,29 @@ layout: default
         <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&lt; speakers_archive /&gt;</i>
         <h2 class="text-4xl capitalize">Speakers from {{title}}</h2>
       </div>
-      <div class="flex flex-wrap justify-center w-full ">
+      <div class="px-4">
         {% for speaker in speakers %}
-          <div class="speaker-column flex-1-0 px-4 mb-8">
-            <article class="speaker relative bg-purple-900 rounded-lg overflow-hidden pb-20 md:pb-0">
-              <div class="speaker-photo absolute top-0 left-0 bg-cover bg-center w-full h-full" style="background-image: url({{speaker.photo}});"></div>
-              <div class="speaker-gradient absolute bg-blue-400 top-0 left-0 w-full h-full opacity-75"></div>
-              <div class="absolute bottom-1 p-8">
-                <i class="speaker-company inline-block font-mono text-blue-400 mb-2">&#60; {{speaker.company}} &#47;&#62;</i>
-                <h2 class="speaker-name text-white text-3xl m-0">{{speaker.name}}</h2>
-                <p class="speaker-bio text-gray-200 font-mono text-sm mt-4">{{speaker.bio | safe}}</p>
+          <article class="p-4 mb-8 border">
+            <header class="flex items-start md:items-center mb-4">
+              <div class="flex-grow">
+                <h4 class="text-xl mb-0 capitalize">{{speaker.name}}</h4>
+                <div class="text-gray-600 text-sm max-w-2xl">{{speaker.company}}</div>
               </div>
-              <aside class="absolute top-6 left-6">
-                {% if speaker.twitter %}
-                  <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.twitter}}" target="_blank">
+              <div class="text-right w-48">
+                {% if speaker.handle %}
+                  <a class="inline-block ml-4 w-8 text-blue-400 hover:text-blue-500 w-6" href="https://twitter.com/{{speaker.handle}}" target="_blank">
                     {% include 'components/icons/twitter.html' %}
                   </a>
                 {% endif %}
-                {% if speaker.linkedin %}
-                  <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.linkedin}}" target="_blank">
-                    {% include 'components/icons/linkedin.html' %}
-                  </a>
-                {% endif %}
-                {% if speaker.github %}
-                  <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.github}}" target="_blank">
-                    {% include 'components/icons/github.html' %}
-                  </a>
-                {% endif %}
-              </aside>
-            </article>
-          </div>
+              </div>
+            </header>
+            <div class="font-mono text-sm text-gray-800 max-w-4xl">{{speaker.bio | safe}}</div>
+            <div class="flex items-center flex-wrap">
+              {% for link in person.links.websites %}
+                <a class="font-mono text-sm mt-5 mr-5 text-blue-400 hover:text-blue-500" href="{{link.url}}">{{link.title}}</a>
+              {% endfor %}
+            </div>
+          </article>
         {% endfor %}
       </div>
     </section>
