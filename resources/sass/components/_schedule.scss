@@ -1,0 +1,18 @@
+.track{
+  width:24.5%;
+  vertical-align:top;
+
+  .track-slot-meta{
+    min-height:142px;
+  }
+
+  &.break .track-slot-meta{
+    min-height:0;
+  }
+
+  .speaker{
+    a{
+      text-decoration:underline;
+    }
+  }
+}

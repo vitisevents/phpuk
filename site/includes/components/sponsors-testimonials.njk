@@ -1,44 +1,15 @@
-<section class="py-24 container mx-auto h-full bg-white">
-	<div class="lg:flex">
-		<div class="mb-8 lg:mb-0 lg:pr-16 lg:w-1/3">
-			<i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; testimonials &#47;&#62;</i>
-			<h2 class="text-4xl capitalize">What our sponsors have to say</h2>
-		</div>
-		<div class="lg:w-2/3">
+<section class="py-24 bg-black bg-cover bg-center" role="banner" style="background-image: url(/images/sponsors-hero.jpg);">
+  <div class="container mx-auto px-8">
+    <article class="bg-black p-8 pb-10 shadow-lg rounded-lg max-w-lg">
+      <i class="inline-block font-mono text-blue-500 mb-2 lowercase">&#60; testimonials &#47;&#62;</i>
+      <h3 class="text-2xl md:text-3xl text-white mb-4">From our sponsors</h3>
       <div class="testimonials-slider">
         {% for testimonial in testimonials.testimonials %}
-          <blockquote>
-            <div class="flex">
-              <p class="text-gray-700 text-2xl lg:ml-8">{{testimonial}}</p>
-              <span class="absolute top-0 right-0 md:relative opacity-25 md:opacity-100">
-                <span class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="140px" height="140px" viewBox="0 0 140 140" enable-background="new 0 0 140 140" xml:space="preserve">
-                    <g>
-                    <circle fill="#BDBDBD" cx="2.1" cy="2.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="47.3" cy="2.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="92.5" cy="2.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="137.8" cy="2.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="2.1" cy="47.3" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="47.3" cy="47.3" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="92.5" cy="47.3" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="137.8" cy="47.3" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="2.1" cy="93.2" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="47.3" cy="93.2" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="92.5" cy="93.2" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="137.8" cy="93.2" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="2.1" cy="137.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="47.3" cy="137.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="92.5" cy="137.5" r="1.5"></circle>
-                    <circle fill="#BDBDBD" cx="137.8" cy="137.5" r="1.5"></circle>
-                    </g>
-                  </svg>
-                </span>
-                <span class="absolute top-0 right-0 px-6 py-2 text-5xl bg-blue-500 text-white font-black leading-none">”</span>
-              </span>
-            </div>
-          </blockquote>
+        <blockquote>
+          <p class="text-gray-200 text-xl italic">"{{testimonial}}"</p>
+        </blockquote>
         {% endfor %}
       </div>
-		</div>
-	</div>
+    </article>
+  </div>
 </section>

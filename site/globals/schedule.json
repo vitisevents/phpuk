@@ -3,7 +3,7 @@
     {
       "schedule-wednesday": null,
       "name": "Wednesday 19th February 2020",
-      "description": "<p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><p>We'll have more information on our speakers and talks coming soon.</p>\n",
+      "description": "<p>PHP UK Conference is pleased to bring to you <b>four</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><p>We'll have more information on our main conference speakers and talks coming soon.</p>\n",
       "slots": [
         {
           "time": "8.00",
@@ -26,88 +26,63 @@
           ]
         },
         {
-          "time": "08.30",
-          "slottype": null,
-          "tracks": [
-            {
-              "track": {
-                "colspan": 4,
-                "location": null,
-                "title": null,
-                "description": null
-              }
-            }
-          ]
-        },
-        {
           "time": "09.00",
           "slottype": "workshop",
           "tracks": [
             {
               "track": {
-                "colspan": 2,
+                "colspan": 1,
                 "name": "Workshop I",
-                "speaker": null,
-                "handle": null,
-                "bio": null,
-                "title": null,
-                "photo": null,
+                "speaker": "Tim Huijzers",
+                "handle": "Dragem",
+                "bio": "Professional Developer for more than 8 years now, Worked at Drukwerkdeal.nl for more than 5 of them. Does a lot with financial systems and advocate for good architecture. Like to be called a Developer and not a Programmer! Also Founder of DeventerPHP user group. Next to developing for money Tim likes to develop for his other 2 hobbies, Beer and Board games. No wonder some of his talks are about one or the other.",
+                "title": "Getting Started with Event-sourcing",
+                "photo": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/30990/profile300.jpg",
                 "location": null,
                 "id": "workshopi",
-                "description": null
+                "description": "Over the last couple of years, I have heard of Event sourcing but didn’t really know where to start until I did a tutorial at DPC ‘17. After having some basic information it was time to start a Hackathon and after that something production worthy . In this talk I will try to give the best information to get started and to know some of the problems you can face if you begin event-sourcing."
               }
             },
             {
               "track": {
-                "colspan": 2,
+                "colspan": 1,
                 "name": "Workshop II",
-                "speaker": null,
-                "handle": null,
-                "company": null,
-                "bio": null,
-                "title": null,
-                "photo": null,
+                "speaker": "Antonio Peric-Mazar",
+                "handle": "antonioperic",
+                "bio": "Antonio Perić-Mažar is CEO at Locastic digital agency, based in beautiful Croatian city called Split. Their main focus is to build complex mobile and web platforms for different clients that range from startups to enterprise companies from all over the globe.",
+                "title": "REST easy with Api Platform",
+                "photo": "https://secure.gravatar.com/avatar/29db221e8a59b06c9180725ec8ac1e75?s=500",
                 "location": null,
                 "id": "workshopii",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "time": "10.30",
-          "slottype": "break",
-          "tracks": [
-            {
-              "track": {
-                "colspan": 4,
-                "location": null,
-                "title": null,
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "time": "11.00",
-          "slottype": "workshop",
-          "tracks": [
-            {
-              "track": {
-                "colspan": 2,
-                "name": "Workshop I",
-                "title": null,
-                "location": null,
-                "id": "workshopi"
+                "description": "We’ll start by creating a fully-featured API in just a few minutes with API Platform, Symfony and Doctrine. The API will support pagination, data validation, access control, relation embedding, filters, and error handling. It will be documented with OpenAPI and will have a nice UI done in React."
               }
             },
             {
               "track": {
-                "colspan": 2,
-                "name": "Workshop II",
-                "title": null,
+                "colspan": 1,
+                "name": "Workshop III",
+                "speaker": "Mark Bradley",
+                "handle": "braddle",
+                "bio": "Mark Bradley is a Principal Software Engineer from London, currently working for Sainsbury’s. Working in the industry for over 10 years Mark has developed a passion for supporting and mentoring his peers and has more recently been working with the apprentice programme at Sainsbury’s alongside his day job. A keen protagonist of Test Driven Development, he launched his own screen cast, ‘Testing All the Things’ in the Spring, to teach the wider community how to practice Test Driven Development and Automated Testing.<br><br>Mark is a keen cyclist, who enjoys quiet evenings in the pub playing board games and spending time with his wife and three children.",
+                "title": "Introduction to Test Driven Development Workshop",
+                "photo": "/2020/assets/images/speakers/braddle1.jpeg",
                 "location": null,
-                "id": "workshopii"
+                "id": "workshopiii",
+                "description": "Want to ship code faster? Want to work on features over bugs? Want more confidence in your code? You need to TEST ALL THE THINGS. Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development."
+              }
+            },
+            {
+              "track": {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "speaker": "Bastian Hofmann",
+                "handle": "BastianHofmann",
+                "bio": "Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power of Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the leading social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on Kubernetes, software architecture and scaling web applications.",
+                "title": "Deploying your first Micro-Service application to Kubernetes",
+                "photo": "https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500",
+                "location": null,
+                "id": "workshopiv",
+                "description": "Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use persistent storage and service meshes and set up sensible monitoring and logging tooling."
               }
             }
           ]
@@ -121,7 +96,7 @@
                 "colspan": 4,
                 "location": null,
                 "title": "Lunch",
-                "description": null
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates."
               }
             }
           ]
@@ -132,58 +107,49 @@
           "tracks": [
             {
               "track": {
-                "colspan": 2,
+                "colspan": 1,
                 "name": "Workshop I",
-                "title": null,
+                "title": "Getting Started with Event-sourcing",
+                "speaker": "Tim Huijzers",
+                "handle": "Dragem",
                 "location": null,
-                "id": "workshopi"
+                "id": "workshopi",
+                "description": "A continuation of the morning's session."
               }
             },
             {
               "track": {
-                "colspan": 2,
+                "colspan": 1,
                 "name": "Workshop II",
-                "title": null,
+                "title": "REST easy with Api Platform",
+                "speaker": "Antonio Peric-Mazar",
+                "handle": "antonioperic",
                 "location": null,
-                "id": "workshopii"
-              }
-            }
-          ]
-        },
-        {
-          "time": "15.00",
-          "slottype": "break",
-          "tracks": [
-            {
-              "track": {
-                "colspan": 4,
-                "location": null,
-                "title": null,
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "time": "15.30",
-          "slottype": "workshop",
-          "tracks": [
-            {
-              "track": {
-                "colspan": 2,
-                "name": "Workshop I",
-                "title": null,
-                "location": null,
-                "id": "workshopi"
+                "id": "workshopii",
+                "description": "A continuation of the morning's session."
               }
             },
             {
               "track": {
-                "colspan": 2,
-                "name": "Workshop II",
-                "title": null,
+                "colspan": 1,
+                "name": "Workshop III",
+                "title": "Introduction to Test Driven Development Workshop",
+                "speaker": "Mark Bradley",
+                "handle": "braddle",
                 "location": null,
-                "id": "workshopii"
+                "id": "workshopiii",
+                "description": "A continuation of the morning's session."
+              }
+            },
+            {
+              "track": {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "title": "Deploying your first Micro-Service application to Kubernetes",
+                "speaker": "Bastian Hofmann",
+                "location": null,
+                "id": "workshopiv",
+                "description": "A continuation of the morning's session."
               }
             }
           ]
@@ -197,14 +163,14 @@
                 "colspan": 4,
                 "name": "Pre-Conference Social",
                 "location": null,
-                "title": null,
+                "title": "Pre-Conference Social",
                 "speaker": null,
                 "slug": null,
                 "handle": null,
                 "company": null,
                 "photo": null,
                 "bio": null,
-                "description": null
+                "description": "Join us at the pub (location to be confirmed) with the PHP London user group for a pre-conference social event."
               }
             }
           ]
@@ -214,7 +180,7 @@
     {
       "schedule-thursday": null,
       "name": "Thursday 20th February 2020",
-      "description": "\n",
+      "description": "<p>Thursday is the first day of the main conference. Things will kick off with a morning keynote followed by four tracks of talks throughout the day. During each time slot you'll be able to choose which of the four tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
       "slots": [
         {
           "time": "08.00",
@@ -287,7 +253,7 @@
                 "company": null,
                 "photo": null,
                 "bio": null,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus lectus sit amet urna posuere, nec laoreet nisl maximus. Fusce malesuada eros ac enim pulvinar, at vehicula tellus posuere. Integer at feugiat nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque quis tortor semper, scelerisque erat nec, faucibus leo. Sed eget elit lacus. Pellentesque cursus tempor ligula. Sed efficitur nisl nunc, vel congue mi vestibulum sed. Vivamus fermentum posuere dolor in lobortis. Nunc lobortis tellus porta felis semper, nec vulputate sapien consectetur. Proin in neque in est molestie hendrerit. Curabitur et molestie diam. Phasellus."
+                "description": null
               }
             },
             {
