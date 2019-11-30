@@ -64,14 +64,24 @@ layout: default
                     {% include 'components/icons/twitter.html' %}
                   </a>
                 {% endif %}
+                {% if speaker.twitter %}
+                  <a class="inline-block ml-4 w-8 text-blue-400 hover:text-blue-500 w-6" href="https://twitter.com/{{speaker.twitter}}" target="_blank">
+                    {% include 'components/icons/twitter.html' %}
+                  </a>
+                {% endif %}
+                {% if speaker.linkedin %}
+                  <a class="inline-block ml-4 w-8 text-blue-500 hover:text-blue-600 w-6" href="{{speaker.linkedin}}" target="_blank">
+                    {% include 'components/icons/linkedin.html' %}
+                  </a>
+                {% endif %}
+                {% if speaker.github %}
+                  <a class="inline-block ml-4 w-8 text-black hover:text-gray-700 w-6" href="{{speaker.github}}" target="_blank">
+                    {% include 'components/icons/github.html' %}
+                  </a>
+                {% endif %}
               </div>
             </header>
             <div class="font-mono text-sm text-gray-800 max-w-4xl">{{speaker.bio | safe}}</div>
-            <div class="flex items-center flex-wrap">
-              {% for link in person.links.websites %}
-                <a class="font-mono text-sm mt-5 mr-5 text-blue-400 hover:text-blue-500" href="{{link.url}}">{{link.title}}</a>
-              {% endfor %}
-            </div>
           </article>
         {% endfor %}
       </div>
