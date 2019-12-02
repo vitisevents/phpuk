@@ -8,13 +8,13 @@ title: Schedule
   <div class="bg-blue-800 h-full w-full absolute top-0 left-0 opacity-25"></div>
   <div class="relative px-8 container mx-auto items-center">
     <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; conference_schedule &#47;&#62;</i>
-    <h2 class="text-4xl capitalize text-white">{{site.schedule.title}}</h2>
-    <p class="text-sm font-mono text-gray-200 max-w-3xl">{{site.schedule.description}}</p>
+    <h2 class="text-5xl mb-1 capitalize text-white">{{site.schedule.title}}</h2>
+    <p class="text font-mono text-gray-200 max-w-3xl">{{site.schedule.description}}</p>
   </div>
 </section>
 <main class="main mx-auto px-8">
   {% for day in schedule.days %}
-    <article class="my-24">
+    <article class="my-12 md:my-24">
       <div class="container mx-auto">
         <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&lt; Day_{{loop.index}} /&gt;</i>
         <h2 class="text-3xl">{{day.name}}</h2>

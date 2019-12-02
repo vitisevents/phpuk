@@ -6,7 +6,7 @@
     <ul class="menu flex flex-col lg:flex-row items-center list-reset text-base  text-left lg:text-right">
       {% for item in navigation.main %}
         <li class="nav-item level-1 w-full lg:w-auto mb-4 lg:mr-8 xl:mr-10 lg:mb-0 relative">
-          <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+          <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500 underline{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
           </a>
           {% if item.sub %}
             <svg class="nav-item-toggle fill-current w-6 h-4 absolute top-1 right-0 opacity-25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.245 20l-11.245-14.374-11.219 14.374-.781-.619 12-15.381 12 15.391-.755.609z"/></svg>
