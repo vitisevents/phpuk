@@ -31,6 +31,84 @@ title: Sponsors
         </div>
 	</div>
 </section>
+
+<section class="px-8 py-24 bg-blue-300">
+  <div class="container mx-auto px-8">
+  <META HTTP-EQUIV="content-type" CONTENT="text/html;charset=UTF-8">
+  <form action="https://crm.zoho.eu/crm/WebToLeadForm" name=WebToLeads198118000000213047 method="POST" onSubmit="javascript:document.charset='UTF-8'; return checkMandatory198118000000213047()" accept-charset="UTF-8">
+    <input type="text" style="display:none;" name="xnQsjsdp" value="a8d89f507817013112d869150786a706b8bee7cecfbb201d2ee74aba79f52693"/>
+    <input type="hidden" name="zc_gad" id="zc_gad" value=""/>
+    <input type="text" style="display:none;" name="xmIwtLD" value="85ff313a63ac30c2afa525919265ddcec9583ab8af2d7b78fe13315c2d0ce5d6"/>
+    <input type="text"  style="display:none;" name="actionType" value="TGVhZHM="/>
+    <input type="text" style="display:none;" name="returnURL" value="https://www.phpconference.co.uk/sponsors/thankyou"/>
+    
+    <label>First Name<span style="color:red;">*</span></label>
+    <input type="text" maxlength="40" name="First Name" placeholder="First name"/>
+
+    <label>Last Name<span style="color:red;">*</span></label>
+    <input type="text" maxlength="80" name="Last Name" placeholder="Last name" />
+
+    <label>Company<span style="color:red;">*</span></label>
+    <input type="text" maxlength="100" name="Company" placeholder="Company" />
+
+    <label>Email<span style="color:red;">*</span></label>
+    <input type="text" maxlength="100" name="Email" placeholder="Email address" />
+
+    <label>Job title &#x28;optional&#x29;</label>
+    <input type="text" maxlength="100" name="Designation" placeholder="Job title" />
+
+    <label>Phone &#x28;optional&#x29;</label>
+    <input type="text" maxlength="30" name="Phone" placeholder="Phone number" />
+    <input id="formsubmit" type="submit" value="Submit" />
+    
+    <script>
+        var mndFileds=new Array('Company','First Name','Last Name','Email');
+        var fldLangVal=new Array('Company','First Name','Last Name','Email');
+        var name='';
+        var email='';
+
+        function checkMandatory198118000000213047() {
+            for(i=0;i<mndFileds.length;i++) {
+                var fieldObj=document.forms['WebToLeads198118000000213047'][mndFileds[i]];
+                if(fieldObj) {
+                    if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+                        if(fieldObj.type =='file')
+                        {
+                            alert('Please select a file to upload.');
+                            fieldObj.focus();
+                            return false;
+                        }
+                        alert(fldLangVal[i] +' cannot be empty');
+                        fieldObj.focus();
+                        return false;
+                    }  else if(fieldObj.nodeName=='SELECT') {
+                        if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+                            alert(fldLangVal[i] +' cannot be none');
+                            fieldObj.focus();
+                            return false;
+                        }
+                    } else if(fieldObj.type =='checkbox'){
+                        if(fieldObj.checked == false){
+                            alert('Please accept  '+fldLangVal[i]);
+                            fieldObj.focus();
+                            return false;
+                        }
+                    }
+                    try {
+                        if(fieldObj.name == 'Last Name') {
+                            name = fieldObj.value;
+                        }
+                    } catch (e) {}
+                }
+            }
+            document.getElementById('formsubmit').disabled=true;
+        }
+    </script>
+  </form>
+  </div>
+</section>
+
+
 <section class="px-8 py-24 bg-gray-100">
   <div class="container mx-auto px-8">
     <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; our_packages &#47;&#62;</i>

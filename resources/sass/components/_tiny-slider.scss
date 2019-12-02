@@ -15,7 +15,7 @@
   transition: all 0s;
   > .tns-item {
     box-sizing: border-box;
-    min-height:270px;
+    min-height:230px;
   }
 }
 
@@ -110,7 +110,7 @@
 .tns-nav {
   position: absolute;
   left:0;
-  bottom:-50px;
+  bottom:-20px;
   width: 100%;
   z-index: 2;
 
