@@ -70,7 +70,17 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1110px) {
+  .speaker {
+    height: 32rem;
+
+    &-column {
+      width: 33%;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
   .speaker {
     height: 32rem;
 
