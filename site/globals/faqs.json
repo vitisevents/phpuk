@@ -1,0 +1,39 @@
+{
+  "faqs": [
+    {
+      "id": 0,
+      "question": "What is included in my ticket?",
+      "answer": "A standard ticket provides access to both the Thursday and Friday main conference days. We also have a workshop day on Wednesday but this requires a specific workshop day ticket. As well as general admission, tickets include a light breakfast, lunch, snacks, refreshments and of course entry to our amazing afterparty."
+    },
+    {
+      "id": 1,
+      "question": "What is your ticket refund policy?",
+      "answer": "We offer a generous refund policy, allowing refunds up until 30 days before the event. You may also transfer your ticket to someone else at any point up until the day before the event."
+    },
+    {
+      "id": 2,
+      "question": "When do ticket sales close?",
+      "answer": "We offer a set number of early bird tickets which often sell out in the first few weeks of going on sale. General sale tickets are available right up until the day before the event, though we have often sold out a couple of weeks before the conference."
+    },
+    {
+      "id": 3,
+      "question": "What should I bring?",
+      "answer": "Other than a copy of your ticket (on your phone or printed) you don’t need to bring anything with you. You may wish to bring a laptop and there will be free and fast wifi throughout the venue. Charging points can be found in the delegate lounges and international plug adapters can be borrowed from our team at the front desk. If you have a coat or bag that you don’t want to carry around with you the free cloak room by the entrance is available throughout the event."
+    },
+    {
+      "id": 4,
+      "question": "Where can I stay?",
+      "answer": "If you're not from London check out our venue page for a list of nearby hotels. There is also a hotel on-site, The Montcalm at The Brewery, but note that the price of this is at the higher end."
+    },
+    {
+      "id": 5,
+      "question": "I have dietary requirements",
+      "answer": "As part of the ticket registration process you will be asked whether you have any dietary requirements. We are able to cater for most requirements. Please note that at break and lunch times you will need to ask the catering staff for your food. Allergen information is available at all of the serving stations."
+    },
+    {
+      "id": 6,
+      "question": "Is the conference for beginners or advanced developers?",
+      "answer": "PHP UK is targeted at professional PHP developers so a pre-existing knowledge of the language is required to get the most from the event. Thanks to our multiple track format we are able to offer a choice of intermediate, advanced and even some non-PHP specific talks throughout each day."
+    }
+  ]
+}

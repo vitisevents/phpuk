@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 module.exports = {
   prefix: "",
   important: false,
@@ -173,6 +175,7 @@ module.exports = {
       sm: "0.125rem",
       default: "0.25rem",
       lg: "0.5rem",
+      md: "1rem",
       full: "9999px"
     },
     borderWidth: {
@@ -246,7 +249,8 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         "monospace"
-      ]
+      ],
+      headings: ["Gilroy-Bold", "sans-serif"]
     },
     fontSize: {
       xs: "0.75rem",
@@ -343,6 +347,7 @@ module.exports = {
     },
     minHeight: {
       "0": "0",
+      "75": "75vh",
       full: "100%",
       screen: "100vh"
     },
@@ -430,6 +435,12 @@ module.exports = {
       "30": "30",
       "40": "40",
       "50": "50"
+    },
+    rotate: {
+        '1/8': '45deg',
+        '1/4': '90deg',
+        '1/2': '180deg',
+        '3/4': '270deg',
     }
   },
   variants: {
@@ -499,5 +510,17 @@ module.exports = {
     zIndex: ["responsive"]
   },
   corePlugins: {},
-  plugins: []
+  plugins: [
+      function({ addUtilities, config, e }) {
+          const rotateUtilities = _.map(config('theme.rotate'), (value, key) => {
+              return {
+                  [`.${e(`rotate-${key}`)}`]: {
+                      transform: `rotate(${value})`,
+                      transformOrigin: 'left'
+                  }
+              }
+          })
+          addUtilities(rotateUtilities)
+      }
+  ]
 };

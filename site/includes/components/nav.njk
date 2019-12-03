@@ -1,18 +1,28 @@
-<nav id="nav" class="nav relative flex-grow text-right">
-  <span class="nav-content-toggle inline-block lg:hidden">
-    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+<nav id="nav" class="nav fixed left-0 right-0 top-0 md:relative flex-grow text-right">
+  <span class="nav-content-toggle block absolute top-8 right-8 z-50 lg:hidden">
+    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
   </span>
-  <div class="nav-content animated fadeIn flex justify-end absolute top-20 right-0 lg:top-0 lg:relative bg-white lg:bg-transparent rounded-sm lg:rounded-none p-4 lg:p-0 shadow-lg lg:shadow-none">
-    <ul class="menu flex flex-col lg:flex-row items-center list-reset text-base">
+  <div class="nav-content animated fadeIn flex justify-end absolute z-20 top-0 w-full md:top-20 right-0 lg:top-0 lg:relative pt-24 bg-blue-300 lg:bg-transparent rounded-sm lg:rounded-none p-8 md:pt-4 lg:p-0 shadow-lg lg:shadow-none">
+    <ul class="menu w-full md:w-auto md:flex md:flex-col lg:flex-row items-center list-reset text-base  text-left lg:text-right">
       {% for item in navigation.main %}
-        <li class="level-1 mb-4 lg:mr-8 xl:mr-10 lg:mb-0">
-          <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
+        <li class="nav-item level-1 w-full lg:w-auto mb-4 mt-4 lg:mt-0 lg:mr-8 xl:mr-10 lg:mb-0 relative border-b-1">
+          <a href="{{ item.url | safe }}" class="link text-sm font-semibold tracking-widest hover:text-blue-500 uppercase {% if page.url == item.url %}active text-blue-500 underline{% endif %} "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}
           </a>
+          {% if item.sub %}
+            <svg class="nav-item-toggle fill-current w-6 h-4 absolute top-1 right-0 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.245 20l-11.245-14.374-11.219 14.374-.781-.619 12-15.381 12 15.391-.755.609z"/></svg>
+            <div class="nav-item-sub lg:w-40 lg:absolute lg:top-6 lg:pt-3 inset-0 flex items-center justify-center">
+              <ul class="lg:bg-white lg:shadow-xl rounded w-full text-left overflow-hidden">
+                {% for sub in item.sub %}
+                  <li class=""><a class="inline-block text-xs tracking-widest uppercase text-black py-2 lg:px-4 w-full lg:hover:bg-gray-100" href="{{ sub.url | safe }}">{{sub.label}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
         </li>
       {% endfor %}
       <li>
         <a class="inline-block flex text-sm uppercase tracking-widest rounded-full py-3 px-6 font-semibold border-2 hover:bg-white hover:text-black" href="{{ site.tickets_url }}" target="_blank" rel="noopener">
-          <svg class="fill-current w-4 mr-4" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40" x="0px" y="0px">
+          <svg class="fill-current w-4 h-6 mr-4" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40" x="0px" y="0px">
             <title>ticket</title><path d="M18 10l4 4-8 8-4-4zM31.298 9.297l-2.297-2.297-1 1c-0.512 0.512-1.219 0.828-2 0.828-1.562 0-2.829-1.266-2.829-2.828 0-0.781 0.317-1.489 0.829-2.001l1-1-2.297-2.297c-0.936-0.936-2.469-0.936-3.405 0l-18.595 18.595c-0.936 0.936-0.936 2.469 0 3.405l2.297 2.297 0.999-0.999c0.512-0.513 1.22-0.83 2.001-0.83 1.562 0 2.828 1.266 2.828 2.828 0 0.781-0.317 1.489-0.829 2.001l-1 1 2.297 2.297c0.936 0.936 2.469 0.936 3.405 0l18.595-18.595c0.936-0.937 0.936-2.469 0-3.406zM14 26l-8-8 12-12 8 8-12 12z"/>
           </svg>
           Tickets

@@ -8,13 +8,13 @@ title: Speakers
   <div class="bg-blue-800 h-full w-full absolute top-0 left-0 opacity-25"></div>
   <div class="relative px-8 container mx-auto items-center">
     <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; conference_speakers &#47;&#62;</i>
-    <h2 class="text-4xl capitalize text-white">{{site.speakers.title}}</h2>
-    <p class="text-sm font-mono text-gray-200 max-w-3xl">{{site.speakers.description}}</p>
+    <h1 class="hero-title">{{site.speakers.title}}</h1>
+    <p class="text font-mono text-gray-200 max-w-3xl">PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.</p>
   </div>
 </section>
-<main class="main {% if site.speakers.papers_open %} container {% endif %} mx-auto px-4 py-24">
+<main class="main {% if site.speakers.papers_open %} container {% endif %} px-4 py-12 md:py-24">
   {% if site.speakers.papers_open %}
-    <section class="markdown px-4">
+    <section class="markdown px-4 mx-auto">
       <h2>Our Call for Papers opens 4th September 2019, and closes 15th October 2019.</h2>
       <p>PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.</p>
       <p>We are looking for speakers and instructors to give talks and hands-on classroom sessions. We are seeking talks covering mainstream, advanced, niche or non-technical topics aimed at a multitude of skill levels.</p>
@@ -83,30 +83,30 @@ title: Speakers
       </div>
     </div>
   {% else %}
-    <div class="flex flex-wrap justify-center">
+    <div class="flex flex-wrap justify-center w-full ">
       {% for speaker in speakers %}
-        <div class="speaker-column px-4 mb-8">
+        <div class="speaker-column flex-1-0 px-4 mb-8">
           <article class="speaker relative bg-purple-900 rounded-lg overflow-hidden pb-20 md:pb-0">
             <div class="speaker-photo absolute top-0 left-0 bg-cover bg-center w-full h-full" style="background-image: url({{speaker.photo}});"></div>
             <div class="speaker-gradient absolute bg-blue-400 top-0 left-0 w-full h-full opacity-75"></div>
-            <div class="relative p-8">
-              <i class="inline-block font-mono text-blue-400 mb-2">&#60; {{speaker.company}} &#47;&#62;</i>
-              <h2 class="text-white text-3xl m-0">{{speaker.name}}</h2>
+            <div class="absolute bottom-1 p-8">
+              <i class="speaker-company inline-block font-mono text-blue-400 mb-2">&#60; {{speaker.company}} &#47;&#62;</i>
+              <h2 class="speaker-name text-white text-3xl m-0">{{speaker.name}}</h2>
               <p class="speaker-bio text-gray-200 font-mono text-sm mt-4">{{speaker.bio | safe}}</p>
             </div>
-            <aside class="absolute bottom-4 left-4">
+            <aside class="absolute top-6 left-6">
               {% if speaker.twitter %}
-                <a class="inline-block ml-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.twitter}}" target="_blank">
+                <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.twitter}}" target="_blank">
                   {% include 'components/icons/twitter.html' %}
                 </a>
               {% endif %}
               {% if speaker.linkedin %}
-                <a class="inline-block ml-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.linkedin}}" target="_blank">
+                <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.linkedin}}" target="_blank">
                   {% include 'components/icons/linkedin.html' %}
                 </a>
               {% endif %}
               {% if speaker.github %}
-                <a class="inline-block ml-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.github}}" target="_blank">
+                <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.github}}" target="_blank">
                   {% include 'components/icons/github.html' %}
                 </a>
               {% endif %}

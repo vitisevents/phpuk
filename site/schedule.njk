@@ -8,21 +8,23 @@ title: Schedule
   <div class="bg-blue-800 h-full w-full absolute top-0 left-0 opacity-25"></div>
   <div class="relative px-8 container mx-auto items-center">
     <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; conference_schedule &#47;&#62;</i>
-    <h2 class="text-4xl capitalize text-white">{{site.schedule.title}}</h2>
-    <p class="text-sm font-mono text-gray-200 max-w-3xl">{{site.schedule.description}}</p>
+    <h1 class="hero-title">{{site.schedule.title}}</h1>
+    <p class="text font-mono text-gray-200 max-w-3xl">{{site.schedule.description}}</p>
   </div>
 </section>
-<main class="main container mx-auto px-8">
+<main class="main mx-auto px-8">
   {% for day in schedule.days %}
-    <article class="my-24">
-      <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&lt; Day_{{loop.index}} /&gt;</i>
-      <h2 class="text-3xl">{{day.name}}</h2>
-      <div class="markdown">{{day.description | safe}}</div>
+    <article class="my-12 md:my-24">
+      <div class="container mx-auto">
+        <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&lt; Day_{{loop.index}} /&gt;</i>
+        <h2 class="text-3xl">{{day.name}}</h2>
+        <div class="markdown">{{day.description | safe}}</div>
+      </div>
       <table class="schedule-wrapper w-full">
         {% for slot in day.slots %}
           {% if slot.slottype != 'mc' %}
             <tr class="slot">
-              <td class="time text-gray-500 p-4 pl-0 font-mono w-24" rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
+              <td class="time text-gray-500 p-4 pl-0 font-mono w-16 md:w-24" rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
               {% for track in slot.tracks %}
                 {% if track.track.location %}
                   <td class="location px-4{% if track.track.tooltip %} tutorial{% endif %} text-gray-600 text-sm uppercase tracking-wider" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
@@ -39,16 +41,16 @@ title: Schedule
                       <a href="prereqs/">Prerequisites</a><br>
                     {% endif %}
                     <span class="title">
-                      <h3 class="main-title text-2xl font-normal">{{track.track.title}}</h3>
+                      <h3 class="main-title text-2xl mb-1 font-normal">{{track.track.title}}</h3>
                       <span class="subtitle">{{track.track.subtitle}}</span>
                     </span>
                     {% if track.track.speaker %}
-                      <span class="speaker">
+                      <span class="speaker-name inline-block mb-6 font-medium">
                         Speaker:
-                        <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
+                        <a href="/speakers/#{{speaker.slug}}">{{track.track.speaker}}</a>
                       </span>
                     {% elseif track.track.speakers %}
-                      <span class="speaker">
+                      <span class="speaker-name inline-block mb-6 font-medium">
                         {% for speaker in track.track.speakers %}
                           <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
                           {% if speaker != track.track.speakers.last %}&amp; {% endif %}

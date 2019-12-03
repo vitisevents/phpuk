@@ -1,8 +1,22 @@
 {
   "main": [
     {
-      "label": "About",
-      "url": "/about/"
+      "label": "Attending",
+      "url": "/about/",
+      "sub": [
+        {
+          "label": "Venue",
+          "url": "/venue"
+        },
+        {
+          "label": "Photos",
+          "url": "/attending/photos"
+        },
+        {
+          "label": "FAQs",
+          "url": "/attending/faqs"
+        }
+      ]
     },
     {
       "label": "Speakers",
@@ -14,15 +28,21 @@
     },
     {
       "label": "Sponsors",
-      "url": "/sponsors/"
+      "url": "/sponsors/",
+      "sub": [
+        {
+          "label": "Packages",
+          "url": "/sponsors/packages"
+        }
+      ]
     },
     {
       "label": "Socials",
       "url": "/socials/"
     },
     {
-      "label": "Venue",
-      "url": "/venue/"
+      "label": "Videos",
+      "url": "/videos/"
     }
   ],
   "footer": [

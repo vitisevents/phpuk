@@ -1,0 +1,17 @@
+.accordion__item{
+
+  .accordion__content{
+    transition:all 0.3s ease-in-out;
+  }
+
+  &.close .accordion__content{
+    height:0;
+    padding:0;
+    @apply overflow-hidden;
+  }
+
+  &.open svg{
+    @apply rotate-1/4;
+    transform-origin:center;
+  }
+}

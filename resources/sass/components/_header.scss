@@ -1,6 +1,46 @@
 //==========  Header ==========//
 
-@media (max-width: 768px) {
+.nav {
+  &-item {
+    &-sub {
+      animation: fadeInUp 0.15s ease-in-out;
+      display: none;
+    }
+
+    &-toggle {
+      transform: rotate(180deg);
+      transition: transform 0.15s ease-in-out;
+      @media (min-width: 1024px) {
+        display: none;
+      }
+    }
+
+    &.open {
+      .nav-item {
+        &-toggle {
+          transform: rotate(0deg);
+        }
+        &-sub {
+          display: block;
+        }
+      }
+    }
+    @media (min-width: 1024px) {
+      &:hover {
+        .nav-item {
+          &-toggle {
+            transform: rotate(0deg);
+          }
+          &-sub {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
   .nav-black {
     .nav-content {
       color: #000;

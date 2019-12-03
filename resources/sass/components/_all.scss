@@ -1,7 +1,11 @@
 //==========  Import all component partials ==========//
 
+@import 'accordion';
 @import 'header';
+@import 'hero';
 @import 'buttons';
+@import 'forms';
+@import 'header';
 @import 'article-card';
 @import 'video-card';
 @import 'tiny-slider';
@@ -9,3 +13,4 @@
 @import 'speaker';
 @import 'sponsor-icon';
 @import 'gallery';
+@import 'schedule';

@@ -8,11 +8,11 @@ title: Photo archive
 <main class="py-24 pt-40 bg-black">
   <div class="px-8 container mx-auto items-center">
     <i class="inline-block font-mono text-blue-400 mb-4 lowercase">&#60; photo_archive &#47;&#62;</i>
-    <h2 class="text-4xl capitalize text-white">View photos from previous conferences</h2>
+    <h1 class="hero-title">View photos from previous conferences</h1>
   </div>
 </main>
 <div class="masonry p-8">
-  {% for photo in collections.photos %}
+  {% for photo in collections.allphotos %}
     <figure class="item"><img class="overflow-hidden rounded-lg" src="/{{photo}}"></figure>
   {% endfor %}
 </div>

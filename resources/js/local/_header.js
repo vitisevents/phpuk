@@ -5,9 +5,10 @@ var viewportHeight = Math.max(
   window.innerHeight || 0
 )
 let header = document.querySelector('.header')
-let mql = window.matchMedia('(min-width: 769px)')
+let mql = window.matchMedia('(min-width: 1024px)')
 let navContent = document.querySelector('.nav-content')
 let navToggle = document.querySelector('.nav-content-toggle')
+let navItemToggles = document.querySelectorAll('.nav-item-toggle')
 var windowWidth = window.innerWidth
 
 function toggleHeaderClasses(type) {
@@ -58,6 +59,22 @@ function toggleNav() {
     navContent.classList.toggle('hidden')
   }
 }
+
+function toggleSubNav() {
+  if (mql.matches) {
+    navContent.classList.remove('hidden')
+  } else {
+    navContent.classList.toggle('hidden')
+  }
+}
+
+navItemToggles.forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    if (!mql.matches) {
+      toggle.parentElement.classList.toggle('open')
+    }
+  })
+})
 
 toggleNav()
 

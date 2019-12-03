@@ -2,7 +2,8 @@ const htmlmin = require('html-minifier')
 const fg = require('fast-glob')
 
 // Run search for images in /gallery and /sponsors
-const galleryImages = fg.sync(['**/photos/*', '!**/dist'])
+const galleryImages = fg.sync(['**/promo-photos/*', '!**/dist'])
+const allImages = fg.sync(['**/photos/*', '!**/dist'])
 
 module.exports = eleventyConfig => {
   // Add a readable date formatter filter to Nunjucks
@@ -29,14 +30,21 @@ module.exports = eleventyConfig => {
     return galleryImages
   })
 
+  // Create collection of allimages
+  eleventyConfig.addCollection('allphotos', function(collection) {
+      return allImages
+  })
+
   // Layout aliases
   eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
+  eleventyConfig.addLayoutAlias('video', 'layouts/video.njk')
+  eleventyConfig.addLayoutAlias('archive', 'layouts/archive.njk')
 
   // Include our static assets
   eleventyConfig.addPassthroughCopy('css')
   eleventyConfig.addPassthroughCopy('javascript')
   eleventyConfig.addPassthroughCopy('images')
+  eleventyConfig.addPassthroughCopy('webfonts')
 
   return {
     templateFormats: ['md', 'njk'],
