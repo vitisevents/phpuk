@@ -1,8 +1,7 @@
-
 <div class="masonry mt-6">
 	{% for photo in collections.photos | reverse %}
-		{% if loop.index0 < 6 %}
-			<figure class="item"><img class="overflow-hidden rounded-lg" src="{{photo}}"></figure>
+		{% if loop.index0 < 20 %}
+			<figure class="item"><img class="overflow-hidden rounded-lg" src="/{{photo}}"></figure>
 		{% endif %}
 	{% endfor %}
 </div>

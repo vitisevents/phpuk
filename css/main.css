@@ -9094,6 +9094,17 @@ h6 + p,
   margin-top: 0.5rem;
 }
 
+.markdown ul {
+  margin-bottom: 2rem;
+}
+
+.markdown ul li,
+.markdown ul li:first-child,
+.markdown ul li + li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .accordion__item .accordion__content {
   transition: all 0.3s ease-in-out;
 }
@@ -9108,6 +9119,10 @@ h6 + p,
   transform: rotate(90deg);
   transform-origin: left;
   transform-origin: center;
+}
+
+.longform label {
+  display: none;
 }
 
 .nav-item-sub {

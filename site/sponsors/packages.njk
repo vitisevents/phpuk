@@ -8,8 +8,8 @@ title: Sponsors
   <div class="bg-blue-800 h-full w-full absolute top-0 left-0 opacity-50"></div>
   <div class="relative px-8 container mx-auto items-center">
     <i class="inline-block font-mono text-blue-500 mb-4 lowercase">&#60; conference_sponsors &#47;&#62;</i>
-    <h2 class="text-4xl capitalize text-white">Sponsorship Opportunities</h2>
-    <p class="text-sm font-mono text-gray-200 max-w-3xl">{{site.sponsors.description}}</p>
+    <h2 class="text-5xl capitalize text-white">Sponsorship Opportunities</h2>
+    <p class="text font-mono text-gray-200 max-w-3xl">{{site.sponsors.description}}</p>
   </div>
 </section>
 <section class="px-8 py-24 pb-12 container mx-auto h-full bg-white">
@@ -35,32 +35,36 @@ title: Sponsors
 <section class="px-8 py-24 bg-blue-300">
   <div class="container mx-auto px-8">
   <META HTTP-EQUIV="content-type" CONTENT="text/html;charset=UTF-8">
-  <form action="https://crm.zoho.eu/crm/WebToLeadForm" name=WebToLeads198118000000213047 method="POST" onSubmit="javascript:document.charset='UTF-8'; return checkMandatory198118000000213047()" accept-charset="UTF-8">
+  <form
+          class="longform flex md:flex-row"
+          action="https://crm.zoho.eu/crm/WebToLeadForm"
+          name=WebToLeads198118000000213047
+          method="POST" onSubmit="javascript:document.charset='UTF-8'; return checkMandatory198118000000213047()" accept-charset="UTF-8">
     <input type="text" style="display:none;" name="xnQsjsdp" value="a8d89f507817013112d869150786a706b8bee7cecfbb201d2ee74aba79f52693"/>
     <input type="hidden" name="zc_gad" id="zc_gad" value=""/>
     <input type="text" style="display:none;" name="xmIwtLD" value="85ff313a63ac30c2afa525919265ddcec9583ab8af2d7b78fe13315c2d0ce5d6"/>
     <input type="text"  style="display:none;" name="actionType" value="TGVhZHM="/>
     <input type="text" style="display:none;" name="returnURL" value="https://www.phpconference.co.uk/sponsors/thankyou"/>
-    
-    <label>First Name<span style="color:red;">*</span></label>
-    <input type="text" maxlength="40" name="First Name" placeholder="First name"/>
 
-    <label>Last Name<span style="color:red;">*</span></label>
-    <input type="text" maxlength="80" name="Last Name" placeholder="Last name" />
+    <fieldset class="md:w-1/2">
+      <label>First Name<span style="color:red;">*</span></label>
+      <input type="text" maxlength="40" name="First Name" placeholder="First name" class="p-2 md:p-4 flex-grow text-black outline-none focus:bg-gray-100"/>
+      <label>Last Name<span style="color:red;">*</span></label>
+      <input type="text" maxlength="80" name="Last Name" placeholder="Last name" />
+      <label>Company<span style="color:red;">*</span></label>
+      <input type="text" maxlength="100" name="Company" placeholder="Company" />
+      <input id="formsubmit" type="submit" value="Submit" class="text-xs lg:text-sm uppercase tracking-widest py-2 lg:py-3 px-3 lg:pr-6 lg:pl-4 mt-8 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600"/>
+    </fieldset>
 
-    <label>Company<span style="color:red;">*</span></label>
-    <input type="text" maxlength="100" name="Company" placeholder="Company" />
+    <fieldset class="md:w-1/2">
+      <label>Email<span style="color:red;">*</span></label>
+      <input type="text" maxlength="100" name="Email" placeholder="Email address" />
+      <label>Job title &#x28;optional&#x29;</label>
+      <input type="text" maxlength="100" name="Designation" placeholder="Job title" />
+      <label>Phone &#x28;optional&#x29;</label>
+      <input type="text" maxlength="30" name="Phone" placeholder="Phone number" />
+    </fieldset>
 
-    <label>Email<span style="color:red;">*</span></label>
-    <input type="text" maxlength="100" name="Email" placeholder="Email address" />
-
-    <label>Job title &#x28;optional&#x29;</label>
-    <input type="text" maxlength="100" name="Designation" placeholder="Job title" />
-
-    <label>Phone &#x28;optional&#x29;</label>
-    <input type="text" maxlength="30" name="Phone" placeholder="Phone number" />
-    <input id="formsubmit" type="submit" value="Submit" />
-    
     <script>
         var mndFileds=new Array('Company','First Name','Last Name','Email');
         var fldLangVal=new Array('Company','First Name','Last Name','Email');
@@ -108,6 +112,7 @@ title: Sponsors
   </div>
 </section>
 
+{% include 'components/sponsors-testimonials.njk' %}
 
 <section class="px-8 py-24 bg-gray-100">
   <div class="container mx-auto px-8">
@@ -232,5 +237,4 @@ title: Sponsors
     <div class="mt-12 text-center"><a class="inline-block text-sm uppercase tracking-widest rounded-full py-3 px-6 text-white font-semibold bg-blue-600 hover:bg-white hover:text-blue-600" href="mailto:contact@phpconference.co.uk" target="_blank" rel="noopener">Contact Us</a></div>
   </div>
 </section>
-{% include 'components/sponsors-testimonials.njk' %}
 {% include 'components/sponsors.njk' %}

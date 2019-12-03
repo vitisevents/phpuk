@@ -1,5 +1,5 @@
 <div class="flex flex-no-wrap masonry -mt-20 z-10 h-32 overflow-hidden">
-    {% for photo in collections.photos %}
+    {% for photo in collections.photos | reverse %}
     <figure class="item"><img class="overflow-hidden" src="/{{photo}}"></figure>
     {% endfor %}
 </div>

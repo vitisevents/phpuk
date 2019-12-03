@@ -18,3 +18,13 @@ h6 + p,
 .markdown p{
   @apply mt-2;
 }
+
+.markdown ul{
+  @apply mb-8;
+}
+
+.markdown ul li,
+.markdown ul li:first-child,
+.markdown ul li + li{
+  @apply my-2;
+}
