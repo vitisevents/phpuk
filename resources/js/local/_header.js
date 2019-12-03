@@ -5,7 +5,7 @@ var viewportHeight = Math.max(
   window.innerHeight || 0
 )
 let header = document.querySelector('.header')
-let mql = window.matchMedia('(min-width: 769px)')
+let mql = window.matchMedia('(min-width: 1024px)')
 let navContent = document.querySelector('.nav-content')
 let navToggle = document.querySelector('.nav-content-toggle')
 var windowWidth = window.innerWidth
