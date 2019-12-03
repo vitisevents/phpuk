@@ -1,0 +1,10 @@
+//==========  Hero ==========//
+
+.hero {
+  &-title {
+    @apply text-3xl mb-1 capitalize text-white;
+    @media (min-width: 768px) {
+      @apply text-5xl;
+    }
+  }
+}
