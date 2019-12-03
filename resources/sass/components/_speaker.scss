@@ -57,6 +57,9 @@
 @media (max-width: 768px){
   .speaker{
     min-height:100vw;
+    &:hover{
+      min-height:130vw;
+    }
   }
 }
 
