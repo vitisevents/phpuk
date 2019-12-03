@@ -9588,8 +9588,27 @@ h6 + p,
 }
 
 .track {
-  width: 24.5%;
+  display: block;
+  width: 100%;
   vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  .track {
+    display: inline-block;
+    width: 49.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .track {
+    display: table-cell;
+    width: 24.5%;
+  }
+}
+
+.track:only-child {
+  width: 100%;
 }
 
 .track .track-slot-meta {
@@ -9602,6 +9621,10 @@ h6 + p,
 
 .track .speaker a {
   text-decoration: underline;
+}
+
+.slot .time {
+  vertical-align: top;
 }
 
 .pattern-circuit {

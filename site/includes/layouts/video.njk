@@ -16,8 +16,8 @@ layout: default
   </div>
 </section>
 <main class="container mx-auto px-8 mt-40 mb-24">
-  <div class="flex">
-    <div class="pr-16 w-1/3">
+  <div class="md:flex">
+    <div class="w-full md:pr-16 md:w-1/3">
       <i class="inline-block font-mono text-blue-400 mb-4 capitalize">&#60; {{speaker}} &#47;&#62;</i>
       <h1 class="text-3xl capitalize">{{title}}</h1>
       <div class="flex text-gray-500">
@@ -26,6 +26,6 @@ layout: default
       </div>
       {% include 'components/share.njk' %}
     </div>
-    <div class="w-2/3 text-gray-600 markdown">{{ content | safe }}</div>
+    <div class="w-full md:w-2/3 text-gray-600 markdown">{{ content | safe }}</div>
   </div>
 </main>

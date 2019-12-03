@@ -12,7 +12,7 @@ title: Photo archive
   </div>
 </main>
 <div class="masonry p-8">
-  {% for photo in collections.photos %}
+  {% for photo in collections.allphotos %}
     <figure class="item"><img class="overflow-hidden rounded-lg" src="/{{photo}}"></figure>
   {% endfor %}
 </div>

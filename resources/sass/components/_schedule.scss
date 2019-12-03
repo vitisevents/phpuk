@@ -1,6 +1,20 @@
 .track{
-  width:24.5%;
+  display:block;
+  width:100%;
   vertical-align:top;
+
+  @media (min-width: 768px) {
+    display:inline-block;
+    width:49.5%;
+  }
+  @media (min-width: 1200px) {
+    display:table-cell;
+    width:24.5%;
+  }
+
+  &:only-child{
+    width:100%;
+  }
 
   .track-slot-meta{
     min-height:142px;
@@ -15,4 +29,8 @@
       text-decoration:underline;
     }
   }
+}
+
+.slot .time{
+  vertical-align:top;
 }

@@ -10,11 +10,11 @@
         },
         {
           "label": "Photos",
-          "url": "/photos"
+          "url": "/attending/photos"
         },
         {
           "label": "FAQs",
-          "url": "/faqs"
+          "url": "/attending/faqs"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "name": "PHP UK Conference",
-  "url": "https://php-uk-conference.netlify.com",
+  "url": "https://phpconference.co.uk",
   "tickets_url": "https://tickets.vitisevents.com/e/7/php-uk-conference-2020",
   "date": "February 19, 2020 08:00:00",
   "description": "We are pleased to announce the 15th Annual PHP UK Conference. An optional workshop day followed by two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.",
@@ -36,8 +36,8 @@
     "hero": "/images/venue-hero.jpg"
   },
   "videos": {
-    "title": "Videos from previous events",
-    "description": "PHP UK Conference 2019 was another great success! A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible.",
+    "title": "PHP Tutorial Videos",
+    "description": "Each year we record all of the PHP UK talks and make the videos available on line so that the wider PHP community can benefit from the training content our great speakers deliver. Thank you to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who make the events possible.",
     "hero": "/images/videos-hero.png"
   },
   "images": {

@@ -3,6 +3,7 @@ const fg = require('fast-glob')
 
 // Run search for images in /gallery and /sponsors
 const galleryImages = fg.sync(['**/promo-photos/*', '!**/dist'])
+const allImages = fg.sync(['**/photos/*', '!**/dist'])
 
 module.exports = eleventyConfig => {
   // Add a readable date formatter filter to Nunjucks
@@ -27,6 +28,11 @@ module.exports = eleventyConfig => {
   // Create collection of gallery images
   eleventyConfig.addCollection('photos', function(collection) {
     return galleryImages
+  })
+
+  // Create collection of allimages
+  eleventyConfig.addCollection('allphotos', function(collection) {
+      return allImages
   })
 
   // Layout aliases
