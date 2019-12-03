@@ -1,8 +1,22 @@
 {
   "main": [
     {
-      "label": "About",
-      "url": "/about/"
+      "label": "Attending",
+      "url": "/about/",
+      "sub": [
+        {
+          "label": "Venue",
+          "url": "/venue"
+        },
+        {
+          "label": "Photos",
+          "url": "/photos"
+        },
+        {
+          "label": "FAQs",
+          "url": "/faqs"
+        }
+      ]
     },
     {
       "label": "Speakers",
@@ -27,8 +41,8 @@
       "url": "/socials/"
     },
     {
-      "label": "Venue",
-      "url": "/venue/"
+      "label": "Videos",
+      "url": "/videos/"
     }
   ],
   "footer": [
