@@ -14,7 +14,7 @@
     &-toggle {
       transform: rotate(180deg);
       transition: transform 0.15s ease-in-out;
-      @media (min-width: 768px) {
+      @media (min-width: 1024px) {
         display: none;
       }
     }
@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nav-black {
     .nav-content {
       color: #000;

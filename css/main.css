@@ -9120,7 +9120,7 @@ h6 + p,
   transition: transform 0.15s ease-in-out;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .nav-item-toggle {
     display: none;
   }
@@ -9134,7 +9134,7 @@ h6 + p,
   display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nav-black .nav-content {
     color: #000;
   }
