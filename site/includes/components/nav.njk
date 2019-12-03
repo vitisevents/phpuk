@@ -11,7 +11,7 @@
           {% if item.sub %}
             <svg class="nav-item-toggle fill-current w-6 h-4 absolute top-1 right-0 opacity-25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.245 20l-11.245-14.374-11.219 14.374-.781-.619 12-15.381 12 15.391-.755.609z"/></svg>
             <div class="nav-item-sub lg:w-40 lg:absolute lg:top-6 lg:pt-3 inset-0 flex items-center justify-center">
-              <ul class="bg-white lg:shadow-xl rounded w-full text-center overflow-hidden">
+              <ul class="bg-white lg:shadow-xl rounded w-full text-left overflow-hidden">
                 {% for sub in item.sub %}
                   <li class=""><a class="inline-block text-xs tracking-widest uppercase text-black py-2 lg:px-4 w-full hover:bg-gray-100" href="{{ sub.url | safe }}">{{sub.label}}</a></li>
                 {% endfor %}

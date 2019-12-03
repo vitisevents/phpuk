@@ -95,6 +95,7 @@ var header = document.querySelector('.header');
 var mql = window.matchMedia('(min-width: 1024px)');
 var navContent = document.querySelector('.nav-content');
 var navToggle = document.querySelector('.nav-content-toggle');
+var navItemToggles = document.querySelectorAll('.nav-item-toggle');
 var windowWidth = window.innerWidth;
 
 function toggleHeaderClasses(type) {
@@ -143,6 +144,13 @@ function toggleSubNav() {
   }
 }
 
+navItemToggles.forEach(function (toggle) {
+  toggle.addEventListener('click', function () {
+    if (!mql.matches) {
+      toggle.parentElement.classList.toggle('open');
+    }
+  });
+});
 toggleNav();
 toggleHeader();
 window.addEventListener('resize', function (e) {
