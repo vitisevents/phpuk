@@ -6,7 +6,7 @@
       "sub": [
         {
           "label": "Venue",
-          "url": "/venue"
+          "url": "/attending/venue"
         },
         {
           "label": "Photos",
