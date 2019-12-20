@@ -140,18 +140,21 @@
                 "description": "Please bring a copy of your ticket either printed or on a mobile device."
             }]
         }, {
+            "time": "09.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "Keynote",
+                "description": "TBA"
+            }]
+        }, {
             "time": "09.45",
             "slottype": "break",
             "tracks": [{
-                "colspan": 3,
+                "colspan": 4,
                 "location": "King George",
                 "title": "Refreshment break",
-                "description": null
-            }, {
-                "location": null,
-                "title": null,
-                "speaker": null,
-                "level": null,
                 "description": null
             }]
         }, {
