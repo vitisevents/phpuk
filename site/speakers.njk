@@ -85,7 +85,7 @@ title: Speakers
   {% else %}
     <div class="flex flex-wrap justify-center w-full ">
       {% for speaker in speakers %}
-        <div class="speaker-column flex-1-0 px-4 mb-8">
+        <div class="speaker-column flex-1-0 px-4 mb-8" id="{{speaker.slug}}">
           <article class="speaker relative bg-purple-900 rounded-lg overflow-hidden pb-20 md:pb-0">
             <div class="speaker-photo absolute top-0 left-0 bg-cover bg-center w-full h-full" style="background-image: url({{speaker.photo}});"></div>
             <div class="speaker-gradient absolute bg-blue-400 top-0 left-0 w-full h-full opacity-75"></div>
@@ -96,7 +96,7 @@ title: Speakers
             </div>
             <aside class="absolute top-6 left-6">
               {% if speaker.twitter %}
-                <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="{{speaker.twitter}}" target="_blank">
+                <a class="inline-block mr-4 w-8 text-white hover:text-blue-500 w-6" href="https://twitter.com/{{speaker.twitter}}" target="_blank">
                   {% include 'components/icons/twitter.html' %}
                 </a>
               {% endif %}
