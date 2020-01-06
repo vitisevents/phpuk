@@ -226,7 +226,7 @@
                 "photo": null,
                 "bio": null,
                 "level": "Beginner",
-                "description": "In this talk I’ll explain how anger and fear are the root causes of our aggressive behavior, how these feelings manifest as judgmental comments online, bullying in the workplace and ultimately keep the tech community toxic and stunted. I’ll show you how embracing compassion, respect, and empathy will make you a better programmer and a happier person."
+                "description": "In case the talk title was too subtle, this session deals with ways to improve your security. Today authentication is evolving to keep up with enterprise and user needs. Hardening the authentication can also at times become a hassle for end user. Come find out how can we better secure our applications with multi-factor Authentication, while giving the users the comfort of Single Sign On. Learn about Identity Providers & how Federated Authentication works and dig deeper into the buzz words of the authentication world - OAuth and OIDC."
             }]
         }, {
             "time": "12.30",
@@ -447,8 +447,8 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "PHP OPCache, Realpath Cache and Preloading",
-                "slug": "jachimcoudeny",
-                "speaker": "Jachim Coudeny",
+                "slug": "jachimcoudenys",
+                "speaker": "Jachim Coudenys",
                 "handle": null,
                 "company": null,
                 "photo": null,
