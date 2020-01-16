@@ -45,6 +45,17 @@
       }
     },
     {
+      "name": "Nexmo",
+      "id": "nexmo",
+      "type": "gold",
+      "url": "https://www.nexmo.com/",
+      "description": "Nexmo is a global cloud communications platform, providing APIs and SDKs for messaging, voice, phone verification, advanced multi-channel conversations and video calling with the OpenTok API. We have officially supported open source libraries for Python, PHP, Ruby, Node.JS, Java and C# .NET enabling you to build scalable communications features such as two-factor authentication, notifications, two-way and group messaging, one to one or multi person calls, all with the technologies that you are already using. With our new Messages and Dispatch you can now integrate with various communication channels including Facebook Messenger, WhatsApp and Viber.",
+      "logo": {
+        "url": "/images/sponsors/nexmo.png",
+        "alt": "Nexmo logo"
+      }
+    },
+    {
       "name": "WebsiteSetup.org",
       "id": "websitesetup",
       "type": "silver",
