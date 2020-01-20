@@ -62,9 +62,20 @@
       "url": "https://risk.lexisnexis.co.uk/",
       "description": "At LexisNexis Risk Solutions, we believe in the power of data and advanced analytics for better risk management. With over 40 years of expertise, we are the trusted data analytics provider for organisations seeking actionable insights to manage risks and improve results while upholding the highest standards for security and privacy. LexisNexis is part of RELX Group plc, a FTSE 100 and world-leading provider of information solutions for professional customers. You can learn more about us at our website - https://risk.lexisnexis.co.uk/
       "logo": {
-      "url": "/images/sponsors/lexisnexis.png",
-      "alt": "lexisnexis logo"
+        "url": "/images/sponsors/lexisnexis.png",
+        "alt": "lexisnexis logo"
       }
+    },
+    {
+      "name": "Zend By Perforce",
+      "id": "perforce",
+      "type": "gold",
+      "url": "https://www.zend.com",
+      "description": "Zend by Perforce provides the long-term support, tools, training, certification, and services that organizations need to deliver highly available and flexible enterprise PHP and Laminas solutions.",
+      "logo": {
+        "url": "/images/sponsors/perforce.png",
+        "alt": "perforce logo"
+       }
     },
     {
       "name": "WebsiteSetup.org",
@@ -74,7 +85,7 @@
       "description": "Free resources for beginners to create and maintain websites.",
       "logo": {
         "url": "/images/sponsors/websitesetup.png",
-        "alt": "WebsiteSetup.org logo"
+        "alt"
       }
     }
   ]
