@@ -134,10 +134,10 @@
 }, {
     "name": "Georgiana Gligor",
     "slug": "georgianagligor",
-    "twitter": "",
-    "company": "",
+    "twitter": "gbtekkie",
+    "company": "Tekkie Consulting",
     "photo": "/images/2020/speakers/georgianagligor.jpg",
-    "bio": ""
+    "bio": "Geek. Mother. Do-er. Crafting enterprise-grade software since 2003. I'm a living proof that geek girls are an asset to any team. I love taming the Force of the DevOps dark side and mentoring team mates in achieving craftsmanship. Over the past years I dived deep into Artificial Intelligence, using (among other tools) Watson to deliver real-life applications. This also led me into starting a PhD in Systems Engineering."
 }, {
     "name": "Bruce Dou",
     "slug": "brucedou",
@@ -201,4 +201,11 @@
     "company": "Skills For Teams",
     "photo": "/images/2020/speakers/johnbehrens.jpg",
     "bio": "John Behrens is a freelancer from Hamburg Germany. He is fulfilling different roles in Developer, Tester, Scrum Master, Engineer, Architect, Trainer or Agile Coach. He is mostly willing to use any skill that is needed to help the team and take a project to success."
+}, {
+    "name": "Samantha Quiñones",
+    "slug": "samanthaquinones",
+    "twitter": "ieatkillerbees",
+    "company": "Skillshare",
+    "photo": "",
+    "bio": ""
 }]
