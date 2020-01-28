@@ -174,12 +174,12 @@
     "photo": "/images/2020/speakers/davidnegrier.jpg",
     "bio": "David is CTO and co-founder of TheCodingMachine, a French IT company specialized in PHP development. He is the co-editor of PSR-11, the standard that provides interoperability between dependency injection containers. David is the lead developer of many open-source packages including Safe, a rewrite of PHP functions that throw exceptions instead of returning false and GraphQLite, an easy to use GraphQL library. He is also the lead developper of <a href=\"http://mouf-php.com\">Mouf</a>, the only graphical dependency injection framework."
 }, {
-    "name": "Ayesh Karunaratne",
-    "slug": "ayeshkarunaratne",
-    "twitter": "Ayeshlive",
-    "company": "Freelancer",
-    "photo": "/images/2020/speakers/ayeshkarunaratne.jpg",
-    "bio": "Ayesh is a freelance software architect, security researcher, and a full-time traveler. Obsessed over clean, fast, and secure code, he contributes to open source projects, speaks at conferences, and blogs about PHP and software development while traveling packed with a laptop, a DSLR, and smiles."
+    "name": "Gabriela D'Ávila Ferrara",
+    "slug": "gabrieladavilaferrara",
+    "twitter": "gabidavila",
+    "company": "Google",
+    "photo": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12044/180124-0676.01.MOMA.jpg",
+    "bio": ""
 }, {
     "name": "Katy Ereira",
     "slug": "katyereira",
@@ -208,4 +208,11 @@
     "company": "Skillshare",
     "photo": "",
     "bio": ""
+}, {
+    "name": "David McKay",
+    "slug": "davidmckay",
+    "twitter": "rawkode",
+    "company": "InfluxData",
+    "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
+    "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways."
 }]
