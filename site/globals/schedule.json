@@ -477,13 +477,13 @@
             "time": "12.30",
             "slottype": "break",
             "tracks": [{
-                "colspan": 3,
+                "colspan": 4,
                 "location": "King George",
                 "title": "Lunch",
                 "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
             }, {
-                "location": "Lower Sugar Room",
-                "title": "TBA",
+                "location": null,
+                "title": null,
                 "speaker": null,
                 "level": null,
                 "description": null
@@ -493,15 +493,15 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "ᑌᑎIᑕOᗪE + P҉H҉P҉ for everyone",
-                "slug": "ayeshkarunaratne",
-                "speaker": "Ayesh Karunaratne",
-                "handle": null,
-                "company": null,
-                "photo": null,
-                "bio": null,
+                "title": "Introduction to Time Series",
+                "slug": "davidmckay",
+                "speaker": "David McKay",
+                "handle": "rawkode",
+                "company": "InfluxData",
+                "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
+                "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways.",
                 "level": "All",
-                "description": "From ASCII to UTF and character encodings, character sets and collation, to Unicode, this talk sorts everything developers should know about Unicode. With plenty of animations and charts, it will explain the inner details of Unicode, how it came to be, why we need it, and how to work with them in PHP, SQL, and Regular Expressions to deliver fast and secure software compatible with various writing systems, Emojis, and languages used throughout the world."
+                "description": "Time-Series has been the fastest growing database category, rated, by DBEngines, for over 2 years; yet, less than 15% store their time-series data in a time-series database. Do you?"
             }, {
                 "location": "Queen Charlotte",
                 "title": "Testing Hack with Hammock",
@@ -528,14 +528,14 @@
                 "rowspan": 5,
                 "location": "Velocity Track - Queen Vault",
                 "tooltip": null,
-                "title": "TBA",
-                "slug": null,
-                "speaker": null,
+                "title": "Kubernetes and Relational Databases",
+                "slug": "gabrieladavilaferrara",
+                "speaker": "Gabriela D'Ávila Ferrara",
                 "handle": null,
                 "company": null,
                 "photo": null,
                 "bio": null,
-                "level": null,
+                "level": "Intermediate",
                 "description": null
             }]
         }, {
