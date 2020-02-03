@@ -4,14 +4,14 @@
     "twitter": "Dragem",
     "company": "Island-bookings.com",
     "photo": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/30990/profile300.jpg",
-    "bio": "Developer for more than 8 years now, Just started working at Island-bookings.com. Advocate for good architecture and usually working on some financial feature. Like to be called a Developer and not a Programmer! Also Founder of the User group DeventerPHP. Next to developing for money Tim likes to develop for his other 2 hobbies, Beer and Board games. No wonder some of his talks are about 1 of the 2."
+    "bio": "Developer for more than 8 years now, Just started working at Island-bookings.com. Like to be called a Developer and not a Programmer! Also Founder of the User group DeventerPHP. Next to developing for money Tim likes to develop for his other 2 hobbies, Beer and Board games. No wonder some of his talks are about 1 of the 2."
 }, {
     "name": "Michelle Sanver",
     "slug": "michellesanver",
     "twitter": "michellesanver",
     "company": "Liip",
     "photo": "/images/2020/speakers/michellesanver.jpg",
-    "bio": "Michelle is a code-passionate colourful geek and with more than 15 years of PHP experience, she is eager to share her extensive knowledge. She works at Liip, a self organised company based in Switzerland. At Liip she proudly does many things, including organising internal hiking events! But her main day to day work is as a developer. It involves an ever changing API for the biggest retailer in Switzerland, using mainly Symfony, ElasticSearch and RabbitMQ."
+    "bio": "Michelle is a code-passionate colourful geek and with more than 15 years of PHP experience, she is eager to share her extensive knowledge. She works at Liip, a self organised company based in Switzerland. At Liip she does many things, including organising internal hiking events! But her main day to day work involves an ever changing API for the biggest retailer in Switzerland, using mainly Symfony, ElasticSearch and RabbitMQ."
 }, {
     "name": "Antonio Peric-Mazar",
     "slug": "antoniopericmazar",
@@ -24,57 +24,57 @@
     "slug": "angelrivera",
     "twitter": "punkdata",
     "company": "CircleCI",
-    "photo": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/28869/cci_angel_rivera_social_200px.png",
-    "bio": "Angel started his career as an US Air Force Space Systems Operations specialist in Cape Canaveral AF Station where he realized his passion for technology and software development. He has extensive experience in the private, public and military sectors and his technical experience includes military/space lift operations, technical writing, software development, SRE/DevOPs engineering. You can usually find him speaking at or organizing local tech meetups and hackathons where he enjoys engaging with developers."
+    "photo": "/images/2020/speakers/antonio1.png",
+    "bio": "Angel started his career as an US Air Force Space Systems Operations specialist where he realized his passion for technology and software development. He has extensive experience in the private, public and military sectors and his technical experience includes military/space lift operations, technical writing, software development, SRE/DevOPs engineering. You can find him speaking at local tech meetups and hackathons, engaging with developers."
 }, {
     "name": "Mark Bradley",
     "handle": "markbradley",
     "twitter": "braddle",
     "company": "Sainsbury's",
     "photo": "/images/2020/speakers/markbradley.jpg",
-    "bio": "Mark Bradley is a Principal Software Engineer from London, currently working for Sainsbury’s. Working in the industry for over 10 years Mark has developed a passion for supporting and mentoring his peers and has more recently been working with the apprentice programme at Sainsbury’s alongside his day job. A keen protagonist of Test Driven Development, he launched his own screen cast, ‘Testing All the Things’ in the Spring, to teach the wider community how to practice Test Driven Development and Automated Testing."
+    "bio": "Mark Bradley is a Principal Software Engineer from London, working for Sainsbury’s. In the industry for over 10 years, Mark has developed a passion for supporting his peers and has recently been working with the apprentice programme at Sainsbury’s. A keen protagonist of TDD, he launched his own screen cast, ‘Testing All the Things’ in the Spring, to teach the wider community how to practice Test Driven Development and Automated Testing."
 }, {
     "name": "Drishti Jain",
     "slug": "drishtijain",
     "twitter": "drishtijjain",
     "company": "",
     "photo": "/images/2020/speakers/drishtijain.jpg",
-    "bio": "Drishti is a Computer Engineer and a technology enthusiast. She loves to use technology to help the less fortunate. She believes in democratizing opportunities and brings knowledge of the latest developments in the fast-moving field of technology to deserving students, and keep them up to date and well-equipped for their respective professional careers. She has spoken at conferences across the globe and is also a social entrepreneur. Her non-profit organisation - Samyak Drishti Foundation works in environment, education and healthcare sectors and operates in 10 cities across India."
+    "bio": "Drishti is a Computer Engineer and a tech enthusiast. She loves to use technology to help the less fortunate, and believes in democratizing opportunities and brings the latest developments in the field of technology to deserving students. She has spoken at conferences across the globe and is also a social entrepreneur. Her NPO - Samyak Drishti Foundation works in environment, education and healthcare sectors and operates in 10 cities across India."
 }, {
     "name": "Bastian Hofmann",
     "slug": "bastianhofmann",
     "twitter": "BastianHofmann",
     "company": "SysEleven",
     "photo": "https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500",
-    "bio": "Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power of Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the leading social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on Kubernetes, software architecture and scaling web applications."
+    "bio": "Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power of Kubernetes to its customers. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on Kubernetes, software architecture and scaling web applications."
 }, {
     "name": "Dave Liddament",
     "slug": "daveliddament",
     "twitter": "daveliddament",
     "company": "Lamp Bristol",
     "photo": "/images/2020/speakers/daveliddament.jpg",
-    "bio": "<a target=\"blank\" href=\"https://www.daveliddament.co.uk/\">Dave</a> is a director and developer at <a target=\"blank\" href=\"https://www.lampbristol.com/\">Lamp Bristol</a>, a software consultancy. He’s been writing software commercially for over 17 years in many languages including C, Python, Java and PHP. Dave is keen to pass on his knowledge. He speaks at conferences and user groups. He is an organiser of PHP-SW. He also runs a <a target=\"blank\" href=\"https://www.meetup.com/Bristol-PHP-Training/\">monthly workshop</a> that covers topics including testing, CI and git. is also the author of an open source tool called <a target=\"blank\" href=\"https://www.meetup.com/Bristol-PHP-Training/\">SARB</a> (static analysis results baseliner). When not busy coding Dave enjoys scuba diving and running."
+    "bio": "<a target=\"blank\" href=\"https://www.daveliddament.co.uk/\">Dave</a> is a director and developer at <a target=\"blank\" href=\"https://www.lampbristol.com/\">Lamp Bristol</a>, a software consultancy. He’s been writing software commercially for over 17 years in many languages. Dave is keen to pass on his knowledge and speaks at conferences and user groups. He is an organiser of PHP-SW. He also runs a <a target=\"blank\" href=\"https://www.meetup.com/Bristol-PHP-Training/\">monthly workshop</a> that covers topics including testing, CI and git. is also the author of an open source tool called <a target=\"blank\" href=\"https://www.meetup.com/Bristol-PHP-Training/\">SARB</a> (static analysis results baseliner)."
 }, {
     "name": "Jachim Coudenys",
     "slug": "jachimcoudenys",
     "twitter": "coudenysj",
     "company": "Combell",
     "photo": "https://secure.gravatar.com/avatar/4ce755c7f3ddf4e0c92e1aeaeea7677b?s=500",
-    "bio": "Jachim Coudenys is a PHP developer at Combell. Since discovering PHP in 2002 (4.1.0), his work and after-work activities brought him from the world of development to server management, development workflows, more development, etc… Next to being a long-time member of PHPBenelux, he is co-organizer the PHP-WVL, a user group in West Flanders (BE). He is a Zend Certified developer and Certified MongoDB Developer & DBA. You can follow him on http://twitter.com/coudenysj and read his occasional blog posts on http://blog.jachim.be."
+    "bio": "Jachim is a PHP developer at Combell. Since discovering PHP in 2002 (4.1.0), his activities brought him from the world of development to server management, & development workflows. Next to being a long-time member of PHPBenelux, he is co-organizer the PHP-WVL, a user group in West Flanders (BE). He is a Zend Certified developer and Certified MongoDB Developer & DBA. You can follow him on http://twitter.com/coudenysj and read his occasional blog posts on http://blog.jachim.be."
 }, {
     "name": "Chris Tankersley",
     "slug": "christankersley",
     "twitter": "dragonmantank",
     "company": "Nexmo",
     "photo": "https://secure.gravatar.com/avatar/70551fd929651a7c55da3827fe970de4?s=500",
-    "bio": "Chris Tankersley is a husband, father, author, speaker, PHP developer, podcast host, and probably lots of other things he’s forgetting to mention. He works for Nexmo as a PHP Developer Advocate, helping developers use and integrate Nexmo’s communication platform into their applications. Chris has worked with many different frameworks and languages throughout his fifteen years of programming, but spends most of his day working in PHP. He is the author of “Docker for Developers,” and helps developers integrate containers into their workflows."
+    "bio": "Chris Tankersley is a husband, father, author, speaker, PHP developer, and podcast host. He works for Nexmo as a PHP Developer Advocate, helping developers use and integrate Nexmo’s communication platform into their applications. Chris has worked with many different frameworks and languages throughout his 15 years of programming, but spends most of his day working in PHP. He is the author of “Docker for Developers,” and helps developers integrate containers into their workflows."
 }, {
     "name": "Christiana Unaeze",
     "slug": "christianaunaeze",
     "twitter": "EagleDreamz",
     "company": "",
     "photo": "/images/2020/speakers/christianaunaeze.jpg",
-    "bio": "Christiana Unaeze is a User Experience Designer, Entrepreneur and Creative Design Strategist. She has over a decade of combined experience in visual and user experience design, project management and design consulting. Currently, Christiana is a consultant with a federal agency where she leads and supports design and accessibility efforts on multiple projects. She is on a mission to help design products that are engaging, creative and accessible to all. She is also a runner, an avid reader, a Game of Thrones fan, an aficionado of statement jewellery, and a fervent DIYer."
+    "bio": "Christiana is a UX Designer, Entrepreneur and Creative Design Strategist. She has over a decade of combined experience in visual and user experience design, project management and design consulting. Currently, Christiana is a consultant with a federal agency where she leads and supports design and accessibility efforts on multiple projects. She is also a runner, an avid reader, a Game of Thrones fan, an aficionado of statement jewellery, and a fervent DIYer."
 }, {
     "name": "Matthieu Napoli",
     "slug": "matthieunapoli",
@@ -158,14 +158,14 @@
     "twitter": "PurpleBooth",
     "company": "Armakuni",
     "photo": "/images/2020/speakers/billiethompson.jpg",
-    "bio": "I come from the PHP community, and (after a couple of near misses) I became interested in how to write PHP that is resistant to even my code breaking skills. As a contractor I started coming into contact with more and more languages - each a great opportunity to improve my PHP and, almost by accident, I became a polyglot developer. At Armakuni I get to help people take the same journey, from taking risks, through to developing the right way for their domain (at an accelerated pace, and in a safer way). Stuff I love to talk about include creating better templates, serverless and Kubernetes."
+    "bio": "I come from the PHP community, and I became interested in how to write PHP that is resistant to even my code breaking skills. I started coming into contact with more and more languages, and almost by accident, I became a polyglot developer. At Armakuni I get to help people take the same journey, from taking risks, through to developing the right way for their domain (at an accelerated pace, and in a safer way). Stuff I love to talk about include creating better templates, serverless and Kubernetes."
 }, {
     "name": "Rob Allen",
     "slug": "roballen",
     "twitter": "akrabat",
     "company": "Nineteen Feet Limited",
     "photo": "/images/2020/speakers/roballen.jpg",
-    "bio": "Rob Allen is a software consultant and developer with many years experience in a variety of interesting languages. He's particularly interested in APIs and the ecosystem around them along and contributes to Apache OpenWhisk, rst2pdf & Slim Framework along with other open source projects. Rob is a published author and based in the UK where he runs <a target=\"blank\" href=\"https://19ft.com/\">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a target=\"blank\" href=\"https://akrabat.com\">akrabat.com</a> and can often be seen with a camera in his hand."
+    "bio": "Rob Allen is a software consultant and developer with many years experience in a variety of languages. He's interested in APIs and the ecosystem around them and contributes to Apache OpenWhisk, rst2pdf & Slim Framework along with other open source projects. Rob is a published author and he runs <a target=\"blank\" href=\"https://19ft.com/\">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a target=\"blank\" href=\"https://akrabat.com\">akrabat.com</a> and can often be seen with a camera in his hand."
 }, {
     "name": "David Négrier",
     "slug": "davidnegrier",
@@ -206,8 +206,8 @@
     "slug": "samanthaquinones",
     "twitter": "ieatkillerbees",
     "company": "Skillshare",
-    "photo": "",
-    "bio": ""
+    "photo": "/images/2020/speakers/samanthaq.png",
+    "bio": "Samantha Quiñones is a software engineer and amateur photographer from Brooklyn, New York. She is also an internationally renowned public speaker and sits on the PHP-FIG Core Committee. She has been recognized by the Huffington Post as one of the top Latin Americans in Media and is a 2015 recipient of the DCFT Powerful Female Programmers Award."
 }, {
     "name": "David McKay",
     "slug": "davidmckay",
