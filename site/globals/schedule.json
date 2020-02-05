@@ -557,17 +557,12 @@
                 "level": "Intermediate",
                 "description": "Have you ever lost a request? You see it going into your system but can't see where it's gone or what happened to it? In this talk I am going to show you how to fix the problem of tangled systems that are hard to see through using distributed tracing, and also give you an insight into the wider context and future of the tooling. Some PHP knowledge assumed."
             }, {
-                "location": null,
-                "title": "TBA",
-                "subtitle": null,
-                "slug": null,
-                "speaker": null,
-                "handle": null,
-                "company": null,
-                "photo": null,
-                "bio": null,
-                "level": null,
-                "description": null
+                "location": "Queen Charlotte",
+                "title": "Static Code Analysis: Judging a Forest by Its Trees",
+                "slug": "christianrades",
+                "speaker": "Christian Rades",
+                "level": "Intermediate",
+                "description": "Static code analysis can help you automate the boring parts of your code reviews. This talk is an overview of several tools and tips on how to use them in new and existing projects, featuring the following tools that can help you: Stop nit-picking your colleagues’ code style (Easy Coding Standard), keep up with best practices (Psalm, PHPStan, PHP Insights) and generate graphs visualising your dependencies (Deptrac, PhpMetrics)."
             }]
         }, {
             "time": "15.45",

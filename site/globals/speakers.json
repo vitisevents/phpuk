@@ -215,4 +215,11 @@
     "company": "InfluxData",
     "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
     "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways."
+}, {
+	"name": "Christian Rades",
+    "slug": "christianrades",
+    "twitter": "",
+    "company": "Shopware",
+    "photo": "/images/2020/speakers/christianr.jpg",
+    "bio": "Since joining Shopware in 2017, Christian Rades has gained much first-hand in a number of departments. Starting in the Enterprise Team, Christian worked on distributed systems and cloud applications – an experience which prepared him as a core developer for the new Shopware platform, where he focuses on the administration, messaging and file management. Christian is also one of the organisers of Shopware’s popular Code Camps, which are geared towards promoting young talent in the IT sector."
 }]
