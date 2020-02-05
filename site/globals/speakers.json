@@ -222,4 +222,11 @@
     "company": "Shopware",
     "photo": "/images/2020/speakers/christianr.jpg",
     "bio": "Since joining Shopware in 2017, Christian Rades has gained much first-hand in a number of departments. Starting in the Enterprise Team, Christian worked on distributed systems and cloud applications – an experience which prepared him as a core developer for the new Shopware platform, where he focuses on the administration, messaging and file management. Christian is also one of the organisers of Shopware’s popular Code Camps, which are geared towards promoting young talent in the IT sector."
+}, {
+    "name": "Chris Riley",
+    "slug": "chrisriley",
+    "twitter": "",
+    "company": "",
+    "photo": "/images/2020/speakers/chrisr.jpg",
+    "bio": "Chris is a freelance consultant based in York, UK with experience working in the public sector throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework."
 }]
