@@ -34,7 +34,7 @@
 		"id": "tickettailor",
 		"type": "gold",
 		"url": "https://www.tickettailor.com/",
-		"description": "Ticket Tailor is a start-up with a difference. We're the world’s #1 independent ticketing platform and we’re on a mission to scale in our own way: sustainably and soulfully. That means:<ul><li>point one</li> we've bootstrapped the company from day one and we're profitable<li>point two</li> we don't have VCs who demand us to grow 10x every 48 hours<li>point three</li> we care about the people we work with, our customers and the community we're based in</ul> We’re on the lookout for talented PHP developers. If you’re interested in working with PHP microframeworks, scaling, testing, writing clean code come and chat with us! <a href=\"https://www.tickettailor.com/careers/\">https://www.tickettailor.com/careers/</a>",
+		"description": "Ticket Tailor is a start-up with a difference. We're the world’s #1 independent ticketing platform and we’re on a mission to scale in our own way: sustainably and soulfully. That means:<ul> <li>point one</li> we've bootstrapped the company from day one and we're profitable <li>point two</li> we don't have VCs who demand us to grow 10x every 48 hours <li>point three</li> we care about the people we work with, our customers and the community we're based in</ul> We’re on the lookout for talented PHP developers. If you’re interested in working with PHP microframeworks, scaling, testing, writing clean code come and chat with us! <a href=\"https://www.tickettailor.com/careers/\">https://www.tickettailor.com/careers/</a>",
 		"logo": {
 			"url": "/images/sponsors/tickettailor.png",
 			"alt": "Ticket Tailor logo"
@@ -79,5 +79,14 @@
 			"url": "/images/sponsors/websitesetup.png",
 			"alt": "Website Setup.org Logo"
 		}
+	}, {
+		"name": "Cloudways",
+		"id": "cloudways",
+		"type": "silver",
+		"url": "https://www.cloudways.com/en/php-hosting.php",
+		"description": "Cloudways is a leading managed cloud hosting provider, partnered with some of the biggest cloud names in the industry including AWS, Google Cloud, DigitalOcean, Linode and Vultr. The platform provides hassle-free managed hosting services for agencies, ecommerce store owners and SMBs. Cloudways offers freedom to build/manage stunning PHP based applications like Laravel, WordPress, Magento and others. With Cloudways pre-built hosting solutions, users can focus more on the business growth & agility, rather than bothering about any technical server management and security.",
+		"logo": {
+			"url": "/images/sponsors/cloudways.png",
+			"alt": "Cloudways Logo"
 	}]
 }
