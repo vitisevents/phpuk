@@ -16,7 +16,7 @@
       <div class="lg:pl-8 pb-8 flex flex-col justify-between leading-normal">
         <div class="mb-8">
           <div class="text-gray-900 font-bold text-2xl mt-0 mb-2">{{sponsor.name}}</div>
-          <span class="block text-gray-500 font-mono text-sm">{{sponsor.description}}</span>
+          <span class="block text-gray-500 font-mono text-sm">{{sponsor.description | safe}}</span>
         </div>
       </div>
     </div>
