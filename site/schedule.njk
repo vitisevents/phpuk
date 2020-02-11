@@ -40,7 +40,7 @@ title: Schedule
                       <a href="prereqs/">Prerequisites</a><br>
                     {% endif %}
                     <span class="title">
-                      <h3 class="main-title text-2xl mb-1 font-normal">{{track.title}}</h3>
+                      <h3 class="main-title text-2xl mb-1 font-normal">{{track.title | safe}}</h3>
                       <span class="subtitle">{{track.subtitle}}</span>
                     </span>
                     {% if track.speaker %}
