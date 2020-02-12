@@ -27,7 +27,7 @@ title: Schedule
               <td class="time text-gray-500 p-4 pl-0 font-mono w-16 md:w-24" rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
               {% for track in slot.tracks %}
                 {% if track.location %}
-                  <td class="location px-4{% if track.tooltip %} tutorial{% endif %} text-gray-600 text-sm uppercase tracking-wider" colspan="{{track.colspan}}" title="{{track.tooltip}}">{{track.location}}</td>
+                  <td class="location px-4{% if track.tooltip %} tutorial{% endif %} text-gray-600 text-sm uppercase tracking-wider" colspan="{{track.colspan}}" title="{{track.tooltip}}">{{track.location | safe}}</td>
                 {% endif %}
               {% endfor %}
             </tr>
