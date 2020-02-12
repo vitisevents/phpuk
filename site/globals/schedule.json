@@ -528,15 +528,15 @@
                 "rowspan": 5,
                 "location": "Velocity Track - Queen Vault",
                 "tooltip": null,
-                "title": "Kubernetes and Relational Databases",
+                "title": "Highly Available Applications using Kubernetes and Managed Databases",
                 "slug": "gabrieladavilaferrara",
                 "speaker": "Gabriela D'Ávila Ferrara",
-                "handle": null,
-                "company": null,
+                "handle": "gabidavila",
+                "company": "Google",
                 "photo": null,
                 "bio": null,
                 "level": "Intermediate",
-                "description": null
+                "description": "This tutorial is a hands-on demonstration of building and deploying a highly available, fault tolerant web application. We will demonstrate how to deploy a PHP application in two ways, running in Google Kubernetes Engine while connecting to a MySQL instance on Cloud SQL, and secondly using Serverless tools like Cloud Run and connecting to the same database instance. You will come out of this tutorial knowing the bridge to unite your stateless code to your stateful database."
             }]
         }, {
             "time": "14.30",
