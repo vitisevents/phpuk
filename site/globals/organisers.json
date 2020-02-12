@@ -3,8 +3,8 @@
     {
       "name": "Johanna Cherry",
       "avatar": "https://www.gravatar.com/avatar/cfba4698b0acef6927797ff274ba5921",
-      "bio": "Johanna Cherry has spent her career developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. She is currently a freelance developer and DBA. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.",
-      "role": "Jo manages speakers, socials, the venue, marketing, and delegate services for the conference.",
+      "bio": "Jo has spent her career developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. She is currently a contract data engineer. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.",
+      "role": "Jo manages speakers, socials, the venue, and vendors for the conference.",
       "links": {
         "websites": [
           {
@@ -33,13 +33,14 @@
           }
         ],
         "twitter": "http://twitter.com/johannacherry",
-        "github": "http://github.com/johannac"
+        "github": "http://github.com/johannac",
+        "linkedin": "https://www.linkedin.com/in/johannacherry"
       }
     },
     {
       "name": "Sam Bell",
       "avatar": "https://www.gravatar.com/avatar/f5fe63e7ab9414080068bd761fbd0542",
-      "bio": "Sam Bell is co-founder of digital agency, Copia Digital. He and his team build websites and web applications for asset managers and companies listed on the London Stock Exchange, helping them report on performance to their investors. They also run a side project called ChartBlocks, an online chart building tool that makes it easy to embed charts into your website or social media.",
+      "bio": "Sam is co-founder of digital agency, Copia Digital. He and his team build websites and web applications for asset managers and companies listed on the London Stock Exchange, helping them report on performance to their investors. They also run a side project called ChartBlocks, an online chart building tool that makes it easy to embed charts into your website or social media.",
       "role": "Sam manages registration, sponsors, exhibits and volunteers for the conference.",
       "links": {
         "websites": [
@@ -69,8 +70,8 @@
     {
       "name": "Paul Berberich",
       "avatar": "https://secure.gravatar.com/avatar/737561f4dd2eb1285064fcd390e75a0e",
-      "bio": "Paul is a brand new member of our team and is excited to be entering the world of conferences. He brings years of customer service experience and has begun to learn how to code.",
-      "role": "Paul is an event coordinator and manages the venue, speakers, scholarships and social media.",
+      "bio": "Paul brings many years of customer service experience to his role, courtesy of the many different types of jobs he’s had over the years. Since joining the team he’s learned web development which he uses to keep this web site up to date, as well as some personal projects. When not planning or running one of our conferences, you can find him performing with his local improv group or running his weekly game night.",
+      "role": "Paul is an event coordinator and manages the venue, speakers, scholarships, socials and vendors.",
       "links": {
         "twitter": "http://twitter.com/paulberb",
         "github": "http://github.com/paulberb"
