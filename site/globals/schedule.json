@@ -27,7 +27,7 @@
                 "speaker": "Tim Huijzers",
                 "slug": "timhuijzers",
                 "title": "Getting Started with Event-sourcing",
-                "location": null,
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopi",
                 "description": "Over the last couple of years, I have heard of Event sourcing but didn’t really know where to start until I did a tutorial at DPC ‘17. After having some basic information it was time to start a Hackathon and after that something production worthy. In this talk I will try to give the best information to get started and to know some of the problems you can face if you begin event-sourcing, and we'll build a working application and use Docker and React to tie everything together with events commands and projections."
             }, {
@@ -36,28 +36,28 @@
                 "speaker": "Antonio Peric-Mazar",
                 "slug": "antonioperic-mazar",
                 "title": "*SOLD OUT* <br><br>REST easy with Api Platform",
-                "location": null,
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopii",
                 "description": "We’ll start by creating a fully-featured API in just a few minutes with API Platform, Symfony and Doctrine. The API will support pagination, data validation, access control, relation embedding, filters, and error handling. It will be documented with OpenAPI and will have a nice UI done in React."
             }, {
                 "colspan": 1,
                 "name": "Workshop III",
-                "speaker": "Mark Bradley",
-                "slug": "markbradley",
-                "title": "Introduction to Test Driven Development Workshop",
-                "location": null,
-                "id": "workshopiii",
-                "description": "Want to ship code faster? Want to work on features over bugs? Want more confidence in your code? You need to TEST ALL THE THINGS. Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development."
-            }, {
-                "colspan": 1,
-                "name": "Workshop IV",
                 "speaker": "Bastian Hofmann",
                 "slug": "bastianhofmann",
                 "handle": "BastianHofmann",
                 "title": "Deploying your first Micro-Service application to Kubernetes",
-                "location": null,
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopiv",
                 "description": "Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use persistent storage and service meshes and set up sensible monitoring and logging tooling."
+            }, {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "speaker": "Mark Bradley",
+                "slug": "markbradley",
+                "title": "Introduction to Test Driven Development Workshop",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
+                "description": "Want to ship code faster? Want to work on features over bugs? Want more confidence in your code? You need to TEST ALL THE THINGS. Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development."
             }]
         }, {
             "time": "12.30",
@@ -214,6 +214,16 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
+                "title": "In the world of Password123, be someone's #@%^)*!",
+                "slug": "ipshabhidonia",
+                "speaker": "Ipsha Bhidonia",
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": "Beginner",
+                "description": "In case the talk title was too subtle, this session deals with ways to improve your security. Today authentication is evolving to keep up with enterprise and user needs. Hardening the authentication can also at times become a hassle for end user. Come find out how can we better secure our applications with multi-factor Authentication, while giving the users the comfort of Single Sign On. Learn about Identity Providers & how Federated Authentication works and dig deeper into the buzz words of the authentication world - OAuth and OIDC."
+            }, {
+                "location": "Queen Charlotte",
                 "title": "Serverless PHP applications with Bref",
                 "slug": "matthieunapoli",
                 "speaker": "Matthieu Napoli",
@@ -223,16 +233,6 @@
                 "bio": null,
                 "level": "Intermediate",
                 "description": "Running PHP used to be as simple as copying files onto a shared host via FTP. What if we could get back to something that simple, but gain in security, performances and scalability as well? Let’s deploy PHP on AWS Lambda using Bref, an open-source solution for building serverless PHP applications."
-            }, {
-                "location": "Queen Charlotte",
-                "title": "In the world of Password123, be someone's #@%^)*!",
-                "slug": "ipshabhidonia",
-                "speaker": "Ipsha Bhidonia",
-                "handle": null,
-                "photo": null,
-                "bio": null,
-                "level": "Beginner",
-                "description": "In case the talk title was too subtle, this session deals with ways to improve your security. Today authentication is evolving to keep up with enterprise and user needs. Hardening the authentication can also at times become a hassle for end user. Come find out how can we better secure our applications with multi-factor Authentication, while giving the users the comfort of Single Sign On. Learn about Identity Providers & how Federated Authentication works and dig deeper into the buzz words of the authentication world - OAuth and OIDC."
             }]
         }, {
             "time": "12.30",
@@ -493,17 +493,6 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "Introduction to Time Series",
-                "slug": "davidmckay",
-                "speaker": "David McKay",
-                "handle": "rawkode",
-                "company": "InfluxData",
-                "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
-                "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways.",
-                "level": "All",
-                "description": "Time-Series has been the fastest growing database category, rated, by DBEngines, for over 2 years; yet, less than 15% store their time-series data in a time-series database. Do you?"
-            }, {
-                "location": "Queen Charlotte",
                 "title": "Testing Hack with Hammock",
                 "slug": "riyadashoriya",
                 "speaker": "Riya Dashoriya",
@@ -513,6 +502,17 @@
                 "bio": null,
                 "level": "All",
                 "description": "Introducing Hammock, a new open source mocking library for Hacklang. Hammock aims to provide disposable interfaces for mocking and spying public, protected, private, and static methods - as well as global functions - without altering their behavior. Using `fb_intercept` under the hood for mocking and unmocking, it also allows mocking of an individual object without affecting other instances of the same class. Come learn more about Hammock and how you can use this to test your code."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Introduction to Time Series",
+                "slug": "davidmckay",
+                "speaker": "David McKay",
+                "handle": "rawkode",
+                "company": "InfluxData",
+                "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
+                "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways.",
+                "level": "All",
+                "description": "Time-Series has been the fastest growing database category, rated, by DBEngines, for over 2 years; yet, less than 15% store their time-series data in a time-series database. Do you?"
             }, {
                 "prereqs": 0,
                 "rowspan": 5,
@@ -528,15 +528,15 @@
                 "rowspan": 5,
                 "location": "Velocity Track - Queen Vault",
                 "tooltip": null,
-                "title": "Kubernetes and Relational Databases",
+                "title": "Highly Available Applications using Kubernetes and Managed Databases",
                 "slug": "gabrieladavilaferrara",
                 "speaker": "Gabriela D'Ávila Ferrara",
-                "handle": null,
-                "company": null,
+                "handle": "gabidavila",
+                "company": "Google",
                 "photo": null,
                 "bio": null,
                 "level": "Intermediate",
-                "description": null
+                "description": "This tutorial is a hands-on demonstration of building and deploying a highly available, fault tolerant web application. We will demonstrate how to deploy a PHP application in two ways, running in Google Kubernetes Engine while connecting to a MySQL instance on Cloud SQL, and secondly using Serverless tools like Cloud Run and connecting to the same database instance. You will come out of this tutorial knowing the bridge to unite your stateless code to your stateful database."
             }]
         }, {
             "time": "14.30",
