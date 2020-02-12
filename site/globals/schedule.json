@@ -27,7 +27,7 @@
                 "speaker": "Tim Huijzers",
                 "slug": "timhuijzers",
                 "title": "Getting Started with Event-sourcing",
-                "location": null,
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopi",
                 "description": "Over the last couple of years, I have heard of Event sourcing but didn’t really know where to start until I did a tutorial at DPC ‘17. After having some basic information it was time to start a Hackathon and after that something production worthy. In this talk I will try to give the best information to get started and to know some of the problems you can face if you begin event-sourcing, and we'll build a working application and use Docker and React to tie everything together with events commands and projections."
             }, {
@@ -36,28 +36,28 @@
                 "speaker": "Antonio Peric-Mazar",
                 "slug": "antonioperic-mazar",
                 "title": "*SOLD OUT* <br><br>REST easy with Api Platform",
-                "location": null,
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopii",
                 "description": "We’ll start by creating a fully-featured API in just a few minutes with API Platform, Symfony and Doctrine. The API will support pagination, data validation, access control, relation embedding, filters, and error handling. It will be documented with OpenAPI and will have a nice UI done in React."
             }, {
                 "colspan": 1,
                 "name": "Workshop III",
-                "speaker": "Mark Bradley",
-                "slug": "markbradley",
-                "title": "Introduction to Test Driven Development Workshop",
-                "location": null,
-                "id": "workshopiii",
-                "description": "Want to ship code faster? Want to work on features over bugs? Want more confidence in your code? You need to TEST ALL THE THINGS. Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development."
-            }, {
-                "colspan": 1,
-                "name": "Workshop IV",
                 "speaker": "Bastian Hofmann",
                 "slug": "bastianhofmann",
                 "handle": "BastianHofmann",
                 "title": "Deploying your first Micro-Service application to Kubernetes",
-                "location": null,
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopiv",
                 "description": "Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use persistent storage and service meshes and set up sensible monitoring and logging tooling."
+            }, {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "speaker": "Mark Bradley",
+                "slug": "markbradley",
+                "title": "Introduction to Test Driven Development Workshop",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
+                "description": "Want to ship code faster? Want to work on features over bugs? Want more confidence in your code? You need to TEST ALL THE THINGS. Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development."
             }]
         }, {
             "time": "12.30",
