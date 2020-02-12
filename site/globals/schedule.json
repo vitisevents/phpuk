@@ -214,6 +214,16 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
+                "title": "In the world of Password123, be someone's #@%^)*!",
+                "slug": "ipshabhidonia",
+                "speaker": "Ipsha Bhidonia",
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": "Beginner",
+                "description": "In case the talk title was too subtle, this session deals with ways to improve your security. Today authentication is evolving to keep up with enterprise and user needs. Hardening the authentication can also at times become a hassle for end user. Come find out how can we better secure our applications with multi-factor Authentication, while giving the users the comfort of Single Sign On. Learn about Identity Providers & how Federated Authentication works and dig deeper into the buzz words of the authentication world - OAuth and OIDC."
+            }, {
+                "location": "Queen Charlotte",
                 "title": "Serverless PHP applications with Bref",
                 "slug": "matthieunapoli",
                 "speaker": "Matthieu Napoli",
@@ -223,16 +233,6 @@
                 "bio": null,
                 "level": "Intermediate",
                 "description": "Running PHP used to be as simple as copying files onto a shared host via FTP. What if we could get back to something that simple, but gain in security, performances and scalability as well? Let’s deploy PHP on AWS Lambda using Bref, an open-source solution for building serverless PHP applications."
-            }, {
-                "location": "Queen Charlotte",
-                "title": "In the world of Password123, be someone's #@%^)*!",
-                "slug": "ipshabhidonia",
-                "speaker": "Ipsha Bhidonia",
-                "handle": null,
-                "photo": null,
-                "bio": null,
-                "level": "Beginner",
-                "description": "In case the talk title was too subtle, this session deals with ways to improve your security. Today authentication is evolving to keep up with enterprise and user needs. Hardening the authentication can also at times become a hassle for end user. Come find out how can we better secure our applications with multi-factor Authentication, while giving the users the comfort of Single Sign On. Learn about Identity Providers & how Federated Authentication works and dig deeper into the buzz words of the authentication world - OAuth and OIDC."
             }]
         }, {
             "time": "12.30",
@@ -493,17 +493,6 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "Introduction to Time Series",
-                "slug": "davidmckay",
-                "speaker": "David McKay",
-                "handle": "rawkode",
-                "company": "InfluxData",
-                "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
-                "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways.",
-                "level": "All",
-                "description": "Time-Series has been the fastest growing database category, rated, by DBEngines, for over 2 years; yet, less than 15% store their time-series data in a time-series database. Do you?"
-            }, {
-                "location": "Queen Charlotte",
                 "title": "Testing Hack with Hammock",
                 "slug": "riyadashoriya",
                 "speaker": "Riya Dashoriya",
@@ -513,6 +502,17 @@
                 "bio": null,
                 "level": "All",
                 "description": "Introducing Hammock, a new open source mocking library for Hacklang. Hammock aims to provide disposable interfaces for mocking and spying public, protected, private, and static methods - as well as global functions - without altering their behavior. Using `fb_intercept` under the hood for mocking and unmocking, it also allows mocking of an individual object without affecting other instances of the same class. Come learn more about Hammock and how you can use this to test your code."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Introduction to Time Series",
+                "slug": "davidmckay",
+                "speaker": "David McKay",
+                "handle": "rawkode",
+                "company": "InfluxData",
+                "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
+                "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways.",
+                "level": "All",
+                "description": "Time-Series has been the fastest growing database category, rated, by DBEngines, for over 2 years; yet, less than 15% store their time-series data in a time-series database. Do you?"
             }, {
                 "prereqs": 0,
                 "rowspan": 5,
