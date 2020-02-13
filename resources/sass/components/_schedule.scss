@@ -1,3 +1,17 @@
+.location{
+  display:block;
+  width:100%;
+
+  @media (min-width: 768px) {
+    display:inline-block;
+    width:49.5%;
+  }
+  @media (min-width: 1200px) {
+    display:table-cell;
+    width:24.5%;
+  }
+}
+
 .track{
   display:block;
   width:100%;
