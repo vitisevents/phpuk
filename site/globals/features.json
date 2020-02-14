@@ -6,7 +6,7 @@
       "short": "days"
     },
     {
-      "stat": "3",
+      "stat": "4",
       "title": "simultaneous tracks",
       "short": "tracks"
     },
@@ -16,7 +16,7 @@
       "short": "conference"
     },
     {
-      "stat": "30",
+      "stat": "34",
       "title": "hand-picked speakers",
       "short": "speakers"
     }

@@ -2,13 +2,13 @@
     "days": [{
         "schedule-wednesday": null,
         "name": "Wednesday 19th February 2020",
-        "description": "<p>PHP UK Conference is pleased to bring to you <b>four</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><p>We'll have more information on our main conference speakers and talks coming soon.</p>\n",
+        "description": "<p>PHP UK Conference is pleased to bring to you <b>four</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>",
         "slots": [{
             "time": "8.00",
             "slottype": "break",
             "tracks": [{
                 "colspan": 4,
-                "location": null,
+                "location": "Montcalm Hotel or Grubstreet Author @ The Brewery",
                 "title": "Registration and Refreshments",
                 "slug": null,
                 "speaker": null,
@@ -16,7 +16,7 @@
                 "company": null,
                 "photo": null,
                 "bio": null,
-                "description": "Please bring a copy of your ticket either printed or on a mobile device."
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served."
             }]
         }, {
             "time": "09.00",
@@ -64,9 +64,9 @@
             "slottype": "break",
             "tracks": [{
                 "colspan": 4,
-                "location": null,
+                "location": "Montcalm Hotel or Grubstreet Author @ The Brewery",
                 "title": "Lunch",
-                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates."
+                "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
             }]
         }, {
             "time": "13.30",
@@ -77,7 +77,7 @@
                 "title": "Getting Started with Event-sourcing",
                 "speaker": "Tim Huijzers",
                 "slug": "timhuijzers",
-                "location": null,
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopi",
                 "description": "A continuation of the morning's session."
             }, {
@@ -86,27 +86,27 @@
                 "title": "REST easy with Api Platform",
                 "speaker": "Antonio Peric-Mazar",
                 "slug": "antonioperic-mazar",
-                "location": null,
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopii",
                 "description": "A continuation of the morning's session."
             }, {
                 "colspan": 1,
                 "name": "Workshop III",
-                "title": "Introduction to Test Driven Development Workshop",
-                "speaker": "Mark Bradley",
-                "slug": "markbradley",
-                "handle": "braddle",
-                "location": null,
-                "id": "workshopiii",
+                "title": "Deploying your first Micro-Service application to Kubernetes",
+                "speaker": "Bastian Hofmann",
+                "slug": "bastianhofmann",
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopiv",
                 "description": "A continuation of the morning's session."
             }, {
                 "colspan": 1,
                 "name": "Workshop IV",
-                "title": "Deploying your first Micro-Service application to Kubernetes",
-                "speaker": "Bastian Hofmann",
-                "slug": "bastianhofmann",
-                "location": null,
-                "id": "workshopiv",
+                "title": "Introduction to Test Driven Development Workshop",
+                "speaker": "Mark Bradley",
+                "slug": "markbradley",
+                "handle": "braddle",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
                 "description": "A continuation of the morning's session."
             }]
         }, {
@@ -115,15 +115,9 @@
             "tracks": [{
                 "colspan": 4,
                 "name": "Pre-Conference Social",
-                "location": null,
+                "location": "Finch's Pub on Finsbury Square",
                 "title": "Pre-Conference Social",
-                "speaker": null,
-                "slug": null,
-                "handle": null,
-                "company": null,
-                "photo": null,
-                "bio": null,
-                "description": "Join us at the pub (location to be confirmed) with the PHP London user group for a pre-conference social event."
+                "description": "Join us at Finch's Pub on Finsbury Square with the PHP London user group for a pre-conference pubcon. <a href=\"/socials\">More info &raquo;</a>"
             }]
         }]
     }, {
@@ -135,9 +129,9 @@
             "slottype": "break",
             "tracks": [{
                 "colspan": 4,
-                "location": null,
+                "location": "The Brewery Foyer",
                 "title": "Registration and Refreshments",
-                "description": "Please bring a copy of your ticket either printed or on a mobile device."
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
             }]
         }, {
             "time": "09.00",
@@ -161,7 +155,7 @@
                 "colspan": 4,
                 "location": "King George",
                 "title": "Refreshment break",
-                "description": null
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
             }]
         }, {
             "time": "10.15",
@@ -169,6 +163,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "The La(te)st PHP 7 — What's new in PHP 7.4",
+                "name": "Talk",
                 "slug": "derickrethans",
                 "speaker": "Derick Rethans",
                 "level": "Beginner",
@@ -176,6 +171,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Messy data != Messy code",
+                "name": "Talk",
                 "slug": "michellesanver",
                 "speaker": "Michelle Sanver",
                 "level": "All",
@@ -186,6 +182,7 @@
                 "location": "Design Track - King Vault",
                 "tooltip": null,
                 "title": "ATDD Bowling – A Practical BDD Workshop",
+                "name": "Tutorial",
                 "slug": "johnbehrens",
                 "speaker": "John Behrens",
                 "level": "Intermediate",
@@ -196,6 +193,7 @@
                 "location": "Velocity Track - Queen Vault",
                 "tooltip": null,
                 "title": "MySQL Indexes, Histograms, Locking Options, and Other Ways to Speed Up Your Queries",
+                "name": "Tutorial",
                 "slug": "davestoker",
                 "speaker": "Dave Stokes",
                 "level": "Beginner",
@@ -207,7 +205,7 @@
             "tracks": [{
                 "colspan": 2,
                 "location": "King George",
-                "title": "Refreshment Break"
+                "title": "Room change"
             }]
         }, {
             "time": "11.30",
@@ -215,6 +213,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "In the world of Password123, be someone's #@%^)*!",
+                "name": "Talk",
                 "slug": "ipshabhidonia",
                 "speaker": "Ipsha Bhidonia",
                 "handle": null,
@@ -225,6 +224,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Serverless PHP applications with Bref",
+                "name": "Talk",
                 "slug": "matthieunapoli",
                 "speaker": "Matthieu Napoli",
                 "handle": null,
@@ -249,6 +249,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "GraphQL API in PHP",
+                "name": "Talk",
                 "subtitle": null,
                 "slug": "drishtijain",
                 "speaker": "Drishti Jain",
@@ -261,6 +262,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Guidelines on Designing for Accessibility in UX Design",
+                "name": "Talk",
                 "slug": "christianaunaeze",
                 "speaker": "Christiana Unaeze",
                 "handle": null,
@@ -275,6 +277,7 @@
                 "location": "Design Track - King Vault",
                 "tooltip": null,
                 "title": "Getting Started with Laravel",
+                "name": "Tutorial",
                 "speaker": "Jason McCreary",
                 "slug": "jasonmccreary",
                 "level": "Beginner",
@@ -285,6 +288,7 @@
                 "location": "Velocity Track - Queen Vault",
                 "tooltip": null,
                 "title": "Coroutine Based Concurrency with PHP and Swoole",
+                "name": "Tutorial",
                 "slug": "brucedou",
                 "speaker": "Bruce Dou",
                 "level": "Beginner",
@@ -304,6 +308,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "PHP Generics Today (almost)",
+                "name": "Talk",
                 "subtitle": null,
                 "slug": "daveliddament",
                 "speaker": "Dave Liddament",
@@ -316,6 +321,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Meet Johnny the Deployer",
+                "name": "Talk",
                 "slug": "georgianagligor",
                 "speaker": "Georgiana Gligor",
                 "handle": null,
@@ -341,6 +347,7 @@
                 "colspan": 4,
                 "location": "Porter Tun",
                 "title": "RTFM",
+                "name": "Keynote",
                 "slug": "jessicamauerhan",
                 "speaker": "Jessica Mauerhan",
                 "level": "All",
@@ -351,9 +358,9 @@
             "slottype": "break",
             "tracks": [{
                 "colspan": 4,
-                "location": "King George",
+                "location": "King George &amp; Queen Charlotte",
                 "title": "Mid Conference Social",
-                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning.\n"
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More info &raquo;</a>"
             }]
         }]
     }, {
@@ -367,7 +374,7 @@
                 "colspan": 4,
                 "location": "Brewery Foyer & King George",
                 "title": "Registration and Refreshments",
-                "description": "Please bring a copy of your ticket either printed or on a mobile device."
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
             }]
         }, {
             "time": "09.00",
@@ -376,7 +383,7 @@
                 "colspan": 4,
                 "location": "Porter Tun",
                 "title": "Post Burnout Thoughts",
-                "subtitle": null,
+                "name": "Keynote",
                 "slug":  "joellord",
                 "speaker": "Joel Lord",
                 "handle": null,
@@ -400,6 +407,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "Killer Docker Workflows for Development",
+                "name": "Talk",
                 "slug": "christankersley",
                 "speaker": "Chris Tankersley",
                 "handle": null,
@@ -411,6 +419,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "What I Learned my First Year as a Full-time Programmer",
+                "name": "Talk",
                 "slug": "hilarystohs-Krause",
                 "speaker": "Hilary Stohs-Krause",
                 "handle": null,
@@ -424,6 +433,7 @@
                 "location": "Design Track - King Vault",
                 "tooltip": null,
                 "title": "My app is secure... I think",
+                "name": "Tutorial",
                 "slug": "wimgodden",
                 "speaker": "Wim Godden",
                 "level": "Intermediate",
@@ -432,6 +442,7 @@
                 "prereqs": 0,
                 "rowspan": 5,
                 "location": "Velocity Track - Queen Vault",
+                "name": "Tutorial",
                 "tooltip": null,
                 "title": "Build a GraphQL API with GraphQLite",
                 "slug": "davidnegrier",
@@ -453,6 +464,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "PHP OPCache, Realpath Cache and Preloading",
+                "name": "Talk",
                 "slug": "jachimcoudenys",
                 "speaker": "Jachim Coudenys",
                 "handle": null,
@@ -464,6 +476,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Testing Legacy Code: Safe Refactoring",
+                "name": "Talk",
                 "slug": "katyeriera",
                 "speaker": "Katy Eriera",
                 "handle": null,
@@ -481,12 +494,6 @@
                 "location": "King George",
                 "title": "Lunch",
                 "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
-            }, {
-                "location": null,
-                "title": null,
-                "speaker": null,
-                "level": null,
-                "description": null
             }]
         }, {
             "time": "13.30",
@@ -494,6 +501,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "Testing Hack with Hammock",
+                "name": "Talk",
                 "slug": "riyadashoriya",
                 "speaker": "Riya Dashoriya",
                 "handle": null,
@@ -505,6 +513,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Introduction to Time Series",
+                "name": "Talk",
                 "slug": "davidmckay",
                 "speaker": "David McKay",
                 "handle": "rawkode",
@@ -519,6 +528,7 @@
                 "location": "Design Track - King Vault",
                 "tooltip": null,
                 "title": "Building Modern APIs",
+                "name": "Tutorial",
                 "slug": "roballen",
                 "speaker": "Rob Allen",
                 "level": "Intermediate",
@@ -529,6 +539,7 @@
                 "location": "Velocity Track - Queen Vault",
                 "tooltip": null,
                 "title": "Highly Available Applications using Kubernetes and Managed Databases",
+                "name": "Tutorial",
                 "slug": "gabrieladavilaferrara",
                 "speaker": "Gabriela D'Ávila Ferrara",
                 "handle": "gabidavila",
@@ -552,6 +563,7 @@
             "tracks": [{
                 "location": "Porter Tun",
                 "title": "Distributed Tracing",
+                "name": "Talk",
                 "speaker": "Billie Thompson",
                 "slug": "billiethompson",
                 "level": "Intermediate",
@@ -559,6 +571,7 @@
             }, {
                 "location": "Queen Charlotte",
                 "title": "Static Code Analysis: Judging a Forest by Its Trees",
+                "name": "Talk",
                 "slug": "christianrades",
                 "speaker": "Christian Rades",
                 "level": "Intermediate",
@@ -580,7 +593,7 @@
                 "colspan": 4,
                 "location": "Porter Tun",
                 "title": "Apps, Stacks, and Frameworks: Avoiding “Shiny Object” Syndrome",
-                "subtitle": null,
+                "name": "Keynote",
                 "slug": "angelrivera",
                 "speaker": "Angel Rivera",
                 "handle": null,
@@ -596,7 +609,7 @@
             "tracks": [{
                 "colspan": 4,
                 "title": "Post Conference Social",
-                "location": "The Pasteur Rooms at The Brewery",
+                "location": "The Clerkenwell Grind",
                 "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
             }]
         }]

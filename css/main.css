@@ -9631,6 +9631,25 @@ h6 + p,
   }
 }
 
+.location {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .location {
+    display: inline-block;
+    width: 49.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .location {
+    display: table-cell;
+    width: 24.5%;
+  }
+}
+
 .track {
   display: block;
   width: 100%;

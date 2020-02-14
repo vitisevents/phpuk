@@ -2,7 +2,7 @@
   {% for sponsor in sponsors.sponsors %}
     <div class="lg:max-w-sm w-full lg:max-w-full lg:flex">
       <div class="mb-8 lg:h-auto lg:w-64 flex-none lg:text-center overflow-hidden">
-        <a href="{{sponsor | safe}}" target="_blank">
+        <a href="{{sponsor.url | safe}}" target="_blank">
           <img class="mb-4 w-64" src="{{sponsor.logo.url}}" alt="{{sponsor.logo.alt}}"/>
           <span class="
             inline-block
