@@ -562,12 +562,12 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "Distributed Tracing",
+                "title": "",
                 "name": "Talk",
-                "speaker": "Billie Thompson",
-                "slug": "billiethompson",
-                "level": "Intermediate",
-                "description": "Have you ever lost a request? You see it going into your system but can't see where it's gone or what happened to it? In this talk I am going to show you how to fix the problem of tangled systems that are hard to see through using distributed tracing, and also give you an insight into the wider context and future of the tooling. Some PHP knowledge assumed."
+                "speaker": "",
+                "slug": "",
+                "level": "",
+                "description": ""
             }, {
                 "location": "Queen Charlotte",
                 "title": "Static Code Analysis: Judging a Forest by Its Trees",
