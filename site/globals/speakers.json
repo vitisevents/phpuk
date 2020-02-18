@@ -153,13 +153,6 @@
     "photo": "/images/2020/speakers/riyadashoriya.jpg",
     "bio": "Riya Dashoriya is a Software Engineer at Quizlet, San Francisco. She is also GDG San Francisco and GDG Cloud San Francisco Organizer, along with Women Techmakers ambassador for the respective chapters. Riya has veritable curiosity and passion to dig into things and find out how they work."
 }, {
-    "name": "Billie Thompson",
-    "slug": "billiethompson",
-    "twitter": "PurpleBooth",
-    "company": "Armakuni",
-    "photo": "/images/2020/speakers/billiethompson.jpg",
-    "bio": "I come from the PHP community, and I became interested in how to write PHP that is resistant to even my code breaking skills. I started coming into contact with more and more languages, and almost by accident, I became a polyglot developer. At Armakuni I get to help people take the same journey, from taking risks, through to developing the right way for their domain (at an accelerated pace, and in a safer way). Stuff I love to talk about include creating better templates, serverless and Kubernetes."
-}, {
     "name": "Rob Allen",
     "slug": "roballen",
     "twitter": "akrabat",
