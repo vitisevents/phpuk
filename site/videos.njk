@@ -17,9 +17,9 @@ title: Video archive
     <li>
       <button class="video-filter-toggle focus:outline-none md:text-lg lg:text-xl text-blue-500 hover:text-blue-800 px-4 md:px-8 py-4 bg-blue-100" data-year="all">All</button>
     </li>
-    <!--<li>-->
-      <!--<button class="video-filter-toggle focus:outline-none md:text-lg lg:text-xl text-gray-400 hover:text-gray-400 px-4 md:px-8 py-4 cursor-not-allowed flex items-center" data-year="2020" disabled>2020</button>-->
-    <!--</li>-->
+    <li>
+      <button class="video-filter-toggle focus:outline-none md:text-lg lg:text-xl text-blue-500 hover:text-blue-800 px-4 md:px-8 py-4" data-year="2020">2020</button>
+    </li>
     <li>
       <button class="video-filter-toggle focus:outline-none md:text-lg lg:text-xl text-blue-500 hover:text-blue-800 px-4 md:px-8 py-4" data-year="2019">2019</button>
     </li>
@@ -40,7 +40,7 @@ title: Video archive
       <a class="block md:w-1/2 lg:w-4/12 hover:text-blue-500 mb-12 video-filter-item animated fadeInUp" data-released="{{video.data.year}}" href="{{ video.url }}">
         <article class="video-card px-4">
           <div class="relative">
-            <img src="https://img.youtube.com/vi/{{ video.data.video_id }}/maxresdefault.jpg" alt="{{ video.data.title }}" class="video-card-thumb block rounded-sm">
+            <img src="https://img.youtube.com/vi/{{ video.data.video_id }}/sddefault.jpg" alt="{{ video.data.title }}" class="video-card-thumb block rounded-sm">
             <span class="video-card-play absolute">
               {% include "components/play-button.njk" %}
             </span>
