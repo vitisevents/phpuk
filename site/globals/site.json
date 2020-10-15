@@ -2,7 +2,7 @@
   "name": "PHP UK Conference",
   "url": "https://phpconference.co.uk",
   "tickets_url": "https://tickets.vitisevents.com/e/7/php-uk-conference-2020",
-  "date": "February 19, 2020 08:00:00",
+  "date": "February 17, 2021 08:00:00",
   "description": "We are pleased to announce the 15th Annual PHP UK Conference. An optional workshop day followed by two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.",
   "about": {
     "title": "PHP UK Conference",
@@ -13,11 +13,11 @@
     "title": "Speakers",
     "description": "PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.",
     "hero": "/images/speakers-hero.jpg",
-    "papers_open": false
+      "papers_open": true
   },
   "sponsors": {
     "title": "Sponsors & Partners",
-    "description": "Become a sponsor of PHP UK 2020",
+    "description": "Become a sponsor of PHP UK 2021",
     "hero": "/images/sponsors-hero.jpg"
   },
   "schedule": {
