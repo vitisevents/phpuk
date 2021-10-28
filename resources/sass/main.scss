@@ -1,5 +1,8 @@
 //==========  Imports  ==========//
 
+// SASS modules
+@use "sass:math";
+
 // Import Tailwind preflight
 @tailwind base;
 

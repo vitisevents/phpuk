@@ -28,7 +28,7 @@
 @import url("//hello.myfonts.net/count/3a9bc8");
 
 @font-face {
-  font-family: 'Gilroy-Light';
+  font-family: "Gilroy-Light";
 
   src: url("/webfonts/3A9BC8_0_0.eot");
 
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
 
   src: url("/webfonts/3A9BC8_1_0.eot");
 
