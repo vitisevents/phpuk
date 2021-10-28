@@ -5,7 +5,8 @@
 }
 
 a {
-  @apply no-underline transition;
+  @apply no-underline;
+  transition: 0.25s color ease-out;
 
   &:hover {
     @apply text-purple-900;
