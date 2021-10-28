@@ -5,7 +5,8 @@ const notify = require("gulp-notify");
 const plumber = require("gulp-plumber");
 
 // Styles
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require('sass'));
+
 const postcss = require("gulp-postcss");
 const cleanCSS = require("gulp-clean-css");
 const tailwindcss = require("tailwindcss");
@@ -119,6 +120,7 @@ const minifyJS = done => {
     );
   done();
 };
+
 
 /**
  * Copy webfonts
