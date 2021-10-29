@@ -169,7 +169,7 @@ $perpage: 3;
     overflow: hidden;
   }
   &-ct {
-    width: (100% * $count / $perpage);
+    width: math.div(100% * $count, $perpage);
     width: calc(100% * #{$count} / #{$perpage});
     position: absolute;
     right: 0;
@@ -179,7 +179,7 @@ $perpage: 3;
       clear: both;
     }
     > div {
-      width: (100% / $count);
+      width: math.div(100%, $count);
       width: calc(100% / #{$count});
       height: $height;
       float: left;

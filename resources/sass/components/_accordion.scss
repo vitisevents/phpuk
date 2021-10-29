@@ -11,7 +11,7 @@
   }
 
   &.open svg{
-    @apply rotate-1/4;
+    transform: rotate(90deg);
     transform-origin:center;
   }
 }
