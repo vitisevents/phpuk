@@ -50,11 +50,9 @@ var onError = function(err) {
 /**
  * Tailwind extractor
  */
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-z0-9-:\/]+/g) || [];
-  }
-}
+const TailwindExtractor = content => {
+  return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
+};
 
 /**
  * Compile SCSS & Tailwind
