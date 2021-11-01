@@ -1,42 +1,6 @@
 {
   "people": [
-    {
-      "name": "Johanna Cherry",
-      "avatar": "https://www.gravatar.com/avatar/cfba4698b0acef6927797ff274ba5921",
-      "bio": "Jo has spent her career developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. She is currently a contract data engineer. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.",
-      "role": "Jo manages speakers, socials, the venue, and vendors for the conference.",
-      "links": {
-        "websites": [
-          {
-            "title": "Johanna Cherry",
-            "url": "http://johannacherry.com/"
-          },
-          {
-            "title": "Songkick",
-            "url": "https://www.songkick.com/"
-          },
-          {
-            "title": "Hailo",
-            "url": "http://hailocab.com/"
-          },
-          {
-            "title": "Webgains",
-            "url": "http://webgains.com/"
-          },
-          {
-            "title": "IBuildings",
-            "url": "http://ibuildings.com/"
-          },
-          {
-            "title": "Herzing University",
-            "url": "http://herzing.edu/"
-          }
-        ],
-        "twitter": "http://twitter.com/johannacherry",
-        "github": "http://github.com/johannac",
-        "linkedin": "https://www.linkedin.com/in/johannacherry"
-      }
-    },
+      
     {
       "name": "Sam Bell",
       "avatar": "https://www.gravatar.com/avatar/f5fe63e7ab9414080068bd761fbd0542",
