@@ -3,7 +3,7 @@
       
     {
       "name": "Sam Bell",
-      "avatar": "https://www.gravatar.com/avatar/f5fe63e7ab9414080068bd761fbd0542",
+      "avatar": "https://files.slack.com/files-pri/T0539UB1A-F02LLMHLCKA/sam-bell.jpg",
       "bio": "Sam is co-founder of digital agency, Copia Digital. He and his team build websites and web applications for asset managers and companies listed on the London Stock Exchange, helping them report on performance to their investors. They also run a side project called ChartBlocks, an online chart building tool that makes it easy to embed charts into your website or social media.",
       "role": "Sam manages registration, sponsors, exhibits and volunteers for the conference.",
       "links": {
@@ -23,22 +23,20 @@
       }
     },
     {
-      "name": "Rosie Bell",
-      "avatar": "/images/organisers/rosie1.jpg",
-      "bio": "Rosie joined the team in 2016 to help with the increasing workload as the conference grew in size.",
-      "role": "Rosie looks after the delegate services, answering any questions our attendees have in the lead up to the conference. She also manages exhibits, volunteers, and sponsor sales.",
-      "links": {
-        "twitter": "http://twitter.com/RosieBe10530628"
-      }
+      "name": "Matt Cahill",
+      "avatar":"https://files.slack.com/files-pri/T0539UB1A-F02KGB38VJB/img_0009__1_.jpg"
+      "role": "Matt handles much of the logistics for our events, coordinating external suppliers such as the AV and furniture teams. He is also a keen photographer so you may see him around the conference taking pictures.",
+      
+       
+      
     },
     {
-      "name": "Paul Berberich",
-      "avatar": "https://secure.gravatar.com/avatar/737561f4dd2eb1285064fcd390e75a0e",
-      "bio": "Paul brings many years of customer service experience to his role, courtesy of the many different types of jobs he’s had over the years. Since joining the team he’s learned web development which he uses to keep this web site up to date, as well as some personal projects. When not planning or running one of our conferences, you can find him performing with his local improv group or running his weekly game night.",
-      "role": "Paul is an event coordinator and manages the venue, speakers, scholarships, socials and vendors.",
-      "links": {
-        "twitter": "http://twitter.com/paulberb",
-        "github": "http://github.com/paulberb"
+      "name": "Blue Day",
+      "avatar":"https://files.slack.com/files-pri/T0539UB1A-F02KU209ZPF/screenshot_2021-10-20_at_14.14.10.png"
+      "role": "Blue looks after communications with attendees, speakers and sponsors, answering any questions that come in and making sure everyone is in the right place at the right time",
+       
+        
+        
       }
     }
   ]
