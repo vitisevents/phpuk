@@ -3,18 +3,18 @@
       
     {
       "name": "Sam Bell",
-      "avatar": "https://files.slack.com/files-pri/T0539UB1A-F02LLMHLCKA/sam-bell.jpg",
+      "avatar": "/images/organisers/sam1.jpg",
       "bio": "Sam is co-founder of digital agency, Copia Digital. He and his team build websites and web applications for asset managers and companies listed on the London Stock Exchange, helping them report on performance to their investors. They also run a side project called ChartBlocks, an online chart building tool that makes it easy to embed charts into your website or social media.",
       "role": "Sam manages registration, sponsors, exhibits and volunteers for the conference.",
       "links": {
         "websites": [
           {
             "title": "Copia Digital",
-            "url": "http://www.copiadigital.co.uk"
+            "url": "https://www.copiadigital.com"
           },
           {
-            "title": "ChartBlocks",
-            "url": "http://www.chartblocks.com/"
+            "title": "Stockora",
+            "url": "https://www.stockora.com/"
           }
         ],
         "twitter": "https://twitter.com/_samdb",
@@ -24,17 +24,13 @@
     },
     {
       "name": "Matt Cahill",
-      "avatar":"https://files.slack.com/files-pri/T0539UB1A-F02KGB38VJB/img_0009__1_.jpg"
-      "role": "Matt handles much of the logistics for our events, coordinating external suppliers such as the AV and furniture teams. He is also a keen photographer so you may see him around the conference taking pictures.",
-
-    }
+      "avatar":"/images/organisers/matt.JPEG",
+      "role": "Matt handles much of the logistics for our events, coordinating external suppliers such as the AV and furniture teams. He is also a keen photographer so you may see him around the conference taking pictures."
+    },
     {
       "name": "Blue Day",
-      "avatar":"https://files.slack.com/files-pri/T0539UB1A-F02KU209ZPF/screenshot_2021-10-20_at_14.14.10.png"
-      "role": "Blue looks after communications with attendees, speakers and sponsors, answering any questions that come in and making sure everyone is in the right place at the right time",
-    
-        
-    
-    
-  
-
+      "avatar":"/images/organisers/blue1.jpg",
+      "role": "Blue looks after communications with attendees, speakers and sponsors, answering any questions that come in and making sure everyone is in the right place at the right time"
+    }
+  ]
+}
