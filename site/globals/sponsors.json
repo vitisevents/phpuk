@@ -1,13 +1,13 @@
 {
     "sponsors": [{
-        "name": "Stockora",
-        "id": "stockora",
-        "type": "silver",
-        "url": "https://stockora.com",
-        "description": "Stockora is a London Stock Exchange data partner, providing APIs for stock trading data and regulatory news with low latency.",
-        "logo": {
-            "url": "/images/sponsors/stockora.png",
-            "alt": "Stockora logo"
-        }
-    }]
-}
+            "name": "Stockora",
+            "id": "stockora",
+            "type": "silver",
+            "url": "https://www.stockora.com/",
+            "description": "Stockora is an API-first stock data and public company newswire. An official partner to the London Stock Exchange, Stockora provides low-latency data feeds and machine learning derived company insights.",
+            "logo": {
+                "url": "/images/sponsors/stockora.png",
+                "alt": "Stockora logo"
+            }
+        }]
+    }
