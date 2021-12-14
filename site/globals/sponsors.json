@@ -8,6 +8,15 @@
             "logo": {
                 "url": "/images/sponsors/stockora.png",
                 "alt": "Stockora logo"
-            }
+
+            ,"name": "Twilio",
+            "id": "twilio",
+            "type":"silver",
+            "url": "https://www.twilio.com/",
+            "description": "Twilio is a cloud communications platform that allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication funcitons using its web service APIs. ",
+            "logo": {
+                "url": "/images/sponsors/twilio.png",
+                "alt": "Twilio logo"
+            
         }]
     }
