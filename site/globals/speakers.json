@@ -1,218 +1,121 @@
 [{
-    "name": "Tim Huijzers",
-    "slug": "timhuijzers",
-    "twitter": "Dragem",
-    "company": "Island-bookings.com",
-    "photo": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/30990/profile300.jpg",
-    "bio": "Developer for more than 8 years now, Just started working at Island-bookings.com. Like to be called a Developer and not a Programmer! Also Founder of the User group DeventerPHP. Next to developing for money Tim likes to develop for his other 2 hobbies, Beer and Board games. No wonder some of his talks are about 1 of the 2."
+    "name": "Rob Allen",
+    "slug": "roballen",
+    "twitter": "akrabat",
+    "company": "akrabat",
+    "photo": "/images/2022/speakers/rob.allen.jpg",
+    "bio": "Rob Allen is a software consultant and developer with many years experience in a variety of interesting languages. He’s particularly interested in APIs and the ecosystem around them along and contributes to Slim Framework, rst2pdf & Apache OpenWhisk along with other open source projects. Rob is a published author and based in the UK where he runs Nineteen Feet Limited, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a target=\"blank\" href=\"https://akrabat.com/ and can often be seen with a camera in his hand."
 }, {
-    "name": "Michelle Sanver",
-    "slug": "michellesanver",
-    "twitter": "michellesanver",
-    "company": "Liip",
-    "photo": "/images/2020/speakers/michellesanver.jpg",
-    "bio": "Michelle is a code-passionate colourful geek and with more than 15 years of PHP experience, she is eager to share her extensive knowledge. She works at Liip, a self organised company based in Switzerland. At Liip she does many things, including organising internal hiking events! But her main day to day work involves an ever changing API for the biggest retailer in Switzerland, using mainly Symfony, ElasticSearch and RabbitMQ."
+    "name": "JJ Asghar",
+    "slug": "jjasghar",
+    "twitter": "jjasghar",
+    "company": "IBMCloud",
+    "photo": "/images/2022/speakers/jj.asghar.jpg",
+    "bio": "JJ works as a Developer Advocate representing the IBM Cloud all over the world. He mainly focuses on the IBM Kubernetes Service and OpenShift trying to make companies and users have a successful onboarding to the Cloud Native ecosystem. He’s also been known in the DevOps tooling ecosystem and generalized Linux communities. If he isn’t building automation to make his work streamlined he’s building the groundwork to do just that."
 }, {
-    "name": "Antonio Peric-Mazar",
-    "slug": "antoniopericmazar",
-    "twitter": "antonioperic",
-    "company": "Locastic",
-    "photo": "https://secure.gravatar.com/avatar/29db221e8a59b06c9180725ec8ac1e75?s=500",
-    "bio": "Antonio Perić-Mažar is CEO at Locastic digital agency, based in beautiful Croatian city called Split. Their main focus is to build complex mobile and web platforms for different clients that range from startups to enterprise companies from all over the globe."
-}, {
-    "name": "Angel Rivera",
-    "slug": "angelrivera",
-    "twitter": "punkdata",
-    "company": "CircleCI",
-    "photo": "/images/2020/speakers/antonio1.png",
-    "bio": "Angel started his career as an US Air Force Space Systems Operations specialist where he realized his passion for technology and software development. He has extensive experience in the private, public and military sectors and his technical experience includes military/space lift operations, technical writing, software development, SRE/DevOPs engineering. You can find him speaking at local tech meetups and hackathons, engaging with developers."
+    "name": "Sam Bellen",
+    "slug": "sambellen",
+    "twitter": "sambego",
+    "company": "Auth0",
+    "photo": "/images/2022/speakers/sam.bellen.jpg",
+    "bio": "I'm Google Developer expert who works as a Senior Developer Advocate Engineer at Auth0. At Auth0 we're trying to make authentication and identification as easy as possible, while still keeping it secure."
 }, {
     "name": "Mark Bradley",
-    "handle": "markbradley",
+    "slug": "markbradley",
     "twitter": "braddle",
-    "company": "Sainsbury's",
-    "photo": "/images/2020/speakers/markbradley.jpg",
-    "bio": "Mark Bradley is a Principal Software Engineer from London, working for Sainsbury’s. In the industry for over 10 years, Mark has developed a passion for supporting his peers and has recently been working with the apprentice programme at Sainsbury’s. A keen protagonist of TDD, he launched his own screen cast, ‘Testing All the Things’ in the Spring, to teach the wider community how to practice Test Driven Development and Automated Testing."
+    "company": "Armakuni",
+    "photo": "",
+    "bio": ""
+}, {
+    "name": "Stacy Cashmore",
+    "handle": "stacycashmore",
+    "twitter": "Stacy_Cash",
+    "company": "Omniplan",
+    "photo": "",
+    "bio": ""
+}, {
+    "name": "Bastian Hofmann",
+    "slug": "bastianhofmann",
+    "twitter": "BastianHofmann",
+    "company": "SUSE",
+    "photo": "/images/2022/speakers/bastian.hofmann.jpg",
+    "bio": "Bastian is a Field Engineer at SUSE. There he focuses on Containers, Kubernetes and especially Rancher, the leading solution to manage Kubernetes clusters in multiple environments, on premise, in the cloud and at the edge."
+
 }, {
     "name": "Drishti Jain",
     "slug": "drishtijain",
     "twitter": "drishtijjain",
     "company": "",
-    "photo": "/images/2020/speakers/drishtijain.jpg",
-    "bio": "Drishti is a Computer Engineer and a tech enthusiast. She loves to use technology to help the less fortunate, and believes in democratizing opportunities and brings the latest developments in the field of technology to deserving students. She has spoken at conferences across the globe and is also a social entrepreneur. Her NPO - Samyak Drishti Foundation works in environment, education and healthcare sectors and operates in 10 cities across India."
+    "photo": "/images/2022/speakers/drishti.jain.jpg",
+    "bio": "Drishti is a Computer Engineer and a technology enthusiast. She loves to use technology to help the less fortunate. She believes in democratizing opportunities and brings knowledge of the latest developments in the fast-moving field of technology to deserving students, and keep them up to date and well-equipped for their respective professional careers. She has spoken at conferences across the globe and is also a social entrepreneur. Her non-profit organization - Samyak Drishti Foundation works in environment, education and healthcare sectors and operates in 11 cities across India. In her spare time, she likes to paint nature, explore new places and anchor live shows."
 }, {
-    "name": "Bastian Hofmann",
-    "slug": "bastianhofmann",
-    "twitter": "BastianHofmann",
-    "company": "SysEleven",
-    "photo": "https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500",
-    "bio": "Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power of Kubernetes to its customers. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on Kubernetes, software architecture and scaling web applications."
+    "name": "Milko Kosturkov",
+    "slug": "milkokosturkov",
+    "twitter": "mkosturkov",
+    "company": "Mysupply",
+    "photo": "/images2022/speakers/milko.kosturkov.jpg",
+    "bio": "I’ve been a professional developer for more than 15 years, but actually started to play with programming about 25 years ago. I’ve worked on many and diverse projects, including TV productions, SMS and Voice added services, MMO games, freelancing, SEO aiding projects, healthcare, etc. Keen on writing clean, expressive working code. When programming I mostly enjoy designing the overall architecture of the system and digging deeply into the domain of the problem at hand. On the non-technical side - I started my own company in 2018 and organized Bulgaria PHP Conference 2019. Currently I am the Head of Software Development at Mysupply - a German startup in the field of automated sourcing. Also, I am a wannabe rock-star - like in singing in bands and stuff…"
+}, {
+    "name": "Mike Lehan",
+    "slug": "mikelehan",
+    "twitter": "M1ke",
+    "company": "",
+    "photo": "/images/2022/speakers/mike.lehan.jpg",
+    "bio": "Mike has been working in web application development, primarily using PHP, for 11 years, including time as a CTO, and startup founder. Through working on business critical systems with real time elements Mike has learned the value of comprehensive logging & monitoring, redundant checks on applications & infrastructure, and of course well written testable code. He has a strong desire to train & mentor the next generation of web engineers."
 }, {
     "name": "Dave Liddament",
-    "slug": "daveliddament",
-    "twitter": "daveliddament",
-    "company": "Lamp Bristol",
-    "photo": "/images/2020/speakers/daveliddament.jpg",
-    "bio": "<a target=\"blank\" href=\"https://www.daveliddament.co.uk/\">Dave</a> is a director and developer at <a target=\"blank\" href=\"https://www.lampbristol.com/\">Lamp Bristol</a>, a software consultancy. He’s been writing software commercially for over 17 years in many languages. Dave is keen to pass on his knowledge and speaks at conferences and user groups. He is an organiser of PHP-SW. He also runs a <a target=\"blank\" href=\"https://www.meetup.com/Bristol-PHP-Training/\">monthly workshop</a> that covers topics including testing, CI and git. is also the author of an open source tool called <a target=\"blank\" href=\"https://www.meetup.com/Bristol-PHP-Training/\">SARB</a> (static analysis results baseliner)."
+    "slug": "daveliddamnet",
+    "twitter": "DaveLiddament",
+    "company": "Lamp Bristol Limited",
+    "photo": "/images/2022/speakers/dave.liddament.jpg",
+    "bio": "Dave is a director and developer at <a target =\"blank\"hrefe=\"https://www.lampbristol.com/\">Dave</a>, a software consultancy. He’s been writing software commercially for over 19 years in many languages including C, Python, Java and PHP. Dave is keen to pass on his knowledge. He speaks at conferences and user groups. He is an organiser of PHP-SW. He also runs a monthly workshop that covers topics including testing, CI and git. He is also the author of an open source tool called SARB (static analysis results baseliner). When not busy coding Dave enjoys scuba diving and running."
 }, {
-    "name": "Jachim Coudenys",
-    "slug": "jachimcoudenys",
-    "twitter": "coudenysj",
-    "company": "Combell",
-    "photo": "https://secure.gravatar.com/avatar/4ce755c7f3ddf4e0c92e1aeaeea7677b?s=500",
-    "bio": "Jachim is a PHP developer at Combell. Since discovering PHP in 2002 (4.1.0), his activities brought him from the world of development to server management, & development workflows. Next to being a long-time member of PHPBenelux, he is co-organizer the PHP-WVL, a user group in West Flanders (BE). He is a Zend Certified developer and Certified MongoDB Developer & DBA. You can follow him on http://twitter.com/coudenysj and read his occasional blog posts on http://blog.jachim.be."
+    "name": "Ian Littman",
+    "slug": "ianlittman",
+    "twitter": "iansltx",
+    "company": "Covie",
+    "photo": "/images/2022/speakers/ian.littman.jpg",
+    "bio": "When Ian isn’t CTO’ing a startup throwing APIs around insurance data or helping organize Longhorn PHP conference, he’s soaking up the Texas Hill Country, or talking about mobile or airline networks on Twitter."
 }, {
-    "name": "Chris Tankersley",
-    "slug": "christankersley",
-    "twitter": "dragonmantank",
-    "company": "Nexmo",
-    "photo": "https://secure.gravatar.com/avatar/70551fd929651a7c55da3827fe970de4?s=500",
-    "bio": "Chris Tankersley is a husband, father, author, speaker, PHP developer, and podcast host. He works for Nexmo as a PHP Developer Advocate, helping developers use and integrate Nexmo’s communication platform into their applications. Chris has worked with many different frameworks and languages throughout his 15 years of programming, but spends most of his day working in PHP. He is the author of “Docker for Developers,” and helps developers integrate containers into their workflows."
+    "name": "Lorna Jane Mitchell",
+    "slug": "lornajanemitchell",
+    "twitter": "lornajane",
+    "company": "Aiven",
+    "photo": "/images/2022/speakers/lorna.jane.jpg",
+    "bio": "Lorna is based in Yorkshire, UK; she is Head of Developer Relations at Aiven as well as a published author and experienced conference speaker. She has a strong background in open source, and a passion is for better Developer Experiences for developers everywhere. You can find out more about Lorna on her website <a target=\"blank\"href=\" https://lornajane.net."
 }, {
-    "name": "Christiana Unaeze",
-    "slug": "christianaunaeze",
-    "twitter": "EagleDreamz",
-    "company": "",
-    "photo": "/images/2020/speakers/christianaunaeze.jpg",
-    "bio": "Christiana is a UX Designer, Entrepreneur and Creative Design Strategist. She has over a decade of combined experience in visual and user experience design, project management and design consulting. Currently, Christiana is a consultant with a federal agency where she leads and supports design and accessibility efforts on multiple projects. She is also a runner, an avid reader, a Game of Thrones fan, an aficionado of statement jewellery, and a fervent DIYer."
-}, {
-    "name": "Matthieu Napoli",
-    "slug": "matthieunapoli",
-    "twitter": "matthieunapoli",
-    "company": "",
-    "photo": "/images/2020/speakers/matthieunapoli.jpg",
-    "bio": "Matthieu is a software developer and consultant who loves creating web applications. He is the author of open source projects like Bref, PHP-DI and Silly. He worked in the PHP-FIG on PSR-11 and PSR-15. He loves working with serverless technologies and finding solutions to make PHP development simpler and better."
-}, {
-    "name": "Jessica Mauerhan",
-    "slug": "jessicamauerhan",
-    "twitter": "jessicamauerhan",
-    "company": "Skillshare",
-    "photo": "/images/2020/speakers/jessicamauerhan.jpg",
-    "bio": "Jessica is a software engineer who has been working with PHP and related technologies for over a decade. She enjoys mentoring fellow engineers in automated testing, test-driven development, and quality code design. She lives in McKinney Texas with her family and loves coffee, comedy and podcasts."
-}, {
-    "name": "David Stokes",
-    "slug": "davidstokes",
-    "twitter": "stoker",
-    "company": "Oracle",
-    "photo": "/images/2020/speakers/davidstokes.jpg",
-    "bio": "Dave Stokes is the author of MySQL & JSON - A Practical Programming Guide."
-}, {
-    "name": "Wim Godden",
-    "slug": "wimgodden",
-    "twitter": "wimgtr",
-    "company": "Open source/PHP Consultant",
-    "photo": "/images/2020/speakers/wimgodden.jpg",
-    "bio": "Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as PHPCompatibility and OpenX. Next to PHP, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers."
-}, {
-    "name": "Hilary Stohs-Krause",
-    "slug": "hilarystohskrause",
-    "twitter": "hilarysk",
-    "company": "Ten Forward Consulting",
-    "photo": "/images/2020/speakers/hilarystohskrause.jpg",
-    "bio": "Hilary Stohs-Krause is a co-owner and software developer at Ten Forward Consulting in Madison, WI, USA. She came to tech by way of childhood website-building (a \"Buffy the Vampire Slayer\" fansite, to be exact)."
-}, {
-    "name": "Ipsha Bhidonia",
-    "slug": "ipshabhidonia",
-    "twitter": "ipsha21",
-    "company": "Gemalto",
-    "photo": "/images/2020/speakers/ipshabhidonia.jpg",
-    "bio": "Ipsha is a software engineer at Gemalto by profession, a Mozilla tech speaker by heart, and an advocate for a free and open web by passion. She likes traveling to new places and meeting people with different perspectives of the world. When not at work she speaks at technical conferences or can be found questioning or learning (most random) things."
-}, {
-    "name": "Jason McCreary",
-    "slug": "jasonmccreary",
-    "twitter": "gonedark",
-    "company": "Pure Concepts",
-    "photo": "https://secure.gravatar.com/avatar/703c2eaf093a7caf1008362209d2903e?s=500",
-    "bio": "Jason McCreary, aka “JMac”, has been a PHP developer for nearly two decades. Creator of <a target=\"blank\" href=\"https://laravelshift.com/\">Laravel Shift</a> and author of <a target=\"blank\" href=\"https://basecodefieldguide.com/\">\"BaseCode\"</a>. JMac has a passion for programming and the great outdoors. Never hesitate to talk to him about either."
+    "name": "Susanne Moog",
+    "slug": "susannemoog",
+    "twitter": "sasunegomo",
+    "company": "susi.dev",
+    "photo": "/images/2022/speakers/susanne.moog.jpg",
+    "bio": "Landing in software development by accident after needing to build a website in the 90s, Susanne is a self-taught software developer, book author and trainer. Originally studying media economics and journalism, she has since worked her way up from an entry-level development position to COO of an Open Source software company. Throughout her career, she worked as a scrum master, as a coach and as a team lead which compelled her to take further courses on sociology, philosophy, ethics and education as handling software is comparatively easy, but dealing with people is hard. In her free time, she contributes to Open Source, dances enthusiastically, plays Golf badly and knits - straight lines only."
 }, {
     "name": "Derick Rethans",
     "slug": "derickrethans",
     "twitter": "derickr",
-    "company": "Independant Contractor",
-    "photo": "/images/2020/speakers/derickrethans.jpg",
-    "bio": "<a target=\"blank\" href=\"https://derickrethans.nl/\">Derick Rethans</a> is a PHP internals expert and author of <a target=\"blank\" href=\"https://xdebug.org/\">Xdebug</a>. He works as an independent contractor and consultant on PHP extensions and related projects. He has contributed to the PHP project in numerous forms (Date/Time Extension, Xdebug, PHP 4.4/7.4 Release Manager, etc). He is a frequent lecturer at conferences, the author of php architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. Derick is also the host of the weekly-ish <a target=\"blank\" href=\"https://phpinternals.news/\">PHP Internals News</a> podcast."
+    "company": "Xdebug",
+    "photo": "/images/2022/speakers/derick.rethans.jpg",
+    "bio": "Derick Rethans is a PHP internals expert and author of <a target=\"blank\"href=\"https://xdebug.org/\"Derick works as an independent contractor and consultant on PHP extensions and related projects. He has contributed to the PHP project in numerous forms (Date/Time Extension, Xdebug, PHP 4.4/7.4 Release Manager, etc). He is a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. Derick is also the host of the weekly-ish [PHP Internals News] <atarget=\"blank\"href=\"https://phpinternals.news/\" podcasts."
 }, {
-    "name": "Georgiana Gligor",
-    "slug": "georgianagligor",
-    "twitter": "gbtekkie",
-    "company": "Tekkie Consulting",
-    "photo": "/images/2020/speakers/georgianagligor.jpg",
-    "bio": "Geek. Mother. Do-er. Crafting enterprise-grade software since 2003. I'm a living proof that geek girls are an asset to any team. I love taming the Force of the DevOps dark side and mentoring team mates in achieving craftsmanship. Over the past years I dived deep into Artificial Intelligence, using (among other tools) Watson to deliver real-life applications. This also led me into starting a PhD in Systems Engineering."
+    "name": "James Titcumb",
+    "slug": "jamestitcumb",
+    "twitter": "asgrim",
+    "company": "Roave",
+    "photo": "",
+    "bio": ""
 }, {
-    "name": "Bruce Dou",
-    "slug": "brucedou",
-    "twitter": "doubaokun",
-    "company": "Transfon",
-    "photo": "/images/2020/speakers/brucedou.jpg",
-    "bio": "Bruce Dou is the Director at Transfon, a Leeds based company building modern infrastructure for digital publishers and marketers. He is one of the maintainers of open source PHP Swoole, specialised in application performance optimisation, system cost reduction, cloud migration, web infrastructure and large-scale system architecture."
-}, {
-    "name": "Riya Dashoriya",
-    "slug": "riyadashoriya",
-    "twitter": "ReeyahSDasoriya",
-    "company": "Quizlet",
-    "photo": "/images/2020/speakers/riyadashoriya.jpg",
-    "bio": "Riya Dashoriya is a Software Engineer at Quizlet, San Francisco. She is also GDG San Francisco and GDG Cloud San Francisco Organizer, along with Women Techmakers ambassador for the respective chapters. Riya has veritable curiosity and passion to dig into things and find out how they work."
-}, {
-    "name": "Rob Allen",
-    "slug": "roballen",
-    "twitter": "akrabat",
-    "company": "Nineteen Feet Limited",
-    "photo": "/images/2020/speakers/roballen.jpg",
-    "bio": "Rob Allen is a software consultant and developer with many years experience in a variety of languages. He's interested in APIs and the ecosystem around them and contributes to Apache OpenWhisk, rst2pdf & Slim Framework along with other open source projects. Rob is a published author and he runs <a target=\"blank\" href=\"https://19ft.com/\">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a target=\"blank\" href=\"https://akrabat.com\">akrabat.com</a> and can often be seen with a camera in his hand."
-}, {
-    "name": "David Négrier",
-    "slug": "davidnegrier",
-    "twitter": "david_negrier",
-    "company": "TheCodingMachine",
-    "photo": "/images/2020/speakers/davidnegrier.jpg",
-    "bio": "David is CTO and co-founder of TheCodingMachine, a French IT company specialized in PHP development. He is the co-editor of PSR-11, the standard that provides interoperability between dependency injection containers. David is the lead developer of many open-source packages including Safe, a rewrite of PHP functions that throw exceptions instead of returning false and GraphQLite, an easy to use GraphQL library. He is also the lead developper of <a href=\"http://mouf-php.com\">Mouf</a>, the only graphical dependency injection framework."
-}, {
-    "name": "Gabriela D'Ávila Ferrara",
-    "slug": "gabrieladavilaferrara",
-    "twitter": "gabidavila",
-    "company": "Google",
-    "photo": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12044/180124-0676.01.MOMA.jpg",
-    "bio": "Gabi is a Developer Advocate at Google Cloud and a passionate Software Engineer. She likes simplifying complex systems, and believes abstractions are best when they can be understood in a real life example. She’s driven to go beyond DBA lingo to make database and storage technology more accessible to software developers."
-}, {
-    "name": "Katy Ereira",
-    "slug": "katyereira",
-    "twitter": "maccath",
-    "company": "Skillshare",
-    "photo": "/images/2020/speakers/katyereira.jpg",
-    "bio": "Geeky software developer, prolific knitter, avid allotmenteer, health seeker, 日本語 speaker. | She/Her"
-}, {
-    "name": "Joel Lord",
-	"slug": "joellord",
-	"twitter": "joel__lord",
-	"company": "Red Hat OpenShift",
-	"photo": "https://secure.gravatar.com/avatar/ec1016a9a63da65998b75f35b6ceb3bb?s=500",
-	"bio": "Joel Lord is passionate about web and technology in general. He likes to learn new things but most of all, he likes to share his discoveries. He does so by travelling at various conferences all across the globe. He graduated from college in computer programming in the last millennium. Apart for a little break to get his BSc in computational astrophysics, he was always in the industry. As a developer advocate at Red Hat OpenShift, he meets with developers to help them make the web a better place."	
-}, {
-    "name": "John Behrens",
-    "slug": "johnbehrens",
-    "twitter": "SkillsForTeams",
-    "company": "Skills For Teams",
-    "photo": "/images/2020/speakers/johnbehrens.jpg",
-    "bio": "John Behrens is a freelancer from Hamburg Germany. He is fulfilling different roles in Developer, Tester, Scrum Master, Engineer, Architect, Trainer or Agile Coach. He is mostly willing to use any skill that is needed to help the team and take a project to success."
-}, {
-    "name": "David McKay",
-    "slug": "davidmckay",
-    "twitter": "rawkode",
-    "company": "InfluxData",
-    "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
-    "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways."
-}, {
-	"name": "Christian Rades",
-    "slug": "christianrades",
-    "twitter": "",
-    "company": "Shopware",
-    "photo": "/images/2020/speakers/christianr.jpg",
-    "bio": "Since joining Shopware in 2017, Christian Rades has gained much first-hand in a number of departments. Starting in the Enterprise Team, Christian worked on distributed systems and cloud applications – an experience which prepared him as a core developer for the new Shopware platform, where he focuses on the administration, messaging and file management. Christian is also one of the organisers of Shopware’s popular Code Camps, which are geared towards promoting young talent in the IT sector."
-}, {
-    "name": "Chris Riley",
-    "slug": "chrisriley",
-    "twitter": "",
+    "name": "Pauline Vos",
+    "slug": "paulinevos",
+    "twitter": "vanamerongen",
     "company": "",
-    "photo": "/images/2020/speakers/chrisr.jpg",
-    "bio": "Chris is a freelance consultant based in York, UK with experience working in the public sector throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework."
-}]
+    "photo": "/images/2022/speakers/pauline.vos.jpg",
+    "bio": "Pauline is freelance software engineer and consultant based in Amsterdam. She’s passionate about good, clean software design and being as efficient (lazy) as possible. You can usually catch her teaching people about Git or doting on her daughter."
+}, {
+    "name": "Alexandra White",
+    "slug": "alexandrawhite",
+    "twitter": "heyawhite",
+    "company": "Google",
+    "photo": "/images/2022/speakers/alexandra.white.jpg",
+    "bio": "Alexandra is a technical writer at Google. In this role, she writes documentation for web developers and the web community at-large about new, privacy-preserving technologies with the Privacy Sandbox. Before she was a writer, Alexandra was a web developer, a digital marketing manager, and a post-production editor for digital video. Alexandra has a bachelor’s degree in professional writing with an emphasis in digital and technical writing from Michigan State University."
+    
