@@ -40,8 +40,8 @@ const paths = {
  */
 var onError = function(err) {
   notify.onError({
-    title: "Gulp Error - Compile Failed",
-    message: "Error: <%= error.message %>"
+    "title": "Gulp Error - Compile Failed",
+    "message": "Error: <%= error.message %>"
   })(err);
 
   this.emit("end");
@@ -70,7 +70,7 @@ const compileCSS = done => {
     .pipe(dest(paths.sass.dest))
     .pipe(
       notify({
-        message: "Tailwind Compile Success"
+        "message": "Tailwind Compile Success"
       })
     );
   done();
@@ -92,7 +92,7 @@ const compileJS = done => {
     .pipe(dest(paths.javascript.dest))
     .pipe(
       notify({
-        message: "Javascript Compile Success"
+        "message": "Javascript Compile Success"
       })
     );
   done();
@@ -113,7 +113,7 @@ const minifyJS = done => {
     .pipe(dest(paths.javascript.dest))
     .pipe(
       notify({
-        message: "Javascript Minify Success"
+        "message": "Javascript Minify Success"
       })
     );
   done();
@@ -128,7 +128,7 @@ const moveFonts = done => {
         .pipe(dest(paths.webfonts.dest))
         .pipe(
             notify({
-                message: "Fonts moved"
+                "message": "Fonts moved"
             })
         );
     done();
@@ -194,7 +194,7 @@ const compileCSSPreflight = done => {
     .pipe(dest("css/"))
     .pipe(
       notify({
-        message: "CSS & Tailwind [PREFLIGHT] Success"
+        "message": "CSS & Tailwind [PREFLIGHT] Success"
       })
     );
 };
@@ -213,7 +213,7 @@ const minifyCSSPreflight = done => {
     .pipe(dest("./css"))
     .pipe(
       notify({
-        message: "Minify CSS [PREFLIGHT] Success"
+        "message": "Minify CSS [PREFLIGHT] Success"
       })
     );
 };
