@@ -1,0 +1,617 @@
+{
+    "days": [{
+        "schedule-wednesday": null,
+        "name": "Wednesday 19th February 2020",
+        "description": "<p>PHP UK Conference is pleased to bring to you <b>four</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>",
+        "slots": [{
+            "time": "8.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Montcalm Hotel or Grubstreet Author @ The Brewery",
+                "title": "Registration and Refreshments",
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served."
+            }]
+        }, {
+            "time": "09.00",
+            "slottype": "workshop",
+            "tracks": [{
+                "colspan": 1,
+                "name": "Workshop I",
+                "speaker": "Tim Huijzers",
+                "slug": "timhuijzers",
+                "title": "Getting Started with Event-sourcing",
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopi",
+                "description": "Over the last couple of years, I have heard of Event sourcing but didn’t really know where to start until I did a tutorial at DPC ‘17. After having some basic information it was time to start a Hackathon and after that something production worthy. In this talk I will try to give the best information to get started and to know some of the problems you can face if you begin event-sourcing, and we'll build a working application and use Docker and React to tie everything together with events commands and projections."
+            }, {
+                "colspan": 1,
+                "name": "Workshop II",
+                "speaker": "Antonio Peric-Mazar",
+                "slug": "antonioperic-mazar",
+                "title": "*SOLD OUT* <br><br>REST easy with Api Platform",
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopii",
+                "description": "We’ll start by creating a fully-featured API in just a few minutes with API Platform, Symfony and Doctrine. The API will support pagination, data validation, access control, relation embedding, filters, and error handling. It will be documented with OpenAPI and will have a nice UI done in React."
+            }, {
+                "colspan": 1,
+                "name": "Workshop III",
+                "speaker": "Bastian Hofmann",
+                "slug": "bastianhofmann",
+                "handle": "BastianHofmann",
+                "title": "Deploying your first Micro-Service application to Kubernetes",
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopiv",
+                "description": "Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use persistent storage and service meshes and set up sensible monitoring and logging tooling."
+            }, {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "speaker": "Mark Bradley",
+                "slug": "markbradley",
+                "title": "Introduction to Test Driven Development Workshop",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
+                "description": "Want to ship code faster? Want to work on features over bugs? Want more confidence in your code? You need to TEST ALL THE THINGS. Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development."
+            }]
+        }, {
+            "time": "12.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Montcalm Hotel or Grubstreet Author @ The Brewery",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
+            }]
+        }, {
+            "time": "13.30",
+            "slottype": null,
+            "tracks": [{
+                "colspan": 1,
+                "name": "Workshop I",
+                "title": "Getting Started with Event-sourcing",
+                "speaker": "Tim Huijzers",
+                "slug": "timhuijzers",
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopi",
+                "description": "A continuation of the morning's session."
+            }, {
+                "colspan": 1,
+                "name": "Workshop II",
+                "title": "REST easy with Api Platform",
+                "speaker": "Antonio Peric-Mazar",
+                "slug": "antonioperic-mazar",
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopii",
+                "description": "A continuation of the morning's session."
+            }, {
+                "colspan": 1,
+                "name": "Workshop III",
+                "title": "Deploying your first Micro-Service application to Kubernetes",
+                "speaker": "Bastian Hofmann",
+                "slug": "bastianhofmann",
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopiv",
+                "description": "A continuation of the morning's session."
+            }, {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "title": "Introduction to Test Driven Development Workshop",
+                "speaker": "Mark Bradley",
+                "slug": "markbradley",
+                "handle": "braddle",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
+                "description": "A continuation of the morning's session."
+            }]
+        }, {
+            "time": "18.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "name": "Pre-Conference Social",
+                "location": "Finch's Pub on Finsbury Square",
+                "title": "Pre-Conference Social",
+                "description": "Join us at Finch's Pub on Finsbury Square with the PHP London user group for a pre-conference pubcon. <a href=\"/socials\">More info &raquo;</a>"
+            }]
+        }]
+    }, {
+        "schedule-thursday": null,
+        "name": "Thursday 20th February 2020",
+        "description": "<p>Thursday is the first day of the main conference. Things will kick off with a morning keynote followed by four tracks of talks throughout the day. During each time slot you'll be able to choose which of the four tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
+        "slots": [{
+            "time": "08.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "The Brewery Foyer",
+                "title": "Registration and Refreshments",
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "09.00",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "PHP, The Last True Open Source Language",
+                "slug": "christankersly",
+                "speaker": "Chris Tankersly",
+                "handle": "dragonmantank",
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "Open Source is one of the most powerful human concepts that has come out of the computer revolution. It is one of the key drivers of innovation to this day, despite being a core concept of computing back in the days of when large room-sized computers roamed the land. PHP was born out of the concept and ideals of open source software and is one of the most prevalent languages still in regular use. Why is that? What is so important about Open Source Software, PHP, and how does it affect you as a developer? Let me tell you a story…"
+            }]
+        }, {
+            "time": "09.45",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "10.15",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "The La(te)st PHP 7 — What's new in PHP 7.4",
+                "name": "Talk",
+                "slug": "derickrethans",
+                "speaker": "Derick Rethans",
+                "level": "Beginner",
+                "description": "We are going to look at the new features in PHP 7.4. Join me to have a look at how the type system is strengthened with typed properties and co- and contra-variance of methods, what changes to operator precedence are, and which new features, such as pre-loading classes, have been added."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Messy data != Messy code",
+                "name": "Talk",
+                "slug": "michellesanver",
+                "speaker": "Michelle Sanver",
+                "level": "All",
+                "description": "The role of our API in Switzerland is to consume a lot of data that was not meant for a digital age and to transform it into beautiful output, for one of the biggest retailers in Switzerland. This is a journey of consuming a lot of data and APIs from different sources and in different formats. Some of them made us laugh, some of us got migraines. We built a smooth architecture to consume and output data. I am proud of our architecture that we seamlessly upgraded to keep the latest versions, now Symfony 4 along the way. I want to share with you how we managed to keep this API up to date for over 5 years and the architecture that we use to make it happen."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "ATDD Bowling – A Practical BDD Workshop",
+                "name": "Tutorial",
+                "slug": "johnbehrens",
+                "speaker": "John Behrens",
+                "level": "Intermediate",
+                "description": "We're gonna play a bowling game, and by that we learn how to use the ATDD approach to write a software to calculate the results. ATDD is an approach within the BDD methodology. After this tutorial attendees will describe features using the gherkin language and implement them a test cases using Behat."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "tooltip": null,
+                "title": "MySQL Indexes, Histograms, Locking Options, and Other Ways to Speed Up Your Queries",
+                "name": "Tutorial",
+                "slug": "davestoker",
+                "speaker": "Dave Stokes",
+                "level": "Beginner",
+                "description": "Slow query? Add an index or two! But things are suddenly even slower! Indexes are great tools to speed data lookup but have overhead issues. Histograms don’t have that overhead but may not be suited. And how you lock rows also effects performance. So what do you do to speed up queries smartly?"
+            }]
+        }, {
+            "time": "11.15",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": "King George",
+                "title": "Room change"
+            }]
+        }, {
+            "time": "11.30",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "In the world of Password123, be someone's #@%^)*!",
+                "name": "Talk",
+                "slug": "ipshabhidonia",
+                "speaker": "Ipsha Bhidonia",
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": "Beginner",
+                "description": "In case the talk title was too subtle, this session deals with ways to improve your security. Today authentication is evolving to keep up with enterprise and user needs. Hardening the authentication can also at times become a hassle for end user. Come find out how can we better secure our applications with multi-factor Authentication, while giving the users the comfort of Single Sign On. Learn about Identity Providers & how Federated Authentication works and dig deeper into the buzz words of the authentication world - OAuth and OIDC."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Serverless PHP applications with Bref",
+                "name": "Talk",
+                "slug": "matthieunapoli",
+                "speaker": "Matthieu Napoli",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "Running PHP used to be as simple as copying files onto a shared host via FTP. What if we could get back to something that simple, but gain in security, performances and scalability as well? Let’s deploy PHP on AWS Lambda using Bref, an open-source solution for building serverless PHP applications."
+            }]
+        }, {
+            "time": "12.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "13.30",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "GraphQL API in PHP",
+                "name": "Talk",
+                "subtitle": null,
+                "slug": "drishtijain",
+                "speaker": "Drishti Jain",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "APIs are a trivial part of development. But there are number of challenges that come along right from data fetching to iterating over endpoints. Worry not GraphQL is here to the rescue. Come dive into the world of GraphQL and learn to develop efficient and easy to understand APIs!"
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Guidelines on Designing for Accessibility in UX Design",
+                "name": "Talk",
+                "slug": "christianaunaeze",
+                "speaker": "Christiana Unaeze",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "One main goal of great UX design is designing products that ANYONE can use. If you are not thinking about accessibility, then you’re not thinking about the full user experience. Accessibility makes it possible for people with disabilities to understand and navigate well designed products."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "Getting Started with Laravel",
+                "name": "Tutorial",
+                "speaker": "Jason McCreary",
+                "slug": "jasonmccreary",
+                "level": "Beginner",
+                "description": "Even with the install guide and docs, sometimes it’s daunting to get started with a new framework. In this tutorial, we’ll install a fresh Laravel project and review each of its core components to provide you a solid foundation."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "tooltip": null,
+                "title": "Coroutine Based Concurrency with PHP and Swoole",
+                "name": "Tutorial",
+                "slug": "brucedou",
+                "speaker": "Bruce Dou",
+                "level": "Beginner",
+                "description": "PHP Swoole has gained traction during the past several years. More and more people are interested with started to try PHP Swoole and use coroutine in PHP to build high performance, large scale web services, online game, micro-services."
+            }]
+        }, {
+            "time": "14.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+            }]
+        }, {
+            "time": "14.45",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "PHP Generics Today (almost)",
+                "name": "Talk",
+                "subtitle": null,
+                "slug": "daveliddament",
+                "speaker": "Dave Liddament",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "Support for generics is high up many PHP developers’ wish lists. This talk is a deep dive into generics, their benefits and how, with existing tools, we can get the power of generics today"
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Meet Johnny the Deployer",
+                "name": "Talk",
+                "slug": "georgianagligor",
+                "speaker": "Georgiana Gligor",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "After working on AI-powered applications for a while now, we applied a lot of the lessons learned in building our own bot. Johnny, our DevOps chatbot, enables the release manager skip the confusing discussions with the tekkies and master the release process. It’s using NLP, so you don’t feel like talking to a bot, rather to a teammate. In this session you will learn about the building blocks of Johnny, dive into how each plays its part (pointing out reasoning behind our design decisions), and then we’ll get to do a live demo to see how all fits together. A bot framework is used to pass on information to “the brain”, which decodes your message using Natural Language Processing, and if it’s below a configurable certitude threshold comes and asks you for confirmation/clarification. Once the task to be executed is understood, the “brain” goes on to execute it and hand you over the results."
+            }]
+        }, {
+            "time": "15.45",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "16:15",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "RTFM",
+                "name": "Keynote",
+                "slug": "jessicamauerhan",
+                "speaker": "Jessica Mauerhan",
+                "level": "All",
+                "description": "There is a stereotype of programmers as being antisocial and difficult, and unfortunately many of us take on this attitude as if it comes with the job – but it doesn’t have to be this way! I know it from experience, because I’ve been an angry, judgmental know-it-all, and I’m ready to tell you how I completely changed my attitude and refactored my life."
+            }]
+        }, {
+            "time": "17.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George &amp; Queen Charlotte",
+                "title": "Mid Conference Social",
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More info &raquo;</a>"
+            }]
+        }]
+    }, {
+        "schedule-friday": null,
+        "name": "Friday 21st February 2020",
+        "description": "<p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href=\"/socials\">post-conference social</a>.</p>\n",
+        "slots": [{
+            "time": "08.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Brewery Foyer & King George",
+                "title": "Registration and Refreshments",
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "09.00",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "Post Burnout Thoughts",
+                "name": "Keynote",
+                "slug":  "joellord",
+                "speaker": "Joel Lord",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "Working in the tech industry can put a lot of pressure on people. Long hours, tight deadlines and a culture of always being connected can easily lead to depression or burnout. Through the sharing of the speaker’s personal experience, the attendees will learn to help people that might be experiencing distress and stop keeping this subject taboo. 1 in 5 Europeans are dealing with mental illness and the costs associated with this is too high to ignore. Join us to see how you can help to reduce the risks associated with this plague."
+            }]
+        }, {
+            "time": "09.45",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "10.15",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Killer Docker Workflows for Development",
+                "name": "Talk",
+                "slug": "christankersley",
+                "speaker": "Chris Tankersley",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Beginner",
+                "description": "Docker is not just about deploying containers to hundreds of servers. Developers need tools that help with day-to-day tasks and to do their job more effectively. Docker is a great addition to most workflows, from starting projects to writing utilities to make development less repetitive. Docker can help take care of many problems developers face during development such as “it works on my machine” as well as keeping tooling consistent between all of the people working on a project. See how easy it is to take an existing development setup and application and move it over to Docker, no matter your operating system."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "What I Learned my First Year as a Full-time Programmer",
+                "name": "Talk",
+                "slug": "hilarystohs-Krause",
+                "speaker": "Hilary Stohs-Krause",
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "If you’re a junior developer who’s ever wondered if joining tech was a terrible idea, this is the talk for you! The road to success is often zigzaggy, and having emerged on the other side, I feel it’s my duty to pass on some hard-earned lessons."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "My app is secure... I think",
+                "name": "Tutorial",
+                "slug": "wimgodden",
+                "speaker": "Wim Godden",
+                "level": "Intermediate",
+                "description": "More and more sites fall victim to data theft, so you probably know what to do to write secure code. But what else should you do to make sure your web stack is secure ? We’ll go through techniques to secure your environment and look at a bunch of tips and tricks to keep your customer data secure."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "name": "Tutorial",
+                "tooltip": null,
+                "title": "Build a GraphQL API with GraphQLite",
+                "slug": "davidnegrier",
+                "speaker": "David Négrier",
+                "level": "Intermediate",
+                "description": "Ever wanted to create a GraphQL API but don’t know where to start? Come and join us in this tutorial. I will introduce GraphQLite, a framework agnostic library that makes working with GraphQL a breeze."
+            }]
+        }, {
+            "time": "11.15",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+            }]
+        }, {
+            "time": "11.30",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "PHP OPCache, Realpath Cache and Preloading",
+                "name": "Talk",
+                "slug": "jachimcoudenys",
+                "speaker": "Jachim Coudenys",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "Everybody wants quick applications. A lot of that speed can be gained by the way you write your software, but a big chunk has to do with the way PHP is configured."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Testing Legacy Code: Safe Refactoring",
+                "name": "Talk",
+                "slug": "katyeriera",
+                "speaker": "Katy Eriera",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "I can't test this code because it's legacy. I need to update the code to make it testable. How can I manage that, without breaking existing functionality? I'll need to write some tests, but... argh!"
+            }]
+        }, {
+            "time": "12.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "13.30",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Testing Hack with Hammock",
+                "name": "Talk",
+                "slug": "riyadashoriya",
+                "speaker": "Riya Dashoriya",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "Introducing Hammock, a new open source mocking library for Hacklang. Hammock aims to provide disposable interfaces for mocking and spying public, protected, private, and static methods - as well as global functions - without altering their behavior. Using `fb_intercept` under the hood for mocking and unmocking, it also allows mocking of an individual object without affecting other instances of the same class. Come learn more about Hammock and how you can use this to test your code."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Introduction to Time Series",
+                "name": "Talk",
+                "slug": "davidmckay",
+                "speaker": "David McKay",
+                "handle": "rawkode",
+                "company": "InfluxData",
+                "photo": "https://secure.gravatar.com/avatar/69172dc4e4cc3e4cdd234c40adf395fa?s=500",
+                "bio": "David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser, Cloud Native advocate, and lover of esoteric programming languages, David is always on the hunt to learn and share knowledge with others in fun and exciting ways.",
+                "level": "All",
+                "description": "Time-Series has been the fastest growing database category, rated, by DBEngines, for over 2 years; yet, less than 15% store their time-series data in a time-series database. Do you?"
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "Building Modern APIs",
+                "name": "Tutorial",
+                "slug": "roballen",
+                "speaker": "Rob Allen",
+                "level": "Intermediate",
+                "description": "Modern applications increasingly require an API, whether to support rich client-side experiences, mobile apps, or to integrate with other systems. This hands-on, practical tutorial will teach you how to build a really excellent and robust API in PHP, based on Slim 4."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "tooltip": null,
+                "title": "Highly Available Applications using Kubernetes and Managed Databases",
+                "name": "Tutorial",
+                "slug": "gabrieladavilaferrara",
+                "speaker": "Gabriela D'Ávila Ferrara",
+                "handle": "gabidavila",
+                "company": "Google",
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "This tutorial is a hands-on demonstration of building and deploying a highly available, fault tolerant web application. We will demonstrate how to deploy a PHP application in two ways, running in Google Kubernetes Engine while connecting to a MySQL instance on Cloud SQL, and secondly using Serverless tools like Cloud Run and connecting to the same database instance. You will come out of this tutorial knowing the bridge to unite your stateless code to your stateful database."
+            }]
+        }, {
+            "time": "14.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+            }]
+        }, {
+            "time": "14.45",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Containerization for Software Developers",
+                "name": "Talk",
+                "speaker": "Joel Lord",
+                "slug": "joellord",
+                "level": "Intermediate",
+                "description":"The end is nigh. Your application is almost ready, and you will need to deploy it. And with the deployment, the endless tweaking to get everything running on your production servers. If only there were a way to test everything first. That is where containers will come in to save the day. With containers, you not only run your code in an environment similar to the production server, but you also run your code in precisely the same environment. In this talk, the attendees will learn about how to create container friendly applications, how to use containers to share their code with their team and finally, how to use those same containers to deploy to a production server with minimal efforts."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Static Code Analysis: Judging a Forest by Its Trees",
+                "name": "Talk",
+                "slug": "christianrades",
+                "speaker": "Christian Rades",
+                "level": "Intermediate",
+                "description": "Static code analysis can help you automate the boring parts of your code reviews. This talk is an overview of several tools and tips on how to use them in new and existing projects, featuring the following tools that can help you: Stop nit-picking your colleagues’ code style (Easy Coding Standard), keep up with best practices (Psalm, PHPStan, PHP Insights) and generate graphs visualising your dependencies (Deptrac, PhpMetrics)."
+            }]
+        }, {
+            "time": "15.45",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "16.15",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "Apps, Stacks, and Frameworks: Avoiding “Shiny Object” Syndrome",
+                "name": "Keynote",
+                "slug": "angelrivera",
+                "speaker": "Angel Rivera",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "DevOps teams are in constant search for magical solutions to their technology woes, but not properly vetting solutions can cause unintended effects. These choices lead to bad design decisions & compound technical debt. In this talk, Angel will share advice to avoid the Shiny Object syndrome."
+            }]
+        }, {
+            "time": "17.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "title": "Post Conference Social",
+                "location": "The Clerkenwell Grind",
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
+            }]
+        }]
+    }]
+}
