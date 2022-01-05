@@ -55,12 +55,12 @@
             "tracks": [{
                 "colspan": 1,
                 "name": "Workshop I",
-                "title": "",
-                "speaker": "",
-                "slug": "",
+                "title": "Continued: Introduction to Test Driven Development Workshop",
+                "speaker": "Mark Bradley",
+                "slug": "markbradley",
                 "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
                 "id": "workshopi",
-                "description": ""
+                "description": "This workshop introduces the concepts of Test Driven Development then backs them up with group and individual practical sessions. The workshop will cover:<ul><li>What is TDD</li><li>Why should you use TDD</li><li>How to use TDD</li><li>The Testing Pyramid</li><li>Test Doubles</li></ul><br>Practicals will start with implementing simple Abstract Data Types and work up to a small complex systems requiring test doubles. The workshop will use PHPUnit and Mockery but concepts can easily be transferred to other testing and mocking frameworks (Codeception, PHPSpec, Phake or Prophercy)."
             }, {
                 "colspan": 1,
                 "name": "Workshop II",
@@ -124,7 +124,7 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "Improve your Api and OpenAPI",
+                "title": "Improve your API and OpenAPI",
                 "name": "Talk",
                 "slug": "roballen",
                 "speaker": "Rob Allen",
@@ -202,8 +202,8 @@
                 "description": "Well written instructions, informative comments throughout code, clearly scripted screencasts, and smart information architecture can take complex code and make it accessible to new developers. In the age of code sharing, this can be imperative to teaching the next generation of developers, passing along your code to successors, and help you better understand your own work."
             }, {
                 "location": "Queen Charlotte",
-                "title": "Going serverless with PHP and Bref.sh ",
-                "name": "Talk",
+                "title": "Going serverless with PHP and Bref.sh (2 Hour Tutorial)",
+                "name": "Tutorial",
                 "slug": "mikelehan",
                 "speaker": "Mike Lehan",
                 "handle": null,
@@ -241,8 +241,8 @@
                 
             }, {
                 "location": "Queen Charlotte",
-                "title": "Going serverless with PHP and Bref.sh",
-                "name": "Talk",
+                "title": "Continued: Going serverless with PHP and Bref.sh (2 Hour Tutorial)",
+                "name": "Tutorial",
                 "slug": "mikelehan",
                 "speaker": "Mike Lehan",
                 "handle": null,
