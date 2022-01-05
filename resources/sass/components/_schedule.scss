@@ -8,7 +8,7 @@
   }
   @media (min-width: 1200px) {
     display:table-cell;
-    width:24.5%;
+    width:49.5%;
   }
 }
 
@@ -42,6 +42,11 @@
     a{
       text-decoration:underline;
     }
+  }
+
+  ul{
+    margin-left:2rem;
+    list-style:circle;
   }
 }
 

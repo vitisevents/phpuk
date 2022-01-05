@@ -20026,7 +20026,7 @@ h6 + p,
 @media (min-width: 1200px) {
   .location {
     display: table-cell;
-    width: 24.5%;
+    width: 49.5%;
   }
 }
 
@@ -20064,6 +20064,11 @@ h6 + p,
 
 .track .speaker a {
   text-decoration: underline;
+}
+
+.track ul {
+  margin-left: 2rem;
+  list-style: circle;
 }
 
 .slot .time {

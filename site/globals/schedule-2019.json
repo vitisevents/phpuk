@@ -1,0 +1,631 @@
+{
+    "days": [{
+        "schedule-wednesday": null,
+        "name": "Wednesday 16th February 2022",
+        "description": "<p>PHP UK Conference is pleased to bring to you <b>four</b> options for a full day of training on Wednesday, 16th February 2022, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>",
+        "slots": [{
+            "time": "8.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Montcalm Hotel or Grubstreet Author @ The Brewery",
+                "title": "Registration and Refreshments",
+                "slug": null,
+                "speaker": null,
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served."
+            }]
+        }, {
+            "time": "09.00",
+            "slottype": "workshop",
+            "tracks": [{
+                "colspan": 1,
+                "name": "Workshop I",
+                "speaker": "",
+                "slug": "",
+                "title": "",
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopi",
+                "description": ""
+            }, {
+                "colspan": 1,
+                "name": "Workshop II",
+                "speaker": "",
+                "slug": "",
+                "title": "",
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopii",
+                "description": ""
+            }, {
+                "colspan": 1,
+                "name": "Workshop III",
+                "speaker": "",
+                "slug": "",
+                "handle": "",
+                "title": "",
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopiv",
+                "description": ""
+            }, {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "speaker": "",
+                "slug": "",
+                "title": "",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
+                "description": ""
+            }]
+        }, {
+            "time": "12.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Montcalm Hotel or Grubstreet Author @ The Brewery",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
+            }]
+        }, {
+            "time": "13.30",
+            "slottype": null,
+            "tracks": [{
+                "colspan": 1,
+                "name": "Workshop I",
+                "title": "",
+                "speaker": "",
+                "slug": "",
+                "location": "Worsley Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopi",
+                "description": ""
+            }, {
+                "colspan": 1,
+                "name": "Workshop II",
+                "title": "",
+                "speaker": "",
+                "slug": "",
+                "location": "Melville Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopii",
+                "description": ""
+            }, {
+                "colspan": 1,
+                "name": "Workshop III",
+                "title": "",
+                "speaker": "",
+                "slug": "",
+                "location": "Cornwallis Room<br>Montcalm Hotel @ The Brewery",
+                "id": "workshopiv",
+                "description": ""
+            }, {
+                "colspan": 1,
+                "name": "Workshop IV",
+                "title": "",
+                "speaker": "",
+                "slug": "",
+                "handle": "",
+                "location": "Pasteur Room<br>Grubstreet Author @ The Brewery",
+                "id": "workshopiii",
+                "description": ""
+            }]
+        }, {
+            "time": "18.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "name": "Pre-Conference Social",
+                "location": "Finch's Pub on Finsbury Square",
+                "title": "Pre-Conference Social",
+                "description": "Join us at Finch's Pub on Finsbury Square with the PHP London user group for a pre-conference pubcon. <a href=\"/socials\">More info &raquo;</a>"
+            }]
+        }]
+    }, {
+        "schedule-thursday": null,
+        "name": "Thursday 17th February 2022",
+        "description": "<p>Thursday is the first day of the main conference. Things will kick off with a morning keynote followed by four tracks of talks throughout the day. During each time slot you'll be able to choose which of the four tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
+        "slots": [{
+            "time": "08.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "The Brewery Foyer",
+                "title": "Registration and Refreshments",
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "09.00",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "Never stop learning, or how curiosity and cross pollination drives innovation",
+                "slug": "paulinevos",
+                "speaker": "Pauline Vos",
+                "handle": "dragonmantank",
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "Software developers all know: continual learning is part of the job. And that’s what so many of us love about it. Innovation is constant, and it’s an exciting challenge to keep up with so many new technologies. But where do all these new concepts, frameworks, and patterns come from? Let’s take a journey through the history of innovation to explore how different worlds collided to inspire new, radical ideas. Let’s discover how cross-pollination has helped our community grow into what it is now, and can help us think of new ways to solve complex problems. Join us for a session of inspirational stories that illustrate how cross-pollination has helped form some of history’s most profound innovations, and will hopefully inspire you to conjure up your own radical new ideas."
+
+
+
+
+           
+             }]
+        }, {
+            "time": "09.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "10.00",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Improve your Api and OpenAPI",
+                "name": "Talk",
+                "slug": "roballen",
+                "speaker": "Rob Allen",
+                "level": "All",
+                "description": "OpenAPI is the standard way to describe your HTTP API, adopted by most modern APIs. With the spec at the centre of your workflow, you can improve the quality of your API and development practices, and make integrations painless. With standardisation comes tooling and in this session, I will show you to leverage this to your advantage. We’ll cover what OpenAPI is, why it’s interesting and then how to use it. We will also look at how the OpenAPI specification enables you to create documentation, use mock servers and improve the robustness of our API with validation. This session is ideal for anyone who wants to write an API specification once and use it everywhere."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "What's New in PHP 8.1",
+                "name": "Talk",
+                "slug": "derickrethans",
+                "speaker": "Derick Rethans",
+                "level": "Intermediate",
+                "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and “never”, Fibers, a new closure syntax, the First Class Callable Syntax, intersection types, and other new smaller features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.1 release."
+
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "",
+                "slug": "",
+                "speaker": "",
+                "level": "",
+                "description": ""
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "",
+                "slug": "",
+                "speaker": "",
+                "level": "",
+                "description": ""
+            }]
+        }, {
+            "time": "11.15",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": "King George",
+                "title": "Room change"
+            }]
+        }, {
+            "time": "11.15",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Container-native without k8s: PHP in ECS on AWS",
+                "name": "Talk",
+                "slug": "ianlittman",
+                "speaker": "Ian Littman",
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": ""
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Building lasting Open Source Software",
+                "name": "Talk",
+                "slug": "susannemoog",
+                "speaker": "Susanne Moog",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "A lot of Open Source software projects die a slow death soon after their conception while others thrive nearly from the start. What makes some projects succeed where others fail? The focus - especially from developers - is often only on software architectural questions, countless hours are spent on discussing software patterns, code styles, test setups - but do these things matter? To make an Open Source software project a success, circumstances have to be “just right”. In this talk, I want to explore the patterns I noticed over the years and help people working on Open Source software or thinking about starting their own project to make it (even more) successful."
+            }]
+        }, {
+            "time": "12.15",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "13.30",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Technically speaking: Improve Your Code With Documentation",
+                "name": "Talk",
+                "subtitle": null,
+                "slug": "alexandrawhite",
+                "speaker": "Alexandra White",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "Well written instructions, informative comments throughout code, clearly scripted screencasts, and smart information architecture can take complex code and make it accessible to new developers. In the age of code sharing, this can be imperative to teaching the next generation of developers, passing along your code to successors, and help you better understand your own work."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Going serverless with PHP and Bref.sh ",
+                "name": "Talk",
+                "slug": "mikelehan",
+                "speaker": "Mike Lehan",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "Learn how to build and deploy serverless PHP applications. During the workshop we’ll explore Bref, a way to run PHP functions and HTTP APIs on AWS Lambda. We’ll deploy and play with a pre-built application, as well as explore how you can migrate your existing workloads.If we truly want to do away with managing infrastructure we also want to understand how to manage data serverless. AWS DynamoDB is a highly scalable document/key-value store, which offers a lot of flexibility for developers with a steep learning curve. We’ll cover the basics of this platform, and set you up to learn and develop more, whilst avoiding potential pitfalls that might hurt your production applications."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "",
+                "speaker": " ",
+                "slug": "",
+                "level": "",
+                "description": ""
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "",
+                "slug": "",
+                "speaker": "",
+                "level": "",
+                "description": ""
+            }]
+        }, {
+            "time": "14.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+            }]
+        }, {
+            "time": "14.45",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Migrating a monolith to Cloud-Native and the stumbling blocks that you don't know about.",
+                "name": "Talk",
+                "subtitle": null,
+                "slug": "jjasghar",
+                "speaker": "JJ Asghar",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "So your company has finally decided to move to the Cloud Native ecosystem. You’ve landed on containerization as your first step. You heard that all you needed to do was containerize your first app and then push it to Kubernetes/OpenShift/Nomad, and the cost savings just come. You’ve done this, and well, things have gone not as planned. Some of the tech didn’t do what you expected, and wait, what do you mean our OpEx has gone up? Simply said: the promise of containerization or migrating to the Cloud Native ecosystem can be a lie if you don’t do your homework. Sadly most companies don’t. In this talk, I’ll explain a few gotchas that a “few” enterprises, in the guise of AsgharLabs, hit moving towards the Cloud Native world, and hopefully, you’ll learn from their mistakes, so you’re trip down this path will be more comfortable and closer to the promise. Outline Introductions What is AsgharLabs and where they started, what they thought they needed to do Where I came into the conversation to help AsgharLabs Questions you should ask after getting your app containerized Where are the architectural advantages and disadvantages? Are we doubling up on things? Isn’t automation good here? Why is this thing so complicated now? Questions you should ask about the cultural shift that will happen How the economics of the Cloud can differ from your Datacenter What do you mean our support is now Stack Overflow? What do you mean our goal is to move away from the CCB? Some tangible things you can start with to help become more successful Build that pipeline extension Collaborate with other teams Visibility and Monitoring Conclusion and where you can go from here."
+
+                
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Going serverless with PHP and Bref.sh",
+                "name": "Talk",
+                "slug": "mikelehan",
+                "speaker": "Mike Lehan",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "Learn how to build and deploy serverless PHP applications. During the workshop we’ll explore Bref, a way to run PHP functions and HTTP APIs on AWS Lambda. We’ll deploy and play with a pre-built application, as well as explore how you can migrate your existing workloads.If we truly want to do away with managing infrastructure we also want to understand how to manage data serverless. AWS DynamoDB is a highly scalable document/key-value store, which offers a lot of flexibility for developers with a steep learning curve. We’ll cover the basics of this platform, and set you up to learn and develop more, whilst avoiding potential pitfalls that might hurt your production applications."
+            }]
+        }, {
+            "time": "15.45",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "16:15",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "Passwords are so 1990",
+                "name": "Keynote",
+                "slug": "sambellen",
+                "speaker": "Sam Bellen",
+                "level": "All",
+                "description": "In this talk I will give a quick overview of the past, present and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details, but aims to give a view of what’s to come in terms of authentication."
+
+                
+            }]
+        }, {
+            "time": "17.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George &amp; Queen Charlotte",
+                "title": "Mid Conference Social",
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More info &raquo;</a>"
+            }]
+        }]
+    }, {
+        "schedule-friday": null,
+        "name": "Friday 18th February 2022",
+        "description": "<p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href=\"/socials\">post-conference social</a>.</p>\n",
+        "slots": [{
+            "time": "08.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Brewery Foyer & King George",
+                "title": "Registration and Refreshments",
+                "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "09.00",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "Open Source is Good for Business ",
+                "name": "Keynote",
+                "slug":  "lornajanemitchell",
+                "speaker": "Lorna Jane Mitchell",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "description": "We sometimes talk about businesses contributing to open source as a philanthropic act, it’s much more than that. Business is an important part of a healthy open source ecosystem, and the benefits flow in both directions. In this talk we’ll discuss how open source participation can be rewarding for staff and for the bottom line. We’ll cover ways to get started without impacting delivery of the projects you’re already working on, ways to pitch this to higher-ups, and times when it might be better to ask for forgiveness rather than permission. PHP is in every organisation, and it’s a great example of a thriving Open Source ecosystem. This talk is for everyone who wants to see a bright future for technology, open source, individuals and businesses alike."
+            }]
+        }, {
+            "time": "09.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }]
+        }, {
+            "time": "10.00",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "PHP Fibers",
+                "name": "Talk",
+                "slug": "milkokosturkov",
+                "speaker": "Milko Kosturkov",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Advanced",
+                "description": "In PHP 8.1 we welcome a new built-in feature - Fibers. Fibers give us the stepping stone for more sane (looking) and modern async programming. But on their own, they don’t seem to offer much, so how does it work? Well, we’re gonna do our own async Proof-Of-Concept framework using them and find out!"
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Managing from 1 to 1 million Kubernetes Clusters",
+                "name": "Talk",
+                "slug": "bastianhofmann",
+                "speaker": "Bastian Hofmann",
+                "handle": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "Nowadays Kubernetes can run anywhere. On a developer machine, on premise, in a public cloud as well as on the edge. The common Kubernetes API makes it faster and easier to deploy workloads and manage network connectivity, storage, load balancing, security or service discovery. This allows you to leverage the best of all worlds and combine on-premise, private and public clouds to a hybrid environment that distributes your workloads as efficiently as possible. On the other hand, you quickly end up running not only one or two clusters, but dozens, or in edge and IOT scenarios even thousands or millions. In this talk I will show how Rancher can help you to successful provision, manage and monitor these clusters, as well as the workloads running in them, regardless of the underlying infrastructure."
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "",
+                "slug": "",
+                "speaker": "",
+                "level": "",
+                "description": ""
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "name": "",
+                "tooltip": null,
+                "title": "",
+                "slug": "",
+                "speaker": "",
+                "level": "",
+                "description": ""
+            }]
+        }, {
+            "time": "11.15",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+            }]
+        }, {
+            "time": "11.15",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Living the Best Life on a Legacy Project",
+                "name": "Talk",
+                "slug": "jamestitcumb",
+                "speaker": "James Titcumb",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "Everybody wants quick applications. A lot of that speed can be gained by the way you write your software, but a big chunk has to do with the way PHP is configured."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Hop on the PHP Blockchain rocket to the MOON!",
+                "name": "Talk",
+                "slug": "drishtijain",
+                "speaker": "Drishti Jain",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "All",
+                "description": "Blockchain is innovative and guarantees the fidelity and security of data and generates trust without the need for a trusted third party. The core lies in its ability to be secure, eliminate trust, being reliable and decentralized. It gives ‘POWER’ to all equally and creates transparency. In this talk I will show how you too can transform and become a blockchain developer with PHP. We’ll talk about Digital Signature transaction encryption, avoiding counterfeit using node agreement. The core basis of blockchain and cryptography lies in the Cryptographic hash function. I will showcase what it is, how to choose and develop the hash function and all about cryptography. I’ll also cover end-of-chain ambiguity, blockchain mining and mining pools. So, gear up and fuel your excitement for blockchain using PHP through my talk!"
+            }]
+        }, {
+            "time": "12.15",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Lunch",
+                "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "13.30",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "Practical Advanced Static Analysis",
+                "name": "Talk",
+                "slug": "daveliddament",
+                "speaker": "Dave Liddament",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "Intermediate",
+                "description": "All developers know that bugs are bad and finding them can be difficult. The good news is tools to help us find and prevent bugs are becoming more powerful… Modern static analysis tools (e.g. IDEs like PHPStorm and tools like Psalm, Phan and PHPStan) are far more advanced than their predecessors. They can find a whole range of bugs whilst keeping the false positive rate low.This talk introduces more advanced static analysis. It will show the kinds of bugs that the more advanced static analysis tools can find. We’ll then look how they can be added to your current development work flow. We’ll finally look at how we can write our code in such a way to get the most out of static analysis."
+
+                
+            }, {
+                "location": "Queen Charlotte",
+                "title": "",
+                "name": "Talk",
+                "slug": "",
+                "speaker": "",
+                "handle": "rawkode",
+                "company": "",
+                "photo": "",
+                "bio": "",
+                "level": "",
+                "description": ""
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Design Track - King Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "",
+                "slug": "",
+                "speaker": " ",
+                "level": "",
+                "description": ""
+            }, {
+                "prereqs": 0,
+                "rowspan": 5,
+                "location": "Velocity Track - Queen Vault",
+                "tooltip": null,
+                "title": "",
+                "name": "Tutorial",
+                "slug": "",
+                "speaker": "",
+                "handle": "",
+                "company": "",
+                "photo": null,
+                "bio": null,
+                "level": "",
+                "description": ""
+            }]
+        }, {
+            "time": "14.30",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 2,
+                "location": null,
+                "title": "Room change"
+            }]
+        }, {
+            "time": "14.45",
+            "slottype": "talks",
+            "tracks": [{
+                "location": "Porter Tun",
+                "title": "",
+                "name": "Talk",
+                "speaker": "",
+                "slug": "",
+                "level": "",
+                "description":""
+            }, {
+                "location": "Queen Charlotte",
+                "title": "How to really work as a team- from sleepy to strong pair programming",
+                "name": "Talk",
+                "slug": "stacycashmore",
+                "speaker": "Stacy Cashmore",
+                "level": "All",
+                "description": "So many people think that pair programming is a boring waste of time and effort. I’m here to explain how our team made it work, and what benefits we got out of it!I love working in a team, bouncing ideas off each other and using our combined strengths to produce something that as individuals we wouldn’t be able to come up with."
+
+
+            }]
+        }, {
+            "time": "15.45",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "location": "King George",
+                "title": "Refreshment break",
+                "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }]
+        }, {
+            "time": "16.15",
+            "slottype": "keynote",
+            "tracks": [{
+                "colspan": 4,
+                "location": "Porter Tun",
+                "title": "",
+                "name": "Keynote",
+                "slug": "",
+                "speaker": "",
+                "handle": null,
+                "company": null,
+                "photo": null,
+                "bio": null,
+                "level": "",
+                "description": ""
+            }]
+        }, {
+            "time": "17.00",
+            "slottype": "break",
+            "tracks": [{
+                "colspan": 4,
+                "title": "Post Conference Social",
+                "location": "The Clerkenwell Grind",
+                "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
+            }]
+        }]
+    }]
+}
