@@ -85,7 +85,7 @@
     }, {
         "schedule-thursday": null,
         "name": "Thursday 17th February 2022",
-        "description": "<p>Thursday is the first day of the main conference. Things will kick off with a morning keynote followed by four tracks of talks throughout the day. During each time slot you'll be able to choose which of the four tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
+        "description": "<p>Thursday is the first day of the main conference. Things will kick off with a morning keynote followed by two tracks of talks throughout the day. During each time slot you'll be able to choose which of the two tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
         "slots": [{
             "time": "08.00",
             "slottype": "break",
@@ -102,6 +102,7 @@
                 "colspan": 2,
                 "location": "Porter Tun",
                 "title": "Never stop learning, or how curiosity and cross pollination drives innovation",
+                "name": "Keynote",
                 "slug": "paulinevos",
                 "speaker": "Pauline Vos",
                 "handle": "dragonmantank",
