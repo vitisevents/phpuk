@@ -374,7 +374,7 @@
                 "photo": null,
                 "bio": null,
                 "level": "All",
-                "description": "Everybody wants quick applications. A lot of that speed can be gained by the way you write your software, but a big chunk has to do with the way PHP is configured."
+                "description": "You’ve started a new job. As you dig deeper into the codebase, the WTFs per minute rate rapidly increases, and you’re left wondering… “Where do I start?!”. In this talk, I’ll draw on my own experiences of joining several different teams to help maintain their legacy codebase. You’ll come out of this talk with a better understanding of when you should or should not refactor existing code, the importance of communication, documentation, testing, and ideas for automated tests and checks."
             }, {
                 "location": "Queen Charlotte",
                 "title": "Hop on the PHP Blockchain rocket to the MOON!",
@@ -438,12 +438,13 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "",
+                "title": "From Betamax to VCR: harden your API integration testing",
                 "name": "Talk",
-                "speaker": "",
-                "slug": "",
-                "level": "",
-                "description":""
+                "speaker": "James Seconde",
+                "slug": "jamesseconde",
+                "level": "Intermediate",
+                "description":"This talk comes from inheriting a complete, widely used open source PHP API library. It’s complete in that it has a full test suite, but problems arise from the approach of mocking JSON responses to assert tests on. The responses have to be maintained, and that can inevitably lead to false positives if the underlying API changes without the maintainer being notified. You can be clever and use a git submodule to bring in a standardised response that can be used by the same library in other languages, but then you need someone to maintain that across various departments of engineering. A chat with my colleague who is the resident Ruby library developer revealed that VCR has been used across the Ruby world for years. Why hadn’t I come across this approach, after years of PHP development (and specifically API testing work)? My passion is for expressive, self-documenting code. After all, it’s what I do in my current role: I advocate for the PHP developer community, and PHP developers are the ones that I maintain that library for. VCR plus integration with the PEST testing framework gives that readability we should strive for - it helps developers understand what your code is doing with responses. But the biggest thing here is the ability to trigger a record when something upstream changes. If someone pushes out a change to the OpenAPI specification, you can get a webhook to trigger a build on your library. The response is different, something has been removed or added, and your test suite fails. A test written in PEST, so highly readable. If you’re a new developer on the project, you’re being told what needs fixing, and that is a story that needs telling."
+
             }, {
                 "location": "Queen Charlotte",
                 "title": "How to really work as a team- from sleepy to strong pair programming",
