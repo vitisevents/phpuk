@@ -125,20 +125,20 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "Improve your API and OpenAPI",
-                "name": "Talk",
-                "slug": "roballen",
-                "speaker": "Rob Allen",
-                "level": "All",
-                "description": "OpenAPI is the standard way to describe your HTTP API, adopted by most modern APIs. With the spec at the centre of your workflow, you can improve the quality of your API and development practices, and make integrations painless. With standardisation comes tooling and in this session, I will show you to leverage this to your advantage. We'll cover what OpenAPI is, why it's interesting and then how to use it. We will also look at how the OpenAPI specification enables you to create documentation, use mock servers and improve the robustness of our API with validation. This session is ideal for anyone who wants to write an API specification once and use it everywhere."
-            }, {
-                "location": "Queen Charlotte",
                 "title": "What's New in PHP 8.1",
                 "name": "Talk",
                 "slug": "derickrethans",
                 "speaker": "Derick Rethans",
                 "level": "Intermediate",
                 "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and “never”, Fibers, a new closure syntax, the First Class Callable Syntax, intersection types, and other new smaller features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.1 release."
+            }, {
+                "location": "Queen Charlotte",
+                "title": "Improve your API and OpenAPI",
+                "name": "Talk",
+                "slug": "roballen",
+                "speaker": "Rob Allen",
+                "level": "All",
+                "description": "OpenAPI is the standard way to describe your HTTP API, adopted by most modern APIs. With the spec at the centre of your workflow, you can improve the quality of your API and development practices, and make integrations painless. With standardisation comes tooling and in this session, I will show you to leverage this to your advantage. We’ll cover what OpenAPI is, why it’s interesting and then how to use it. We will also look at how the OpenAPI specification enables you to create documentation, use mock servers and improve the robustness of our API with validation. This session is ideal for anyone who wants to write an API specification once and use it everywhere."
 
             }]
         }, {
@@ -238,7 +238,6 @@
                 "bio": null,
                 "level": "Intermediate",
                 "description": "So your company has finally decided to move to the Cloud Native ecosystem. You've landed on containerisation as your first step. You heard that all you needed to do was containerise your first app and then push it to Kubernetes/OpenShift/Nomad, and the cost savings just come. You've done this, and well, things have gone not as planned. Some of the tech didn't do what you expected, and wait, what do you mean our OpEx has gone up? Simply said: the promise of containerisation or migrating to the Cloud Native ecosystem can be a lie if you don't do your homework. Sadly most companies don't. In this talk, I'll explain a few gotchas that a “few” enterprises, in the guise of AsgharLabs, hit moving towards the Cloud Native world, and hopefully, you'll learn from their mistakes, so you're trip down this path will be more comfortable and closer to the promise. Outline Introductions What is AsgharLabs and where they started, what they thought they needed to do Where I came into the conversation to help AsgharLabs Questions you should ask after getting your app containerised Where are the architectural advantages and disadvantages? Are we doubling up on things? Isn't automation good here? Why is this thing so complicated now? Questions you should ask about the cultural shift that will happen How the economics of the Cloud can differ from your Datacenter What do you mean our support is now Stack Overflow? What do you mean our goal is to move away from the CCB? Some tangible things you can start with to help become more successful Build that pipeline extension Collaborate with other teams Visibility and Monitoring Conclusion and where you can go from here."
-
                 
             }, {
                 "location": "Queen Charlotte",
