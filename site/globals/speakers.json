@@ -90,7 +90,7 @@
     "twitter": "@SecondeJ",
     "company": "vonage",
     "photo": "/images/2022/speakers/james-seconde.jpg",
-    "bio": "Landing in software development by accident after needing to build a website in the 90s, Susanne is a self-taught software developer, book author and trainer. Originally studying media economics and journalism, she has since worked her way up from an entry-level development position to COO of an Open Source software company. Throughout her career, she worked as a scrum master, as a coach and as a team lead which compelled her to take further courses on sociology, philosophy, ethics and education as handling software is comparatively easy, but dealing with people is hard. In her free time, she contributes to Open Source, dances enthusiastically, plays Golf badly and knits - straight lines only."
+    "bio": "This talk comes from inheriting a complete, widely used open source PHP API library. It’s complete in that it has a full test suite, but problems arise from the approach of mocking JSON responses to assert tests on. The responses have to be maintained, and that can inevitably lead to false positives if the underlying API changes without the maintainer being notified. You can be clever and use a git submodule to bring in a standardised response that can be used by the same library in other languages, but then you need someone to maintain that across various departments of engineering."
 }, {
     "name": "Derick Rethans",
     "slug": "derickrethans",
