@@ -133,7 +133,7 @@
                 "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and “never”, Fibers, a new closure syntax, the First Class Callable Syntax, intersection types, and other new smaller features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.1 release."
             }, {
                 "location": "Queen Charlotte",
-                "title": "Improve your API and OpenAPI",
+                "title": "Improve your API with OpenAPI",
                 "name": "Talk",
                 "slug": "roballen",
                 "speaker": "Rob Allen",
@@ -165,16 +165,16 @@
                 "description": "When building Covie, I got to pick our tech stack, including where and how to run it. The choice was containerized on ECS with AWS, starting on Fargate…and so far, so good. We'll walk through how to set this stack up, with some tips and tricks along the way."
             }, {
                 "location": "Queen Charlotte",
-                "title": "Building lasting Open Source Software",
+                "title": "",
                 "name": "Talk",
-                "slug": "susannemoog",
-                "speaker": "Susanne Moog",
+                "slug": "",
+                "speaker": "",
                 "handle": null,
                 "company": null,
                 "photo": null,
                 "bio": null,
-                "level": "All",
-                "description": "A lot of Open Source software projects die a slow death soon after their conception while others thrive nearly from the start. What makes some projects succeed where others fail? The focus - especially from developers - is often only on software architectural questions, countless hours are spent on discussing software patterns, code styles, test setups - but do these things matter? To make an Open Source software project a success, circumstances have to be “just right”. In this talk, I want to explore the patterns I noticed over the years and help people working on Open Source software or thinking about starting their own project to make it (even more) successful."
+                "level": "",
+                "description": ""
             }]
         }, {
             "time": "12.15",
