@@ -13,6 +13,10 @@
           "url": "/attending/photos"
         },
         {
+          "label": "COVID-19 Policies",
+          "url": "/attending/covid19"
+        },
+        {
           "label": "FAQs",
           "url": "/attending/faqs"
         }
