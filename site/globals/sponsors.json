@@ -1,6 +1,26 @@
 {
     "sponsors":
     [{
+       "name": "Platform",
+       "id": "platform",
+       "type": "track",
+       "url": "https://platform.sh/",
+       "description": "Platform.sh is a unified, secure, enterprise-grade platform for building, running and scaling fleets of websites and applications.",
+       "logo": {
+           "url": "/images/sponsors/platform.png",
+           "alt": "Platform logo"
+        }
+    },{
+        "name": "Vonage",
+        "id": "vonage",
+        "type": "gold",
+        "url": "https://www.vonage.com/?bypassgeoloc=true",
+        "description": "Vonage has everything you need to build connected applications with their APIs for SMS, Voice, Video, Verify and more. Whether you want to make and receive phone calls with code, reach users by the messaging platforms they prefer or ensure that users provide the correct contact details, they’ve got you covered. Easily integrate with social chat apps such as Facebook Messenger, WhatsApp and Viber, or build in-app voice and messaging experience on mobile and web. Vonage has quick solutions made easy for you",
+        "logo": {
+            "url": "/images/sponsors/vonage.png",
+            "alt": "Vonage"
+        }
+    },{
         "name": "LexisNexis Risk Solutions",
         "id": "lexisnexisrisksolutions",
         "type": "gold",
@@ -10,6 +30,16 @@
             "url": "/images/sponsors/lexisnexis.png",
             "alt": "Lexis Nexis logo"
         }
+    },{ 
+        "name": "SensioLabs",
+        "id": "sensiolabs",
+        "type": "gold",
+        "url": "https://sensiolabs.com/",
+        "description": "SensioLabs has created the Open-Source PHP framework Symfony, which has become a global reference in web development. SensioLabs supports companies that have selected PHP and Symfony as the cornerstone of their development. With an offering encompassing consultancy, expertise, services, training, and support, SensioLabs enhances developers' effectiveness and ensures the success of web applications development projects.",
+        "logo": {
+            "url": "/images/sponsors/sensiolabs.png",
+            "alt": "SensioLabs logo"
+        }       
     },{
         "name": "Twilio",
         "id": "twilio",
@@ -30,5 +60,15 @@
             "url": "/images/sponsors/stockora.png",
             "alt": "Stockora logo"
         }
+    },{ 
+        "name": "Mention Me",
+        "id": "mentionme",
+        "type": "silver",
+        "url": "https://www.mention-me.com/",
+        "description": "Mention Me is the Referral Engineering® platform for growth-obsessed ecommerce brands. Our world-class programmes have delivered more than 4.5m referrals totalling £1bn+ in revenue for 450+ brands around the globe. We're a fast-growing, PHP-loving tech company and we've just raised $25m in Series B funding.",
+        "logo": {
+            "url": "/images/sponsors/mentionme.png",
+            "alt": "MentionMe logo"
+        }        
     }]
-}   
+} 
