@@ -11,6 +11,17 @@
            "alt": "Platform logo"
         }
     },{
+        "name": "Goodlord",
+        "id": "goodlord",
+        "type": "track",
+        "url": "https://www.goodlord.co/",
+        "description": "Goodlord is designed to improve the lettings process for agents, landlords, and tenants alike. As an award-winning, ARLA Protected supplier, Goodlord has grown to become a one-stop shop for more than 1,000 letting agencies of all sizes throughout the UK.",
+        "logo": {
+            "url": "/images/sponsors/goodlord.png",
+            "alt": "Goodlord logo"
+
+        }    
+    },{
         "name": "Vonage",
         "id": "vonage",
         "type": "gold",
