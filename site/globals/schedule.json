@@ -364,16 +364,16 @@
             "slottype": "talks",
             "tracks": [{
                 "location": "Porter Tun",
-                "title": "Living the Best Life on a Legacy Project",
+                "title": "",
                 "name": "Talk",
-                "slug": "jamestitcumb",
-                "speaker": "James Titcumb",
+                "slug": "",
+                "speaker": "",
                 "handle": null,
                 "company": null,
                 "photo": null,
                 "bio": null,
-                "level": "All",
-                "description": "You’ve started a new job. As you dig deeper into the codebase, the WTFs per minute rate rapidly increases, and you’re left wondering… “Where do I start?!”. In this talk, I’ll draw on my own experiences of joining several different teams to help maintain their legacy codebase. You’ll come out of this talk with a better understanding of when you should or should not refactor existing code, the importance of communication, documentation, testing, and ideas for automated tests and checks."
+                "level": "",
+                "description": ""
             }, {
                 "location": "Queen Charlotte",
                 "title": "Hop on the PHP Blockchain rocket to the MOON!",
