@@ -80,6 +80,16 @@
         "logo": {
             "url": "/images/sponsors/mentionme.png",
             "alt": "MentionMe logo"
-        }        
+        }  
+    },{    
+        "name": "DevITjobs",
+        "id": "devitjobs",
+        "type": "media partner",
+        "url": "https://devitjobs.uk/jobs/PHP/all",
+        "description": "DevITjobs is the first job board built with Software Engineers in mind. The mission of the company is to bring more transparency, openness and diversity to the British IT market.DevITjobs  is not only for Developers but for everyone working in the IT industry: Engineers, SAP and System Admins, Product Managers, QAs and UX/UI Designers!",
+        "logo": { 
+            "url": "/images/sponsors/devit.png",
+            "alt": "DevIT logo"
+        }    
     }]
 } 
