@@ -99,12 +99,12 @@
     "photo": "/images/2022/speakers/derick-rethans.jpg",
     "bio": "Derick Rethans is a PHP internals expert and author of <a target=\"blank\" href=\"https://xdebug.org/\">Xdebug.com</a> Derick works as an independent contractor and consultant on PHP extensions and related projects. He has contributed to the PHP project in numerous forms (Date/Time Extension, Xdebug, PHP 4.4/7.4 Release Manager, etc). He is a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. Derick is also the host of the weekly-ish <a target=\"blank\" href=\"https://phpinternals.news/\">PHP Internals News</a> podcasts."
 }, {
-    "name": "James Titcumb",
-    "slug": "jamestitcumb",
-    "twitter": "asgrim",
-    "company": "Roave",
-    "photo": "/images/2022/speakers/james-titcumb.jpg",
-    "bio": "James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference."
+    "name": "Chandeep Khosa",
+    "slug": "chandeepkhosa",
+    "twitter": "ChandeepKhosa",
+    "company": "Cyber-duck",
+    "photo": "/images/2022/speakers/chandeep-khosa.jpg",
+    "bio": "As a Solutions Architect, for digital agency Cyber-Duck, Chandeep is a problem solver (useful as a hands-on Dad to three children under the age of five!). With over 20 years’ experience in web development and a long-time Drupal specialist, Chandeep brings deep technical expertise and sharp business acumen to help solve complex digital transformation projects in a hybrid web and business development role."    
 }, {
     "name": "Pauline Vos",
     "slug": "paulinevos",
@@ -119,4 +119,11 @@
     "company": "Google",
     "photo": "/images/2022/speakers/alexandra-white.jpg",
     "bio": "Alexandra is a technical writer at Google. In this role, she writes documentation for web developers and the web community at-large about new, privacy-preserving technologies with the Privacy Sandbox. Before she was a writer, Alexandra was a web developer, a digital marketing manager, and a post-production editor for digital video. Alexandra has a bachelor’s degree in professional writing with an emphasis in digital and technical writing from Michigan State University."
+},{
+    "name": "Michael Cullum",
+    "slug": "michaelcullum",
+    "twitter": "michaelcullumuk",
+    "company": "Bud",
+    "photo": "/images/2022/speakers/michael-cullum.jpg",
+    "bio": "Michael Cullum is the Head of Engineering at Bud, a fintech company based in London and has been there for the past three years. Prior to that Michael worked in software & data platform engineering, working with companies like SamKnows doing data platform engineering at huge scales. His background is from the PHP ecosystem where he focused in particular on security and the scaling of applications as a software engineer for over a decade. He’s been actively involved in the wider PHP community and open source projects including with the Symfony Core Team as Security Lead since 2018; on the management team and as a contributor of phpBB for around 5 years; and with the PHP FIG previously running the administration as the PHP FIG Secretary for 2 years, sitting on the Core Committee for a further 2 years, and being the editor of three PSRs focusing on Coding Standards and Security."
 }]
