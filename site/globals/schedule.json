@@ -133,12 +133,12 @@
                 "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and “never”, Fibers, a new closure syntax, the First Class Callable Syntax, intersection types, and other new smaller features. At the end you will have a good understanding about all the new and exciting features that are part of the PHP 8.1 release."
             }, {
                 "location": "GoodLord Track - Queen Charlotte",
-                "title": "",
+                "title": "Embrace the pitfalls (Our stop start journey to Change)",
                 "name": "Talk",
-                "slug": "",
-                "speaker": "",
-                "level": "",
-                "description": ""
+                "slug": "stacycashmore",
+                "speaker": "Stacy Cashmore",
+                "level": "All",
+                "description": "As developers, we want to work in a modern way, to get fast feedback on what we are building to make sure that we are building the right things in the right way. However, many companies are still at the start of their journey. Things take longer than we would like to get moving, sometimes change can seem to happen at a glacial pace and whilst you are ready to try and run, others are finding their feet - or even digging in their heels!In this talk, Stacy will go over some of the pitfalls that have happened to her, and the lessons that she has learned from them. Unfortunately, there are no magic solutions to make the problems go away, but hopefully, you can look at the mistakes she has made and go away to make your own new ones to learn from!"
             }]
         }, {
             "time": "11.15",
