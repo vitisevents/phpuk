@@ -8,6 +8,7 @@
 - Purgecss for removing unused CSS
 - ES6 support with Babel
 - SEO friendly pages (including open graph and twitter meta)
+localhost:8080
 
 ## Requirements
 
