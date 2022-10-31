@@ -444,7 +444,7 @@
         "speaker": "Mark Niebergall",
         "slug": "markniebergall",
         "level": "Intermediate",
-        "description":"Reading and writing files locally comes with many nuances and difficulties. It becomes even more complex when files are hosted on external servers like SFTP, AWS S3, Azure, and other providers. Flysystem provides an abstraction layer between an application and interacting with the filesystems. Explore how to use Flysystem Adapters for seemless file management for writing, reading, moving, copying, deleting, and other file interactions. See how to set permissions, configure adapters, get file information, stream files, write unit tests, and more in this technical dive into file management with Flysystem."
+        "description":"Reading and writing files locally comes with many nuances and difficulties. It becomes even more complex when files are hosted on external servers like SFTP, AWS S3, Azure, and other providers. Flysystem provides an abstraction layer between an application and interacting with the filesystems. Explore how to use Flysystem Adapters for seamless file management for writing, reading, moving, copying, deleting, and other file interactions. See how to set permissions, configure adapters, get file information, stream files, write unit tests, and more in this technical dive into file management with Flysystem."
 
       }, {
         "location": "Track - Queen Charlotte",
