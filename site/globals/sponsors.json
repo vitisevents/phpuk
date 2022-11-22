@@ -1,14 +1,13 @@
 {
-  "sponsors":
-  [{
-    "name": "",
-    "id": "",
-    "type": "",
-    "url": "",
-    "description": "",
+  "sponsors": [{
+    "name": "Copia Digital Ltd",
+    "id": "copiadigital",
+    "type": "gold",
+    "url": "https://www.copiadigital.com/",
+    "description": "Copia is a digital communications agency for companies in the capital markets, helping them communicate effectively with their investors and stakeholders. We’ve been building brands for asset managers and public companies for more than a decade, producing websites, corporate identities and acting as a trusted partner to dozens of companies. Our work helps companies engage and educate their investors across digital and print media, bringing creativity to stakeholder communications.\nOur forte is producing enterprise WordPress websites, building highly optimised and ultra-secure sites for FTSE clients who want to tell their investment cases.",
     "logo": {
-      "url": "",
-      "alt": ""
+      "url": "/images/sponsors/copia.svg",
+      "alt": "Copia Digital logo"
     }
   }]
 }
