@@ -1,4 +1,5 @@
 // Config
+
 // Selectors
 // store selectors for reference so we only call them once
 var $body = document.querySelector('body');
@@ -13,27 +14,23 @@ var
 * @return 		{bool}
 *
 */
+
 page = function page(name) {
   if (!name) {
     return $body.getAttribute('id');
   }
-
   return $body.getAttribute('id') == name;
 };
 var accItem = document.getElementsByClassName('accordion__item');
 var accHD = document.getElementsByClassName('accordion__handle');
-
 for (i = 0; i < accHD.length; i++) {
   accHD[i].addEventListener('click', toggleItem, false);
 }
-
 function toggleItem() {
   var itemClass = this.parentNode.className;
-
   for (i = 0; i < accItem.length; i++) {
     accItem[i].className = 'accordion__item close';
   }
-
   if (itemClass == 'accordion__item close') {
     this.parentNode.className = 'accordion__item open';
   }
@@ -52,7 +49,6 @@ function getTimeRemaining(endtime) {
     seconds: seconds
   };
 }
-
 function initializeClock(clock, endtime) {
   if (clock) {
     var updateClock = function updateClock() {
@@ -61,12 +57,10 @@ function initializeClock(clock, endtime) {
       hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
       minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
       secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
-
       if (t.total <= 0) {
         clearInterval(timeinterval);
       }
     };
-
     var daysSpan = clock.querySelector(".days");
     var hoursSpan = clock.querySelector(".hours");
     var minutesSpan = clock.querySelector(".minutes");
@@ -75,9 +69,7 @@ function initializeClock(clock, endtime) {
     var timeinterval = setInterval(updateClock, 1000);
   }
 }
-
 var clock = document.getElementById("countdown");
-
 if (clock) {
   var deadline = new Date(Date.parse(clock.dataset.date));
   initializeClock(clock, deadline);
@@ -86,7 +78,9 @@ if (clock) {
 // do this on every page apart from the blog page
 // if ( !page('blog') )
 // {
+
 //     document.querySelector('.content > p').classList.add('intro')
+
 // }
 var lastKnownScrollPosition = 0;
 var ticking = false;
@@ -97,19 +91,16 @@ var navContent = document.querySelector('.nav-content');
 var navToggle = document.querySelector('.nav-content-toggle');
 var navItemToggles = document.querySelectorAll('.nav-item-toggle');
 var windowWidth = window.innerWidth;
-
 function toggleHeaderClasses(type) {
   if (type == 'add') {
     header.classList.remove('absolute', 'text-white', 'nav-black');
     header.classList.add('fixed', 'bg-white', 'animated', 'slideInDown', 'text-black');
   }
-
   if (type == 'remove') {
     header.classList.add('absolute', 'text-white', 'nav-black');
     header.classList.remove('fixed', 'bg-white', 'animated', 'slideInDown', 'text-black');
   }
 }
-
 function toggleHeader(scrollPos) {
   // Use if you only want header fixed on homepage
   // if (page("home") && scrollPos > viewportHeight) {
@@ -127,7 +118,6 @@ function toggleHeader(scrollPos) {
     }
   }
 }
-
 function toggleNav() {
   if (mql.matches) {
     navContent.classList.remove('hidden');
@@ -135,7 +125,6 @@ function toggleNav() {
     navContent.classList.toggle('hidden');
   }
 }
-
 function toggleSubNav() {
   if (mql.matches) {
     navContent.classList.remove('hidden');
@@ -143,7 +132,6 @@ function toggleSubNav() {
     navContent.classList.toggle('hidden');
   }
 }
-
 navItemToggles.forEach(function (toggle) {
   toggle.addEventListener('click', function () {
     if (!mql.matches) {
@@ -164,7 +152,6 @@ navToggle.addEventListener('click', function () {
 });
 window.addEventListener('scroll', function (e) {
   lastKnownScrollPosition = window.scrollY;
-
   if (!ticking) {
     window.requestAnimationFrame(function () {
       toggleHeader(lastKnownScrollPosition);
@@ -174,7 +161,6 @@ window.addEventListener('scroll', function (e) {
   }
 });
 var hero = document.querySelector(".hero-slider");
-
 if (hero) {
   var slider = tns({
     container: ".hero-slider",
@@ -188,13 +174,11 @@ if (hero) {
   });
 }
 var schedule_toggles = document.querySelectorAll(".toggle-schedule-info");
-
 var getSiblings = function getSiblings(elem) {
   return Array.prototype.filter.call(elem.parentNode.children, function (sibling) {
     return sibling !== elem;
   });
 };
-
 schedule_toggles.forEach(function (toggle) {
   toggle.addEventListener("click", function () {
     toggle.parentElement.classList.toggle("hidden");
@@ -204,7 +188,6 @@ schedule_toggles.forEach(function (toggle) {
   });
 });
 var testimonials = document.querySelector(".testimonials-slider");
-
 if (testimonials) {
   var slider = tns({
     container: ".testimonials-slider",
@@ -224,16 +207,18 @@ filter_toggles.forEach(function (toggle) {
   toggle.addEventListener("click", function () {
     // Only allow active state if not disabled
     if (!toggle.disabled) {
-      var selectedYear = toggle.dataset.year; // Sets active state to toggle and removes state from rest
+      var selectedYear = toggle.dataset.year;
 
+      // Sets active state to toggle and removes state from rest
       filter_toggles.forEach(function (toggle_item) {
         if (toggle_item.dataset.year == selectedYear) {
           toggle_item.classList.add("bg-blue-100");
         } else {
           toggle_item.classList.remove("bg-blue-100");
         }
-      }); // Show videos based on year
+      });
 
+      // Show videos based on year
       if (selectedYear == "all") {
         filter_videos.forEach(function (video) {
           video.classList.remove("hidden");
