@@ -118,6 +118,14 @@
     "photo": "/images/2023/naomi-gotts.jpg",
     "bio": "Naomi is a Senior Software Engineer and has been working with PHP professionally for over 15 years. Alongside a passion for Test Driven Development, helping others to learn via means such as mentoring, book clubs and internal tech conferences, writing code is still very close to her heart. Outside of work, Naomi is a big F1 fan and is likely never far from a crochet hook, especially in winter time!"
 },{
+    "name": "Nuno Maduro",
+    "slug": "nunomaduro",
+    "twitter": "enunomaduro",
+    "company": "",
+    "photo": "/images/2023/nuno-maduro.jpg",
+    "bio": "Nuno Maduro is a Speaker, Laravel Core Team Member, Open Source Developer.Nuno has created dozens of popular open-source projects, including Laravel Zero, Collision, Larastan, PHP Insights, Termwind, and the second most used PHP Testing Framework in the world: PEST. All these packages combined have been downloaded more than 200 million times. Nuno has a very close relationship with the Laravel community, the most popular PHP framework in the world. As a core team member, Nuno has developed and maintained multiple Laravel projects and features that are being used by companies over the world. Including The New York Times, Disney, Twitch, and more."
+
+},{
     "name": "Paul Dragoonis",
     "slug": "pauldragoonis",
     "twitter": "dr4goonis",
@@ -131,4 +139,11 @@
     "company": "Instapro",
     "photo": "/images/2023/pauline-vos.jpg",
     "bio": "Pauline is a PHP developer currently employed by HomeAdvisor Intl. in Amsterdam. She likes good, clean software design and being as efficient (lazy) as possible. Also cocktails, video games and animal memes. She lives in Amsterdam with her cat, Phife Cat, and about three plants."
+},{
+    "name": "Rob Allen",
+    "slug": "roballen",
+    "twitter": "akrabat",
+    "company": "19FT",
+    "photo": "/images/2023/rob-allen.jpg",
+    "bio": "Rob Allen is a software developer with many years experience in a variety of interesting languages. He's particularly interested in APIs and the ecosystem around them along and contributes to Slim Framework, rst2pdf & Apache OpenWhisk along with other open source projects. Rob is a published author and based in the UK & works as VP of Engineering at Covie. In his spare time, Rob blogs at <a target=\"blank\" href=\"https://akrabat.com\">akrabat.com</a> and can often be seen with a camera in his hand."
 }]
