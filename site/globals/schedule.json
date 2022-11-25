@@ -249,7 +249,7 @@
             },
             {
               "location": "Track - Queen Charlotte",
-              "title": "How does typing in PHP work?",
+              "title": "PHP's type system dissected?",
               "name": "Talk",
               "slug": "georgepeterbanyard",
               "speaker": "George Peter Banyard",
@@ -258,7 +258,7 @@
               "photo": null,
               "bio": null,
               "level": "Advanced",
-              "description": ""
+              "description": "PHP has added more and more types in the last couple of versions. But what is the meaning of a type, a type system, and a subtyping relation?\nIn this talk, we will explain those words, and see what comprises the PHP type system, how it checks for types, how it uses and implements Liskov's Subtitution Principle (LSP) for it's subtyping relation, and how the strict_type declare affects PHP's type system."
             }
           ]
         },
@@ -302,7 +302,7 @@
               "photo": null,
               "bio": null,
               "level": "Intermediate",
-              "description": "You’ve probably heard stories about the Rust programming language, and you’re probably wondering why it’s becoming so popular. In this talk, you’ll see what Rust is from a PHP developer’s perspective.Get ready for a live-coding session, where we are going to recreate an existing PHP application in Rust, from scratch, and demystify all the awesomeness behind it."
+              "description": "You’ve probably heard stories about the Rust programming language, and you’re probably wondering why it’s becoming so popular. In this talk, you’ll see what Rust is from a PHP developer’s perspective. Get ready for a live-coding session, where we are going to recreate an existing PHP application in Rust, from scratch, and demystify all the awesomeness behind it."
             }
           ]
         },
