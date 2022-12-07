@@ -54,7 +54,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "Queen Charlotte @ The Brewery",
               "title": "Lunch",
               "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
@@ -112,7 +112,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "The Brewery Foyer",
               "title": "Registration and Refreshments",
               "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
@@ -124,7 +124,7 @@
           "slottype": "keynote",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "Track - Porter Tun",
               "title": "Your Software is Mission Critical",
               "name": "Keynote",
@@ -144,7 +144,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Refreshment break",
               "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
@@ -172,6 +172,15 @@
               "speaker": "James Titcumb",
               "level": "Intermediate",
               "description": "You've started a new job. As you dig deeper into the codebase, the WTFs per minute rate rapidly increases, and you're left wondering... 'Where do I start?!'. In this talk, I'll draw on my own experiences of joining several different teams to help maintain their legacy codebase. You'll come out of this talk with a better understanding of when you should or should not refactor existing code, the importance of communication, documentation, testing, and ideas for automated tests and checks."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -180,7 +189,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Room change"
             }
@@ -214,6 +223,15 @@
               "bio": null,
               "level": "Intermediate",
               "description": "Programming is passion and vocation for many developers, but sometimes you find yourself in a job situation that destroys your love for coding – it happens to the best of us and makes you question everything.\nThis talk is about how I bugfixed my career and regained contentment and meaning in my work. I will pass on lessons I learned on how to protect yourself from false loyalty, get out of a job you once loved, take calculated risks and find your own field of passion."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -222,7 +240,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Lunch",
               "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
@@ -259,6 +277,15 @@
               "bio": null,
               "level": "Advanced",
               "description": "PHP has added more and more types in the last couple of versions. But what is the meaning of a type, a type system, and a subtyping relation?\nIn this talk, we will explain those words, and see what comprises the PHP type system, how it checks for types, how it uses and implements Liskov's Subtitution Principle (LSP) for it's subtyping relation, and how the strict_type declare affects PHP's type system."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -267,7 +294,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": null,
               "title": "Room change"
             }
@@ -303,6 +330,15 @@
               "bio": null,
               "level": "Intermediate",
               "description": "You’ve probably heard stories about the Rust programming language, and you’re probably wondering why it’s becoming so popular. In this talk, you’ll see what Rust is from a PHP developer’s perspective. Get ready for a live-coding session, where we are going to recreate an existing PHP application in Rust, from scratch, and demystify all the awesomeness behind it."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -311,7 +347,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Refreshment break",
               "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
@@ -323,7 +359,7 @@
           "slottype": "keynote",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "Track - Porter Tun",
               "title": "Stories from a career dropout",
               "name": "Keynote",
@@ -339,7 +375,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George &amp; Queen Charlotte",
               "title": "Mid Conference Social",
               "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More info &raquo;</a>"
@@ -358,7 +394,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "Brewery Foyer & King George",
               "title": "Registration and Refreshments",
               "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
@@ -370,7 +406,7 @@
           "slottype": "keynote",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "Track - Porter Tun",
               "title": "We built this city... The geographies of software development\n",
               "name": "Keynote",
@@ -390,7 +426,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Refreshment break",
               "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
@@ -425,6 +461,15 @@
               "bio": null,
               "level": "",
               "description": "When you've been tasked with creating an HTTP API, the fundamental decision you need to make is which architcture to choose. Should your API be RESTful? What about GraphQL? or (g)RPC? In this session, I'll explain the choices and how each works. We'll then look at their strengths and weaknesses in order to help guide your decision. By the end of this talk, you'll be well-placed to choose the right API architecture for your project."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -433,7 +478,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": null,
               "title": "Room change"
             }
@@ -468,6 +513,15 @@
               "bio": null,
               "level": "Advanced",
               "description": "Do you think the PHP interpreter is black magic and C is just like alchemy for you?\nAre you interested in harnessing some of that magic for yourself? This talk will give you an overview of how to develop an extension for PHP using rust.\nYou’ll see how to setup up a simple example and how to add more elaborate features to it.\nAfter getting to know some general tips you’ll learn about some pitfalls and how to circumvent them. Equipped with this knowledge you’ll be able to work some of that PHP interpreter magic yourself.\n\n"
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -476,7 +530,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Lunch",
               "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
@@ -512,6 +566,15 @@
               "bio": null,
               "level": "",
               "description": "You code the app. You've used Test-Driven-Development for it, because you do things the right way. You care about the quality of your code. You ship it. The job is mostly done! EXCEPT, of course, now that your app has -you know, users- performance is down. You've got a Redis instance caching sessions and database queries, but it's not enough! Your problem needs a bolted-on solution - maybe throw something else at it, like Varnish? We don't do Performance-Driven-Development in PHP, and we should. The problem is in the code, not the caching. In this session I'm going to show you how it's done."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -520,7 +583,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": null,
               "title": "Room change"
             }
@@ -547,6 +610,15 @@
               "speaker": "Pauline Vos",
               "level": "",
               "description": "Reader, be aware: this is not a blockchain talk! The web we knew and loved has become a massive machine led by a small number of tech giants, controlling your data, hogging money, and burning the planet.\nTech thought leaders and pioneers recognize the state of the current web for what it is: unsustainable. Find out in this talk which inspiring technologies lie ahead for us, that will help us take back control of our beloved web.\n\n"
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "TBC",
+              "name": "Talk",
+              "slug": "",
+              "speaker": "",
+              "level": "",
+              "description": ""
             }
           ]
         },
@@ -555,7 +627,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "King George",
               "title": "Refreshment break",
               "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
@@ -567,7 +639,7 @@
           "slottype": "keynote",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "location": "Track - Porter Tun",
               "title": "TBC",
               "name": "Keynote",
@@ -587,7 +659,7 @@
           "slottype": "break",
           "tracks": [
             {
-              "colspan": 2,
+              "colspan": 3,
               "title": "Post Conference Social",
               "location": "TBC",
               "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
