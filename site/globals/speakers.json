@@ -1,10 +1,24 @@
 [{
+    "name": "Bastian Hofmann",
+    "slug": "bastianhofmann",
+    "twitter": "BastianHofmann",
+    "company": "SUSE",
+    "photo": "/images/2023/bastian-hofmann.png",
+    "bio": "Bastian is a Field Engineer at SUSE. There he focuses on Containers, Kubernetes and especially Rancher, the leading solution to manage Kubernetes clusters in multiple environments, on premise, in the cloud and at the edge.\n"
+},{
+    "name": "Carlos Granados",
+    "slug": "carlosgranados",
+    "twitter": "",
+    "company": "i6 Group",
+    "photo": "/images/2023/carlos-granados.jpg",
+    "bio": "I'm keenly interested in the ways code communicates to two different audiences at once, the computer as well as other people. This lead me to my current role in improving the development experience at Shopware.\nNext to my daily work, I'm also one of Shopware's popular Code Camps organizers, which hopes to promote a playful understanding of code in school-aged children. In my off time, I'm a programming language nerd with an interest in functional programming and distributed systems."
+},{
     "name": "Christian Rades",
     "slug": "christianrades",
     "twitter": "C_Rades",
     "company": "Shopware",
     "photo": "/images/2023/christian-rades.jpg",
-    "bio": "I'm keenly interested in the ways code communicates to two different audiences at once, the computer as well as other people. This lead me to my current role in improving the development experience at Shopware.\nNext to my daily work, I'm also one of Shopware's popular Code Camps organizers, which hopes to promote a playful understanding of code in school-aged children. In my off time, I'm a programming language nerd with an interest in functional programming and distributed systems."
+    "bio": "Been a developer my whole life, more than 30 years. Initially I developed video games and 15 years ago I moved to web applications, e-commerce and SAS. Been using PHP for more than 15 years and I am specially familiar with the Symfony framework\n."
 },{
     "name": "Ciaran McNulty",
     "slug": "ciaranmcnulty",
@@ -83,6 +97,13 @@
     "photo": "/images/2023/joel-lord.png",
     "bio": "Joel Lord is passionate about the web and technology in general. He likes to learn new things, but most of all, he wants to share his discoveries. He does so by travelling at various conferences all across the globe.\nHe graduated from college in computer programming in the last millennium. Apart from a little break to get his BSc in computational astrophysics, he was always in the industry.\nIn his daily job, Joel is a developer advocate with MongoDB, where he connects with software engineers to help them make the web better by using best practices around JavaScript.\nDuring his free time, he can be found stargazing on a campground somewhere or brewing a fresh batch of beer in his garage."
 },{
+    "name": "Keren Kenzi",
+    "slug": "kerenkenzi",
+    "twitter": "KerenKenzi",
+    "company": "Torii",
+    "photo": "/images/2023/keren-kenzi.jpg",
+    "bio": "Keren is a full-stack developer at Torii, who has been working as a software engineer for more than a decade.\nShe has a M.Sc. in Computer Science and loves React and learning new technologies. Keren volunteers as a program manager at Baot, a community that helps women in tech in their professional growth. She is also a dev community leader and co-organizes meetups. And in her not-so-spare time, she studies psychology. Her hobbies include drawing, photography, and singing.\n."
+},{
     "name": "Marcel Pociot",
     "slug": "marcelpociot",
     "twitter": "marcelpociot",
@@ -103,6 +124,13 @@
     "company": "",
     "photo": "/images/2023/mark-niebergall.jpg",
     "bio": "Mark Niebergall is a security-minded PHP senior software engineer at a cybersecurity software company, with many years of hands-on experience with PHP projects. He is the Utah PHP User Group Co-Organizer, a regular conference speaker, and an occasional author. Mark has a Masters degree in MIS, is CSSLP and SSCP cybersecurity certified, and volunteers for (ISC)2 security exam development. Mark enjoys endurance sports, being outdoors, and teaching his five boys how to push buttons and use technology."
+},{
+    "name": "Marine Gandy",
+    "slug": "marinegandy",
+    "twitter": "mupsigraphy",
+    "company": "Platform.sh",
+    "photo": "/images/2023/marine-gandy.jpg",
+    "bio": "Since Drupal 8 and the big migration to Symfony components, the Drupal community has progressively moved away from some of its custom tools and habits, opening up to more standard practices in the PHP and open source ecosystems. Let’s take a look at what was accomplished, which ‘drupalisms’ remain, and what the future will bring."
 },{
     "name": "Mike Lehan",
     "slug": "mikelehan",
@@ -146,4 +174,19 @@
     "company": "19FT",
     "photo": "/images/2023/rob-allen.jpg",
     "bio": "Rob Allen is a software developer with many years experience in a variety of interesting languages. He's particularly interested in APIs and the ecosystem around them along and contributes to Slim Framework, rst2pdf & Apache OpenWhisk along with other open source projects. Rob is a published author and based in the UK & works as VP of Engineering at Covie. In his spare time, Rob blogs at <a target=\"blank\" href=\"https://akrabat.com\">akrabat.com</a> and can often be seen with a camera in his hand."
+},{
+    "name": "Tim Bond",
+    "slug": "timbond",
+    "twitter": "TimB0nd",
+    "company": "McGraw Hill",
+    "photo": "/images/2023/tim-bond.jpg",
+    "bio": "Tim is a senior full stack developer that got his start with PHP 15 years ago. He is a sticker for good Git commits and is the author of multiple mobile apps and is very active in the Tabris.js community. When not in front of a computer, you'll probably find him hiking or biking around beautiful Seattle, or putting together a new Lego set on one of the rare rainy days.\n"
+},{
+    "name": "Timo Michna",
+    "slug": "timomichna",
+    "twitter": "",
+    "company": "Quentic",
+    "photo": "/images/2023/timo-michna.png",
+    "bio": "Timo is a software developer with over 20 years experience in frontend and backend development in a variety of industries and project types. He is currently employed as an software architect in his hometown Berlin. In his free time (besides many other thing) he is a maintainer for CNCF's OpenTelemetry project for PHP language implementations.\n"
 }]
+

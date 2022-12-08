@@ -156,6 +156,7 @@
           "slottype": "talks",
           "tracks": [
             {
+              "colspan": 1,
               "location": "Track - Porter Tun",
               "title": "What's New in PHP 8.1 and 8.2",
               "name": "Talk",
@@ -165,6 +166,7 @@
               "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1 and 8.2. oin me to have a look at how the type system is strengthened with Enumerations and \"never\", Fibers, a new closure syntax, the First Class Callable Syntax, intersection and disjunctive normal form types, readonly classes, and other smaller features. At the end you will have a good understanding about all the new and exciting features that are new in PHP 8.1 and PHP 8.2."
             },
             {
+              "colspan": 1,
               "location": "Track - Queen Charlotte",
               "title": "Living the Best Life on a Legacy Project",
               "name": "Talk",
@@ -174,13 +176,14 @@
               "description": "You've started a new job. As you dig deeper into the codebase, the WTFs per minute rate rapidly increases, and you're left wondering... 'Where do I start?!'. In this talk, I'll draw on my own experiences of joining several different teams to help maintain their legacy codebase. You'll come out of this talk with a better understanding of when you should or should not refactor existing code, the importance of communication, documentation, testing, and ideas for automated tests and checks."
             },
             {
+              "colspan": 1,
               "location": "Track - King Vault",
-              "title": "TBC",
+              "title": "Protect against unknown security vulnerabilities",
               "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "slug": "bastianhofmann",
+              "speaker": "Bastian Hofmann",
               "level": "",
-              "description": ""
+              "description": "Kubernetes makes it easy to deploy, manage and monitor your cloud native applications. Security can be a challenge in such a dynamic, containerised environment, though. Ensuring that your containers are not containing vulnerabilities is vital throughout the complete supply chain, from development and CI through deployment and admission controls to security at runtime.\nIn this talk you will see how NeuVector, the first Open-Source Cloud Native Security solution can secure the complete software development lifecycle and even protects against unknown or unpatched vulnerabilities with its zero-trust runtime security model."
             }
           ]
         },
@@ -226,12 +229,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
+              "title": "Bye bye drupalisms! Propelling Drupal into a modern PHP ecosystem",
               "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "slug": "marinegandy",
+              "speaker": "Marine Gandy",
               "level": "",
-              "description": ""
+              "description": "Since Drupal 8 and the big migration to Symfony components, the Drupal community has progressively moved away from some of its custom tools and habits, opening up to more standard practices in the PHP and open source ecosystems. Let’s take a look at what was accomplished, which ‘drupalisms’ remain, and what the future will bring."
             }
           ]
         },
@@ -280,12 +283,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
+              "title": "Symfony is RAD",
               "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "slug": "rickkuipers",
+              "speaker": "Rick Kuipers",
               "level": "",
-              "description": ""
+              "description": "What happens when you just ride the wave? How productive can we be when we smother our project in all that Symfony goodness? Let's explore some Rapid Application Development practices that Symfony has to offer. We'll acquire the mindset needed and get ourselves familiar with a Symfony setup by the book. We will develop an MVP using the MakerBundle and we'll close the gap towards an MLP using Symfony UX. Live demo included."
             }
           ]
         },
@@ -333,12 +336,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
+              "title": "Creating PHP extensions easily with C++",
               "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "slug": "carlosgranados",
+              "speaker": "Carlos Granados",
               "level": "",
-              "description": ""
+              "description": "Creating a PHP extension has been traditionally a very difficult task. You need to be very familiar with the PHP innards and need to follow a complex system of configurations, using many obscure macros, with little or no documentation. This has improved a lot with the appearance of the PHP-CPP library which allows you to easily develop PHP extensions using C++, with this library taking care of all the ugly details. In this talk we will learn how to use the library, how to install and compile it and your extensions and how to create functionality in C++ that easily interacts with the PHP side."
             }
           ]
         },
@@ -464,12 +467,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
-              "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "title": "Channeling your inner tech blogger",
+              "name": "Tutorial",
+              "slug": "kerenkenzi",
+              "speaker": "Keren Kenzi",
               "level": "",
-              "description": ""
+              "description": "There is a saying that the best way to learn something is to teach it to someone else. When we write a tech blog, we share our knowledge with others and deepen our understanding of the subject. We also improve other skills along the way and build our professional brand and signature.\nIn this workshop, we will discuss the benefits of writing a blog and try to remove all the barriers that have stopped us so far from writing a blog. Together we will think about topics to write about and start our draft, and hopefully, by the end of the day, we will have a published blog out there."
             }
           ]
         },
@@ -516,12 +519,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
-              "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "title": "Channeling your inner tech blogger",
+              "name": "Tutorial",
+              "slug": "kerenkenzi",
+              "speaker": "Keren Kenzi",
               "level": "",
-              "description": ""
+              "description": "There is a saying that the best way to learn something is to teach it to someone else. When we write a tech blog, we share our knowledge with others and deepen our understanding of the subject. We also improve other skills along the way and build our professional brand and signature.\nIn this workshop, we will discuss the benefits of writing a blog and try to remove all the barriers that have stopped us so far from writing a blog. Together we will think about topics to write about and start our draft, and hopefully, by the end of the day, we will have a published blog out there"
             }
           ]
         },
@@ -569,12 +572,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
+              "title": "Attackers want your data and they're getting it from your API\n",
               "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "slug": "timbond",
+              "speaker": "Tim Bond",
               "level": "",
-              "description": ""
+              "description": "APIs are everywhere. Some companies sell theirs and publish documentation alongside it. Others expose just enough APIs to provide value to the end users through a website or app without ever intending them to be used for any other purpose. Your API is the purveyor to some valuable data, and attackers are eager to get at it. This session will cover some of the methods attackers use to reverse engineer your API and some steps you can take to thwart them.\nThe session will begin by demonstrating a few methodologies on how traffic to an API can be \"sniffed\" and analyzed. We will then discuss authentication with API keys and OAuth2 and the differences and pitfalls of each. We'll touch on some low hanging fruit on hardening your API: TLS encryption, certificate pinning, and some less obvious techniques including HMAC request signing, obfuscation, compilation protection, and more.\nAt the end of the session you'll have a better understanding of the cat and mouse game that is API security, the knowhow of the tools and techniques attackers might be using to get at your data, and some steps you can implement to better your API's security."
             }
           ]
         },
@@ -613,12 +616,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "TBC",
+              "title": "A Trace of Confidence - Distributed Tracing with OpenTelemetry and PHP\n",
               "name": "Talk",
-              "slug": "",
-              "speaker": "",
+              "slug": "timomichna",
+              "speaker": "Tim Michna",
               "level": "",
-              "description": ""
+              "description": "Even though the concept of distributed tracing is not new and is regarded as one of the main pillars of observability, It is not known to many developers. Distributed tracing has been rather painful to implement in the past (especially across language boundaries), and this where the OpenTelemetry project comes in with standardization and implementations in all major programming language.\nThis talk will give a brief overview over the concept and history of distributed tracing and will focus on how to implement this observability pattern with OpenTelemetry PHP."
             }
           ]
         },

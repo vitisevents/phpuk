@@ -20019,12 +20019,31 @@ h6 + p,
 @media (min-width: 768px) {
   .location {
     display: inline-block;
-    width: 49.5%;
+    width: 30.5%;
   }
 }
 
 @media (min-width: 1200px) {
   .location {
+    display: table-cell;
+    width: 30.5%;
+  }
+}
+
+.main article:first-child .location {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main article:first-child .location {
+    display: inline-block;
+    width: 49.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main article:first-child .location {
     display: table-cell;
     width: 49.5%;
   }

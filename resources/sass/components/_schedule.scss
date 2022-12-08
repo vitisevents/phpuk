@@ -4,6 +4,20 @@
 
   @media (min-width: 768px) {
     display:inline-block;
+    width:30.5%;
+  }
+  @media (min-width: 1200px) {
+    display:table-cell;
+    width:30.5%;
+  }
+}
+
+.main article:first-child .location{
+  display:block;
+  width:100%;
+
+  @media (min-width: 768px) {
+    display:inline-block;
     width:49.5%;
   }
   @media (min-width: 1200px) {
