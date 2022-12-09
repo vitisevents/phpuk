@@ -1,495 +1,674 @@
 {
-  "days": [{
-    "schedule-wednesday": null,
-    "name": "Tuesday 14th February 2023",
-    "description": "<p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Tuesday, 14th February 2023, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>",
-    "slots": [{
-      "time": "8.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George @ The Brewery",
-        "title": "Registration and Refreshments",
-        "slug": null,
-        "speaker": null,
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served."
-      }]
-    }, {
-      "time": "09.00",
-      "slottype": "workshop",
-      "tracks": [{
-        "colspan": 1,
-        "name": "Workshop I",
-        "speaker": "",
-        "slug": "",
-        "title": "",
-        "location": "King Vault<br>The Brewery",
-        "id": "workshopi",
-        "description": ""
-      }, {
-        "colspan": 1,
-        "name": "Workshop II",
-        "speaker": "",
-        "slug": "",
-        "title": "",
-        "location": " ",
-        "id": "workshopii",
-        "description": ""
-      }]
-    }, {
-      "time": "12.30",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "Queen Charlotte @ The Brewery",
-        "title": "Lunch",
-        "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
-      }]
-    }, {
-      "time": "13.30",
-      "slottype": null,
-      "tracks": [{
-        "colspan": 1,
-        "name": "Workshop I",
-        "title": "",
-        "speaker": "",
-        "slug": "",
-        "location": "King George<br>The Brewery",
-        "id": "workshopi",
-        "description": ""
-      }, {
-        "colspan": 1,
-        "name": "Workshop II",
-        "title": "",
-        "speaker": "",
-        "slug": "",
-        "location": " ",
-        "id": "workshopii",
-        "description": ""
-      }]
-    }, {
-      "time": "18.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "name": "Pre-Conference Social",
-        "location": "TBC",
-        "title": "Pre-Conference Social",
-        "description": "Join us with the PHP London user group for a pre-conference social  . <a href=\"/socials\">More info &raquo;</a>"
-      }]
-    }]
-  }, {
-    "schedule-wednesday": null,
-    "name": "Wednesday 15th February 2023",
-    "description": "<p>Wednesday is the first day of the main conference. Things will kick off with a morning keynote followed by two tracks of talks throughout the day. During each time slot you'll be able to choose which of the two tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
-    "slots": [{
-      "time": "08.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "The Brewery Foyer",
-        "title": "Registration and Refreshments",
-        "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
-      }]
-    }, {
-      "time": "09.00",
-      "slottype": "keynote",
-      "tracks": [{
-        "colspan": 2,
-        "location": "Track - Porter Tun",
-        "title": "Your Software is Mission Critical",
-        "name": "Keynote",
-        "slug": "mikelehan",
-        "speaker": "Mike Lehan",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "All",
-        "description": "If an autopilot fails, or a weapon system malfunctions, lives can and will be lost. As a result, significant checks, practices and concepts go into designing the software for such systems. But the code we, as developers in a wide range of jobs and fields, write can be just as critical - a delayed benefits submission because of a server error causes somebody to become homeless; a mistake on an immigration system causes a family to be deported; a misrouting of a delivery driver causes a car crash. <br><br>As developers we should explore the culture around what we build - move fast and break things doesn't work if you're dealing with real people's real lives. Are there lessons of software development, design, project management, that we can learn from \"mission critical\" software production, and apply to our \"normal\" development projects that can ultimately save frustration, jobs and even lives in the process?</b></br>"
-      }]
-    }, {
-      "time": "09.30",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Refreshment break",
-        "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
-      }]
-    }, {
-      "time": "10.00",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "What's New in PHP 8.1 and 8.2",
-        "name": "Talk",
-        "slug": "derickrethans",
-        "speaker": "Derick Rethans",
-        "level": "Intermediate",
-        "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1 and 8.2. oin me to have a look at how the type system is strengthened with Enumerations and \"never\", Fibers, a new closure syntax, the First Class Callable Syntax, intersection and disjunctive normal form types, readonly classes, and other smaller features. At the end you will have a good understanding about all the new and exciting features that are new in PHP 8.1 and PHP 8.2."
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "Talk",
-        "slug": "",
-        "speaker": "",
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "11.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Room change"
-      }]
-    }, {
-      "time": "11.15",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "Asynchronous PHP with React PHP",
-        "name": "Talk",
-        "slug": "marcelpociot ",
-        "speaker": "Marcel Pociot",
-        "handle": null,
-        "photo": null,
-        "bio": null,
-        "level": "Beginner",
-        "description": "Asynchronous PHP allows us to push the boundaries of PHP. A websocket server written in PHP? No problem! Let’s take a look at what asynchronous PHP is and the cool things you can build with it. You don’t need to learn a new programming language to write your own HTTP server."
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "Talk",
-        "slug": "",
-        "speaker": "",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "12.15",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Lunch",
-        "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
-      }]
-    }, {
-      "time": "13.30",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "Continuous Integration: Tips & Tricks",
-        "name": "Talk",
-        "subtitle": null,
-        "slug": "pauldragoonis",
-        "speaker": "Paul Dragoonis",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "Intermediate",
-        "description": "In this session Paul is going to share with you his tips & tricks learned when building top quality CI pipelines for large organizations such as the UK Government, banks and the private sector. Using Continuous Integration already? Whether you're a beginner or CI ninja, you'll gain value from this session as we cover a broad range of topics. We'll look at how we can leverage tools like Docker, Jenkins, AWS to truly push CI pipelines to the limit. After this session you'll walk away with new ideas, new tools and lots of real-world experience, to set you on your way."
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "",
-        "slug": "",
-        "speaker": "",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "14.30",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": null,
-        "title": "Room change"
-      }]
-    }, {
-      "time": "14.45",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "Effective Code Review",
-        "name": "Talk",
-        "subtitle": null,
-        "slug": "daveliddament",
-        "speaker": "Dave Liddament",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "Beginner",
-        "description": "There are so many benefits from code review; lower development costs, increased code quality, quick up-skilling and on-boarding of team members. Despite these benefits many teams don’t have code review as part of their process at all. Others don’t get the gains they should from it.<br><br>This talk first outlines the business case for code review. It then explores how to make code review effective, specifically looking at:</br></br><ul><li>Expectations of what can be achieved with code review.</li><li>What should be covered by code review (including example code)</li><li>What should not be covered by code review</li><li>How to write code that makes code review easy</li><li>What makes good code review comments</li><li>What makes good responses to code review comments</li><br><br>Finally to wrap up you'll be shown how to enable a code review with Github. Spoiler alert: It can be done it under 5 mins!</br></br>"
-
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "",
-        "slug": "",
-        "speaker": "",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "15.45",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Refreshment break",
-        "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
-      }]
-    }, {
-      "time": "16:15",
-      "slottype": "keynote",
-      "tracks": [{
-        "colspan": 2,
-        "location": "Track - Porter Tun",
-        "title": "Stories from a career dropout",
-        "name": "Keynote",
-        "slug": "femkebuijs",
-        "speaker": "Femke Buijs",
-        "level": "All",
-        "description": "Your career can feel like it is taking all the energy you have inside of you. You’re dreading the next working day, and you keep wondering if this is what you are going to do for the rest of your life. But what if it isn't? What if you find a job that makes you feel like you are on top of the world, all while being productive as well? During my talk I will share the lessons I have learned after changing my career, what the points are you need to take into consideration when making such a decision, and how this actually resembles climbing a mountain very well."
-
-
-      }]
-    }, {
-      "time": "17.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George &amp; Queen Charlotte",
-        "title": "Mid Conference Social",
-        "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More info &raquo;</a>"
-      }]
-    }]
-  }, {
-    "schedule-friday": null,
-    "name": "Thursday 16th February 2023",
-    "description": "<p>Thursday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by two talk slots throughout the day. During each talk slot you'll have the choice between two different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Thursday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href=\"/socials\">post-conference social</a>.</p>",
-    "slots": [{
-      "time": "08.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "Brewery Foyer & King George",
-        "title": "Registration and Refreshments",
-        "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
-      }]
-    }, {
-      "time": "09.00",
-      "slottype": "keynote",
-      "tracks": [{
-        "colspan": 2,
-        "location": "Track - Porter Tun",
-        "title": "We built this city... The geographies of software development\n",
-        "name": "Keynote",
-        "slug":  "naomigotts",
-        "speaker": "Naomi Gotts",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "All",
-        "description": "As developers we assume the responsibility of planning, architecting, building and maintaining our individual patches of cyberspace. Our codebases are the landscape of our virtual cities and this landscape must be cared for. From the perspective of a geography graduate turned software engineer, let's explore the parallels that exist between the built environment we inhabit and the virtual environment we are creating."
-      }]
-    }, {
-      "time": "09.30",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Refreshment break",
-        "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
-      }]
-    }, {
-      "time": "10.00",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "Fantastic functions and where to find them",
-        "name": "Talk",
-        "slug": "freekvanderherten",
-        "speaker": "Freek Van der Herten",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "Beginner",
-        "description": "PHP is a truly amazing language. You probably use PHP to create beautiful websites and services in an expressive way. But the language is capable of so much more than what you'll probably program in your day to day job.<br><br>In this entertaining talk, we'll take a look a couple of surprising ways to use PHP. You'll see lesser known functionality being used such as weak maps and process control functions. We'll also cover a couple amazing open source PHP projects that have borrowed inspiration from communities outside of PHP such as Tailwind and Phoenix.</br></br>"
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "Talk",
-        "slug": "",
-        "speaker": "",
-        "handle": null,
-        "photo": null,
-        "bio": null,
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "11.15",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": null,
-        "title": "Room change"
-      }]
-    }, {
-      "time": "11.15",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "Docker for development\n",
-        "name": "Talk",
-        "slug": "ciaranmcnulty",
-        "speaker": "Ciaran McNulty",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "Beginner",
-        "description": "Assuming little or no existing knowledge of Docker, we will learn how to build images of our applications and run them locally as containers.<br><br>We will also look at how to orchestrate multiple containers using Docker Compose, with some tips and tricks for typical local development workflows.</br></br>"
-
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "Talk",
-        "slug": "",
-        "speaker": "",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "12.15",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Lunch",
-        "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
-      }]
-    }, {
-      "time": "13.30",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "PHP on Lambda with Custom Runtimes",
-        "name": "Talk",
-        "slug": "ianlittman",
-        "speaker": "Ian Littman",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "Intermediate",
-        "description": "At re:invent 2018, Amazon released custom runtime support and Layers for their Lambda function-as-a-service runtime. With this release, the fact that the company still doesn't have an official PHP Lambda runtime becomes more or less irrelevant, since we as developers can create our own without undue overhead. This talk will show you how Lambda custom runtimes work, how to build one that speaks PHP, and how to use pre-built custom runtime layers for either one-off job processing or behind a load balancer or API Gateway to serve web traffic with extreme infrastructure elasticity."
-      },{
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "Talk",
-        "slug": "",
-        "speaker": "",
-        "handle": "",
-        "company": "",
-        "photo": "",
-        "bio": "",
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "14.30",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": null,
-        "title": "Room change"
-      }]
-    }, {
-      "time": "14.45",
-      "slottype": "talks",
-      "tracks": [{
-        "location": "Track - Porter Tun",
-        "title": "Filesystem Management with Flysystem",
-        "name": "Talk",
-        "speaker": "Mark Niebergall",
-        "slug": "markniebergall",
-        "level": "Intermediate",
-        "description":"Reading and writing files locally comes with many nuances and difficulties. It becomes even more complex when files are hosted on external servers like SFTP, AWS S3, Azure, and other providers. Flysystem provides an abstraction layer between an application and interacting with the filesystems. Explore how to use Flysystem Adapters for seemless file management for writing, reading, moving, copying, deleting, and other file interactions. See how to set permissions, configure adapters, get file information, stream files, write unit tests, and more in this technical dive into file management with Flysystem."
-
-      }, {
-        "location": "Track - Queen Charlotte",
-        "title": "",
-        "name": "Talk",
-        "slug": "",
-        "speaker": "",
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "15.45",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "location": "King George",
-        "title": "Refreshment break",
-        "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
-      }]
-    }, {
-      "time": "16.15",
-      "slottype": "keynote",
-      "tracks": [{
-        "colspan": 2,
-        "location": "Track - Porter Tun",
-        "title": "",
-        "name": "Keynote",
-        "slug": "",
-        "speaker": "",
-        "handle": null,
-        "company": null,
-        "photo": null,
-        "bio": null,
-        "level": "",
-        "description": ""
-      }]
-    }, {
-      "time": "17.00",
-      "slottype": "break",
-      "tracks": [{
-        "colspan": 2,
-        "title": "Post Conference Social",
-        "location": "TBC",
-        "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
-      }]
-    }]
-  }]
-}
+  "days": [
+    {
+      "schedule-tuesday": null,
+      "name": "Tuesday 14th February 2023",
+      "description": "<p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Tuesday, 14th February 2023, a day before the conference.</p><p>All course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>",
+      "slots": [
+        {
+          "time": "8.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 2,
+              "location": "King George @ The Brewery",
+              "title": "Registration and Refreshments",
+              "slug": null,
+              "speaker": null,
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served."
+            }
+          ]
+        },
+        {
+          "time": "09.00",
+          "slottype": "workshop",
+          "tracks": [
+            {
+              "colspan": 1,
+              "name": "Workshop I",
+              "speaker": "Mark Bradley",
+              "slug": "markbradley",
+              "title": "Introduction to Test Driven Development",
+              "location": "King Vault<br>The Brewery",
+              "id": "workshopi",
+              "description": "Writing tests before you write production code can be an intimidating concept, but there is no need to be scared.\nDuring this workshop we will look at the concepts of Test Driven Development and what it takes to write tests first. The workshop will cover: <ul><li>What is TDD</li><li>Why should you use TDD</li><li>How to use TDD</li><li>The Testing Pyramid</li><li>Test Doubles</li></ul> Practicals will start with implementing simple Abstract Data Types and work up to a small complex programs requiring test doubles.<p>The workshop will use PHPUnit and Mockery but concepts can easily be transferred to other testing and mocking frameworks (Pest, PHPSpec, Phake or Codeception).</p>"
+            },
+            {
+              "colspan": 1,
+              "name": "Workshop II",
+              "speaker": "Joel Lord",
+              "slug": "joellord",
+              "title": "Learn to MERN",
+              "location": " ",
+              "id": "workshopii",
+              "description": "Everyone talks about being a full-stack JavaScript developer, but what does it even mean? Can you really use JavaScript all the way through your development stack, and how to get started? All the different technologies that are needed to become a full stack developer might seem daunting at first, this workshop is aiming at making this simpler and more accessible. In this workshop, the attendees will learn how to build a full stack application using the MERN (MongoDB, Express, React, Node.js) stack."
+            }
+          ]
+        },
+        {
+          "time": "12.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "Queen Charlotte @ The Brewery",
+              "title": "Lunch",
+              "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
+            }
+          ]
+        },
+        {
+          "time": "13.30",
+          "slottype": null,
+          "tracks": [
+            {
+              "colspan": 1,
+              "name": "Workshop I",
+              "title": "Introduction to Test Driven Development (Continued)",
+              "speaker": "Mark Bradley",
+              "slug": "markbradley",
+              "location": "King George<br>The Brewery",
+              "id": "workshopi",
+              "description": "Writing tests before you write production code can be an intimidating concept, but there is no need to be scared.\nDuring this workshop we will look at the concepts of Test Driven Development and what it takes to write tests first. The workshop will cover: <ul><li>What is TDD</li><li>Why should you use TDD</li><li>How to use TDD</li><li>The Testing Pyramid</li><li>Test Doubles</li></ul> Practicals will start with implementing simple Abstract Data Types and work up to a small complex programs requiring test doubles.<p>The workshop will use PHPUnit and Mockery but concepts can easily be transferred to other testing and mocking frameworks (Pest, PHPSpec, Phake or Codeception).</p>"
+            },
+            {
+              "colspan": 1,
+              "name": "Workshop II",
+              "title": "Learn to MERN (Continued)",
+              "speaker": "Joel Lord",
+              "slug": "joellord",
+              "location": " ",
+              "id": "workshopii",
+              "description": "Everyone talks about being a full-stack JavaScript developer, but what does it even mean? Can you really use JavaScript all the way through your development stack, and how to get started? All the different technologies that are needed to become a full stack developer might seem daunting at first, this workshop is aiming at making this simpler and more accessible. In this workshop, the attendees will learn how to build a full stack application using the MERN (MongoDB, Express, React, Node.js) stack"
+            }
+          ]
+        },
+        {
+          "time": "18.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 2,
+              "name": "Pre-Conference Social",
+              "location": "TBC",
+              "title": "Pre-Conference Social",
+              "description": "Join us with the PHP London user group for a pre-conference social  . <a href=\"/socials\">More info &raquo;</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule-wednesday": null,
+      "name": "Wednesday 15th February 2023",
+      "description": "<p>Wednesday is the first day of the main conference. Things will kick off with a morning keynote followed by two tracks of talks throughout the day. During each time slot you'll be able to choose which of the two tracks you would like to attend. There will be 3 cake & coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day finishes with a keynote before we move on to the main conference social.</p>",
+      "slots": [
+        {
+          "time": "08.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "The Brewery Foyer",
+              "title": "Registration and Refreshments",
+              "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }
+          ]
+        },
+        {
+          "time": "09.00",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "Track - Porter Tun",
+              "title": "Your Software is Mission Critical",
+              "name": "Keynote",
+              "slug": "mikelehan",
+              "speaker": "Mike Lehan",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "All",
+              "description": "If an autopilot fails, or a weapon system malfunctions, lives can and will be lost. As a result, significant checks, practices and concepts go into designing the software for such systems. But the code we, as developers in a wide range of jobs and fields, write can be just as critical - a delayed benefits submission because of a server error causes somebody to become homeless; a mistake on an immigration system causes a family to be deported; a misrouting of a delivery driver causes a car crash. <br><br>As developers we should explore the culture around what we build - move fast and break things doesn't work if you're dealing with real people's real lives. Are there lessons of software development, design, project management, that we can learn from \"mission critical\" software production, and apply to our \"normal\" development projects that can ultimately save frustration, jobs and even lives in the process?</b></br>"
+            }
+          ]
+        },
+        {
+          "time": "09.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Refreshment break",
+              "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }
+          ]
+        },
+        {
+          "time": "10.00",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "colspan": 1,
+              "location": "Track - Porter Tun",
+              "title": "What's New in PHP 8.1 and 8.2",
+              "name": "Talk",
+              "slug": "derickrethans",
+              "speaker": "Derick Rethans",
+              "level": "Intermediate",
+              "description": "During this presentation, we are going to look at the new features that were introduced in PHP 8.1 and 8.2. oin me to have a look at how the type system is strengthened with Enumerations and \"never\", Fibers, a new closure syntax, the First Class Callable Syntax, intersection and disjunctive normal form types, readonly classes, and other smaller features. At the end you will have a good understanding about all the new and exciting features that are new in PHP 8.1 and PHP 8.2."
+            },
+            {
+              "colspan": 1,
+              "location": "Track - Queen Charlotte",
+              "title": "Living the Best Life on a Legacy Project",
+              "name": "Talk",
+              "slug": "jamestitcumb",
+              "speaker": "James Titcumb",
+              "level": "Intermediate",
+              "description": "You've started a new job. As you dig deeper into the codebase, the WTFs per minute rate rapidly increases, and you're left wondering... 'Where do I start?!'. In this talk, I'll draw on my own experiences of joining several different teams to help maintain their legacy codebase. You'll come out of this talk with a better understanding of when you should or should not refactor existing code, the importance of communication, documentation, testing, and ideas for automated tests and checks."
+            },
+            {
+              "colspan": 1,
+              "location": "Track - King Vault",
+              "title": "Protect against unknown security vulnerabilities",
+              "name": "Talk",
+              "slug": "bastianhofmann",
+              "speaker": "Bastian Hofmann",
+              "level": "",
+              "description": "Kubernetes makes it easy to deploy, manage and monitor your cloud native applications. Security can be a challenge in such a dynamic, containerised environment, though. Ensuring that your containers are not containing vulnerabilities is vital throughout the complete supply chain, from development and CI through deployment and admission controls to security at runtime.\nIn this talk you will see how NeuVector, the first Open-Source Cloud Native Security solution can secure the complete software development lifecycle and even protects against unknown or unpatched vulnerabilities with its zero-trust runtime security model."
+            }
+          ]
+        },
+        {
+          "time": "11.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Room change"
+            }
+          ]
+        },
+        {
+          "time": "11.15",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "Asynchronous PHP with React PHP",
+              "name": "Talk",
+              "slug": "marcelpociot ",
+              "speaker": "Marcel Pociot",
+              "handle": null,
+              "photo": null,
+              "bio": null,
+              "level": "Beginner",
+              "description": "Asynchronous PHP allows us to push the boundaries of PHP. A websocket server written in PHP? No problem! Let’s take a look at what asynchronous PHP is and the cool things you can build with it. You don’t need to learn a new programming language to write your own HTTP server."
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "Bugfixing your career",
+              "name": "Talk",
+              "slug": "dianascharf",
+              "speaker": "Diana Scharf",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Intermediate",
+              "description": "Programming is passion and vocation for many developers, but sometimes you find yourself in a job situation that destroys your love for coding – it happens to the best of us and makes you question everything.\nThis talk is about how I bugfixed my career and regained contentment and meaning in my work. I will pass on lessons I learned on how to protect yourself from false loyalty, get out of a job you once loved, take calculated risks and find your own field of passion."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "Bye bye drupalisms! Propelling Drupal into a modern PHP ecosystem",
+              "name": "Talk",
+              "slug": "marinegandy",
+              "speaker": "Marine Gandy",
+              "level": "",
+              "description": "Since Drupal 8 and the big migration to Symfony components, the Drupal community has progressively moved away from some of its custom tools and habits, opening up to more standard practices in the PHP and open source ecosystems. Let’s take a look at what was accomplished, which ‘drupalisms’ remain, and what the future will bring."
+            }
+          ]
+        },
+        {
+          "time": "12.15",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Lunch",
+              "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }
+          ]
+        },
+        {
+          "time": "13.30",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "Continuous Integration: Tips & Tricks",
+              "name": "Talk",
+              "subtitle": null,
+              "slug": "pauldragoonis",
+              "speaker": "Paul Dragoonis",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Intermediate",
+              "description": "In this session Paul is going to share with you his tips & tricks learned when building top quality CI pipelines for large organizations such as the UK Government, banks and the private sector. Using Continuous Integration already? Whether you're a beginner or CI ninja, you'll gain value from this session as we cover a broad range of topics. We'll look at how we can leverage tools like Docker, Jenkins, AWS to truly push CI pipelines to the limit. After this session you'll walk away with new ideas, new tools and lots of real-world experience, to set you on your way."
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "PHP's type system dissected?",
+              "name": "Talk",
+              "slug": "georgepeterbanyard",
+              "speaker": "George Peter Banyard",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Advanced",
+              "description": "PHP has added more and more types in the last couple of versions. But what is the meaning of a type, a type system, and a subtyping relation?\nIn this talk, we will explain those words, and see what comprises the PHP type system, how it checks for types, how it uses and implements Liskov's Subtitution Principle (LSP) for it's subtyping relation, and how the strict_type declare affects PHP's type system."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "Symfony is RAD",
+              "name": "Talk",
+              "slug": "rickkuipers",
+              "speaker": "Rick Kuipers",
+              "level": "",
+              "description": "What happens when you just ride the wave? How productive can we be when we smother our project in all that Symfony goodness? Let's explore some Rapid Application Development practices that Symfony has to offer. We'll acquire the mindset needed and get ourselves familiar with a Symfony setup by the book. We will develop an MVP using the MakerBundle and we'll close the gap towards an MLP using Symfony UX. Live demo included."
+            }
+          ]
+        },
+        {
+          "time": "14.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": null,
+              "title": "Room change"
+            }
+          ]
+        },
+        {
+          "time": "14.45",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "Effective Code Review",
+              "name": "Talk",
+              "subtitle": null,
+              "slug": "daveliddament",
+              "speaker": "Dave Liddament",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Beginner",
+              "description": "There are so many benefits from code review; lower development costs, increased code quality, quick up-skilling and on-boarding of team members. Despite these benefits many teams don’t have code review as part of their process at all. Others don’t get the gains they should from it.<br><br>This talk first outlines the business case for code review. It then explores how to make code review effective, specifically looking at:</br></br><ul><li>Expectations of what can be achieved with code review.</li><li>What should be covered by code review (including example code)</li><li>What should not be covered by code review</li><li>How to write code that makes code review easy</li><li>What makes good code review comments</li><li>What makes good responses to code review comments</li><br><br>Finally to wrap up you'll be shown how to enable a code review with Github. Spoiler alert: It can be done it under 5 mins!</br></br>"
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "Rust For PHP Developers",
+              "name": "Talk",
+              "slug": "nunomaduro",
+              "speaker": "Nuno Maduro",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Intermediate",
+              "description": "You’ve probably heard stories about the Rust programming language, and you’re probably wondering why it’s becoming so popular. In this talk, you’ll see what Rust is from a PHP developer’s perspective. Get ready for a live-coding session, where we are going to recreate an existing PHP application in Rust, from scratch, and demystify all the awesomeness behind it."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "Creating PHP extensions easily with C++",
+              "name": "Talk",
+              "slug": "carlosgranados",
+              "speaker": "Carlos Granados",
+              "level": "",
+              "description": "Creating a PHP extension has been traditionally a very difficult task. You need to be very familiar with the PHP innards and need to follow a complex system of configurations, using many obscure macros, with little or no documentation. This has improved a lot with the appearance of the PHP-CPP library which allows you to easily develop PHP extensions using C++, with this library taking care of all the ugly details. In this talk we will learn how to use the library, how to install and compile it and your extensions and how to create functionality in C++ that easily interacts with the PHP side."
+            }
+          ]
+        },
+        {
+          "time": "15.45",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Refreshment break",
+              "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }
+          ]
+        },
+        {
+          "time": "16:15",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "Track - Porter Tun",
+              "title": "Stories from a career dropout",
+              "name": "Keynote",
+              "slug": "femkebuijs",
+              "speaker": "Femke Buijs",
+              "level": "All",
+              "description": "Your career can feel like it is taking all the energy you have inside of you. You’re dreading the next working day, and you keep wondering if this is what you are going to do for the rest of your life. But what if it isn't? What if you find a job that makes you feel like you are on top of the world, all while being productive as well? During my talk I will share the lessons I have learned after changing my career, what the points are you need to take into consideration when making such a decision, and how this actually resembles climbing a mountain very well."
+            }
+          ]
+        },
+        {
+          "time": "17.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George &amp; Queen Charlotte",
+              "title": "Mid Conference Social",
+              "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More info &raquo;</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schedule-thursday": null,
+      "name": "Thursday 16th February 2023",
+      "description": "<p>Thursday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by two talk slots throughout the day. During each talk slot you'll have the choice between two different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Thursday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href=\"/socials\">post-conference social</a>.</p>",
+      "slots": [
+        {
+          "time": "08.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "Brewery Foyer & King George",
+              "title": "Registration and Refreshments",
+              "description": "Please bring a copy of your ticket either printed or on a mobile device. Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }
+          ]
+        },
+        {
+          "time": "09.00",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "Track - Porter Tun",
+              "title": "We built this city... The geographies of software development\n",
+              "name": "Keynote",
+              "slug": "naomigotts",
+              "speaker": "Naomi Gotts",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "All",
+              "description": "As developers we assume the responsibility of planning, architecting, building and maintaining our individual patches of cyberspace. Our codebases are the landscape of our virtual cities and this landscape must be cared for. From the perspective of a geography graduate turned software engineer, let's explore the parallels that exist between the built environment we inhabit and the virtual environment we are creating."
+            }
+          ]
+        },
+        {
+          "time": "09.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Refreshment break",
+              "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors."
+            }
+          ]
+        },
+        {
+          "time": "10.00",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "Fantastic functions and where to find them",
+              "name": "Talk",
+              "slug": "freekvanderherten",
+              "speaker": "Freek Van der Herten",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Beginner",
+              "description": "PHP is a truly amazing language. You probably use PHP to create beautiful websites and services in an expressive way. But the language is capable of so much more than what you'll probably program in your day to day job.<br><br>In this entertaining talk, we'll take a look a couple of surprising ways to use PHP. You'll see lesser known functionality being used such as weak maps and process control functions. We'll also cover a couple amazing open source PHP projects that have borrowed inspiration from communities outside of PHP such as Tailwind and Phoenix.</br></br>"
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "GraphQL, REST or RPC? Making the choice!",
+              "name": "Talk",
+              "slug": "roballen",
+              "speaker": "Rob Allen",
+              "handle": null,
+              "photo": null,
+              "bio": null,
+              "level": "",
+              "description": "When you've been tasked with creating an HTTP API, the fundamental decision you need to make is which architcture to choose. Should your API be RESTful? What about GraphQL? or (g)RPC? In this session, I'll explain the choices and how each works. We'll then look at their strengths and weaknesses in order to help guide your decision. By the end of this talk, you'll be well-placed to choose the right API architecture for your project."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "Channeling your inner tech blogger",
+              "name": "Tutorial",
+              "slug": "kerenkenzi",
+              "speaker": "Keren Kenzi",
+              "level": "",
+              "description": "There is a saying that the best way to learn something is to teach it to someone else. When we write a tech blog, we share our knowledge with others and deepen our understanding of the subject. We also improve other skills along the way and build our professional brand and signature.\nIn this workshop, we will discuss the benefits of writing a blog and try to remove all the barriers that have stopped us so far from writing a blog. Together we will think about topics to write about and start our draft, and hopefully, by the end of the day, we will have a published blog out there."
+            }
+          ]
+        },
+        {
+          "time": "11.15",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": null,
+              "title": "Room change"
+            }
+          ]
+        },
+        {
+          "time": "11.15",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "Docker for development\n",
+              "name": "Talk",
+              "slug": "ciaranmcnulty",
+              "speaker": "Ciaran McNulty",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Beginner",
+              "description": "Assuming little or no existing knowledge of Docker, we will learn how to build images of our applications and run them locally as containers.<br><br>We will also look at how to orchestrate multiple containers using Docker Compose, with some tips and tricks for typical local development workflows.</br></br>"
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "Your first PHP extension",
+              "name": "Talk",
+              "slug": "Your first PHP extension",
+              "speaker": "Christian Rades",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Advanced",
+              "description": "Do you think the PHP interpreter is black magic and C is just like alchemy for you?\nAre you interested in harnessing some of that magic for yourself? This talk will give you an overview of how to develop an extension for PHP using rust.\nYou’ll see how to setup up a simple example and how to add more elaborate features to it.\nAfter getting to know some general tips you’ll learn about some pitfalls and how to circumvent them. Equipped with this knowledge you’ll be able to work some of that PHP interpreter magic yourself.\n\n"
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "Channeling your inner tech blogger",
+              "name": "Tutorial",
+              "slug": "kerenkenzi",
+              "speaker": "Keren Kenzi",
+              "level": "",
+              "description": "There is a saying that the best way to learn something is to teach it to someone else. When we write a tech blog, we share our knowledge with others and deepen our understanding of the subject. We also improve other skills along the way and build our professional brand and signature.\nIn this workshop, we will discuss the benefits of writing a blog and try to remove all the barriers that have stopped us so far from writing a blog. Together we will think about topics to write about and start our draft, and hopefully, by the end of the day, we will have a published blog out there"
+            }
+          ]
+        },
+        {
+          "time": "12.15",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Lunch",
+              "description": "A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }
+          ]
+        },
+        {
+          "time": "13.30",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "PHP on Lambda with Custom Runtimes",
+              "name": "Talk",
+              "slug": "ianlittman",
+              "speaker": "Ian Littman",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "Intermediate",
+              "description": "At re:invent 2018, Amazon released custom runtime support and Layers for their Lambda function-as-a-service runtime. With this release, the fact that the company still doesn't have an official PHP Lambda runtime becomes more or less irrelevant, since we as developers can create our own without undue overhead. This talk will show you how Lambda custom runtimes work, how to build one that speaks PHP, and how to use pre-built custom runtime layers for either one-off job processing or behind a load balancer or API Gateway to serve web traffic with extreme infrastructure elasticity."
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "What is Performance Driven Development and why aren't you doing it?",
+              "name": "Talk",
+              "slug": "jamesseconde",
+              "speaker": "James Seconde",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "",
+              "description": "You code the app. You've used Test-Driven-Development for it, because you do things the right way. You care about the quality of your code. You ship it. The job is mostly done! EXCEPT, of course, now that your app has -you know, users- performance is down. You've got a Redis instance caching sessions and database queries, but it's not enough! Your problem needs a bolted-on solution - maybe throw something else at it, like Varnish? We don't do Performance-Driven-Development in PHP, and we should. The problem is in the code, not the caching. In this session I'm going to show you how it's done."
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "Attackers want your data and they're getting it from your API\n",
+              "name": "Talk",
+              "slug": "timbond",
+              "speaker": "Tim Bond",
+              "level": "",
+              "description": "APIs are everywhere. Some companies sell theirs and publish documentation alongside it. Others expose just enough APIs to provide value to the end users through a website or app without ever intending them to be used for any other purpose. Your API is the purveyor to some valuable data, and attackers are eager to get at it. This session will cover some of the methods attackers use to reverse engineer your API and some steps you can take to thwart them.\nThe session will begin by demonstrating a few methodologies on how traffic to an API can be \"sniffed\" and analyzed. We will then discuss authentication with API keys and OAuth2 and the differences and pitfalls of each. We'll touch on some low hanging fruit on hardening your API: TLS encryption, certificate pinning, and some less obvious techniques including HMAC request signing, obfuscation, compilation protection, and more.\nAt the end of the session you'll have a better understanding of the cat and mouse game that is API security, the knowhow of the tools and techniques attackers might be using to get at your data, and some steps you can implement to better your API's security."
+            }
+          ]
+        },
+        {
+          "time": "14.30",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": null,
+              "title": "Room change"
+            }
+          ]
+        },
+        {
+          "time": "14.45",
+          "slottype": "talks",
+          "tracks": [
+            {
+              "location": "Track - Porter Tun",
+              "title": "Filesystem Management with Flysystem",
+              "name": "Talk",
+              "speaker": "Mark Niebergall",
+              "slug": "markniebergall",
+              "level": "Intermediate",
+              "description": "Reading and writing files locally comes with many nuances and difficulties. It becomes even more complex when files are hosted on external servers like SFTP, AWS S3, Azure, and other providers. Flysystem provides an abstraction layer between an application and interacting with the filesystems. Explore how to use Flysystem Adapters for seamless file management for writing, reading, moving, copying, deleting, and other file interactions. See how to set permissions, configure adapters, get file information, stream files, write unit tests, and more in this technical dive into file management with Flysystem."
+            },
+            {
+              "location": "Track - Queen Charlotte",
+              "title": "The bright and exciting future of the decentralized web\n",
+              "name": "Talk",
+              "slug": "paulinevos",
+              "speaker": "Pauline Vos",
+              "level": "",
+              "description": "Reader, be aware: this is not a blockchain talk! The web we knew and loved has become a massive machine led by a small number of tech giants, controlling your data, hogging money, and burning the planet.\nTech thought leaders and pioneers recognize the state of the current web for what it is: unsustainable. Find out in this talk which inspiring technologies lie ahead for us, that will help us take back control of our beloved web.\n\n"
+            },
+            {
+              "location": "Track - King Vault",
+              "title": "A Trace of Confidence - Distributed Tracing with OpenTelemetry and PHP\n",
+              "name": "Talk",
+              "slug": "timomichna",
+              "speaker": "Tim Michna",
+              "level": "",
+              "description": "Even though the concept of distributed tracing is not new and is regarded as one of the main pillars of observability, It is not known to many developers. Distributed tracing has been rather painful to implement in the past (especially across language boundaries), and this where the OpenTelemetry project comes in with standardization and implementations in all major programming language.\nThis talk will give a brief overview over the concept and history of distributed tracing and will focus on how to implement this observability pattern with OpenTelemetry PHP."
+            }
+          ]
+        },
+        {
+          "time": "15.45",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "King George",
+              "title": "Refreshment break",
+              "description": "Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.\n"
+            }
+          ]
+        },
+        {
+          "time": "16.15",
+          "slottype": "keynote",
+          "tracks": [
+            {
+              "colspan": 3,
+              "location": "Track - Porter Tun",
+              "title": "TBC",
+              "name": "Keynote",
+              "slug": "",
+              "speaker": "",
+              "handle": null,
+              "company": null,
+              "photo": null,
+              "bio": null,
+              "level": "",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "17.00",
+          "slottype": "break",
+          "tracks": [
+            {
+              "colspan": 3,
+              "title": "Post Conference Social",
+              "location": "TBC",
+              "description": "The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href=\"/socials\">More details &raquo;</a>\n"
+            }
+          ]
+        }
+      ]
+    }
+  ]}
