@@ -1,6 +1,17 @@
 {
   "sponsors": [
     {
+      "name": "Platform.sh",
+      "id": "platform",
+      "type": "track",
+      "url": "https://platform.sh/",
+      "description": "Platform.sh is a unified, secure, enterprise-grade platform for building, running and scaling websites and online applications. We’re the leader in digital infrastructure management with everything you need to manage your websites and applications available from the moment you join us. With your infrastructure and workflows handled from the start, your websites and applications work seamlessly. Allowing your team to focus on what really matters: making changes faster, collaborating with confidence, and scaling responsibly. Whether you’re managing 10 or 10,000 websites or applications, Platform.sh is the developer’s choice for a solution that scales right.",
+      "logo": {
+        "url": "/images/sponsors/platform.png",
+        "alt": "Platform.sh logo"
+      }
+    },
+    {
       "name": "Copia Digital",
       "id": "copiadigital",
       "type": "gold",
