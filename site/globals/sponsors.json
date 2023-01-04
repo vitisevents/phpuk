@@ -32,5 +32,16 @@
         "url": "/images/sponsors/lexisnexis.png",
         "alt": "Lexis Nexis logo"
       }
+    },
+    {
+      "name": "SensioLabs",
+      "id": "sensiolabs",
+      "type": "gold",
+      "url": "https://sensiolabs.com/",
+      "description": "SensioLabs has created the Open-Source PHP framework Symfony, which has become a global reference in web development. SensioLabs supports companies that have selected PHP and Symfony as the cornerstone of their development. With an offering encompassing consultancy, expertise, services, training, and support, SensioLabs enhances developers' effectiveness and ensures the success of web applications development projects.",
+      "logo": {
+        "url": "/images/sponsors/sensiolabs.svg",
+        "alt": "Sensio Labs logo"
+      }
     }]
 }
