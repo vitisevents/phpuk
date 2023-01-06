@@ -1,6 +1,17 @@
 {
   "sponsors": [
     {
+      "name": "Platform.sh",
+      "id": "platform",
+      "type": "track",
+      "url": "https://platform.sh/",
+      "description": "Platform.sh is a unified, secure, enterprise-grade platform for building, running and scaling websites and online applications. We’re the leader in digital infrastructure management with everything you need to manage your websites and applications available from the moment you join us. With your infrastructure and workflows handled from the start, your websites and applications work seamlessly. Allowing your team to focus on what really matters: making changes faster, collaborating with confidence, and scaling responsibly. Whether you’re managing 10 or 10,000 websites or applications, Platform.sh is the developer’s choice for a solution that scales right.",
+      "logo": {
+        "url": "/images/sponsors/platform.png",
+        "alt": "Platform.sh logo"
+      }
+    },
+    {
       "name": "Copia Digital",
       "id": "copiadigital",
       "type": "gold",
@@ -20,6 +31,17 @@
       "logo": {
         "url": "/images/sponsors/lexisnexis.png",
         "alt": "Lexis Nexis logo"
+      }
+    },
+    {
+      "name": "SensioLabs",
+      "id": "sensiolabs",
+      "type": "gold",
+      "url": "https://sensiolabs.com/",
+      "description": "SensioLabs has created the Open-Source PHP framework Symfony, which has become a global reference in web development. SensioLabs supports companies that have selected PHP and Symfony as the cornerstone of their development. With an offering encompassing consultancy, expertise, services, training, and support, SensioLabs enhances developers' effectiveness and ensures the success of web applications development projects.",
+      "logo": {
+        "url": "/images/sponsors/sensiolabs.svg",
+        "alt": "Sensio Labs logo"
       }
     }]
 }
