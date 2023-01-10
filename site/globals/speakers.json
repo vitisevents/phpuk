@@ -168,6 +168,13 @@
     "photo": "/images/2023/pauline-vos.jpg",
     "bio": "Pauline is a PHP developer currently employed by HomeAdvisor Intl. in Amsterdam. She likes good, clean software design and being as efficient (lazy) as possible. Also cocktails, video games and animal memes. She lives in Amsterdam with her cat, Phife Cat, and about three plants."
 },{
+    "name": "Rick Kuipers",
+    "slug": "rickkuipers",
+    "twitter": "rskuiper",
+    "company": "WeDevelop",
+    "photo": "/images/2023/rick-kuipers.jpg",
+    "bio": "As a developer I've always been more interested in the process rather than the outcome. I'm intrigued by team dynamics, communication and agile coding. I've worked in small and large teams and explored many different aspects of software development. As CTO of WeDevelop I aim to create the best possible landscape for software development, helping people thrive and develop stories that matter."
+},{
     "name": "Rob Allen",
     "slug": "roballen",
     "twitter": "akrabat",
