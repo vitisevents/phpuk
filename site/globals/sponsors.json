@@ -54,5 +54,16 @@
         "url": "/images/sponsors/dragoonis.png",
         "alt": "Dragoonis Technologies logo"
       }
+    },
+    {
+      "name": "Sticker Mule",
+      "id": "stickermule",
+      "type": "media partner",
+      "url": "https://www.stickermule.com/uk",
+      "description": "Sticker Mule is the easiest way to buy custom stickers & decals, labels, and other printing online. Thousands of people in the UK & Ireland trust us to make kick ass stickers, labels, magnets, badges & more. Order in 60 seconds and get free online proofs, free shipping and super fast turnaround.",
+      "logo": {
+        "url": "/images/sponsors/sticker-mule.png",
+        "alt": "Sticker Mule logo"
+      }
     }]
 }
