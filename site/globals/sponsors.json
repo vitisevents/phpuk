@@ -1,6 +1,17 @@
 {
   "sponsors": [
     {
+      "name": "Temporal Technologies",
+      "id": "temporal;",
+      "type": "platinum",
+      "url": "https://temporal.io/",
+      "description": "Temporal is a durable execution system that enables reliable and correct execution of software services and applications. Temporal allows teams to manage an application's state at scale, monitor the execution of application logic in real time, and push updates and changes without downtime. Platform and application teams use Temporal to run application functions as workflows that inherit scalability, durability, and fault-tolerance. Learn more at temporal.io.",
+      "logo": {
+        "url": "/images/sponsors/temporal.svg",
+        "alt": "Temporal logo"
+      }
+    },
+    {
       "name": "Platform.sh",
       "id": "platform",
       "type": "track",
@@ -42,6 +53,17 @@
       "logo": {
         "url": "/images/sponsors/sensiolabs.svg",
         "alt": "Sensio Labs logo"
+      }
+    },
+    {
+      "name": "Vonage",
+      "id": "vonage",
+      "type": "gold",
+      "url": "https://www.vonage.co.uk/",
+      "description": "Vonage is a cloud communications platform that allows developers to integrate voice, video and messaging into their applications using their communication APIs. So whether you want to build video calls into your app, create a Facebook bot, or build applications on top of programmable phone numbers, Vonage has got you covered.",
+      "logo": {
+        "url": "/images/sponsors/vonage.png",
+        "alt": "Vonage logo"
       }
     },
     {
