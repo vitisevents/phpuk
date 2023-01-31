@@ -152,7 +152,6 @@
     "company": "",
     "photo": "/images/2023/nuno-maduro.jpg",
     "bio": "Nuno Maduro is a Speaker, Laravel Core Team Member, Open Source Developer.Nuno has created dozens of popular open-source projects, including Laravel Zero, Collision, Larastan, PHP Insights, Termwind, and the second most used PHP Testing Framework in the world: PEST. All these packages combined have been downloaded more than 200 million times. Nuno has a very close relationship with the Laravel community, the most popular PHP framework in the world. As a core team member, Nuno has developed and maintained multiple Laravel projects and features that are being used by companies over the world. Including The New York Times, Disney, Twitch, and more."
-
 },{
     "name": "Paul Dragoonis",
     "slug": "pauldragoonis",
@@ -174,6 +173,13 @@
     "company": "WeDevelop",
     "photo": "/images/2023/rick-kuipers.jpg",
     "bio": "As a developer I've always been more interested in the process rather than the outcome. I'm intrigued by team dynamics, communication and agile coding. I've worked in small and large teams and explored many different aspects of software development. As CTO of WeDevelop I aim to create the best possible landscape for software development, helping people thrive and develop stories that matter."
+},{
+    "name": "Rain Leander",
+    "slug": "rainleander",
+    "twitter": "",
+    "company": "Temporal Technologies",
+    "photo": "/images/2023/rain-leander.png",
+    "bio": "Rain Leander is a systematic, slightly psychic, interdisciplinary community liaison with a Bachelor’s in dance and a Master’s in IT. An epic public speaker, they have disappeared within a box stuffed with swords, created life, and went skydiving with the Queen. Seriously. Rain is an active technical contributor with Temporal, CockroachDB, Tinkerbell, OpenStack, RDO, TripleO, Fedora, and DjangoGirls. Come say hello. Bring cake."
 },{
     "name": "Rob Allen",
     "slug": "roballen",
