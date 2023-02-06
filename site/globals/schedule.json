@@ -11,7 +11,7 @@
           "tracks": [
             {
               "colspan": 2,
-              "location": "King George @ The Brewery",
+              "location": "Queen Vault @ The Brewery",
               "title": "Registration and Refreshments",
               "slug": null,
               "speaker": null,
@@ -43,7 +43,7 @@
               "speaker": "Joel Lord",
               "slug": "joellord",
               "title": "Learn to MERN",
-              "location": " ",
+              "location": "James Watt<br>The Brewery",
               "id": "workshopii",
               "description": "Everyone talks about being a full-stack JavaScript developer, but what does it even mean? Can you really use JavaScript all the way through your development stack, and how to get started? All the different technologies that are needed to become a full stack developer might seem daunting at first, this workshop is aiming at making this simpler and more accessible. In this workshop, the attendees will learn how to build a full stack application using the MERN (MongoDB, Express, React, Node.js) stack."
             }
@@ -55,7 +55,7 @@
           "tracks": [
             {
               "colspan": 3,
-              "location": "Queen Charlotte @ The Brewery",
+              "location": "Queen Vault @ The Brewery",
               "title": "Lunch",
               "description": "A 3 course buffet lunch will be served where you will also be able to network with fellow delegates."
             }
@@ -71,7 +71,7 @@
               "title": "Introduction to Test Driven Development (Continued)",
               "speaker": "Mark Bradley",
               "slug": "markbradley",
-              "location": "King George<br>The Brewery",
+              "location": "King Vault<br>The Brewery",
               "id": "workshopi",
               "description": "Writing tests before you write production code can be an intimidating concept, but there is no need to be scared.\nDuring this workshop we will look at the concepts of Test Driven Development and what it takes to write tests first. The workshop will cover: <ul><li>What is TDD</li><li>Why should you use TDD</li><li>How to use TDD</li><li>The Testing Pyramid</li><li>Test Doubles</li></ul> Practicals will start with implementing simple Abstract Data Types and work up to a small complex programs requiring test doubles.<p>The workshop will use PHPUnit and Mockery but concepts can easily be transferred to other testing and mocking frameworks (Pest, PHPSpec, Phake or Codeception).</p>"
             },
@@ -81,7 +81,7 @@
               "title": "Learn to MERN (Continued)",
               "speaker": "Joel Lord",
               "slug": "joellord",
-              "location": " ",
+              "location": "James Watt<br>The Brewery ",
               "id": "workshopii",
               "description": "Everyone talks about being a full-stack JavaScript developer, but what does it even mean? Can you really use JavaScript all the way through your development stack, and how to get started? All the different technologies that are needed to become a full stack developer might seem daunting at first, this workshop is aiming at making this simpler and more accessible. In this workshop, the attendees will learn how to build a full stack application using the MERN (MongoDB, Express, React, Node.js) stack"
             }
@@ -94,9 +94,9 @@
             {
               "colspan": 2,
               "name": "Pre-Conference Social",
-              "location": "TBC",
+              "location": "Jugged Hare",
               "title": "Pre-Conference Social",
-              "description": "Join us with the PHP London user group for a pre-conference social  . <a href=\"/socials\">More info &raquo;</a>"
+              "description": "Join us for a catch up and some drinks for a pre-conference social. <a href=\"/socials\">More info &raquo;</a>"
             }
           ]
         }
