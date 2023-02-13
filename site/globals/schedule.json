@@ -204,15 +204,15 @@
           "tracks": [
             {
               "location": "Track - Porter Tun",
-              "title": "Asynchronous PHP with React PHP",
+              "title": "Git Legit",
               "name": "Talk",
-              "slug": "marcelpociot ",
-              "speaker": "Marcel Pociot",
+              "slug": "paulinevos ",
+              "speaker": "Pauline Vos",
               "handle": null,
               "photo": null,
               "bio": null,
-              "level": "Beginner",
-              "description": "Asynchronous PHP allows us to push the boundaries of PHP. A websocket server written in PHP? No problem! Let’s take a look at what asynchronous PHP is and the cool things you can build with it. You don’t need to learn a new programming language to write your own HTTP server."
+              "level": "Intermediate",
+              "description": "Many Git users tend to use Git as a save point, like in a video game; chronologically making checkpoint commits as they go. This spreads out changes to the same areas in the code over several commits, necessitates merging and resolving conflicts, and generally just making an incomprehensible jumble of your history. This talk makes a case for atomic commits and how to use them while only minimally affecting your workflow.\n\nUsing pre-recorded demos, you’ll learn how to properly interactively rebase, fix up, reset, bisect, and more. By the end of the talk, you’ll have seen how this Git flow will make your life easier and how it will affect your ability to cherry pick, drop unwanted commits, and most importantly: not spend hours resolving conflicts in rebase hell. A little change in habits can go a very long way!"
             },
             {
               "location": "Track - Queen Charlotte",
@@ -616,12 +616,12 @@
             },
             {
               "location": "Track - King Vault",
-              "title": "A Trace of Confidence - Distributed Tracing with OpenTelemetry and PHP\n",
+              "title": "Extending the PHP Language with Static Analysis",
               "name": "Talk",
-              "slug": "timomichna",
-              "speaker": "Tim Michna",
-              "level": "",
-              "description": "Even though the concept of distributed tracing is not new and is regarded as one of the main pillars of observability, It is not known to many developers. Distributed tracing has been rather painful to implement in the past (especially across language boundaries), and this where the OpenTelemetry project comes in with standardization and implementations in all major programming language.\nThis talk will give a brief overview over the concept and history of distributed tracing and will focus on how to implement this observability pattern with OpenTelemetry PHP."
+              "slug": "daveliddament",
+              "speaker": "Dave Liddament",
+              "level": "Intermediate/Advanced",
+              "description": "Do you wish that PHP had features that other languages have? Have you got some great ideas about how to extend PHP’s feature set but don’t want to go through the RFC process? Great news. There is another way. It is possible to implement some new language features using static analysis. This talk will briefly introduce the <b><a href=\"https://github.com/DaveLiddament/php-language-extensions\">PHP Language Extension library</a> </b> which offers features such as Java’s package level visibility and C++’s friend feature. Then, we’ll take a deep dive into how to create a custom PHPStan rule.By the end of the talk, hopefully you’ll be inspired to create your own enhancements to PHP, or at the very least have a starting point to write your own custom rules."
             }
           ]
         },
