@@ -442,16 +442,16 @@
           "tracks": [
             {
               "location": "Track - Porter Tun",
-              "title": "Fantastic functions and where to find them",
+              "title": "Dependency Injection for Mere Humans",
               "name": "Talk",
-              "slug": "freekvanderherten",
-              "speaker": "Freek Van der Herten",
+              "slug": "ianlittman",
+              "speaker": "Ian Littman",
               "handle": null,
               "company": null,
               "photo": null,
               "bio": null,
               "level": "Beginner",
-              "description": "PHP is a truly amazing language. You probably use PHP to create beautiful websites and services in an expressive way. But the language is capable of so much more than what you'll probably program in your day to day job.<br><br>In this entertaining talk, we'll take a look a couple of surprising ways to use PHP. You'll see lesser known functionality being used such as weak maps and process control functions. We'll also cover a couple amazing open source PHP projects that have borrowed inspiration from communities outside of PHP such as Tailwind and Phoenix.</br></br>"
+              "description": "What's the difference between service location and dependency injection? Why is this dependency injection thing such a big deal anyway, and how do you use that tool correctly? I'll answer these questions and more, including real-world examples of refactoring an application toward the more explicit, testable, closer-to-SOLID applications."
             },
             {
               "location": "Track - Queen Charlotte",
