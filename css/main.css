@@ -19878,8 +19878,8 @@ h6 + p,
 }
 
 .speaker-gradient {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(0deg, rgb(2, 0, 36) 6%, rgba(99, 179, 237, 0.1) 30%);
+  background: #020024;
+  background: linear-gradient(0deg, #020024 6%, rgba(99, 179, 237, 0.1) 30%);
 }
 
 .speaker-bio {
@@ -19899,8 +19899,8 @@ h6 + p,
 }
 
 .speaker:hover .speaker-gradient {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(0deg, rgb(2, 0, 36) 6%, rgb(99, 179, 237) 100%);
+  background: #020024;
+  background: linear-gradient(0deg, #020024 6%, #63b3ed 100%);
 }
 
 .speaker:hover .speaker-photo {
