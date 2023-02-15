@@ -1,9 +1,9 @@
 {
   "name": "PHP UK Conference",
   "url": "https://phpconference.co.uk",
-  "tickets_url": "https://tickets.vitisevents.com/e/9/php-uk-conference-2022",
-  "date": "February 16, 2022 08:00:00",
-  "description": "We are pleased to announce the 16th Annual PHP UK Conference. An optional workshop day followed by three days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.",
+  "tickets_url": "https://tickets.vitisevents.com/e/11/php-uk-conference-2023",
+  "date": "February 14, 2023 08:00:00",
+  "description": "We are pleased to announce the 17th Annual PHP UK Conference. An optional workshop day followed by three days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.",
   "about": {
     "title": "PHP UK Conference",
     "description": "With over 500 delegates, speakers, and sponsors, PHP UK conference aims to deliver fantastic up-to-date content about PHP and related web technologies in a comfortable and professional setting. There are countless networking opportunities to engage with international speakers and delegates, which makes the event one you won't want to miss.",
@@ -17,7 +17,7 @@
   },
   "sponsors": {
     "title": "Sponsors & Partners",
-    "description": "Become a sponsor of PHP UK 2022",
+    "description": "Become a sponsor of PHP UK 2023",
     "hero": "/images/sponsors-hero.jpg"
   },
   "schedule": {
